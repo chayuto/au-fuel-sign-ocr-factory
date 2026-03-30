@@ -58,26 +58,44 @@ PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/yolo detect train \
 
 ## Results
 
-_Training in progress..._
+| Metric | All (best epoch 100) |
+|--------|-----|
+| mAP@50 | **0.305** |
+| mAP@50-95 | 0.088 |
+| Precision | 0.297 |
+| Recall | 0.326 |
 
-| Metric | sign_board | fuel_price | All |
-|--------|-----------|-----------|-----|
-| mAP@50 | | | |
-| mAP@50-95 | | | |
-| Precision | | | |
-| Recall | | | |
+### Comparison with prior runs
+
+| Run | Labels | Best mAP@50 | vs Blind |
+|-----|--------|------------|----------|
+| v1_2class_149 (EXP-001) | Blind-estimated | 0.195 | baseline |
+| v2_batch8 | VQA-corrected | 0.248 | +27% |
+| **v2_batch4 (this run)** | **VQA-corrected** | **0.305** | **+56%** |
 
 ## Analysis
 
-_To be filled after training._
+**VQA label correction works.** Same 149 images, same 2-class config, but correcting annotation quality via visual QA improved mAP@50 by 56% relative (0.195 → 0.305).
+
+Key observations:
+- **Still climbing at epoch 100** — loss curves not fully plateaued. More epochs (200+) or learning rate scheduling could push higher.
+- **Batch size matters on MPS** — batch=4 outperformed batch=8 (0.305 vs 0.248), likely due to MPS numerical stability. Batch=16 crashed entirely.
+- **0.305 mAP@50 is modest** — with only 115 training images across 11 brands, there isn't enough variety to generalize well. The model needs more data.
+- **Label quality is now the floor, not the ceiling** — further gains will come from more images, not better labels.
+
+What the VQA corrections fixed:
+- sign_board covering full pylon → tightened to price panel only
+- Wrong fuel types and prices → corrected via visual reading
+- Missing brand_zone → added where visible
+- Label/price bbox overlap → spatial relationships validated
 
 ## Next Steps
 
-_To be filled after training. Possible directions:_
-- [ ] Compare with EXP-001 (if results exist) to quantify VQA label improvement
-- [ ] EXP-003: Add fuel_label as 3rd class
-- [ ] EXP-004: Label remaining 132 pending images → more data
-- [ ] Night/rain augmentation for edge cases
+- [ ] EXP-003: Label remaining 132 pending images → retrain with ~200+ images (biggest expected gain)
+- [ ] EXP-004: Try 200 epochs (model still improving at 100)
+- [ ] EXP-005: Add fuel_label as 3rd class, compare
+- [ ] Scrape more for critical gaps: Costco (0), Metro (0), OTR (2)
+- [ ] Night/rain augmentation for underrepresented conditions
 
 ## Reproducibility
 
