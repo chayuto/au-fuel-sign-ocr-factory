@@ -336,6 +336,42 @@ slot: SLOT_N"
 
 Commit in batches of 10-30 images. **Do NOT `git push`**.
 
+## Findings Report (MANDATORY)
+
+After completing your scrape, write a `scrape_report.md` in your batch directory. This is how the
+main agent (and future scrape agents) learn what worked and what didn't.
+
+```bash
+cat > "$BATCH_DIR/scrape_report.md" << 'REPORT'
+# Scrape Report: SLOT N — SOURCE NAME
+
+## Summary
+- **Images saved:** N
+- **Images rejected:** N (reason breakdown)
+- **Brands covered:** list
+- **New sources discovered:** any URLs/patterns worth noting for future agents
+
+## Sources Attempted
+| URL/Query | Result | Images | Notes |
+|-----------|--------|--------|-------|
+| url or search query | success/failed/partial | N | what happened |
+
+## What Worked
+- Bullet points on successful strategies
+
+## What Didn't Work
+- Bullet points on failed approaches (saves future agents from repeating)
+
+## Suggestions for Next Scrape
+- Any untapped leads, new URLs discovered, or strategy improvements
+REPORT
+```
+
+Include the report in your commit:
+```bash
+git add "$BATCH_DIR"/*.jpg "$BATCH_DIR"/*.png "$BATCH_DIR"/*.jpeg "$BATCH_DIR"/scrape_report.md
+```
+
 ## Sources That DON'T Work
 
 Tested in v1/v2 — don't waste time:

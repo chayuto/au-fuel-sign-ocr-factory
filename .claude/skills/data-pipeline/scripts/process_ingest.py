@@ -232,6 +232,17 @@ def process(dry_run: bool = False, phash_threshold: int = DEFAULT_PHASH_THRESHOL
                 f.write(f"{name},pending,,,,,,\n")
         print(f"\nAdded {len(new_manifest_rows)} rows to manifest")
 
+    # Archive scrape reports before cleaning
+    reports_dir = Path("docs/scrape_reports")
+    if not dry_run:
+        reports_dir.mkdir(parents=True, exist_ok=True)
+        for md_path in INGEST_DIR.rglob("*.md"):
+            batch_name = md_path.parent.name
+            dest = reports_dir / f"{batch_name}_{md_path.name}"
+            shutil.copy2(md_path, dest)
+            md_path.unlink()
+            print(f"  Archived report: {dest.name}")
+
     # Clean up ingest
     if not dry_run:
         all_processed = (
