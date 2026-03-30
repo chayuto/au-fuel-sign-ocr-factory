@@ -52,17 +52,30 @@ def parse_args():
     parser.add_argument("--seed", type=int, default=SEED)
     parser.add_argument("--output", type=str, default=str(DST_DIR),
                         help="Output directory (default: data/finder)")
+    parser.add_argument("--include-list", type=str, default=None,
+                        help="File with one image filename per line — only include these images")
     return parser.parse_args()
 
 
-def load_labeled_images():
-    """Load all 'done' images from manifest that have annotations on disk."""
+def load_labeled_images(include_list: str | None = None):
+    """Load all 'done' images from manifest that have annotations on disk.
+
+    If include_list is provided, only images whose filename appears in that
+    file will be included (one filename per line).
+    """
+    allowed = None
+    if include_list:
+        allowed = set(Path(include_list).read_text().strip().splitlines())
+        print(f"Filtering to {len(allowed)} images from {include_list}")
+
     images = []
     with open(MANIFEST) as f:
         for row in csv.DictReader(f):
             if row["status"] != "done":
                 continue
             fname = row["filename"]
+            if allowed is not None and fname not in allowed:
+                continue
             stem = os.path.splitext(fname)[0]
             img_path = SRC_DIR / fname
             ann_path = SRC_DIR / "annotations" / f"{stem}.json"
@@ -190,7 +203,7 @@ def main():
     if dst_dir.exists():
         shutil.rmtree(dst_dir)
 
-    images = load_labeled_images()
+    images = load_labeled_images(args.include_list)
     print(f"Labeled images with annotations on disk: {len(images)}")
 
     if len(images) < 10:

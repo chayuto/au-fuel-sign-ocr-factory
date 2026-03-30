@@ -58,8 +58,9 @@ For each image you:
 2. **Classify** — does it contain a fuel price sign with readable prices?
 3. **Annotate** — if yes, estimate bounding boxes and extract metadata
 4. **Write** — output YOLO label file + JSON sidecar
-5. **Preview & Verify** — generate preview, READ it, confirm boxes are correct, fix if not
-6. **Track** — update the manifest CSV so no other agent re-labels this image
+5. **Validate** — run `validate_annotations.py` to catch structural/domain errors, fix if any
+6. **Preview & Verify** — generate preview, READ it, confirm boxes are correct, fix if not
+7. **Track** — update the manifest CSV and labeling log
 
 ## Step 0: Setup
 
@@ -215,11 +216,30 @@ Write to `data/tmp/annotations/{stem}.json`. Follow the `FuelSignAnnotation.to_d
 }
 ```
 
-## Step 4: Preview & Verify (MANDATORY)
+## Step 4: Validate (MANDATORY)
+
+Run the structural validator immediately after writing the JSON and YOLO files:
+
+```bash
+.venv/bin/python scripts/validate_annotations.py data/tmp/annotations/{stem}.json
+```
+
+This checks:
+- Only 1 sign_board, max 8 entries (warn >6)
+- All bboxes inside [0,1] range with valid dimensions
+- Brand, fuel_type, sign_type are valid enum values
+- Price in expected range (80-350 cpl, 40-150 for LPG)
+- All label/price bboxes inside sign_board
+- Label LEFT of price, same Y-position per row
+- No duplicate rows (same Y-center)
+
+**If the validator reports any ERRORs, fix them before proceeding to Step 5.** Warnings are OK to proceed with but worth double-checking.
+
+## Step 5: Preview & Verify (MANDATORY)
 
 This is the most important step. You must visually confirm your boxes are correct.
 
-### 4a: Generate the preview
+### 5a: Generate the preview
 
 ```bash
 .venv/bin/python scripts/draw_annotations.py --files {stem}
@@ -233,7 +253,7 @@ This draws color-coded bounding boxes on the image:
 
 It also runs automated checks and prints any issues found.
 
-### 4b: READ the preview image
+### 5b: READ the preview image
 
 Use the Read tool to view `data/tmp/preview/{stem}_preview.jpg`. Actually LOOK at it.
 
@@ -244,7 +264,7 @@ Use the Read tool to view `data/tmp/preview/{stem}_preview.jpg`. Actually LOOK a
 4. Are label and price boxes on the **same horizontal line** for each row?
 5. Are ALL label and price boxes **inside** the green sign_board box?
 
-### 4c: Fix if wrong
+### 5c: Fix if wrong
 
 If ANY box looks wrong in the preview:
 1. Re-read the original image
@@ -262,11 +282,11 @@ If ANY box looks wrong in the preview:
 - **Boxes outside sign_board** — all entries must be inside the sign_board bbox
 - **Wrong axis on rotated signs** — if the sign is rotated/angled, the rows may not be horizontal in the image. Annotate where they ACTUALLY appear, not where you expect them.
 
-## Step 5: Update the manifest AND labeling log
+## Step 6: Update the manifest AND labeling log
 
-Only after the preview passes visual inspection, update **both** the manifest and the labeling log.
+Only after validation passes AND the preview passes visual inspection, update **both** the manifest and the labeling log.
 
-### 5a: Update the manifest
+### 6a: Update the manifest
 
 For **labeled** images:
 ```
@@ -285,7 +305,7 @@ Quality ratings:
 
 **Important:** When updating the manifest, read the current file, modify only your rows, and write the whole file back. This avoids corrupting other agents' updates.
 
-### 5b: Append to the labeling log
+### 6b: Append to the labeling log
 
 The labeling log (`data/tmp/labeling_log.jsonl`) is the audit trail. Every labeling event gets a line — this is how we track corrections, visual QA coverage, and quality over time. **Always append after every image, whether labeled, skipped, or corrected.**
 
@@ -328,7 +348,7 @@ These are the tricky situations — read `docs/LABELING_GUIDE.md` for the full g
 
 ## Batch processing tips
 
-- Process images one at a time: Read → classify → annotate → write → preview → verify → fix if needed → manifest → log
+- Process images one at a time: Read → classify → annotate → write → validate → preview → verify → fix if needed → manifest → log
 - Write outputs immediately after each image — don't batch up writes
 - If you encounter an error on one image, log it and move to the next
 - **Quality over quantity** — 10 well-annotated images are worth more than 50 sloppy ones
