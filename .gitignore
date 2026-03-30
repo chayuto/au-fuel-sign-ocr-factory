@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+.venv-export/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Data pipeline
+# Only data/ingest/ is git-tracked — scrape agents push raw images here.
+# Everything else under data/ is local working data (gold dataset, training
+# outputs, labels, annotations, previews, manifests, crops, etc.) and must
+# NEVER be committed. The gold dataset lives in data/tmp/ and is managed
+# locally by the labeling pipeline.
+data/*
+!data/ingest/
+
+# Font downloads (large binaries)
+assets/fonts/*.ttf
+assets/fonts/*.otf
+!assets/fonts/.gitkeep
+
+# Training runs and model artifacts
+runs/
+*.pt
+*.onnx
+*.tflite
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/

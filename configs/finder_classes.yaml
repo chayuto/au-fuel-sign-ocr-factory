@@ -1,0 +1,10 @@
+# YOLO26n Finder detection classes.
+# Classes 2 and 3 have variable instance count per image (3-6 entries per sign).
+
+names:
+  0: sign_board     # Entire sign boundary
+  1: brand_zone     # Brand/logo area at top
+  2: fuel_label     # Fuel type text (multiple per sign)
+  3: fuel_price     # Price digits (multiple per sign)
+
+nc: 4

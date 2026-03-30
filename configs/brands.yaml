@@ -1,0 +1,120 @@
+# Australian fuel station brands.
+# Colors are typical sign/branding colors for synthetic rendering.
+
+brands:
+  shell:
+    display_name: "Shell"
+    colors:
+      background: "#FFD700"
+      text: "#000000"
+      price: "#CC0000"
+      accent: "#DD1D21"
+    common_fuels: [E10, U91, P95, P98, DIESEL]
+
+  bp:
+    display_name: "BP"
+    colors:
+      background: "#006B3F"
+      text: "#FFFFFF"
+      price: "#FFDD00"
+      accent: "#009639"
+    common_fuels: [U91, P95, P98, DIESEL]
+
+  ampol:
+    display_name: "Ampol"
+    colors:
+      background: "#002B5C"
+      text: "#FFFFFF"
+      price: "#FFFFFF"
+      accent: "#E4002B"
+    common_fuels: [U91, E10, P95, P98, DIESEL]
+
+  caltex:
+    display_name: "Caltex"
+    colors:
+      background: "#CE1126"
+      text: "#FFFFFF"
+      price: "#FFFFFF"
+      accent: "#003DA5"
+    common_fuels: [U91, P95, P98, DIESEL]
+
+  seven_eleven:
+    display_name: "7-Eleven"
+    colors:
+      background: "#006341"
+      text: "#FFFFFF"
+      price: "#FF6600"
+      accent: "#EE2737"
+    common_fuels: [E10, U91, P95, P98, DIESEL]
+
+  united:
+    display_name: "United"
+    colors:
+      background: "#003399"
+      text: "#FFFFFF"
+      price: "#FFD700"
+      accent: "#FF0000"
+    common_fuels: [E10, U91, P95, P98, DIESEL]
+
+  costco:
+    display_name: "Costco"
+    colors:
+      background: "#E31837"
+      text: "#FFFFFF"
+      price: "#FFFFFF"
+      accent: "#005DAA"
+    common_fuels: [U91, P95, DIESEL]
+
+  liberty:
+    display_name: "Liberty"
+    colors:
+      background: "#1B3A6B"
+      text: "#FFFFFF"
+      price: "#FFD700"
+      accent: "#CC0000"
+    common_fuels: [U91, E10, P95, P98, DIESEL, LPG]
+
+  puma:
+    display_name: "Puma"
+    colors:
+      background: "#1C1C1C"
+      text: "#FFFFFF"
+      price: "#FFD700"
+      accent: "#E30613"
+    common_fuels: [U91, E10, P95, P98, DIESEL]
+
+  metro:
+    display_name: "Metro"
+    colors:
+      background: "#0054A6"
+      text: "#FFFFFF"
+      price: "#FFFFFF"
+      accent: "#E5231B"
+    common_fuels: [U91, E10, P95, DIESEL]
+
+  mobil:
+    display_name: "Mobil"
+    colors:
+      background: "#002F6C"
+      text: "#FFFFFF"
+      price: "#FF0000"
+      accent: "#FF0000"
+    common_fuels: [U91, P95, P98, DIESEL]
+
+  otr:
+    display_name: "OTR"
+    colors:
+      background: "#E30613"
+      text: "#FFFFFF"
+      price: "#FFFFFF"
+      accent: "#000000"
+    common_fuels: [U91, E10, P95, P98, DIESEL]
+
+  independent:
+    display_name: "Independent"
+    colors:
+      background: "#333333"
+      text: "#FFFFFF"
+      price: "#FFD700"
+      accent: "#CCCCCC"
+    common_fuels: [U91, E10, P95, DIESEL]

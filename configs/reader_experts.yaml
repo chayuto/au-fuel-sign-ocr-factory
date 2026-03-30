@@ -1,0 +1,75 @@
+# Reader expert configurations — 2 experts grouped by charset.
+
+shared:
+  img_height: 48
+  img_max_width: 320
+  batch_size: 256
+  epochs: 80
+  lr: 0.001
+
+experts:
+  price:
+    name: "Price Reader (Numeric)"
+    finder_zones: ["fuel_price"]
+    charset: "0123456789."
+    vocab_size: 12  # 11 chars + CTC blank (index 0)
+
+    model:
+      architecture: "SimpleCRNN"
+      size_int8_estimate: "1.5 MB"
+
+    data:
+      train_count: 50000
+      patterns:
+        - type: "price_standard"    # XXX.X (e.g., 189.9)
+          weight: 70
+        - type: "price_low"         # XX.X (e.g., 89.9, for LPG)
+          weight: 20
+        - type: "price_high"        # XXX.X (e.g., 299.9)
+          weight: 10
+
+    training:
+      epochs: 80
+      lr: 0.001
+      batch_size: 256
+      augment_prob: 0.7
+
+    eval:
+      price_format_required: true       # must match \d{1,3}\.\d
+      price_range: [50.0, 350.0]        # cents/litre
+      char_accuracy_target: 0.995
+      field_accuracy_target: 0.98
+
+  fuel_type:
+    name: "Fuel Type Classifier"
+    # Input: crop of the region LEFT of each fuel_price within sign_board
+    # crop = [sign_board.x1, fuel_price.y1, fuel_price.x1, fuel_price.y2]
+    input_source: "left_of_fuel_price"
+    classes: 8  # U91, E10, P95, P98, Diesel, LPG, AdBlue, E85
+
+    model:
+      architecture: "SimpleCNN"  # classification, not CTC
+      size_int8_estimate: "0.5 MB"
+
+    data:
+      train_count: 20000
+      # Crops of fuel type labels from real + synthetic signs
+      # Label text varies widely ("Unleaded", "ULP", "E10", "Vortex 95", etc.)
+      # but maps to only 8 canonical types — classification not OCR
+
+    training:
+      epochs: 60
+      lr: 0.001
+      batch_size: 256
+      augment_prob: 0.7
+
+    eval:
+      accuracy_target: 0.95
+
+budget:
+  finder_int8: "3.0 MB"
+  price_reader_int8: "1.5 MB"
+  fuel_type_classifier_int8: "0.5 MB"
+  brand_classifier_int8: "1.0 MB"
+  total_estimate: "6.0 MB"
+  hard_limit: "15.0 MB"

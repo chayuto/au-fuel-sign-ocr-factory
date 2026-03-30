@@ -1,0 +1,86 @@
+# Australian fuel types — closed enum, single source of truth.
+# Each entry maps a canonical ID to display aliases seen on real signs.
+
+fuel_types:
+  U91:
+    canonical: "U91"
+    aliases:
+      - "Unleaded 91"
+      - "Regular Unleaded"
+      - "Unleaded"
+      - "Regular"
+      - "ULP"
+      - "U91"
+    category: petrol
+    price_range: [100.0, 280.0]  # cents/litre, typical AU range
+
+  E10:
+    canonical: "E10"
+    aliases:
+      - "E10"
+      - "Ethanol 10"
+      - "E10 Unleaded"
+    category: petrol
+    price_range: [95.0, 270.0]
+
+  P95:
+    canonical: "P95"
+    aliases:
+      - "Premium 95"
+      - "PULP 95"
+      - "95 RON"
+      - "Premium Unleaded 95"
+      - "P95"
+      - "95"
+    category: petrol
+    price_range: [110.0, 300.0]
+
+  P98:
+    canonical: "P98"
+    aliases:
+      - "Premium 98"
+      - "PULP 98"
+      - "98 RON"
+      - "Premium Unleaded 98"
+      - "V-Power"
+      - "Vortex 98"
+      - "P98"
+      - "98"
+    category: petrol
+    price_range: [120.0, 320.0]
+
+  DIESEL:
+    canonical: "Diesel"
+    aliases:
+      - "Diesel"
+      - "DSL"
+      - "Premium Diesel"
+      - "Vortex Diesel"
+      - "diesel"
+    category: diesel
+    price_range: [120.0, 300.0]
+
+  LPG:
+    canonical: "LPG"
+    aliases:
+      - "LPG"
+      - "Autogas"
+      - "Auto LPG"
+    category: gas
+    price_range: [60.0, 150.0]
+
+  ADBLUE:
+    canonical: "AdBlue"
+    aliases:
+      - "AdBlue"
+      - "DEF"
+    category: additive
+    price_range: [50.0, 200.0]
+
+  E85:
+    canonical: "E85"
+    aliases:
+      - "E85"
+      - "Ethanol 85"
+    category: petrol
+    price_range: [80.0, 220.0]
