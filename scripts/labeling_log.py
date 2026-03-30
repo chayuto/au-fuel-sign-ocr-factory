@@ -12,13 +12,20 @@ Usage:
     python scripts/labeling_log.py append --file img.jpg --action labeled \
         --agent agent_1 --visual-qa true --brand bp --entries 4 --quality B
 
-    # Append a skip event
+    # Append a skip from Haiku screening
     python scripts/labeling_log.py append --file img.jpg --action skipped \
-        --agent agent_1 --reason "no price sign visible"
+        --agent haiku_screen_1 --model haiku --phase screen \
+        --reason "no price sign visible"
+
+    # Append a full label from Sonnet
+    python scripts/labeling_log.py append --file img.jpg --action labeled \
+        --agent agent_1 --model sonnet --phase label \
+        --visual-qa true --brand bp --entries 4 --quality B
 
     # Append a correction event (re-label with visual QA)
     python scripts/labeling_log.py append --file img.jpg --action corrected \
-        --agent agent_5 --visual-qa true --brand bp --entries 4 --quality A \
+        --agent agent_5 --model sonnet --phase relabel \
+        --visual-qa true --brand bp --entries 4 --quality A \
         --issues-found "sign_board too wide, price bbox shifted"
 
     # Merge temp fragments (written when main log was unavailable)
@@ -40,7 +47,13 @@ LOG_TEMP_DIR = Path("data/tmp/log_fragments")
 MANIFEST_PATH = Path("data/tmp/labeling_manifest.csv")
 
 # Valid actions for log events
-ACTIONS = {"labeled", "skipped", "corrected", "relabeled", "verified"}
+ACTIONS = {"labeled", "skipped", "corrected", "relabeled", "verified", "screened"}
+
+# Valid models (for audit trail)
+MODELS = {"haiku", "sonnet", "opus", "unknown"}
+
+# Valid phases
+PHASES = {"screen", "label", "relabel", "audit", "unknown"}
 
 
 def make_event(
@@ -48,6 +61,8 @@ def make_event(
     action: str,
     agent: str,
     timestamp: str | None = None,
+    model: str | None = None,
+    phase: str | None = None,
     visual_qa: bool = False,
     brand: str | None = None,
     sign_type: str | None = None,
@@ -66,6 +81,8 @@ def make_event(
         "filename": filename,
         "action": action,
         "agent": agent,
+        "model": model or "unknown",
+        "phase": phase or "unknown",
         "visual_qa": visual_qa,
     }
 
@@ -281,6 +298,23 @@ def print_stats() -> None:
     print(f"Visual QA events:    {visual_qa_count:4d}")
     print(f"Non-QA labels:       {no_visual_qa:4d}")
 
+    # Model distribution
+    model_counts: dict[str, int] = {}
+    phase_counts: dict[str, int] = {}
+    for e in events:
+        model = e.get("model", "unknown")
+        phase = e.get("phase", "unknown")
+        model_counts[model] = model_counts.get(model, 0) + 1
+        phase_counts[phase] = phase_counts.get(phase, 0) + 1
+
+    print(f"\nBy model:")
+    for model, count in sorted(model_counts.items(), key=lambda x: -x[1]):
+        print(f"  {model:20s} {count:4d}")
+
+    print(f"\nBy phase:")
+    for phase, count in sorted(phase_counts.items(), key=lambda x: -x[1]):
+        print(f"  {phase:20s} {count:4d}")
+
     # Brand distribution of labeled images
     brand_counts: dict[str, int] = {}
     for e in latest.values():
@@ -306,6 +340,10 @@ def main():
     ap.add_argument("--file", required=True, help="Image filename")
     ap.add_argument("--action", required=True, choices=sorted(ACTIONS))
     ap.add_argument("--agent", required=True, help="Agent ID")
+    ap.add_argument("--model", default=None, choices=sorted(MODELS),
+                    help="Model used (haiku/sonnet/opus)")
+    ap.add_argument("--phase", default=None, choices=sorted(PHASES),
+                    help="Pipeline phase (screen/label/relabel/audit)")
     ap.add_argument("--visual-qa", type=lambda x: x.lower() == "true", default=False)
     ap.add_argument("--brand", default=None)
     ap.add_argument("--sign-type", default=None)
@@ -328,6 +366,8 @@ def main():
             filename=args.file,
             action=args.action,
             agent=args.agent,
+            model=args.model,
+            phase=args.phase,
             visual_qa=args.visual_qa,
             brand=args.brand,
             sign_type=args.sign_type,
