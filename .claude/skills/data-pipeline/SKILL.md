@@ -19,29 +19,26 @@ moves them into `data/tmp/` (the gold dataset directory) where labeling agents p
 The key guarantee: **no duplicates enter the labeling queue**, and **ingest is cleaned after
 processing** so images are never re-processed.
 
-## The Pipeline
+## The Full Pipeline (3 stages)
+
+Every image goes through all 3 stages in order. Never skip a stage.
 
 ```
-data/ingest/
-  batch_20260330T075600/
-    wiki_bp_mullaloo_wa.jpg
-    wiki_puma_morven_qld_2024_01.jpg
-  batch_20260330T105059/
-    news_9news_bp_price_board_green_led.jpg
+STAGE 1: INGEST (process_ingest.py)
+  data/ingest/ → dedup (name, SHA-256, pHash) → data/tmp/ + manifest (status=pending)
 
-  ↓  process_ingest.py  ↓
+STAGE 2: SCREEN (Haiku agents)
+  pending images → Haiku reads each → skip or keep
+  skipped → manifest status=skipped
+  kept → manifest stays pending (ready for Stage 3)
 
-data/tmp/
-  wiki_bp_mullaloo_wa.jpg          (new)
-  wiki_puma_morven_qld_2024_01.jpg (new)
-  news_9news_bp_price_board_green_led.jpg (new)
-
-data/tmp/labeling_manifest.csv
-  + 3 new rows with status=pending
-
-data/ingest/
-  (empty — cleaned up)
+STAGE 3: LABEL (Sonnet agents)
+  pending images that passed screening → full annotation with visual QA
+  → manifest status=done
 ```
+
+**The rule: no image reaches Sonnet without passing Haiku screening first.**
+This saves ~75% of Sonnet cost since most raw scrapes are heritage/unusable images.
 
 ## How to Run
 
@@ -95,12 +92,21 @@ Run this pipeline:
 - Before starting a labeling session (to pick up any new images)
 - When the user asks "are there new images?" or "what's in ingest?"
 
-## After Running
+## After Running process_ingest.py
 
-Report the summary to the user, then suggest next steps:
-- If images were added: "N new images added to the labeling queue. Want to start labeling?"
+Report the summary, then **always proceed to Haiku screening** before labeling:
+- If images were added: "N new images ingested. Running Haiku screening now..."
 - If all were dups: "All images already in the dataset. No new additions."
 - If ingest was empty: "Nothing in data/ingest/ to process."
+
+**Never suggest Sonnet labeling until Haiku screening is complete.**
+
+## Stage 2: Haiku Screening
+
+After ingest, screen all new pending images with Haiku (see fuel-sign-labeler skill, Phase 1).
+Launch 8-10 Haiku agents in parallel, 5-10 images each. This is fast (~10-20s per image).
+
+After screening, report: "N images passed screening, M skipped. Ready for Sonnet labeling?"
 
 ## Architecture Context
 

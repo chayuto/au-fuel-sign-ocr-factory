@@ -65,9 +65,13 @@ Agent(
 
 | Scenario | Phase |
 |----------|-------|
-| Large batch of unknown images (e.g., Flickr group) | Phase 1 first, then Phase 2 on survivors |
-| Images from targeted scrape (known fuel signs) | Skip to Phase 2 directly |
-| Re-labeling existing annotations with VQA | Phase 2 only |
+| **Any new pending images** | **Phase 1 first, always.** Then Phase 2 on keepers. |
+| Re-labeling existing done annotations with VQA | Phase 2 only (already classified) |
+
+**Rule: Every new image must pass Haiku screening before Sonnet labeling.**
+No exceptions, even for "targeted scrapes" — scrape agents sometimes download station
+exteriors, canopy shots, or heritage photos without price signs. Haiku catches these
+cheaply (~3s each) instead of wasting Sonnet time (~300s each).
 
 ---
 
