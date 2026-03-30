@@ -13,25 +13,61 @@ description: |
 
 # Fuel Sign Labeler
 
-## Agent Configuration
+## Two-Phase Workflow: Screen → Label
 
-When launching labeling subagents, use **Sonnet** (`model: "sonnet"`). Labeling is mechanical visual work (look → annotate → verify) and does not need Opus.
+Labeling is expensive (~300s, ~45K tokens per image on Sonnet). But historically ~75% of
+pending images are skips (no fuel price sign). Running a cheap Haiku screening pass first
+saves significant time and cost.
 
-**Concurrency:** Max **5-8 parallel agents**. 20 parallel agents hit API rate limits — half failed.
+### Phase 1: Haiku Screening (cheap, fast, parallel)
 
-**Performance:** ~300s per image, ~45K tokens. Budget accordingly.
+**Model:** `haiku` — good enough for binary "has sign?" classification.
 
-**Launch pattern — 1 image per agent for quality:**
+**Concurrency:** Up to **10 parallel agents** (Haiku is lighter on rate limits).
+
+**Performance:** ~10-20s per image, ~3-5K tokens. Very cheap.
+
+**What it does:** Read image → classify HAS_SIGN yes/no → update manifest (skip or keep-for-labeling) → log.
+
+**Launch pattern:**
 ```
 Agent(
-  model: "sonnet",
-  description: "Label {image_stem}",
-  prompt: "You are a labeling agent. Re-label ONE image: `{filename}`\n\n## Step 1: Read...",
+  model: "haiku",
+  description: "Screen {image_stem}",
+  prompt: "You are a screening agent. Look at ONE image: `{filename}`\n\n[screening prompt]",
   run_in_background: true,
 )
 ```
 
-For bulk runs, launch 5-8 agents at a time, wait for completion, launch next batch.
+Launch 8-10 at a time. Images that pass screening get queued for Phase 2.
+
+### Phase 2: Sonnet Labeling (quality, sequential)
+
+**Model:** `sonnet` — needed for accurate bbox estimation, price reading, and visual QA.
+
+**Concurrency:** Max **5-8 parallel agents**.
+
+**Performance:** ~300s per image, ~45K tokens.
+
+**What it does:** Full annotation pipeline — bboxes, metadata, validation, preview, visual QA.
+
+**Launch pattern:**
+```
+Agent(
+  model: "sonnet",
+  description: "Label {image_stem}",
+  prompt: "You are a labeling agent. Label ONE image: `{filename}`\n\n[full labeling prompt]",
+  run_in_background: true,
+)
+```
+
+### When to use each phase
+
+| Scenario | Phase |
+|----------|-------|
+| Large batch of unknown images (e.g., Flickr group) | Phase 1 first, then Phase 2 on survivors |
+| Images from targeted scrape (known fuel signs) | Skip to Phase 2 directly |
+| Re-labeling existing annotations with VQA | Phase 2 only |
 
 ---
 
@@ -46,6 +82,56 @@ You do NOT:
 - Modify code, configs, or docs
 
 ---
+
+## Phase 1: Haiku Screening Prompt
+
+Use this prompt when launching Haiku screening agents. Each agent screens one image.
+
+```
+You are a screening agent. Look at ONE image and decide: does it contain a visible
+Australian fuel station price sign board with at least one readable price?
+
+Image: `data/tmp/{filename}`
+
+Step 1: Read the image using the Read tool.
+
+Step 2: Classify:
+  HAS_SIGN = yes if ALL true:
+  - A fuel price sign/board is visible (pylon, canopy fascia, or wall panel)
+  - At least one fuel type label is readable ("Unleaded", "Diesel", "E10", etc.)
+  - At least one price is readable (XXX.X format, LED or printed digits)
+  - Sign is large enough to annotate (~>10% of image area)
+
+  HAS_SIGN = no if ANY true:
+  - No fuel price sign visible (just pumps, canopy, building, road)
+  - Sign too distant/tiny to read (<10% of image)
+  - Prices blank/off
+  - >70% occluded
+  - Historical/heritage with no readable modern price board
+  - Pump/bowser only, no price sign
+  - Product shot of LED digits without station context
+
+Step 3: Update manifest.
+  Read data/tmp/labeling_manifest.csv, find the row for {filename}.
+  - If HAS_SIGN = no: set status to "skipped", write file back.
+  - If HAS_SIGN = yes: leave as "pending" (Sonnet will label it later).
+
+Step 4: Log the result.
+  If skipped:
+    .venv/bin/python scripts/labeling_log.py append \
+      --file {filename} --action skipped --agent haiku_screen_{N} \
+      --reason "brief reason"
+
+  If has sign (no log needed — Sonnet will log when labeling):
+    Just report: "HAS_SIGN=yes, ready for Sonnet labeling"
+
+That's it. Do NOT annotate, do NOT write bboxes, do NOT generate previews.
+Just screen and skip/keep.
+```
+
+---
+
+## Phase 2: Sonnet Labeling (Full Annotation)
 
 You are a multimodal labeling agent for Australian fuel station price sign images. Your job is to look at each image, decide if it contains a usable fuel price sign, and produce structured annotations for YOLO object detection training.
 
