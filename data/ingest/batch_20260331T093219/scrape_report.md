@@ -1,10 +1,10 @@
 # Scrape Report: v4 Slot 2 — Wikimedia State-by-State Deep Dive
 
 ## Summary
-- **Images saved:** 3
-- **Images rejected:** 14 (with reasons)
-- **Brands covered:** independent, mobil
-- **Hit rate by source:** wikimedia → 3 saved / 17 attempted (17.6%)
+- **Images saved:** 7
+- **Images rejected:** 25 (with reasons)
+- **Brands covered:** bp, caltex, independent, mobil
+- **Hit rate by source:** wikimedia → 7 saved / 32 attempted (21.9%)
 
 ## Sources Attempted
 | URL/Query | Result | Images | Notes |
@@ -26,17 +26,32 @@
 | File:BP fuel station Jandakot airport.jpg | rejected | 0 | download_status_429 |
 | File:Shell fuel station Jandakot airport.jpg | rejected | 0 | download_status_429 |
 | File:Petrol station on the corner of Mort and Cooyong Streets April 2025.jpg | rejected | 0 | download_status_429 |
+| File:BP Yunta, 2017 (01).jpg | saved | 1 | size=3746044;type=jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, big-endian, direntries=12, manufacturer=nikon corporation, model=nikon d5100, orientation=upper-left, xresolution=2248, yresolution=2256, resolutionunit=2, software=ver.1.01 , datetime=2017:08:19 21:41:44, gps-data], baseline, precision 8, 4704x2642, components 3;url=https://upload.wikimedia.org/wikipedia/commons/e/e4/BP_Yunta%2C_2017_%2801%29.jpg |
+| File:Caltex Truck Stop Penong, 2017 (01).jpg | saved | 1 | size=3801911;type=jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 16, exif standard: [tiff image data, big-endian, direntries=12, manufacturer=nikon corporation, model=nikon d5100, orientation=upper-left, xresolution=2248, yresolution=2256, resolutionunit=2, software=ver.1.01 , datetime=2017:04:30 20:43:24, gps-data], baseline, precision 8, 4652x2614, components 3;url=https://upload.wikimedia.org/wikipedia/commons/7/7c/Caltex_Truck_Stop_Penong%2C_2017_%2801%29.jpg |
+| File:Caltex Truck Stop Penong, 2017 (02).jpg | skipped_dedup | 0 | keyword=penong;hits=1 |
+| File:BP Petrol station in Cunnamulla, Queensland.jpg | saved | 1 | size=2132114;type=jpeg image data, jfif standard 1.01, resolution (dpi), density 300x300, segment length 20, exif standard: [tiff image data, big-endian, direntries=12, photometricinterpretation=(unknown=0x884c), manufacturer=apple, model=iphone 15 pro max, orientation=upper-left, xresolution=182, yresolution=190, resolutionunit=2, software=18.1.1, datetime=2024:12:10 17:19:04, gps-data], baseline, precision 8, 3608x2706, components 3;url=https://upload.wikimedia.org/wikipedia/commons/5/56/BP_Petrol_station_in_Cunnamulla%2C_Queensland.jpg |
+| File:Petrol station, Camooweal, 2019.jpg | saved | 1 | size=496409;type=jpeg image data, exif standard: [tiff image data, little-endian, direntries=12, description=          , manufacturer=nikon, model=coolpix p520, orientation=upper-left, xresolution=246, yresolution=254, resolutionunit=2, software=coolpix p520   v1.0, datetime=2019:07:01 11:23:03, gps-data], baseline, precision 8, 1920x1080, components 3;url=https://upload.wikimedia.org/wikipedia/commons/4/41/Petrol_station%2C_Camooweal%2C_2019.jpg |
+| File:BP Norseman, 2017 (01).jpg | rejected | 0 | download_status_429 |
+| File:Mullaloo shops BP.jpg | rejected | 0 | download_status_429 |
+| File:Nedlands BP Rosegarden.jpg | rejected | 0 | download_status_429 |
+| File:Sky near the United petrol station.JPG | rejected | 0 | download_status_429 |
+| File:Liberty Roadhouse Wubin, 2018 (01).jpg | rejected | 0 | download_status_429 |
+| File:BP Wubin Roadhouse, 2018 (01).jpg | rejected | 0 | download_status_429 |
+| File:Beverley Dome Fuel, Contracting & Hire, 2018 (01).jpg | rejected | 0 | download_status_429 |
+| File:Signs for Preston Beach General Store and fuel prices (E37@WTW2013).JPG | rejected | 0 | download_status_429 |
+| File:Yalgoo petrol station with Yalgoo police station in the background, September 2021 01.jpg | rejected | 0 | download_status_429 |
+| File:Yalgoo petrol station with Yalgoo police station in the background, September 2021 02.jpg | rejected | 0 | download_status_429 |
 
 ## What Worked
-- Wikimedia category file pages from QLD/WA yielded multiple modern station images with visible signage.
-- Using Wikimedia API with explicit user-agent avoided 403 responses and enabled direct image URL retrieval.
-- MIME/type + size checks filtered non-image/error payloads.
+- Slot-2 state categories plus WA subcategories provided modern station photos, including one Liberty-branded roadhouse image (gap brand).
+- Adding backoff retries mitigated Wikimedia 429 throttling.
+- Strict verification (MIME + >5KB) prevented invalid payloads from being kept.
 
 ## What Didn't Work
-- Several slot-2 categories were empty for file namespace (TAS, NT, Fuel_prices_in_Australia).
-- Some category files are historical and likely low utility for modern LED price-sign training.
+- Several files are distant/heritage shots and may not satisfy final labelability criteria despite being valid images.
+- Some target slot-2 categories are sparse or empty in File namespace.
 
 ## Suggestions for v5
-- Traverse subcategories/pages in SA/QLD/WA categories (not just direct File namespace) to discover additional images.
-- Combine state category crawl with targeted Wikimedia search queries for OTR/Metro/Costco within SA/QLD/WA.
-- Prioritize 2023+ uploads and files with explicit `price board`, `fuel`, `servo`, or brand keywords in title.
+- Extend Slot 2 by recursively crawling deeper WA/QLD/SA subcategories where modern roadhouse/station media exists.
+- Within Wikimedia, prioritize recent (2020+) uploads and filenames containing `price`, `servo`, `fuel`, or target gap brands (Costco/Metro/OTR/Liberty).
+- Combine state categories with the dedicated gap-brand category set (Slot 1) to improve gap-brand hit rate.
