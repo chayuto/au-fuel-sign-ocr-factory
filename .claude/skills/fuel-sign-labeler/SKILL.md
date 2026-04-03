@@ -104,16 +104,25 @@ Step 2: Classify:
   - A fuel price sign/board is visible (pylon, canopy fascia, or wall panel)
   - At least one fuel type label is readable ("Unleaded", "Diesel", "E10", etc.)
   - At least one price is readable (XXX.X format, LED or printed digits)
-  - Sign is large enough to annotate (~>10% of image area)
+  - Sign occupies ≥15% of image area (not a distant shot)
+  - Image is a NATURAL CAMERA FRAME (a real photo, not a composite or screenshot)
 
   HAS_SIGN = no if ANY true:
   - No fuel price sign visible (just pumps, canopy, building, road)
-  - Sign too distant/tiny to read (<10% of image)
-  - Prices blank/off
+  - Sign too distant/tiny to read (<15% of image area)
+  - Prices blank/off or placeholder (999.9, 000.0)
   - >70% occluded
   - Historical/heritage with no readable modern price board
-  - Pump/bowser only, no price sign
+  - **Pump/bowser transaction display** — a pump LCD showing litres/dollars/price-per-litre
+    for an active fill. These are NOT price sign boards. Skip them.
   - Product shot of LED digits without station context
+  - **News composite / editorial image** — sign is pasted next to unrelated content
+    (explosion, portrait, map, chart, pump nozzle collage). If the image is clearly
+    NOT a single camera photo of a station, skip it.
+  - **Extreme close-up crop** — image is tightly cropped to just the price digits with
+    no surrounding sign structure or station context visible. Real camera frames
+    always include context.
+  - **Screenshot of an app, website, or article** — not a direct photo of a sign
 
 Step 3: Update manifest.
   Read data/tmp/labeling_manifest.csv, find the row for {filename}.
@@ -164,7 +173,10 @@ Read the manifest to find your batch. The manifest is at `data/tmp/labeling_mani
 
 **Batch assignment:** When the user launches you, they'll specify a batch — either a filename prefix pattern (e.g., `wiki_ampol_*`), a line range (e.g., lines 100-150), or an explicit file list. Process only your assigned batch to avoid conflicts with other agents.
 
-## Step 1: Read and classify each image
+## Step 1: Read and classify each image (SECOND-PASS GATE)
+
+Even though Haiku screening already passed this image, YOU must re-classify it.
+Haiku makes false positives. **If the image is bad, SKIP it — do not force an annotation.**
 
 Use the Read tool to view the image file. Then make a binary decision:
 
@@ -172,16 +184,20 @@ Use the Read tool to view the image file. Then make a binary decision:
 - A fuel price sign/board is visible (pylon, canopy fascia, or wall-mounted)
 - At least one fuel type label is readable (e.g., "Unleaded", "Diesel", "E10")
 - At least one price is readable (LED digits or printed numbers showing XXX.X format)
-- The sign occupies enough of the image to estimate bounding boxes (~>10% of image area)
+- The sign occupies ≥15% of image area
+- Image is a natural camera frame (not a composite, screenshot, or editorial crop)
 
 **HAS_SIGN = no** (skip) if ANY of these:
 - No fuel price sign visible (just pumps, canopy, building, road)
-- Sign is too distant/tiny to read any text or prices (<10% of image)
-- All prices are blank/off (LEDs not illuminated)
+- Sign is too distant/tiny to read any text or prices (<15% of image)
+- All prices are blank/off (LEDs not illuminated) or placeholder (999.9, 000.0)
 - Sign is >70% occluded by trees, poles, or other objects
 - Image is a historical photo (pre-1990s) with no readable price board
-- Image is of a fuel pump/bowser only, with no pylon or price board sign
+- **Pump/bowser transaction display** — pump LCD showing litres/dollars during a fill, NOT a price sign
 - Image is a product shot of LED digits without station context
+- **News composite / editorial image** — sign pasted next to unrelated content (not a single camera photo)
+- **Extreme close-up crop** — only price digits visible, no sign structure or station context
+- **Screenshot of app, website, or article** — not a direct photo
 
 ## Step 2: Annotate (if HAS_SIGN = yes)
 
