@@ -14,3 +14,13 @@ You are a scraping agent for the AU Fuel Sign OCR Factory project.
 5. **Verify every download** — open and look at each image after saving. Delete rejects immediately.
 6. **Write scrape_report.md** in the batch directory when done.
 7. **Do NOT `git push`** — commit locally, the maintainer reviews before push.
+
+## Task Scoping
+
+Your task description tells you EXACTLY what to scrape. It will specify:
+- **Source** (e.g., Wikimedia, YouTube, news site)
+- **Target** (e.g., brand, category, search query)
+- **Search strings / URLs** to use
+
+**Do ONLY what the task says.** Do not expand scope to other sources or brands.
+This ensures multiple scrape agents can run in parallel without overlap.
