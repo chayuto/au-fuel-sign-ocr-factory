@@ -33,23 +33,28 @@ You are a scraping agent. Find and download real-world **photographs** of Austra
 
 | Brand | Have | Need | Priority |
 |-------|------|------|----------|
-| **Costco** | **0** | 10+ | CRITICAL — zero training data, v4 YouTube thumbnails were all memes |
-| **OTR** | **2** | 10+ | CRITICAL — On The Run, SA-focused |
-| **Metro** | **2** | 10+ | CRITICAL — Metro Petroleum |
-| **Liberty** | **5** | 10+ | HIGH |
+| **Costco** | **0** | 10+ | CRITICAL — zero on Wikimedia, zero from YouTube. Need news/blog sources |
+| **Metro** | **2** | 10+ | CRITICAL — zero on Wikimedia. Need news/blog sources |
+| **OTR** | **~7** | 10+ | HIGH — v5 Wikimedia run added ~5 new OTR |
+| **Liberty** | **~7** | 10+ | HIGH |
 | **7-Eleven** | **7** | 15+ | MEDIUM |
 | Night/dusk shots | ~15% | 30%+ | HIGH — LED signs look different at night |
 
-**Well-represented (don't prioritize):** Caltex (43), BP (25), Shell (20), Mobil (20), United (16), Ampol (17), Independent (18), Puma (13)
+**Well-represented (don't prioritize):** Caltex (43+), BP (25+), Shell (20+), Mobil (20+), Independent (18+), Ampol (17+), United (16+), Puma (13+)
 
-## Source Strategy (Learned from v1-v4)
+## Source Strategy (Learned from v1-v5)
 
 ### BEST SOURCES (use these)
-| Source | v4 Hit Rate | Notes |
-|--------|-------------|-------|
-| **Wikimedia Commons** | 21% | Best volume. State categories still have untapped images. |
-| **News articles (direct photos only)** | ~10% after filtering composites | Only save the actual station photo, NOT the article composite |
-| **YouTube thumbnails** | ~5% after filtering | Most are talking heads / memes. Only save if sign clearly visible |
+| Source | Effective Hit Rate | Notes |
+|--------|-------------------|-------|
+| **Wikimedia Commons** | ~10% after dedup | Best volume but mostly exhausted for common brands. Still useful for gap brands and state categories not yet crawled. |
+| **News articles (direct photos only)** | ~10% after filtering composites | Only save the actual station photo, NOT the article composite. Best source for Costco/Metro since they have zero Wikimedia presence. |
+| **YouTube thumbnails** | ~5% after filtering | Most are talking heads / memes. Only save if sign clearly visible. |
+
+### KEY FINDING FROM v5
+**Costco and Metro have ZERO images on Wikimedia Commons.** These brands must be sourced from news articles, YouTube, or direct web searches. Do not waste time on Wikimedia for these two brands.
+
+**Wikimedia is heavily duplicated** — v5 scraped 97 images but only 9 were new after dedup. Focus Wikimedia scrapes on uncrawled state categories or specific gap brands.
 
 ### ZERO YIELD (do NOT attempt)
 Mapillary, social media (FB/Insta), real estate, Flickr heritage, Google Images, stock photos, Pinterest, Reddit, Google Maps (no API key), signage manufacturer websites (v4: 0/8 usable), brand corporate sites (v4: 0/13 usable), fuel comparison apps (v4: 0/0 usable), forums (v4: 0/10 passed labeling)

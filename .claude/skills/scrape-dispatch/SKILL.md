@@ -62,32 +62,58 @@ Follow all quality rules in docs/prompts/scrape_fuel_signs_v5.md.
 Write ONLY to data/ingest/batch_<UTC>/. Do NOT scrape anything outside the scope above.
 ```
 
+## Completed Tasks (do NOT re-run)
+
+| Task | PR | Result | Date |
+|------|-----|--------|------|
+| Wikimedia deep scrape (all states, all brands) | #22 | 97 scraped, 9 new after dedup | 2026-04-04 |
+| Costco YouTube thumbnails | #23 | in progress | 2026-04-04 |
+| Metro+OTR news articles | #24 | in progress | 2026-04-04 |
+| Night/dusk Wikimedia | #25 | in progress | 2026-04-04 |
+| v4 slots 1-8 (Wiki, YT, news, blogs) | #9-17 | 87 new images | 2026-04-03 |
+| v4 slots 9,11 (forums, brand sites) | #19-20 | 23 images, mostly rejected | 2026-04-03 |
+
+### Key findings
+- **Costco + Metro have ZERO Wikimedia images** — must use news/YouTube/web
+- **Wikimedia is ~90% exhausted** — v5 deep scrape got only 9 new from 97 downloaded
+- **YouTube thumbnails are ~5% useful** — most are talking heads or memes
+- **News composites must be filtered** — only save direct station photos
+
 ## Pre-Built Task Catalog
 
-These are ready-to-dispatch tasks. Check the registry first to avoid re-running completed ones.
+Check the completed table above first. Do NOT re-run completed tasks.
 
-### CRITICAL — Costco (have 0)
+### CRITICAL — Costco (have 0, NOT on Wikimedia)
 
-**Task C1: Wikimedia Costco**
+**Task C1: Wikimedia Costco** — COMPLETED (zero yield, Costco not on Wikimedia)
+
+~~**Task C2: YouTube Costco**~~ — DISPATCHED as #23
+
+**Task C3: News Costco**
 ```bash
 gh agent-task create --custom-agent scraper 'Scrape Australian fuel station price sign images.
 
-SOURCE: Wikimedia Commons
-TARGET: Costco fuel stations
+SOURCE: News articles — extract ONLY direct station photos, reject composites
+TARGET: Costco fuel stations in Australia (Docklands VIC, Auburn NSW, Epping VIC, Casula NSW, Marsden Park NSW, Canberra ACT)
 SEARCH STRINGS:
-- "Costco fuel Australia"
-- "Costco petrol"
-- "Costco Wholesale fuel"
-WIKIMEDIA CATEGORIES:
-- Category:Costco_Australia
-EXPECTED YIELD: low (Costco has few Wikimedia images)
+- "Costco fuel" price sign site:9news.com.au
+- "Costco petrol" price board site:7news.com.au
+- "Costco fuel" station site:abc.net.au
+- "Costco fuel" price site:news.com.au
+- "Costco fuel" queue price sign Australia 2024 2025 2026
+- "Costco fuel" Docklands OR Auburn OR Epping photo
+EXPECTED YIELD: low-medium (news is the best remaining source for Costco)
 PRIORITY: critical
+
+Costco has ZERO images on Wikimedia and ZERO from YouTube thumbnails.
+News articles with fuel price stories are the best remaining source.
+Only save DIRECT station photographs — reject composites, charts, portraits.
 
 Follow all quality rules in docs/prompts/scrape_fuel_signs_v5.md.
 Write ONLY to data/ingest/batch_<UTC>/. Do NOT scrape anything outside the scope above.'
 ```
 
-**Task C2: YouTube Costco (retry with strict filter)**
+~~**Task C2: YouTube Costco (retry with strict filter)**~~ — DISPATCHED as #23
 ```bash
 gh agent-task create --custom-agent scraper 'Scrape Australian fuel station price sign images.
 
@@ -104,9 +130,10 @@ Follow all quality rules in docs/prompts/scrape_fuel_signs_v5.md.
 Write ONLY to data/ingest/batch_<UTC>/. Do NOT scrape anything outside the scope above.'
 ```
 
-### CRITICAL — OTR (have 2)
+### OTR (have ~7 after v5) — Wikimedia covered by #22
 
-**Task O1: Wikimedia OTR**
+**Task O1: Wikimedia OTR** — COVERED by #22 (got 14 OTR, ~5 new after dedup)
+~~**Task O1+M1 news:**~~ — DISPATCHED as #24
 ```bash
 gh agent-task create --custom-agent scraper 'Scrape Australian fuel station price sign images.
 
@@ -126,9 +153,9 @@ Follow all quality rules in docs/prompts/scrape_fuel_signs_v5.md.
 Write ONLY to data/ingest/batch_<UTC>/. Do NOT scrape anything outside the scope above.'
 ```
 
-### CRITICAL — Metro (have 2)
+### Metro (have 2) — NOT on Wikimedia, covered by news task #24
 
-**Task M1: Wikimedia Metro**
+**Task M1: Wikimedia Metro** — SKIP (zero on Wikimedia, confirmed by #22)
 ```bash
 gh agent-task create --custom-agent scraper 'Scrape Australian fuel station price sign images.
 
@@ -148,9 +175,9 @@ Follow all quality rules in docs/prompts/scrape_fuel_signs_v5.md.
 Write ONLY to data/ingest/batch_<UTC>/. Do NOT scrape anything outside the scope above.'
 ```
 
-### HIGH — Liberty (have 5)
+### Liberty (have ~7) — Wikimedia covered by #22
 
-**Task L1: Wikimedia Liberty**
+**Task L1: Wikimedia Liberty** — COVERED by #22 (got 5 Liberty, ~2 new after dedup)
 ```bash
 gh agent-task create --custom-agent scraper 'Scrape Australian fuel station price sign images.
 
@@ -170,9 +197,9 @@ Follow all quality rules in docs/prompts/scrape_fuel_signs_v5.md.
 Write ONLY to data/ingest/batch_<UTC>/. Do NOT scrape anything outside the scope above.'
 ```
 
-### HIGH — Night/dusk shots (have ~15%, need 30%)
+### Night/dusk shots (have ~15%, need 30%)
 
-**Task N1: Wikimedia night stations**
+~~**Task N1: Wikimedia night stations**~~ — DISPATCHED as #25
 ```bash
 gh agent-task create --custom-agent scraper 'Scrape Australian fuel station price sign images.
 
