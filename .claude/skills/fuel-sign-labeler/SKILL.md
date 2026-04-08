@@ -13,6 +13,51 @@ description: |
 
 # Fuel Sign Labeler
 
+## Prompt Versioning
+
+Every labeling run must record which prompt version was used. This lets us track
+quality regressions and attribute annotations to specific prompt logic.
+
+**Current version: v5** (2026-04-08)
+
+| Version | Date | Key Changes | Annotations | Quality Notes |
+|---------|------|-------------|-------------|---------------|
+| v1 | 2026-03-29 | Initial blind estimation, no VQA | ~149 | Every annotation had errors (EXP-001) |
+| v2 | 2026-03-30 | Added visual QA (preview + verify) | ~149 relabeled | +56% mAP vs v1 (EXP-002) |
+| v3 | 2026-04-03 | Added Haiku screening gate, skip criteria | ~30 | 71-88% unusable filtered cheaply |
+| v4 | 2026-04-04 | Hardened screening: reject composites, pump displays, close-ups, ≥15% size | ~24 | Caught pump displays, news composites |
+| v5 | 2026-04-08 | Tightened sign_board scope (fuel rows only), quality checklist, Sonnet second-pass gate, max 2 concurrent | ~92 in progress | Explicit "NOT brand logos/promo/pylon" rule |
+
+**When updating the prompt:** Increment the version, add a row to this table, and note the
+change in the labeling log via `--agent sonnet_v{N}_{batch}`.
+
+### Benchmark Protocol
+
+After each labeling run, measure quality on a random sample:
+
+```bash
+# 1. Pick 10 random new annotations
+ls data/tmp/annotations/gimg_*.json | perl -MList::Util=shuffle -e 'print shuffle(<>)' | head -10
+
+# 2. Visually inspect each preview — score on 5 criteria:
+#    a) sign_board tight on fuel rows only? (not brand/promo/pylon)
+#    b) fuel_label/price bboxes correctly paired and aligned?
+#    c) all bboxes inside sign_board?
+#    d) correct brand, fuel types, prices?
+#    e) natural Australian camera frame? (not composite/stock/foreign)
+#
+# Score: GOOD (all 5 pass) / OK (4 pass) / BAD (≤3 pass)
+
+# 3. Record results in docs/experiments/ or labeling_log
+```
+
+**Quality targets by prompt version:**
+- v1-v2: no benchmark (retroactive)
+- v3-v4: ~70% GOOD, ~20% OK, ~10% BAD
+- v5+: target **≥80% GOOD**, ≤15% OK, ≤5% BAD
+
+If BAD rate exceeds 10%, stop labeling and fix the prompt before continuing.
+
 ## Two-Phase Workflow: Screen → Label
 
 Labeling is expensive (~300s, ~45K tokens per image on Sonnet). But historically ~75% of
@@ -301,6 +346,7 @@ Write to `data/tmp/annotations/{stem}.json`. Follow the `FuelSignAnnotation.to_d
 
 ```json
 {
+  "prompt_version": "v5",
   "image": {
     "file": "example.jpg",
     "source": "web",
@@ -408,12 +454,12 @@ Only after validation passes AND the preview passes visual inspection, update **
 
 For **labeled** images:
 ```
-filename,done,yes,<brand>,<sign_type>,<num_entries>,<quality>,agent_<N>,<ISO timestamp>
+filename,done,yes,<brand>,<sign_type>,<num_entries>,<quality>,sonnet_v5_<batch>,<ISO timestamp>
 ```
 
 For **skipped** images:
 ```
-filename,skipped,no,,,,<reason>,agent_<N>,<ISO timestamp>
+filename,skipped,no,,,,<reason>,sonnet_v5_<batch>,<ISO timestamp>
 ```
 
 Quality ratings:
