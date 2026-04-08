@@ -101,12 +101,16 @@ Report the summary, then **always proceed to Haiku screening** before labeling:
 
 **Never suggest Sonnet labeling until Haiku screening is complete.**
 
-## Stage 2: Haiku Screening
+## Stage 2: Sonnet Labeling (replaces Haiku screening)
 
-After ingest, screen all new pending images with Haiku (see fuel-sign-labeler skill, Phase 1).
-Launch 8-10 Haiku agents in parallel, 5-10 images each. This is fast (~10-20s per image).
+**UPDATE:** Haiku screening has been retired for batches >20 images. It shortcuts to
+filename heuristics and doesn't actually look at images.
 
-After screening, report: "N images passed screening, M skipped. Ready for Sonnet labeling?"
+After ingest, go straight to Sonnet labeling in batches of 5:
+- Max 2 Sonnet agents (or 3-5 Opus agents) concurrent
+- Each agent screens+labels in one pass (second-pass gate built in)
+- Expected yield: ~30-40% labeled, ~60-70% skipped
+- Report: "N labeled, M skipped. Reconcile manifest, then retrain?"
 
 ## Architecture Context
 

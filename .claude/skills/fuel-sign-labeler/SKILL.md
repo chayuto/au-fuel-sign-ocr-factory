@@ -58,13 +58,43 @@ ls data/tmp/annotations/gimg_*.json | perl -MList::Util=shuffle -e 'print shuffl
 
 If BAD rate exceeds 10%, stop labeling and fix the prompt before continuing.
 
-## Two-Phase Workflow: Screen → Label
+## Workflow: Direct Sonnet Labeling (v5+)
 
-Labeling is expensive (~300s, ~45K tokens per image on Sonnet). But historically ~75% of
-pending images are skips (no fuel price sign). Running a cheap Haiku screening pass first
-saves significant time and cost.
+**UPDATE (2026-04-08):** The two-phase Haiku→Sonnet workflow has been RETIRED.
 
-### Phase 1: Haiku Screening (cheap, fast, parallel)
+**Why Haiku screening was dropped:**
+- Haiku agents given 300+ images take shortcuts — they use filename heuristics instead
+  of actually looking at images. Two agents screened 630 images and rejected only 2 (99.7%
+  pass rate), when the real reject rate from Sonnet is ~60-70%.
+- Haiku can't do quality screening at scale. It's too cheap/fast and optimizes for throughput
+  over accuracy.
+- The cost savings were illusory — Sonnet's second-pass gate catches everything Haiku would
+  catch, plus subtle issues Haiku misses.
+
+**Current workflow: Sonnet labels directly in batches of 5.**
+
+Each Sonnet agent:
+1. Reads each image (vision)
+2. Classifies HAS_SIGN yes/no (second-pass gate — replaces Haiku screening)
+3. If yes: annotates with full bboxes + visual QA
+4. If no: skips with reason logged
+
+This is simpler, more reliable, and produces ~30-40% labeled yield. The skip step
+IS the screening — built into the labeling agent, not a separate phase.
+
+**Concurrency:** Max 2 Sonnet agents OR 3-5 Opus agents. More than that → 529 overload.
+
+**Batch size:** 5 images per agent. Larger batches (10+) reduce quality as agents rush.
+
+### RETIRED: Phase 1 Haiku Screening
+
+> **Do NOT use Haiku screening for batches > 20 images.** It will shortcut to heuristics.
+> For small targeted batches (≤20 images), Haiku screening is still OK as a quick filter
+> before manual review, but it should NOT be the only quality gate.
+
+Original Phase 1 prompt (kept for reference only):
+
+#### Old Phase 1: Haiku Screening (RETIRED for large batches)
 
 **Model:** `haiku` — good enough for binary "has sign?" classification.
 
