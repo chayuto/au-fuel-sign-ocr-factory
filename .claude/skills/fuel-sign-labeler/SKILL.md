@@ -77,7 +77,7 @@ Each Sonnet agent:
 1. Reads each image (vision)
 2. Classifies HAS_SIGN yes/no (second-pass gate — replaces Haiku screening)
 3. If yes: annotates with full bboxes + visual QA
-4. If no: skips with reason logged
+4. If no: skips — **update manifest ONLY, do NOT write annotation JSON for skips**
 
 This is simpler, more reliable, and produces ~30-40% labeled yield. The skip step
 IS the screening — built into the labeling agent, not a separate phase.
@@ -85,6 +85,18 @@ IS the screening — built into the labeling agent, not a separate phase.
 **Concurrency:** Max 2 Sonnet agents OR 3-5 Opus agents. More than that → 529 overload.
 
 **Batch size:** 5 images per agent. Larger batches (10+) reduce quality as agents rush.
+
+**Agent prompt must include these rules:**
+1. Images are at `data/tmp/{filename}` (NOT `data/tmp/images/`)
+2. Only write annotation JSON + YOLO label + preview for LABELED images
+3. For skipped images: update manifest CSV only, do NOT create files in annotations/
+4. Include `"prompt_version": "v5"` in every JSON sidecar
+5. Agent name must include version: `sonnet_v5_{batch}` or `opus_v5_{batch}`
+
+**After every labeling run**, the orchestrator MUST:
+1. Reconcile manifest against annotation files on disk (agents clobber manifests)
+2. Remove any skip-annotation files (no `sign` key) from annotations/
+3. Log results to `docs/labeling_feedback.md` with agent feedback
 
 ### RETIRED: Phase 1 Haiku Screening
 

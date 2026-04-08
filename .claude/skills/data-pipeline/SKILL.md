@@ -159,21 +159,69 @@ done
 
 ### Manifest concurrent write clobber
 Multiple labeling agents writing to labeling_manifest.csv simultaneously causes lost updates.
-**After labeling runs**, reconcile manifest against actual annotation files:
+Agents also write to `manifest.json` instead of `labeling_manifest.csv`, or append rows
+that don't match the existing format (extra commas, different column order).
+
+**After EVERY labeling run**, reconcile manifest against actual annotation files:
+```python
+# reconcile_manifest.py — run after every labeling batch
+import json, os
+from datetime import datetime, timezone
+
+manifest = 'data/tmp/labeling_manifest.csv'
+with open(manifest) as f: lines = f.readlines()
+ts = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+fixed = 0
+
+for fn in sorted(os.listdir('data/tmp/annotations')):
+    if not fn.endswith('.json'): continue
+    d = json.load(open(f'data/tmp/annotations/{fn}'))
+    if 'sign' not in d: continue  # skip-annotation pollution
+    fname = fn[:-5] + '.jpg'
+    brand = d['sign'].get('brand', 'unknown')
+    stype = d['sign'].get('sign_type', 'led')
+    entries = len(d.get('entries', []))
+
+    for i, line in enumerate(lines):
+        # Match on filename prefix, fix any non-done row
+        if line.startswith(fname + ',') and ',done,' not in line:
+            lines[i] = f'{fname},done,yes,{brand},{stype},{entries},B,recovered,{ts}\n'
+            fixed += 1
+            break
+
+with open(manifest, 'w') as f: f.writelines(lines)
+print(f'Fixed {fixed} rows')
+```
+
+### Skip-annotation pollution
+Some Sonnet agents write JSON files to `data/tmp/annotations/` for SKIPPED images.
+These files have keys like `usable`, `skip_reason` but no `sign` key, and crash the
+dataset builder with `KeyError: 'sign'`.
+
+**After labeling, clean these up:**
 ```bash
-# Find annotations not marked "done" in manifest
-for f in data/tmp/annotations/gimg_*.json; do
-  stem=$(basename "$f" .json); fname="${stem}.jpg"
-  grep -q "^$fname,done," data/tmp/labeling_manifest.csv || echo "MISSING: $fname"
+for f in data/tmp/annotations/*.json; do
+  python3 -c "import json; d=json.load(open('$f')); 'sign' not in d and exit(1)" 2>/dev/null || rm -f "$f"
 done
 ```
 
+**Prevention:** Tell agents "Only write annotation JSON for LABELED images. Do NOT create
+annotation files for skipped images."
+
+### Filename mismatch between prompt and disk
+`process_ingest.py` renames files during dedup (different hash than scraper used).
+**Never pass filenames via the agent prompt** — they won't match.
+Instead, have agents read `labeling_manifest.csv` to get real filenames:
+```
+"Read data/tmp/labeling_manifest.csv, find rows where column 2 is 'pending'..."
+```
+
 ### Agent concurrency limits
-- **Haiku screening:** up to 8-10 parallel agents (lightweight, ~3-5K tokens each)
-- **Sonnet labeling:** max 2 parallel agents (heavy, ~45K tokens each). 8 parallel → 529 overload
-- Always have agents read the manifest to get filenames (don't pass via prompt — names drift)
+- **Sonnet labeling:** max 2 parallel agents. 8 parallel → 529 API overload
+- **Opus labeling:** max 3-5 parallel agents (during Sonnet outage)
+- **Haiku screening:** RETIRED for large batches (shortcuts to heuristics at 300+ images)
+- **Batch size:** 5 images per agent. Larger batches reduce quality.
 
 ### Image path convention
 Images are in `data/tmp/{filename}` — NOT `data/tmp/images/`. Some older images may be in
-`data/tmp/images/` from the first Bing scrape round. Screening/labeling agents must check
-`data/tmp/{filename}` as the primary path.
+`data/tmp/images/` from the first Bing scrape round. Agents must use `data/tmp/{filename}`.
