@@ -294,6 +294,36 @@ def main():
         for name, match, dist in results["dup_phash"]:
             print(f"  {name} ~ {match} (distance={dist})")
 
+    # Log to pipeline events
+    if not args.dry_run:
+        import subprocess
+        logger = Path(__file__).resolve().parent.parent.parent.parent / "scripts" / "pipeline_logger.py"
+        if logger.exists():
+            for name in results.get("added", []):
+                try:
+                    subprocess.run(
+                        [sys.executable, str(logger), "log",
+                         "--image", name, "--stage", "ingest",
+                         "--agent", "process_ingest",
+                         "--action", "ingested",
+                         "--details", f'{{"dedup_level": "passed_all"}}'],
+                        capture_output=True, timeout=5,
+                    )
+                except Exception:
+                    pass
+            for name in results.get("dup_content", []):
+                try:
+                    subprocess.run(
+                        [sys.executable, str(logger), "log",
+                         "--image", name, "--stage", "ingest",
+                         "--agent", "process_ingest",
+                         "--action", "dedup_rejected",
+                         "--reason", "sha256 duplicate"],
+                        capture_output=True, timeout=5,
+                    )
+                except Exception:
+                    pass
+
     if results["errors"]:
         sys.exit(1)
 
