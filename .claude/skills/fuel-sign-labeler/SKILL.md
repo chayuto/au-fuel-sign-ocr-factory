@@ -217,7 +217,11 @@ The coordinate system uses `[x1, y1, x2, y2]` (top-left corner to bottom-right c
 
 **How to estimate well — use reference points:**
 
-1. Start with the **sign_board**. Find its edges relative to the full image. For example: "the sign panel starts at about 30% from the left and 40% from the top, extends to 70% right and 85% down" → `[0.30, 0.40, 0.70, 0.85]`.
+1. Start with the **sign_board**. This is ONLY the rectangular area containing fuel type rows and price rows. **Do NOT include:**
+   - Brand logos (BP, Caltex, OTR, Shell) — that's brand_zone
+   - Promo banners (COFFEE, SUBWAY, Vortex, loyalty cards)
+   - Pylon pole or structural elements
+   The sign_board top edge should be at or just above the FIRST fuel row. The bottom edge at or just below the LAST fuel row. For example: "the price panel starts at about 30% from the left and 40% from the top, extends to 70% right and 85% down" → `[0.30, 0.40, 0.70, 0.85]`.
 
 2. For each **fuel row**, locate it WITHIN the sign_board area:
    - The fuel label text (e.g., "Unleaded") is on the left portion of the sign
