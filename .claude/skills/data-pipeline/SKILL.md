@@ -127,3 +127,49 @@ next run, but the directory itself is preserved (git needs it).
 - Preserves `data/ingest/` directory (only removes files and empty batch subdirs)
 - Dry-run mode available for preview
 - Content hash dedup prevents sneaky duplicates (same image, different filename)
+
+## Known Issues & Workarounds (Learned from Production)
+
+### Image format issues
+Bing Image Search returns webp, avif, png, and even HTML/JSON files disguised as .jpg.
+**Before screening or labeling**, always run format conversion:
+```bash
+# Convert ALL non-JPEG .jpg files
+find data/tmp/ -maxdepth 1 -name '*.jpg' | while read f; do
+  mime=$(file -b --mime-type "$f")
+  if [ "$mime" != "image/jpeg" ]; then
+    sips -s format jpeg "$f" --out "${f}.tmp" && mv "${f}.tmp" "$f"
+  fi
+done
+# Convert PNGs
+find data/tmp/ -maxdepth 1 -name '*.png' | while read f; do
+  sips -s format jpeg "$f" --out "${f%.png}.jpg" && rm "$f"
+done
+sed -i '' 's/\.png,/\.jpg,/g' data/tmp/labeling_manifest.csv
+# Delete HTML/JSON masquerading as images
+find data/tmp/ -maxdepth 1 -name '*.jpg' | while read f; do
+  mime=$(file -b --mime-type "$f")
+  [[ "$mime" == text/* || "$mime" == application/json ]] && rm "$f"
+done
+```
+
+### Manifest concurrent write clobber
+Multiple labeling agents writing to labeling_manifest.csv simultaneously causes lost updates.
+**After labeling runs**, reconcile manifest against actual annotation files:
+```bash
+# Find annotations not marked "done" in manifest
+for f in data/tmp/annotations/gimg_*.json; do
+  stem=$(basename "$f" .json); fname="${stem}.jpg"
+  grep -q "^$fname,done," data/tmp/labeling_manifest.csv || echo "MISSING: $fname"
+done
+```
+
+### Agent concurrency limits
+- **Haiku screening:** up to 8-10 parallel agents (lightweight, ~3-5K tokens each)
+- **Sonnet labeling:** max 2 parallel agents (heavy, ~45K tokens each). 8 parallel → 529 overload
+- Always have agents read the manifest to get filenames (don't pass via prompt — names drift)
+
+### Image path convention
+Images are in `data/tmp/{filename}` — NOT `data/tmp/images/`. Some older images may be in
+`data/tmp/images/` from the first Bing scrape round. Screening/labeling agents must check
+`data/tmp/{filename}` as the primary path.

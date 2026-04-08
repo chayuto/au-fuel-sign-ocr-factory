@@ -39,13 +39,21 @@ Agent(
 )
 ```
 
-Launch 8-10 at a time. Images that pass screening get queued for Phase 2.
+Launch up to 8-10 at a time. Images that pass screening get queued for Phase 2.
+
+**Important:** Have agents read the manifest directly to get filenames — do NOT pass filenames
+via the prompt (they get out of sync due to process_ingest renaming). Also convert ALL non-JPEG
+files (webp, avif, png) to JPEG before screening — Haiku cannot read non-JPEG formats.
 
 ### Phase 2: Sonnet Labeling (quality, sequential)
 
 **Model:** `sonnet` — needed for accurate bbox estimation, price reading, and visual QA.
 
-**Concurrency:** Max **5-8 parallel agents**.
+**Concurrency:** Max **2 parallel agents**. 8 parallel Sonnet agents causes 529 API overload.
+Each agent handles ~46 images. Quality over speed — each image needs full visual QA.
+
+**Learned the hard way:** 8 parallel Sonnet agents all hit 529 overload and produced zero results.
+2 agents is the safe maximum for sustained labeling runs.
 
 **Performance:** ~300s per image, ~45K tokens.
 
@@ -461,6 +469,25 @@ These are the tricky situations — read `docs/LABELING_GUIDE.md` for the full g
 - Process images one at a time: Read → classify → annotate → write → validate → preview → verify → fix if needed → manifest → log
 - Write outputs immediately after each image — don't batch up writes
 - If you encounter an error on one image, log it and move to the next
-- **Quality over quantity** — 10 well-annotated images are worth more than 50 sloppy ones
 - Never mark an image as done without viewing the preview
 - **Always append to the labeling log** — this is how we track corrections and visual QA coverage
+
+## Quality Philosophy
+
+**There is no point rushing to get garbage data.** One bad annotation in the training set hurts
+more than 10 missing images. Every annotation must be trainable quality.
+
+**Skip aggressively.** If you're unsure whether an image is usable, skip it. We can always
+scrape more images — we can't easily find and fix bad annotations buried in the dataset.
+
+**Quality checklist before marking "done":**
+1. Is this a real Australian fuel station? (not US/UK/Chinese/stock photo)
+2. Is the sign_board bbox tight around ONLY the fuel rows? (not brand/promo/pylon)
+3. Are ALL fuel_label bboxes LEFT of their paired fuel_price bboxes?
+4. Are ALL bboxes INSIDE the sign_board?
+5. Did you READ the preview and visually confirm the boxes are correct?
+6. Would you trust this annotation to train a model?
+
+If the answer to any of these is "no" or "not sure", either fix it or skip the image.
+
+**10 clean annotations are worth more than 50 sloppy ones.**
