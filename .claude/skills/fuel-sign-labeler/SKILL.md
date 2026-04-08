@@ -89,14 +89,39 @@ IS the screening — built into the labeling agent, not a separate phase.
 **Agent prompt must include these rules:**
 1. Images are at `data/tmp/{filename}` (NOT `data/tmp/images/`)
 2. Only write annotation JSON + YOLO label + preview for LABELED images
-3. For skipped images: update manifest CSV only, do NOT create files in annotations/
-4. Include `"prompt_version": "v5"` in every JSON sidecar
+3. For skipped images: do NOT create files in annotations/
+4. Read prompt version from `configs/prompt_version.json` and include in every JSON sidecar
 5. Agent name must include version: `sonnet_v5_{batch}` or `opus_v5_{batch}`
+6. **MANDATORY LOGGING** — after EACH image, log the event:
+
+For labeled images:
+```bash
+.venv/bin/python scripts/pipeline_logger.py log \
+    --image {filename} --stage label --agent {agent_id} \
+    --model {sonnet|opus} --prompt-version v5 --action labeled \
+    --brand {brand} --entries {n} --quality {q}
+```
+
+For skipped images:
+```bash
+.venv/bin/python scripts/pipeline_logger.py log \
+    --image {filename} --stage label --agent {agent_id} \
+    --model {sonnet|opus} --prompt-version v5 --action skipped \
+    --reason "{brief reason}"
+```
+
+7. At end of batch, report summary with challenges/feedback
 
 **After every labeling run**, the orchestrator MUST:
-1. Reconcile manifest against annotation files on disk (agents clobber manifests)
+1. Reconcile manifest against annotation files on disk:
+   ```bash
+   python scripts/audit_dataset.py --full
+   ```
 2. Remove any skip-annotation files (no `sign` key) from annotations/
-3. Log results to `docs/labeling_feedback.md` with agent feedback
+3. Generate run report:
+   ```bash
+   python scripts/pipeline_logger.py report --agent {agent_id}
+   ```
 
 ### RETIRED: Phase 1 Haiku Screening
 

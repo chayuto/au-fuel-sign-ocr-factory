@@ -1,0 +1,15 @@
+{
+  "version": "v5",
+  "date": "2026-04-08",
+  "model_preference": ["sonnet", "opus"],
+  "max_concurrent_agents": 2,
+  "batch_size": 5,
+  "changes": "sign_board scope tightened to fuel rows only, quality checklist, Sonnet second-pass gate, skip-annotations prohibited",
+  "history": [
+    {"version": "v1", "date": "2026-03-29", "summary": "Initial blind estimation, no VQA"},
+    {"version": "v2", "date": "2026-03-30", "summary": "Added visual QA (preview + verify)"},
+    {"version": "v3", "date": "2026-04-03", "summary": "Added Haiku screening gate"},
+    {"version": "v4", "date": "2026-04-04", "summary": "Hardened screening: composites, pump displays, ≥15%"},
+    {"version": "v5", "date": "2026-04-08", "summary": "Tight sign_board, quality checklist, no skip-annotations, pipeline logger"}
+  ]
+}
