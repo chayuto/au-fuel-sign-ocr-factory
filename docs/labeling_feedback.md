@@ -24,11 +24,26 @@ Collated feedback from labeling agents, organized by prompt version. Used to imp
 - **Feedback:** Better yield from state-specific queries. Skips were mostly: sign too small, no fuel sign in frame, closed/no-fuel signs. One labeled image had stacked LED layout triggering warnings.
 - **Suggestion:** State-specific queries are the best strategy for volume.
 
-### Agent: opus_v5_05 (VIC batch) — pending
+### Agent: opus_v5_05 (VIC batch)
+- **Labeled:** 5/10 (50%)
+- **Feedback:** Best yield so far. 3 skips were stock watermarks (Getty/Alamy), 1 pump display, 1 watermark+too small. Label-above-price (stacked) layout triggers false validator warnings.
+- **Suggestion:** Alamy watermarks should not auto-reject if sign is readable. Update validator for stacked layouts.
+
 ### Agent: opus_v5_06 (manifest-read) — pending
-### Agent: opus_v5_qld (QLD batch) — pending
-### Agent: opus_v5_wa1 (QLD+WA batch) — pending
-### Agent: opus_v5_wa2 (WA batch) — pending
+
+### Agent: opus_v5_qld (QLD batch)
+- **Labeled:** 1/5 (20%)
+- **Feedback:** 40% were Chinese manufacturer product photos (GUOSE brand, white background, placeholder 888.8 prices). 1 was Chinese Sinopec station. 1 was US composite. LPG price 53.9 below validator range of 60.
+- **Suggestion:** Add negative search terms: -manufacturer -"LED display" -"signage company" -GUOSE -factory. Widen LPG range to 40-150. Include "Australia" or city names in all queries.
+
+### Agent: opus_v5_wa1 (QLD+WA batch)
+- **Labeled:** 1/5 (20%)
+- **Feedback:** 2 stock watermarks (Alamy, AAPIMAGE) covering signs. 1 GUOSE manufacturer CGI. 1 FuelRadar logo (zero content). The one usable image was "Fresh Trading Co." independent truck stop — mapped to "independent".
+- **Suggestion:** Add `-stock -alamy -shutterstock -aapimage` to scraper queries. Haiku screening should catch logos and CGI renders.
+### Agent: opus_v5_wa2 (WA batch 2)
+- **Labeled:** 2/5 (40%)
+- **Feedback:** Alamy watermarks are dominant skip reason (2/3 skips). Low-res source images (612x454) make price reading uncertain — 1 image marked quality C. Caltex sign had printed/mechanical digits — sign_type taxonomy unclear.
+- **Suggestion:** Filter Alamy at scrape stage. Add "close up" to queries to avoid distant shots. Consider adding "mechanical" or "flip" as sign_type option.
 
 ---
 
