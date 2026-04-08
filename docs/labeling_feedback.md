@@ -58,12 +58,24 @@ Collated feedback from labeling agents, organized by prompt version. Used to imp
 | VIC/QLD/WA | pending | — | Expected similar to NSW |
 | Alamy/Dreamstime | pending | — | Watermarked but potentially usable |
 
+### Agent: opus_v5_col2 (Coles C)
+- **Labeled:** 2/5 (40%)
+- **Feedback:** All Shell/Coles Express from stock sites. 1 Alamy watermark, 1 iStock watermark, 1 logo-only crop. Both labeled images quality B (oblique angle, low res ~450px). LED digit ambiguity on diesel price.
+- **Suggestion:** Stock photo sites are high noise. Brand diversity is low (all Shell/Coles same pylon design).
+
+### Agent: opus_v5_sqld (suburb QLD)
+- **Labeled:** 0/5 (0%)
+- **Feedback:** Total wipeout. No fuel signs at all — hardware store, map, aerial photo, bar, motorsport. The query was too generic ("suburb qld").
+- **Suggestion:** RETIRE generic suburb queries. Always include "fuel" OR "petrol" OR "servo" OR brand name. Brand+suburb is the winning formula (e.g., "BP petrol price sign Townsville").
+
 ### Common skip reasons (v5)
 1. Charts/graphs/infographics (not photos)
 2. Non-Australian stations (US/UK/EU)
 3. Sign too small (<15% of frame)
 4. No fuel sign in frame (canopy/exterior only)
 5. Stock watermarks covering sign content
+6. **Manufacturer product photos** (GUOSE, CGI renders) — NEW from v5 feedback
+7. **Generic location queries returning non-fuel content** — NEW from v5 feedback
 
 ### Prompt improvement candidates
 - [ ] Handle stacked sign layouts (label-above-price) in validator
