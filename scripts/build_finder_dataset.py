@@ -97,11 +97,25 @@ def annotation_to_yolo_lines(ann_path: Path, class_ids: list[int], class_remap: 
     select and remap classes per experiment.
     """
     data = json.loads(ann_path.read_text())
-    sign = data["sign"]
+    sign = data.get("sign", {})
+    # Handle alternate schema: sign_board_bbox at top level instead of sign.bbox
+    if "bbox" not in sign and "sign_board_bbox" in data:
+        sign = {"bbox": data["sign_board_bbox"]}
     entries = data.get("entries", [])
     lines = []
 
+    # Detect pixel coords (values > 1.0) and normalize if needed
+    img_w = data.get("image_width", 1)
+    img_h = data.get("image_height", 1)
+    needs_normalize = any(v > 1.0 for v in sign.get("bbox", [0]))
+
+    def normalize_bbox(bbox: list[float]) -> list[float]:
+        if needs_normalize and img_w > 1 and img_h > 1:
+            return [bbox[0] / img_w, bbox[1] / img_h, bbox[2] / img_w, bbox[3] / img_h]
+        return bbox
+
     def bbox_to_yolo(bbox: list[float]) -> str:
+        bbox = normalize_bbox(bbox)
         cx = (bbox[0] + bbox[2]) / 2
         cy = (bbox[1] + bbox[3]) / 2
         w = bbox[2] - bbox[0]

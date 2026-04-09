@@ -85,6 +85,70 @@ Collated feedback from labeling agents, organized by prompt version. Used to imp
 
 ---
 
+### Session: sonnet_v5 batches A–G (2026-04-08, caltex2/eg/puma/liberty/metro/mobil2)
+
+**Overall: 8 labeled / 27 skipped (23% yield) across 7 batches of 5**
+
+| Batch | Source | Labeled | Skipped | Yield | Root cause |
+|-------|--------|---------|---------|-------|------------|
+| A | caltex2 | 2 | 3 | 40% | Editorial/facade shots, brand-only crops |
+| B | caltex2 | 3 | 2 | 60% | Good — LED sign photography |
+| C | eg | 1 | 4 | 20% | Placeholder zeros, too-distant shots, pump close-ups |
+| D | puma | 0 | 5 | 0% | **Brand press/marketing photography, non-AU locations** |
+| E | liberty | 0 | 5 | 0% | **US Liberty Oil stations mixed in (same branding)** |
+| F | metro | 0 | 5 | 0% | **Wrong results entirely: African stations, mall pylons, LED manufacturer** |
+| G | mobil2 | 2 | 3 | 40% | Bloomberg editorial, US station, canopy-only shot |
+
+**Source-level findings:**
+- **caltex2** — viable at 40–60%. Skip pattern: brand logo crops, "save 4c" promo shots without price rows.
+- **mobil2** — viable at 40%. Skip pattern: US Mobil stations, Bloomberg editorial watermarks. Usable images are 7-Eleven/Mobil co-branded pylons.
+- **eg** — low yield (20%). EG Group uses wide architectural shots and placeholder-price launch photography.
+- **puma** — **RETIRE.** 0% yield. All brand marketing: tropical non-AU locations, pre-opening stations, press-release composites.
+- **liberty** — **RETIRE until query fixed.** US "Liberty Oil" looks identical to Australian Liberty. Must add "Australia" to filter.
+- **metro** — **RETIRE until query fixed.** "Metro" too generic — returns Metro supermarkets, TOTAL Metro (Africa), mall pylon signs. Use "Metro Petroleum Australia price sign".
+
+**Action items:**
+- [ ] Bulk-mark all remaining `puma` pending rows as skipped
+- [ ] Bulk-mark all remaining `metro` pending rows as skipped
+- [ ] Re-scrape `liberty` with query: `"Liberty Oil Australia fuel price sign"`
+- [ ] Re-scrape `metro` with query: `"Metro Petroleum Australia price sign"`
+- [ ] For `caltex2`: add `-save -discount -"woolworths rewards"` to filter promo-only shots
+
+---
+
+### Session: sonnet_v5 batches H–Q (2026-04-09, coles/nsw/mobil2/tas/outrage2/ripoff/seven/vic/bp2/otr)
+
+**Overall: 18 labeled / 50 processed (36% yield) across 10 batches of 5**
+
+| Batch | Source | Labeled | Skipped | Yield | Root cause |
+|-------|--------|---------|---------|-------|------------|
+| H | coles | 2 | 3 | 40% | Distant shots, iStock watermark, logo-only crop |
+| I | nsw | 2 | 3 | 40% | Night shot with no sign, "no fuel" sandwich board, highway road sign |
+| J | mobil2 | 2 | 3 | 40% | PR handshake photo, US 7-Eleven, canopy-only shot |
+| K | tas | 2 | 3 | 40% | Manufacturer LED render (888), UK BP sign, UK Shell sign |
+| L | coles | 2 | 3 | 40% | Too small/distant signs |
+| M | outrage2 | 0 | 5 | 0% | **All price charts/infographics** — 6 remaining bulk-skipped |
+| N | ripoff | 1 | 4 | 20% | Pump nozzle shot, US sign, infographic composite, man+jerry cans |
+| O | seven | 1 | 4 | 20% | Promo pylon (no prices), store exterior, US 7-Eleven, pump nozzles |
+| **P** | **vic** | **5** | **0** | **100%** | **All labeled — night shots, BP, Caltex, Shell pylons** |
+| Q | bp2+otr | 1 | 4 | 20% | bp2: vintage pump, South Africa BP, logo-only, forecourt glamour shot |
+
+**Dataset after session: 332 done, 1031 skipped, 434 pending**
+
+**Source-level findings:**
+- **vic** (Victoria state-specific) — **100% yield.** Best source found. All 5 images were clear AU pylon signs across multiple brands (BP, Caltex/EG, Shell).
+- **coles / nsw / mobil2 / tas** — consistent 40%, matching prior sessions.
+- **outrage2** — **RETIRE.** 0% yield. All price comparison charts and line graphs. Same pattern as "cheap" query. Bulk-skipped all remaining.
+- **ripoff / seven** — 20% yield. Mostly wrong content (pump shots, US stations, store interiors).
+- **bp2** — 0% in this batch. Non-AU stations (South Africa), vintage pump, glamour architecture shots.
+
+**Action items:**
+- [ ] Prioritise `vic`-style state+brand queries for future scrapes (e.g., "BP fuel price sign Victoria", "Shell petrol price VIC")
+- [ ] Bulk-skip remaining `ripoff` and `seven` if yield stays ≤20%
+- [ ] Re-scrape `bp2` with query: `"BP Australia fuel price sign"` + state suffix
+
+---
+
 ## How to update this log
 
 After each labeling agent completes, append its feedback here:
