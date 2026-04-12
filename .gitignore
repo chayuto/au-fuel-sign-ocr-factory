@@ -34,11 +34,9 @@ Thumbs.db
 credentials.json
 
 # Data pipeline
-# Only data/ingest/ is git-tracked — scrape agents push raw images here.
+# data/ingest/ is git-tracked — remote scrape agents push raw images here via PR.
 # Everything else under data/ is local working data (gold dataset, training
-# outputs, labels, annotations, previews, manifests, crops, etc.) and must
-# NEVER be committed. The gold dataset lives in data/tmp/ and is managed
-# locally by the labeling pipeline.
+# outputs, labels, annotations, previews, manifests) backed up via /snapshot skill.
 data/*
 !data/ingest/
 
@@ -53,6 +51,16 @@ runs/
 *.onnx
 *.tflite
 
+# Backups (local snapshots, never commit)
+backups/
+
+# Models (HuggingFace local copy)
+models/
+
+# Node modules
+node_modules/
+package-lock.json
+
 # Jupyter
 .ipynb_checkpoints/
 
@@ -60,4 +68,3 @@ runs/
 .pytest_cache/
 .coverage
 htmlcov/
-node_modules/

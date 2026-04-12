@@ -1,0 +1,224 @@
+{
+  "agent": "scrape_bing_otr_20260410T202147",
+  "timestamp": "2026-04-10T20:22:13.233913+00:00",
+  "query": "OTR On The Run fuel station South Australia price sign",
+  "brand_target": "otr",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T202147",
+  "results": {
+    "urls_found": 30,
+    "saved": 28,
+    "rejected": 2,
+    "yield_pct": 93.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_otr_89d411b4_00.jpg",
+      "source_url": "https://static.ffx.io/images/$zoom_0.188%2C$multiply_0.7725%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_31/t_crop_custom/q_86%2Cf_auto/ab764925e6ab6ae1ee206c09c46bfa55b5d05067",
+      "source_page": "https://www.smh.com.au/business/companies/petrol-station-shakeup-goodbye-coles-express-hello-otr-20230822-p5dyjj.html",
+      "alt_text": "Coles Express to make way for OTR in petrol station shakeup",
+      "size_kb": 60
+    },
+    {
+      "filename": "gimg_otr_33b5772b_01.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/075d721468b2282f302bc254acb0a5f4",
+      "source_page": "https://www.news.com.au/finance/work/at-work/on-the-run-ltd-service-station-ordered-to-pay-back-staff-after-fair-work-ombudsman-investigation/news-story/8e15294dd5e93ec84f458f76e62b7c68",
+      "alt_text": "On The Run Ltd service station ordered to pay staff $2.3m after Fair ...",
+      "size_kb": 128
+    },
+    {
+      "filename": "gimg_otr_9ee7f8fd_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/70b96ab233705790888839bf35d28915",
+      "source_page": "https://www.adelaidenow.com.au/business/sa-business-journal",
+      "alt_text": "SA Business Journal | Business and Finance News | The Advertiser",
+      "size_kb": 98
+    },
+    {
+      "filename": "gimg_otr_b87be135_03.jpg",
+      "source_url": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:eco,w_1200/v1/cms/uploads/drntjaswbds73kjwaxbr",
+      "source_page": "https://www.drive.com.au/news/south-australia-otr-sold-in-1-15-billion-deal/",
+      "alt_text": "South Australia's OTR fuel station chain sold in $1.15 billion deal - Drive",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_otr_a12c0d77_04.jpg",
+      "source_url": "https://www.cryptotimes.io/wp-content/uploads/2024/02/South-Australian-Fuel-Stations-Accepting-BTCs-Website-1-600x375.jpg",
+      "source_page": "https://www.cryptotimes.io/2022/04/04/australian-gas-station-otr-to-accept-crypto-payments-from-july/",
+      "alt_text": "Australian Gas Station OTR to Accept Crypto Payments from July | The ...",
+      "size_kb": 48
+    },
+    {
+      "filename": "gimg_otr_4c673b28_05.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2025/08/Shell-V-Power-Fuel-at-OTR-Perth-Pier-St.jpg",
+      "source_page": "https://www.otr.com.au/locations/",
+      "alt_text": "OTR Locations - Petrol Stations, Convenience Stores, Food and Drink",
+      "size_kb": 272
+    },
+    {
+      "filename": "gimg_otr_52c1fbfe_06.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/c602c4db77adcb32ea5e81d881bf6394",
+      "source_page": "https://www.townsvillebulletin.com.au/news/south-australia/sa-petrol-prices-skyrocket-by-more-than-40-cents-per-litre/news-story/150547d5f02cd75ffcbf5644924078b7",
+      "alt_text": "Fuel Prices spike up across South Australia | Townsville Bulletin",
+      "size_kb": 91
+    },
+    {
+      "filename": "gimg_otr_0e111c00_07.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/ef816cf98c4afd231b401252479c6508",
+      "source_page": "https://www.news.com.au/finance/work/at-work/on-the-run-ltd-service-station-ordered-to-pay-back-staff-after-fair-work-ombudsman-investigation/news-story/8e15294dd5e93ec84f458f76e62b7c68",
+      "alt_text": "On The Run Ltd service station ordered to pay staff $2.3m after Fair ...",
+      "size_kb": 68
+    },
+    {
+      "filename": "gimg_otr_089ece6c_08.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/fedb41331d850e2d97d0c71e8641884a_-south-australia-city-of-playford-smithfield-otr-smithfield-08-8200-5576html.jpg",
+      "source_page": "https://www.australia247.info/explore/south_australia/city_of_playford/smithfield/otr-smithfield-08-8200-5576.html",
+      "alt_text": "OTR Smithfield - 23-29 Main N Rd, Smithfield SA 5114, Australia",
+      "size_kb": 124
+    },
+    {
+      "filename": "gimg_otr_b4f7f677_09.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2024/05/OTR-Greenacres-Website-Landing-Page-1600x2200px-2024.jpg",
+      "source_page": "https://www.otr.com.au/brands/",
+      "alt_text": "Brands - OTR",
+      "size_kb": 317
+    },
+    {
+      "filename": "gimg_otr_ff3b84e1_10.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/725760f5682d9bd556ca480d4b185d66",
+      "source_page": "https://www.theaustralian.com.au/business/where-otr-headquarters-will-be-located-as-viva-energy-merges-under-115bn-sale/news-story/9416cbfd9ee357d506fbe50e65f60579",
+      "alt_text": "OTR headquarters to stay in Adelaide, Viva Energy to move to SA after ...",
+      "size_kb": 113
+    },
+    {
+      "filename": "gimg_otr_a4f0050b_11.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2025/08/Refuel-and-refresh-at-OTR-Hillbank.jpg",
+      "source_page": "https://www.otr.com.au/locations/",
+      "alt_text": "OTR Locations - Petrol Stations, Convenience Stores, Food and Drink",
+      "size_kb": 214
+    },
+    {
+      "filename": "gimg_otr_81774a23_12.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2023/12/Refuel-and-refresh-at-OTR-Clovelly-Park-open-24-hours-a-day.jpg",
+      "source_page": "https://www.otr.com.au/locations/",
+      "alt_text": "OTR Locations - Petrol Stations, Convenience Stores, Food and Drink",
+      "size_kb": 324
+    },
+    {
+      "filename": "gimg_otr_a0b51dff_13.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/8625fdbab9316b5c9c77003618d4e84d",
+      "source_page": "https://www.adelaidenow.com.au/news/south-australia/fuel-prices-spike-to-129cl-a-day-after-falling-to-63cl/news-story/2b78cf87fdd76e99cb98e08cd3ab0a71",
+      "alt_text": "Petrol prices spike to $1.30c/L in parts of Adelaide | The Advertiser",
+      "size_kb": 81
+    },
+    {
+      "filename": "gimg_otr_f6dd7b65_14.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/9cd0191c5f7ece4bfa44600909ae324d",
+      "source_page": "https://www.goldcoastbulletin.com.au/business/companies/retail/115-billion-payday-for-aussie-servo-chain-on-the-run/news-story/2997fc00045b19155baf3118eaad7330",
+      "alt_text": "On The Run service station chain\u2019s $1.1b payday as Viva Energy buys ...",
+      "size_kb": 196
+    },
+    {
+      "filename": "gimg_otr_c53cc472_15.jpg",
+      "source_url": "https://insidefmcg.com.au/wp-content/uploads/2020/11/OTR-Trinity-Gardens-1.jpg",
+      "source_page": "https://insidefmcg.com.au/2020/07/21/south-australias-otr-service-station-chain-expands-\ufeff/",
+      "alt_text": "South Australia's OTR service-station chain expands \ufeff - Inside FMCG",
+      "size_kb": 68
+    },
+    {
+      "filename": "gimg_otr_c60f228a_16.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2022/04/News-Leading-Australian-retailer-OTR-opens-its-first-Melbourne-store-in-Alphington-1024x585.jpg",
+      "source_page": "https://www.otr.com.au/?p=home",
+      "alt_text": "OTR",
+      "size_kb": 78
+    },
+    {
+      "filename": "gimg_otr_c4aeae54_18.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2022/04/OTRRoleystone-40-1.jpg",
+      "source_page": "https://www.c-store.com.au/otr-expands-into-western-australia/",
+      "alt_text": "OTR continues national expansion with first store opening in WA ...",
+      "size_kb": 450
+    },
+    {
+      "filename": "gimg_otr_89f60dca_19.jpg",
+      "source_url": "https://storage.googleapis.com/e-object-409003.firebasestorage.app/otr-petrol-stations-explained-w7bilxi8.jpg",
+      "source_page": "https://ithy.com/article/otr-petrol-stations-explained-w7bilxi8",
+      "alt_text": "Ithy - OTR Petrol Stations: Your Comprehensive Guide to Australia's ...",
+      "size_kb": 138
+    },
+    {
+      "filename": "gimg_otr_855e8203_20.jpg",
+      "source_url": "https://insidefmcg.com.au/wp-content/uploads/2023/01/OTR.jpg",
+      "source_page": "https://insidefmcg.com.au/2023/01/16/otr-expands-into-nt-and-wa-with-puma-acquisition/",
+      "alt_text": "OTR expands into NT and WA with Puma acquisition - Inside FMCG",
+      "size_kb": 253
+    },
+    {
+      "filename": "gimg_otr_ae36e3b5_22.jpg",
+      "source_url": "https://ontherun-web.s3.amazonaws.com/uploads/20230609224428/OTR-Como-WA-New-Store-Opening-Social-OTR-Website-Store-Banner-888x400px-FINAL.jpg",
+      "source_page": "https://www.otr.com.au/locations/como-73-manning-road/otr-como/",
+      "alt_text": "OTR Como - OTR",
+      "size_kb": 267
+    },
+    {
+      "filename": "gimg_otr_4dbb0a9c_23.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2025/08/Shell-V-Power-Fuel-at-OTR-Como.jpg",
+      "source_page": "https://www.otr.com.au/locations/",
+      "alt_text": "OTR Locations - Petrol Stations, Convenience Stores, Food and Drink",
+      "size_kb": 227
+    },
+    {
+      "filename": "gimg_otr_e196e8b7_24.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2024/04/OTR-Greenacres_home-1024x768.jpg",
+      "source_page": "https://otr.com.au/",
+      "alt_text": "Petrol Stations, Convenience Stores, Food & Drink, Open 24/7 - OTR",
+      "size_kb": 121
+    },
+    {
+      "filename": "gimg_otr_f7f611da_25.png",
+      "source_url": "https://ontherun-web.s3.amazonaws.com/uploads/20210118214938/OTR-Mildura-Media-Release-Banner.png",
+      "source_page": "https://otr.com.au/",
+      "alt_text": "Petrol Stations, Convenience Stores, Food & Drink, Open 24/7 - OTR",
+      "size_kb": 827
+    },
+    {
+      "filename": "gimg_otr_a28b750f_26.jpg",
+      "source_url": "https://media.istockphoto.com/photos/price-of-fuel-in-australia-2022-picture-id1394717522?k=20&m=1394717522&s=612x612&w=0&h=gRsq2gBsDn6dvGPXRQ7E3OlurmG891_4m2BA-Qavo4o=",
+      "source_page": "https://www.istockphoto.com/photos/petrol-stations-australia",
+      "alt_text": "Petrol Stations Australia Stock Photos, Pictures & Royalty-Free Images ...",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_otr_463f62a2_27.jpg",
+      "source_url": "https://media.istockphoto.com/photos/caltex-petrol-station-woolies-convenience-store-picture-id1210032642?k=20&m=1210032642&s=612x612&w=0&h=Aw9jRjbV7pJZjh9-4ycRIkauuX4OQ7H1JLBt7kbv-AQ=",
+      "source_page": "https://www.istockphoto.com/photos/fuel-pump-australia",
+      "alt_text": "Fuel Pump Australia Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_otr_552ae356_28.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/OTRLogo.webp",
+      "source_page": "https://fuelradar.com.au/fuel-prices-sa",
+      "alt_text": "Live South Australia Petrol Prices & Servo Map | FuelRadar Australia",
+      "size_kb": 5
+    },
+    {
+      "filename": "gimg_otr_94147fc7_29.jpg",
+      "source_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OXF8-PpbXXo7UGJPHjqmaA/o.jpg",
+      "source_page": "https://www.yelp.com/biz/otr-hilton-adelaide-2",
+      "alt_text": "OTR Hilton - Gas Stations - 79-81 Sir Donald Bradman Dr, Adelaide South ...",
+      "size_kb": 94
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://ecoinomic.io/wp-content/uploads/2022/04/toanotr-cong-ty-xang-lon-nhat-nuoc-uc-chap-nhan-thanh-toan-xang-dau-bang-crypto-thum.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

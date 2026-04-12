@@ -1,0 +1,218 @@
+{
+  "agent": "scrape_bing_liberty_20260411T100227",
+  "timestamp": "2026-04-11T10:03:01.386444+00:00",
+  "query": "Liberty fuel price sign pylon Victoria Western Australia petrol",
+  "brand_target": "liberty",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T100227",
+  "results": {
+    "urls_found": 30,
+    "saved": 26,
+    "rejected": 4,
+    "yield_pct": 86.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_liberty_eaf57c95_00.jpg",
+      "source_url": "https://www.fuelsandlubes.com/wp-content/uploads/2019/12/Liberty-Oil-Acquired-by-Viva-Energy.jpg",
+      "source_page": "https://www.fuelsandlubes.com/viva-energy-australia-completes-acquisition-liberty-oils-wholesale-business/",
+      "alt_text": "Viva Energy Australia completes acquisition of Liberty Oil\u2019s wholesale ...",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_liberty_ae137597_01.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HG3X77/roadside-advertising-outside-liberty-petrol-station-gas-station-listing-prices-of-under-1-au-dollar-a-litre-in-2020-sunny-australian-summers-day-2HG3X77.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/liberty-gas-station.html",
+      "alt_text": "Liberty gas station hi-res stock photography and images - Alamy",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_liberty_df947b5d_02.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/liberty-gas-station-hyden-western-australia-near-wave-rock-66137824.jpg",
+      "source_page": "https://www.dreamstime.com/editorial-stock-image-liberty-gas-station-hyden-western-australia-near-wave-rock-image66137824",
+      "alt_text": "Liberty Gas Station in Western Australia Editorial Stock Image - Image ...",
+      "size_kb": 241
+    },
+    {
+      "filename": "gimg_liberty_8ecafab0_03.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/5249261d16a011ad3d4703ec5c7c276b",
+      "source_page": "https://www.heraldsun.com.au/news/victoria/victoria-is-the-only-state-not-offering-live-fuel-pricing-data/news-story/343b5687736af0eb9667605ba44a92fb",
+      "alt_text": "Average cost of unleaded petrol in Victoria revealed | Herald Sun",
+      "size_kb": 142
+    },
+    {
+      "filename": "gimg_liberty_2389e6ee_04.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/7b3f2b504210bc4cb4a36a22c7cdb198",
+      "source_page": "https://www.dailytelegraph.com.au/news/south-australia/petrol-prices-south-australia-where-to-find-your-areas-cheapest-petrol/news-story/0770234b283eb89a44d529f57e90c6e3",
+      "alt_text": "Cheapest fuel prices across South Australia | Daily Telegraph",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_liberty_f9bec5aa_05.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/c89fc4091730b5662edc3edcb290105a?width=1280",
+      "source_page": "https://www.theaustralian.com.au/business/dataroom/vitol-plans-float-of-2bn-service-stations-business/news-story/db0e9614b311bdddcf42ae3b97b3335e",
+      "alt_text": "Vitol plans float of $2bn fuel business | The Australian",
+      "size_kb": 161
+    },
+    {
+      "filename": "gimg_liberty_363ec2eb_08.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/3eea364ecb9d56a1c5594cc844728c28",
+      "source_page": "https://www.geelongadvertiser.com.au/news/victoria/everything-you-need-to-know-about-victorias-fair-fuel-plan-if-it-will-really-save-you-money/news-story/dc8721d06fbe4d0a60eb4e3f50eb30f4",
+      "alt_text": "Everything you need to know about Victoria\u2019s Fair Fuel Plan for cheap ...",
+      "size_kb": 134
+    },
+    {
+      "filename": "gimg_liberty_6ee355e3_09.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JF9703/1-july-2022-unlisted-petrol-prices-at-liberty-service-station-in-adelaide-australia-2JF9703.jpg",
+      "source_page": "https://www.alamy.com/1-july-2022-unlisted-petrol-prices-at-liberty-service-station-in-adelaide-australia-image474102835.html",
+      "alt_text": "1 July 2022: Unlisted petrol prices at Liberty service station in ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_liberty_25b72703_10.jpg",
+      "source_url": "https://i.dailymail.co.uk/i/newpix/2018/05/13/11/4C2959C800000578-5722671-In_Adelaide_Liberty_s_average_price_was_2_9_cents_per_litre_belo-a-5_1526206070195.jpg",
+      "source_page": "https://www.dailymail.co.uk/news/article-5722671/Save-300-year-fuel-new-report-reveals-Australias-cheapest-places-petrol.html",
+      "alt_text": "Save $300 a year on fuel: Australia\u2019s cheapest petrol places revealed ...",
+      "size_kb": 14
+    },
+    {
+      "filename": "gimg_liberty_25636b4b_11.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JD43YG/june-2022-increasing-cost-of-fuel-and-higher-fuel-prices-across-australia-sydney-shell-petrol-station-displays-current-fuel-costs-2JD43YG.jpg",
+      "source_page": "https://storage.googleapis.com/dyclgysjdbfxde/petrol-station-near-airport-sydney.html",
+      "alt_text": "Petrol Station Near Airport Sydney at James Farris blog",
+      "size_kb": 148
+    },
+    {
+      "filename": "gimg_liberty_ec603074_12.png",
+      "source_url": "https://www.libertypetroleum.com/images/pic-benefits-sidebar.png",
+      "source_page": "https://www.libertypetroleum.com/benefits.html",
+      "alt_text": "Low cost fuel gas and card processing fees from Liberty Petroleum",
+      "size_kb": 125
+    },
+    {
+      "filename": "gimg_liberty_3872307f_13.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/06/HMSTCO-OTR_140622-11-1536x1025.jpg",
+      "source_page": "https://cvmediasignage.com.au/petrol-station-pylons-the-past-present-and-future/",
+      "alt_text": "Petrol station pylons \u2013 the past, present and future - CV Media & Signage",
+      "size_kb": 312
+    },
+    {
+      "filename": "gimg_liberty_b78d6cb2_14.jpg",
+      "source_url": "https://bestinau.com.au/wp-content/uploads/2019/06/Liberty-Station.jpg",
+      "source_page": "https://bestinau.com.au/petrol-stations-melbourne/",
+      "alt_text": "5 Best Petrol Stations in Melbourne - Top Rated Petrol Stations",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_liberty_6a98c314_15.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79FG/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79FG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australia-gas-sign.html",
+      "alt_text": "Australia gas sign hi-res stock photography and images - Alamy",
+      "size_kb": 139
+    },
+    {
+      "filename": "gimg_liberty_1d17dda8_16.jpg",
+      "source_url": "https://s.alicdn.com/@sc04/kf/H1e9ad30b718e4ec2959606b8949d5c3cB.jpg_720x720q50.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Fuel-Station-Pylon-Sign-Gas-Station_1601592149088.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs Led 7 Segment Led Board Gas ...",
+      "size_kb": 45
+    },
+    {
+      "filename": "gimg_liberty_8179f790_17.jpg",
+      "source_url": "https://c8.alamy.com/comp/2GMD2RD/miles-queensland-australia-liberty-petrol-station-2GMD2RD.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-prices-australia.html",
+      "alt_text": "Petrol prices australia hi-res stock photography and images - Alamy",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_liberty_5433a3dc_19.jpg",
+      "source_url": "https://media.istockphoto.com/id/960259396/photo/car-tower-sign.jpg?s=612x612&w=0&k=20&c=ThdT5pYzIhz7C3UbU9P3X_n1dVdGSreSOsTcb3YSmlg=",
+      "source_page": "https://www.istockphoto.com/photos/petrol-price-australia",
+      "alt_text": "120+ Petrol Price Australia Stock Photos, Pictures & Royalty-Free ...",
+      "size_kb": 35
+    },
+    {
+      "filename": "gimg_liberty_ab6ad2ae_20.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H89ddd964835641e28dec6cfb3bc87b14I.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/petrol-forecourt-signage",
+      "alt_text": "Advanced Petrol Forecourt Signage Solutions: Digital Price Displays for ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_liberty_890cfd9b_22.jpg",
+      "source_url": "https://www.gdguose.com/uploadfile/201901/23/ac417467602b301d5bd065b1e748cca1_medium.jpg",
+      "source_page": "https://ar.inspiredpencil.com/pictures-2023/petrol-station-sign",
+      "alt_text": "Petrol Station Sign",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_liberty_cc39790b_23.jpg",
+      "source_url": "https://images.buoyantsign.com/uploads/allimg/20250625/2-250625150T6341.jpg",
+      "source_page": "https://www.buoyantsignage.com/products/758.html",
+      "alt_text": "Rainproof Pylon Signs for SEA Gas Stations",
+      "size_kb": 485
+    },
+    {
+      "filename": "gimg_liberty_d337b78e_24.jpg",
+      "source_url": "https://images.buoyantsign.com/uploads/allimg/20250625/2-250625150TY96.jpg",
+      "source_page": "https://www.buoyantsignage.com/products/757.html",
+      "alt_text": "AS - Certified Pylon Signs for AU Gas Stations",
+      "size_kb": 530
+    },
+    {
+      "filename": "gimg_liberty_2e7dc43f_25.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00cIqovlDzfNkb/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 44
+    },
+    {
+      "filename": "gimg_liberty_336fcf58_26.jpg",
+      "source_url": "https://signandprint.b-cdn.net/files/2023/12/gasoline_station_pylon_sign_with_price_board_2-1-768x584.jpg",
+      "source_page": "https://signandprint.com.ph/product/pylon-totem-signs/gasoline-station-pylon-sign-with-price-board-and-ad-panel/",
+      "alt_text": "Gasoline Station Pylon Sign With Price Board And Ad Panel | Sign And ...",
+      "size_kb": 70
+    },
+    {
+      "filename": "gimg_liberty_1510b7b2_27.jpg",
+      "source_url": "https://c8.alamy.com/comp/D3CTGA/fuel-pricing-at-an-australian-petrol-station-D3CTGA.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-petrol-sign.html",
+      "alt_text": "Australian petrol sign hi-res stock photography and images - Alamy",
+      "size_kb": 175
+    },
+    {
+      "filename": "gimg_liberty_6c0aff3e_28.jpg",
+      "source_url": "https://sc01.alicdn.com/kf/HTB1aSBrLXXXXXbxXVXXq6xXFXXXR/220712868/HTB1aSBrLXXXXXbxXVXXq6xXFXXXR.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/petrol-pylon-sign-with-led-gas_60479603504.html",
+      "alt_text": "Petrol Pylon Sign with LED Gas Station Price Signboard Caltex Customized",
+      "size_kb": 73
+    },
+    {
+      "filename": "gimg_liberty_8a2f77db_29.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/fuelprice-logo.png",
+      "source_page": "https://fuelprice.io/brands/liberty/",
+      "alt_text": "Liberty | FuelPrice Australia",
+      "size_kb": 9
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100066931720286",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2622262754719876",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

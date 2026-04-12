@@ -54,6 +54,10 @@ def parse_args():
                         help="Output directory (default: data/finder)")
     parser.add_argument("--include-list", type=str, default=None,
                         help="File with one image filename per line — only include these images")
+    parser.add_argument("--negatives-dir", type=str, default=None,
+                        help="Directory of negative images (no signs). Added to train split with empty labels.")
+    parser.add_argument("--freeze-split", type=str, default=None,
+                        help="Path to a prior image_manifest.json. Val/test splits are frozen; new images go to train only.")
     return parser.parse_args()
 
 
@@ -224,7 +228,27 @@ def main():
         print("ERROR: Too few images for training. Need at least 10.")
         return
 
-    train, val, test = stratified_split(images, args.seed)
+    if args.freeze_split:
+        # Frozen split: keep val/test from prior manifest, new images → train
+        prior = json.loads(Path(args.freeze_split).read_text())
+        prior_val = {e["filename"] for e in prior["splits"]["val"]}
+        prior_test = {e["filename"] for e in prior["splits"]["test"]}
+        train, val, test = [], [], []
+        new_to_train = 0
+        for img in images:
+            if img["filename"] in prior_test:
+                test.append(img)
+            elif img["filename"] in prior_val:
+                val.append(img)
+            else:
+                train.append(img)
+                if img["filename"] not in {e["filename"] for e in prior["splits"]["train"]}:
+                    new_to_train += 1
+        print(f"\nFrozen split from {args.freeze_split}:")
+        print(f"  Prior val/test preserved: {len(val)} val, {len(test)} test")
+        print(f"  New images added to train: {new_to_train}")
+    else:
+        train, val, test = stratified_split(images, args.seed)
 
     print(f"\nSplit (seed={args.seed}):")
     print(f"  Train: {len(train)} ({len(train)/len(images)*100:.0f}%)")
@@ -235,6 +259,19 @@ def main():
     write_split(train, "train", dst_dir, class_ids, class_remap)
     write_split(val, "val", dst_dir, class_ids, class_remap)
     write_split(test, "test", dst_dir, class_ids, class_remap)
+
+    # Add negative/background images to train split (empty label files)
+    n_negatives = 0
+    if args.negatives_dir:
+        neg_dir = Path(args.negatives_dir)
+        train_img_dir = dst_dir / "images" / "train"
+        train_lbl_dir = dst_dir / "labels" / "train"
+        for img_file in sorted(neg_dir.rglob("*.jpg")):
+            shutil.copy2(img_file, train_img_dir / img_file.name)
+            (train_lbl_dir / (img_file.stem + ".txt")).write_text("")
+            n_negatives += 1
+        print(f"\nNegatives added to train: {n_negatives} (from {neg_dir})")
+        print(f"  Negative ratio: {n_negatives}/{len(train)+n_negatives} = {n_negatives/(len(train)+n_negatives)*100:.1f}%")
 
     # Write dataset.yaml
     config = {
@@ -265,7 +302,26 @@ def main():
         brand_str = ", ".join(f"{b}={c}" for b, c in sorted(brands.items(), key=lambda x: -x[1]))
         print(f"  {split_name}: {brand_str}")
 
-    print(f"\nDataset YAML: {yaml_path}")
+    # Save frozen image manifest for reproducibility
+    from datetime import datetime, timezone
+    manifest_data = {
+        "built_at": datetime.now(timezone.utc).isoformat(),
+        "seed": args.seed,
+        "classes": class_ids,
+        "negatives_dir": args.negatives_dir,
+        "n_negatives": n_negatives,
+        "splits": {}
+    }
+    for split_name, split_images in [("train", train), ("val", val), ("test", test)]:
+        manifest_data["splits"][split_name] = [
+            {"filename": img["filename"], "brand": img["brand"]} for img in split_images
+        ]
+    manifest_path = dst_dir / "image_manifest.json"
+    with open(manifest_path, "w") as f:
+        json.dump(manifest_data, f, indent=2)
+    print(f"\nImage manifest: {manifest_path} ({len(images)} images frozen)")
+
+    print(f"Dataset YAML: {yaml_path}")
     print(f"Output: {dst_dir.resolve()}")
 
 

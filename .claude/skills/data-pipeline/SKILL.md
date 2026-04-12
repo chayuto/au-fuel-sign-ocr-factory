@@ -19,26 +19,20 @@ moves them into `data/tmp/` (the gold dataset directory) where labeling agents p
 The key guarantee: **no duplicates enter the labeling queue**, and **ingest is cleaned after
 processing** so images are never re-processed.
 
-## The Full Pipeline (3 stages)
-
-Every image goes through all 3 stages in order. Never skip a stage.
+## The Full Pipeline (2 stages)
 
 ```
 STAGE 1: INGEST (process_ingest.py)
   data/ingest/ → dedup (name, SHA-256, pHash) → data/tmp/ + manifest (status=pending)
 
-STAGE 2: SCREEN (Haiku agents)
-  pending images → Haiku reads each → skip or keep
-  skipped → manifest status=skipped
-  kept → manifest stays pending (ready for Stage 3)
-
-STAGE 3: LABEL (Sonnet agents)
-  pending images that passed screening → full annotation with visual QA
-  → manifest status=done
+STAGE 2: LABEL (Sonnet agents, batches of 5)
+  pending images → Sonnet reads each → screen + annotate in one pass
+  skipped → manifest status=skipped (no annotation files created)
+  labeled → manifest status=done + annotation JSON + YOLO label + preview
 ```
 
-**The rule: no image reaches Sonnet without passing Haiku screening first.**
-This saves ~75% of Sonnet cost since most raw scrapes are heritage/unusable images.
+**Haiku screening has been RETIRED.** Sonnet does screening as a built-in gate (second-pass
+classification before annotation). This is simpler and more reliable than a separate Haiku phase.
 
 ## How to Run
 
@@ -94,23 +88,189 @@ Run this pipeline:
 
 ## After Running process_ingest.py
 
-Report the summary, then **always proceed to Haiku screening** before labeling:
-- If images were added: "N new images ingested. Running Haiku screening now..."
+Report the summary, then proceed to Sonnet labeling:
+- If images were added: "N new images ingested. Launching Sonnet labeling..."
 - If all were dups: "All images already in the dataset. No new additions."
 - If ingest was empty: "Nothing in data/ingest/ to process."
 
-**Never suggest Sonnet labeling until Haiku screening is complete.**
-
-## Stage 2: Sonnet Labeling (replaces Haiku screening)
-
-**UPDATE:** Haiku screening has been retired for batches >20 images. It shortcuts to
-filename heuristics and doesn't actually look at images.
+## Stage 2: Sonnet Labeling
 
 After ingest, go straight to Sonnet labeling in batches of 5:
-- Max 2 Sonnet agents (or 3-5 Opus agents) concurrent
+- Max 5 Sonnet agents concurrent (tested safe in production 2026-04-11)
 - Each agent screens+labels in one pass (second-pass gate built in)
-- Expected yield: ~30-40% labeled, ~60-70% skipped
+- Expected yield: 25-40% labeled from Bing scrapes, 40-100% from state+brand queries
 - Report: "N labeled, M skipped. Reconcile manifest, then retrain?"
+
+### Interruption Recovery
+
+Agents can be interrupted at any time (rate limits, context overflow, user cancellation).
+The pipeline is designed to be **idempotent** — you can always recover by running reconciliation.
+
+**To resume after interruption:**
+
+```bash
+# 1. Check what's still pending
+awk -F, 'NR>1 && $2=="pending"{c++} END{print "Pending:", c+0}' data/tmp/labeling_manifest.csv
+
+# 2. Reconcile: match annotations on disk to manifest
+# (catches anything agents labeled but didn't write to CSV)
+.venv/bin/python -c "
+import json, os
+from datetime import datetime, timezone
+manifest = 'data/tmp/labeling_manifest.csv'
+with open(manifest) as f: lines = f.readlines()
+ts = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+fixed = 0
+for fn in sorted(os.listdir('data/tmp/annotations')):
+    if not fn.endswith('.json'): continue
+    d = json.load(open(f'data/tmp/annotations/{fn}'))
+    if 'sign' not in d: continue
+    fname = fn[:-5] + '.jpg'
+    for i, line in enumerate(lines):
+        if line.startswith(fname + ',') and ',done,' not in line:
+            brand = d['sign'].get('brand', 'unknown')
+            stype = d['sign'].get('sign_type', 'led')
+            entries = len(d.get('entries', []))
+            lines[i] = f'{fname},done,yes,{brand},{stype},{entries},B,recovered,{ts}\n'
+            fixed += 1
+            break
+with open(manifest, 'w') as f: f.writelines(lines)
+print(f'Reconciled {fixed} rows')
+"
+
+# 3. Merge manifest.json if agents wrote there by mistake
+.venv/bin/python -c "
+import json, os
+from datetime import datetime, timezone
+if not os.path.exists('data/tmp/manifest.json'): exit()
+mj = json.load(open('data/tmp/manifest.json'))
+if not isinstance(mj, dict): exit()
+manifest = 'data/tmp/labeling_manifest.csv'
+with open(manifest) as f: lines = f.readlines()
+ts = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+merged = 0
+for fn, entry in mj.items():
+    for i, line in enumerate(lines):
+        if line.startswith(fn + ',') and ',pending,' in line:
+            st = entry.get('status', '')
+            agent = entry.get('agent_id', 'recovered')
+            if st == 'skipped':
+                reason = entry.get('skip_reason', '')[:50]
+                lines[i] = f'{fn},skipped,no,,,,{reason},{agent},{ts}\n'
+                merged += 1
+            break
+with open(manifest, 'w') as f: f.writelines(lines)
+if merged: print(f'Merged {merged} from manifest.json')
+"
+
+# 4. Check remaining pending — these are the ones that need re-processing
+awk -F, 'NR>1 && $2=="pending"{print $1}' data/tmp/labeling_manifest.csv | wc -l
+```
+
+**Key principle:** Annotations on disk are the source of truth, not the manifest.
+If an annotation JSON exists with a `sign` key, that image was labeled — even if the
+manifest says "pending". Reconciliation fixes the manifest to match disk reality.
+
+**What's safe to re-run:**
+- `process_ingest.py` — idempotent, dedup prevents re-adding existing images
+- Labeling agents on pending images — they check the image, skip or label
+- Reconciliation — just fixes manifest rows, never deletes anything
+
+**What's NOT safe to re-run:**
+- Don't re-label images that already have annotations (would overwrite good work)
+- Don't re-scrape the same queries (wastes time, all will be deduped)
+
+## Stage 3: Reconcile (MANDATORY after every labeling run)
+
+Multiple concurrent agents cause manifest write clobber. Always reconcile after labeling:
+
+```bash
+# Fix manifest rows that have annotations but aren't marked done
+.venv/bin/python -c "
+import json, os
+from datetime import datetime, timezone
+manifest = 'data/tmp/labeling_manifest.csv'
+with open(manifest) as f: lines = f.readlines()
+ts = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+fixed = 0
+for fn in sorted(os.listdir('data/tmp/annotations')):
+    if not fn.endswith('.json'): continue
+    d = json.load(open(f'data/tmp/annotations/{fn}'))
+    if 'sign' not in d: continue
+    fname = fn[:-5] + '.jpg'
+    brand = d['sign'].get('brand', 'unknown')
+    stype = d['sign'].get('sign_type', 'led')
+    entries = len(d.get('entries', []))
+    for i, line in enumerate(lines):
+        if line.startswith(fname + ',') and ',done,' not in line:
+            lines[i] = f'{fname},done,yes,{brand},{stype},{entries},B,recovered,{ts}\n'
+            fixed += 1
+            break
+with open(manifest, 'w') as f: f.writelines(lines)
+print(f'Fixed {fixed} rows')
+"
+
+# Clean skip-annotation pollution
+for f in data/tmp/annotations/*.json; do
+  python3 -c "import json; d=json.load(open('$f')); 'sign' not in d and exit(1)" 2>/dev/null || rm -f "$f"
+done
+```
+
+## Stage 4: Deep Audit (run before training)
+
+Before building a dataset for training, verify pipeline integrity:
+
+```bash
+.venv/bin/python -c "
+import json, os, csv
+
+ann_dir = 'data/tmp/annotations'
+lbl_dir = 'data/tmp/labels'
+prev_dir = 'data/tmp/preview'
+
+valid_anns = set()
+for f in os.listdir(ann_dir):
+    if f.endswith('.json'):
+        d = json.load(open(f'{ann_dir}/{f}'))
+        if 'sign' in d: valid_anns.add(f[:-5])
+
+lbl_files = set(f[:-4] for f in os.listdir(lbl_dir) if f.endswith('.txt'))
+prev_files = set(f.replace('_preview.jpg','') for f in os.listdir(prev_dir) if f.endswith('_preview.jpg'))
+
+manifest_done = set()
+with open('data/tmp/labeling_manifest.csv') as f:
+    for row in csv.DictReader(f):
+        if row['status'] == 'done':
+            manifest_done.add(row['filename'].replace('.jpg','').replace('.jpeg',''))
+
+pending = sum(1 for line in open('data/tmp/labeling_manifest.csv') if ',pending,' in line)
+
+issues = []
+if valid_anns - lbl_files: issues.append(f'{len(valid_anns - lbl_files)} annotations missing YOLO labels')
+if lbl_files - valid_anns: issues.append(f'{len(lbl_files - valid_anns)} orphan YOLO labels')
+if pending > 0: issues.append(f'{pending} images still pending')
+
+VALID = {'shell','bp','ampol','caltex','seven_eleven','united','costco','liberty','puma','metro','mobil','otr','apco','eg','independent','unknown','other'}
+for stem in valid_anns:
+    d = json.load(open(f'{ann_dir}/{stem}.json'))
+    b = d['sign'].get('brand','')
+    if b not in VALID: issues.append(f'Invalid brand {b} in {stem}')
+
+print(f'Annotations: {len(valid_anns)}, Labels: {len(lbl_files)}, Previews: {len(prev_files)}, Manifest done: {len(manifest_done)}')
+if issues:
+    print(f'ISSUES ({len(issues)}):')
+    for i in issues: print(f'  - {i}')
+else:
+    print('ALL CLEAN — ready for training')
+"
+```
+
+This checks:
+- Annotation ↔ YOLO label 1:1 correspondence
+- No orphan labels or annotations
+- No pending images left
+- All brands valid
+- No skip-annotation pollution
 
 ## Architecture Context
 
@@ -217,9 +377,8 @@ Instead, have agents read `labeling_manifest.csv` to get real filenames:
 ```
 
 ### Agent concurrency limits
-- **Sonnet labeling:** max 2 parallel agents. 8 parallel → 529 API overload
+- **Sonnet labeling:** max 5 parallel agents (tested safe 2026-04-11). 8+ → 529 API overload
 - **Opus labeling:** max 3-5 parallel agents (during Sonnet outage)
-- **Haiku screening:** RETIRED for large batches (shortcuts to heuristics at 300+ images)
 - **Batch size:** 5 images per agent. Larger batches reduce quality.
 
 ### Image path convention

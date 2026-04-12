@@ -1,0 +1,209 @@
+{
+  "agent": "scrape_bing_metro_nsw_20260410T221840",
+  "timestamp": "2026-04-10T22:19:10.588335+00:00",
+  "query": "Metro Petroleum fuel price sign Sydney NSW Australia pylon",
+  "brand_target": "metro_nsw",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T221840",
+  "results": {
+    "urls_found": 30,
+    "saved": 23,
+    "rejected": 7,
+    "yield_pct": 76.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_metro_nsw_2d632b98_00.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K7052C/metro-fuel-petrol-gas-station-in-lucknow-village-orange-nsw-central-tablelands-region-fuel-and-diesel-prices-displayed-gas-bottle-serviceaustralia-2K7052C.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-gas-station.html",
+      "alt_text": "Australian gas station hi-res stock photography and images - Alamy",
+      "size_kb": 238
+    },
+    {
+      "filename": "gimg_metro_nsw_e567e41d_01.jpg",
+      "source_url": "https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/2K704N8/metro-fuel-petrol-gas-station-in-lucknow-village-orange-nsw-central-tablelands-region-fuel-and-diesel-prices-displayed-gas-bottle-serviceaustralia-2K704N8.jpg",
+      "source_page": "https://www.alamy.com/metro-fuel-petrol-gas-station-in-lucknow-village-orange-nsw-central-tablelands-region-fuel-and-diesel-prices-displayed-gas-bottle-serviceaustralia-image486196628.html",
+      "alt_text": "Metro fuel petrol gas station in Lucknow village Orange NSW, central ...",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_metro_nsw_6366b7e9_02.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K704XG/metro-fuel-petrol-gas-station-in-lucknow-village-orange-nsw-central-tablelands-region-fuel-and-diesel-prices-displayed-gas-bottle-serviceaustralia-2K704XG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-gas-station.html",
+      "alt_text": "Australian gas station hi-res stock photography and images - Alamy",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_metro_nsw_bf66140b_03.jpg",
+      "source_url": "https://live-production.wcms.abc-cdn.net.au/960a9a2a89774cda2ae025b5d507d56a?impolicy=wcms_crop_resize&cropH=325&cropW=576&xPos=0&yPos=88&width=862&height=485",
+      "source_page": "https://www.abc.net.au/news/2015-01-06/petrol-drops-below-1-dollar-a-litre-in-sydney/6002982",
+      "alt_text": "Petrol drops below $1 a litre in Sydney: Lowest price in six years ...",
+      "size_kb": 26
+    },
+    {
+      "filename": "gimg_metro_nsw_9419ccad_05.jpg",
+      "source_url": "http://www.metropetroleum.com.au/wp-content/uploads/2018/08/metro-petroleum-slider2_1903.jpg",
+      "source_page": "http://www.metropetroleum.com.au/",
+      "alt_text": "Home - Metro Petroleum",
+      "size_kb": 868
+    },
+    {
+      "filename": "gimg_metro_nsw_150d5998_08.jpg",
+      "source_url": "https://i.dailymail.co.uk/1s/2020/04/01/12/26674342-8175715-Metro_Petroleum_in_Earlwood_in_Sydney_s_inner_west_had_E10_petro-a-76_1585741587246.jpg",
+      "source_page": "https://www.dailymail.co.uk/news/article-8193971/Petrol-prices-plunge-near-20-year-low-Australia-coronavirus.html",
+      "alt_text": "Petrol prices plunge to a near 20-year low across Australia due to ...",
+      "size_kb": 35
+    },
+    {
+      "filename": "gimg_metro_nsw_b7cd65a9_09.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2020/07/Metro-Petroluem-Petrol-Station-1-600x449.jpg",
+      "source_page": "https://metropetroleum.com.au/about-metro-petroleum/",
+      "alt_text": "About Metro | Metro Petroleum | Petrol Station and convenience store",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_metro_nsw_279d92dd_10.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/7a31896a3ac4c27bdc7ba049ed6b14dc_-new-south-wales-city-of-liverpool-lurnea-metro-petroleum-02-9602-2500html.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/city_of_liverpool/lurnea/metro-petroleum-02-9602-2500.html",
+      "alt_text": "Metro Petroleum - 64 Orange Grove Rd, Liverpool NSW 2170, Australia",
+      "size_kb": 87
+    },
+    {
+      "filename": "gimg_metro_nsw_a5d703ab_14.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2022/08/metro-facebook-feed-7c-offer-aug-22.jpg",
+      "source_page": "https://metropetroleum.com.au/metro-fuel-card/",
+      "alt_text": "Metro Fuel Card - METRO PETROLEUM",
+      "size_kb": 325
+    },
+    {
+      "filename": "gimg_metro_nsw_d7882041_15.jpg",
+      "source_url": "https://comcut.com.au/wp-content/uploads/2015/10/Cimitiere-House-5.jpg",
+      "source_page": "https://fity.club/lists/suggestions/Pylon-Sign-Designs/",
+      "alt_text": "Pylon Sign Designs",
+      "size_kb": 339
+    },
+    {
+      "filename": "gimg_metro_nsw_b39699ab_17.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2023/08/metro-fuel-card-img-website-212x300.jpg",
+      "source_page": "https://metropetroleum.com.au/metro-fuel-card/",
+      "alt_text": "Metro Fuel Card - METRO PETROLEUM",
+      "size_kb": 21
+    },
+    {
+      "filename": "gimg_metro_nsw_25636b4b_18.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JD43YG/june-2022-increasing-cost-of-fuel-and-higher-fuel-prices-across-australia-sydney-shell-petrol-station-displays-current-fuel-costs-2JD43YG.jpg",
+      "source_page": "https://www.alamy.com/june-2022-increasing-cost-of-fuel-and-higher-fuel-prices-across-australia-sydney-shell-petrol-station-displays-current-fuel-costs-image472761396.html",
+      "alt_text": "June 2022 increasing cost of fuel and higher fuel prices across ...",
+      "size_kb": 148
+    },
+    {
+      "filename": "gimg_metro_nsw_1510b7b2_19.jpg",
+      "source_url": "https://c8.alamy.com/comp/D3CTGA/fuel-pricing-at-an-australian-petrol-station-D3CTGA.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-petrol-sign.html",
+      "alt_text": "Australian petrol sign hi-res stock photography and images - Alamy",
+      "size_kb": 175
+    },
+    {
+      "filename": "gimg_metro_nsw_de88dbe9_20.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2023/08/homepage-metro-station2.jpg",
+      "source_page": "https://metropetroleum.com.au/",
+      "alt_text": "Home - METRO PETROLEUM - Save Money with Metro Fuel Card \u2013 Apply Now!",
+      "size_kb": 365
+    },
+    {
+      "filename": "gimg_metro_nsw_2fa20f1f_21.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K71DX4/the-fuel-price-sign-at-a-shell-service-station-in-sydney-australia-2K71DX4.jpg",
+      "source_page": "https://www.alamy.com/the-fuel-price-sign-at-a-shell-service-station-in-sydney-australia-image486225772.html",
+      "alt_text": "The fuel price sign at a Shell service station in Sydney, Australia ...",
+      "size_kb": 128
+    },
+    {
+      "filename": "gimg_metro_nsw_28ad8640_22.jpg",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/08/budget-petrol-150x150.jpg",
+      "source_page": "https://fuelprice.io/nsw/sydney/",
+      "alt_text": "Fuel prices in Sydney | FuelPrice Australia",
+      "size_kb": 5
+    },
+    {
+      "filename": "gimg_metro_nsw_57ed45e5_23.jpg",
+      "source_url": "https://c8.alamy.com/comp/2M5KAN3/shell-fuel-petrol-station-in-sydney-australia-display-prices-per-litre-for-diesel-unleaded-and-ethanol-and-v-power-fuelsnswaustralia-2M5KAN3.jpg",
+      "source_page": "https://www.alamy.com/shell-fuel-petrol-station-in-sydney-australia-display-prices-per-litre-for-diesel-unleaded-and-ethanol-and-v-power-fuelsnswaustralia-image502599471.html",
+      "alt_text": "Shell fuel petrol station in Sydney Australia display prices per litre ...",
+      "size_kb": 136
+    },
+    {
+      "filename": "gimg_metro_nsw_d49ab8e0_24.jpg",
+      "source_url": "https://bestinau.com.au/wp-content/uploads/2019/05/Metro-Petroleum.jpg",
+      "source_page": "https://bestinau.com.au/petrol-stations-sydney/",
+      "alt_text": "5 Best Petrol Stations in Sydney \u2013 Top Rated Petrol Stations",
+      "size_kb": 211
+    },
+    {
+      "filename": "gimg_metro_nsw_c4748a37_25.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HC3DKR/shell-fuel-gas-station-in-sydney-showing-pump-prices-of-petrol-diesel-and-ethanol-fuelsydneyaustralia-2HC3DKR.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/sydney-fuel-price.html",
+      "alt_text": "Sydney fuel price hi-res stock photography and images - Alamy",
+      "size_kb": 124
+    },
+    {
+      "filename": "gimg_metro_nsw_2460af8a_26.jpg",
+      "source_url": "https://cdn.newsapi.com.au/image/v1/66e3954885c51a4db1be4f8b76a16119?width=650",
+      "source_page": "https://acapmag.com.au/2018/03/special-report-sydneysiders-beating-petrol-price-pain-fuel-apps/",
+      "alt_text": "Special report: How Sydneysiders are beating petrol price pain with ...",
+      "size_kb": 62
+    },
+    {
+      "filename": "gimg_metro_nsw_c81b6431_27.jpg",
+      "source_url": "https://c8.alamy.com/comp/2E36E8J/the-7-eleven-petrol-or-gas-station-in-granville-in-western-sydney-new-south-wales-australia-2E36E8J.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-prices-gas-station-australia.html",
+      "alt_text": "Petrol prices gas station australia hi-res stock photography and images ...",
+      "size_kb": 148
+    },
+    {
+      "filename": "gimg_metro_nsw_b68f86ce_28.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/Metro-Fuel.webp",
+      "source_page": "https://fuelradar.com.au/map/station/e477d4d441aee3528c2e7840",
+      "alt_text": "Metro Petroleum Singleton Fuel Prices | NSW - FuelRadar",
+      "size_kb": 5
+    },
+    {
+      "filename": "gimg_metro_nsw_1850fb6c_29.png",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2020/07/Metro-Logo-Blue.png",
+      "source_page": "https://metropetroleum.com.au/metro-zone/",
+      "alt_text": "Metro Zone - METRO PETROLEUM | Convenience store Sydney",
+      "size_kb": 14
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1847302958894972",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1847680058857262",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1842207392737862",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122147807720826338",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Sydney_led_signs_oil_show_sign_board_repair_fix_mantenance_2.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

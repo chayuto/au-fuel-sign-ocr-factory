@@ -1,0 +1,218 @@
+{
+  "agent": "scrape_bing_liberty_20260410T202335",
+  "timestamp": "2026-04-10T20:24:21.693126+00:00",
+  "query": "Liberty Oil fuel station Australia price sign LED",
+  "brand_target": "liberty",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T202335",
+  "results": {
+    "urls_found": 30,
+    "saved": 26,
+    "rejected": 4,
+    "yield_pct": 86.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_liberty_ae137597_00.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HG3X77/roadside-advertising-outside-liberty-petrol-station-gas-station-listing-prices-of-under-1-au-dollar-a-litre-in-2020-sunny-australian-summers-day-2HG3X77.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/liberty-gas-station.html",
+      "alt_text": "Liberty gas station hi-res stock photography and images - Alamy",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_liberty_eaf57c95_01.jpg",
+      "source_url": "https://www.fuelsandlubes.com/wp-content/uploads/2019/12/Liberty-Oil-Acquired-by-Viva-Energy.jpg",
+      "source_page": "https://www.fuelsandlubes.com/viva-energy-australia-completes-acquisition-liberty-oils-wholesale-business/",
+      "alt_text": "Viva Energy Australia completes acquisition of Liberty Oil\u2019s wholesale ...",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_liberty_04578be9_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/07b568efeee36c721e3ba16ab67da58b",
+      "source_page": "https://www.couriermail.com.au/news/queensland/dalby/business/dalby-service-station-liberty-oil-opens-along-warrego-highway-offering-cheaper-fuel-and-amenities/news-story/2b5247aaa57c52f8e328c4862e76cc85",
+      "alt_text": "Dalby service station Liberty Oil opens along Warrego Highway, offering ...",
+      "size_kb": 105
+    },
+    {
+      "filename": "gimg_liberty_1f054c5f_03.jpg",
+      "source_url": "https://files.ozbargain.com.au/n/55/592955x.jpg?h=0294220a",
+      "source_page": "https://www.ozbargain.com.au/node/592955",
+      "alt_text": "[QLD] Liberty Fuel - U91 $0.999 Per Litre @ Liberty Margate - OzBargain",
+      "size_kb": 417
+    },
+    {
+      "filename": "gimg_liberty_6ee355e3_04.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JF9703/1-july-2022-unlisted-petrol-prices-at-liberty-service-station-in-adelaide-australia-2JF9703.jpg",
+      "source_page": "https://www.alamy.com/1-july-2022-unlisted-petrol-prices-at-liberty-service-station-in-adelaide-australia-image474102835.html",
+      "alt_text": "1 July 2022: Unlisted petrol prices at Liberty service station in ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_liberty_bf6c96bc_05.jpg",
+      "source_url": "https://carsbrisbane.com.au/wp-content/uploads/2023/07/Liberty-Lawton-.jpeg",
+      "source_page": "https://carsbrisbane.com.au/as-voted-by-you-we-reveal-brisbanes-cheapest-petrol-stations-that-will-blow-your-mind/",
+      "alt_text": "As voted by YOU. We reveal Brisbane's Cheapest Petrol Stations that ...",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_liberty_0615ae36_09.jpg",
+      "source_url": "https://outbackfuel.com.au/wp-content/uploads/2016/11/liberty-sign1-300x202.jpg",
+      "source_page": "https://outbackfuel.com.au/",
+      "alt_text": "Homepage - Outback Fuel",
+      "size_kb": 18
+    },
+    {
+      "filename": "gimg_liberty_152b4f21_10.jpg",
+      "source_url": "https://c8.alamy.com/comp/2R2RGWA/united-states-idoha-statelewiston-gas-prices-at-liberty-gas-station-marach-10-2010-photo-by-francis-joseph-dean-dean-pictures-2R2RGWA.jpg",
+      "source_page": "https://storage.googleapis.com/ddgepjwlecipwe/who-owns-liberty-gas-stations.html",
+      "alt_text": "Who Owns Liberty Gas Stations at Tristan Enderby blog",
+      "size_kb": 98
+    },
+    {
+      "filename": "gimg_liberty_f6e18f48_11.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/He65ae0b9773b42bf9cbd51626e96a799A.jpg",
+      "source_page": "https://www.gvsignfactory.com/product-18-inch-regular-green-5-digits-7-segment-gas-station-led-price-sign",
+      "alt_text": "18 Inch REGULAR Green 5 Digits 7 Segment Gas Station LED Price Sign ...",
+      "size_kb": 118
+    },
+    {
+      "filename": "gimg_liberty_e402b1f5_12.jpg",
+      "source_url": "https://insidefmcg.com.au/wp-content/uploads/2024/12/liberty-fuel-viva-energy-loc.jpg",
+      "source_page": "https://insidefmcg.com.au/2024/12/12/viva-energy-cleared-to-buy-100-retail-sites-with-a-catch/",
+      "alt_text": "Viva Energy cleared to buy 100 retail sites \u2013 with a catch - Inside FMCG",
+      "size_kb": 86
+    },
+    {
+      "filename": "gimg_liberty_dbd13f1f_13.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00dwnWUBJEQSqu/Outdoor-16-Inch-888-8-Gas-Station-Panel-LED-Gas-Price-Sign-for-Australia-Freedom-Fuels.jpg",
+      "source_page": "https://glareled2008.en.made-in-china.com/product/WONfqlGXkjhP/China-Outdoor-16-Inch-888-8-Gas-Station-Panel-LED-Gas-Price-Sign-for-Australia-Freedom-Fuels.html",
+      "alt_text": "Outdoor 16 Inch 888.8 Gas Station Panel LED Gas Price Sign for ...",
+      "size_kb": 213
+    },
+    {
+      "filename": "gimg_liberty_734a0ace_14.jpg",
+      "source_url": "https://sc01.alicdn.com/kf/H303c9a7c4f17458d965cdf76ba96bdeaR/220184015/H303c9a7c4f17458d965cdf76ba96bdeaR.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/16-inch-Red-7-Segment-LED_62227072832.html",
+      "alt_text": "16\" Inch Red 7 Segment LED Gas Oil Petrol Station Price Display",
+      "size_kb": 62
+    },
+    {
+      "filename": "gimg_liberty_a11dd5d5_15.jpg",
+      "source_url": "https://www.leemanled.com/wp-content/uploads/2022/12/1630020225956199.jpg",
+      "source_page": "https://www.leemanled.com/16inch-led-gas-station-fuel-prices-signs/",
+      "alt_text": "16inch LED Gas Station Fuel Prices Signs 8.88 9/10 - LeemanLED",
+      "size_kb": 74
+    },
+    {
+      "filename": "gimg_liberty_fa317946_17.jpg",
+      "source_url": "https://media.fuelcard.report/wp-content/uploads/2020/06/cropped-fuel-cards-for-liberty-stations.jpg",
+      "source_page": "https://fuelcard.report/accepted-at-liberty/",
+      "alt_text": "Fuel cards for Liberty stations - Fuel Cards Australia",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_liberty_be3aa133_18.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/Hb16640120cae46b38fa7437a6ea1f7f53/229953170/Hb16640120cae46b38fa7437a6ea1f7f53.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/12-inch-7-segment-led-display_1601053938142.html",
+      "alt_text": "12 Inch 7 Segment LED Display for Gas Stations - Bright & Durable",
+      "size_kb": 178
+    },
+    {
+      "filename": "gimg_liberty_64fbbb21_19.jpg",
+      "source_url": "https://nseledcloud.com/wp-content/uploads/2022/09/Multi-Purpose-Gas-Station-LED-Signs.jpg",
+      "source_page": "https://nseledcloud.com/portfolio-items/petrol-station/",
+      "alt_text": "Petrol Station LED Display | NSELED",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_liberty_2240131b_20.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/liberty-service-station-sign-brisbane-queensland-australia-th-february-view-176843578.jpg",
+      "source_page": "https://www.dreamstime.com/liberty-service-station-sign-brisbane-queensland-australia-th-february-view-image176843578",
+      "alt_text": "Liberty Service Station Sign Editorial Stock Photo - Image of signage ...",
+      "size_kb": 36
+    },
+    {
+      "filename": "gimg_liberty_60865eb8_21.jpg",
+      "source_url": "https://linsn-led.com/wp-content/uploads/2024/12/Gas-station-sign.jpg",
+      "source_page": "https://linsn-led.com/led-gas-stations-price-signs/",
+      "alt_text": "LED Gas Price Signs & Displays | The Ultimate Guide for Gas Stations ...",
+      "size_kb": 107
+    },
+    {
+      "filename": "gimg_liberty_6c91a2a2_22.jpg",
+      "source_url": "https://ilrorwxhoirqml5p.ldycdn.com/cloud/qiBplKnjRmkSqrjonljpk/D72-G-8-88910-G-Ifaguangziyoujiaping11.jpg",
+      "source_page": "https://www.poosled.com/waterproof-outdoor-led-sign-large-size-digital-led-gas-price-sign-electronic-led-digit-price-sign.html",
+      "alt_text": "Waterproof Outdoor Led Sign Large Size Digital Led Gas Price Sign ...",
+      "size_kb": 335
+    },
+    {
+      "filename": "gimg_liberty_60f8eb4d_23.png",
+      "source_url": "https://scanlite.co.uk/wp-content/uploads/2023/02/Blank-1100-x-813.png",
+      "source_page": "https://scanlite.co.uk/our-products/petrol-pricing-display/",
+      "alt_text": "LED Fuel Price Signs | Petrol Price Displays | Scanlite",
+      "size_kb": 1316
+    },
+    {
+      "filename": "gimg_liberty_f56118f0_24.jpg",
+      "source_url": "https://c8.alamy.com/comp/2R2RGTG/united-states-idoha-statelewiston-gas-prices-at-liberty-gas-station-marach-10-2010-photo-by-francis-joseph-dean-dean-pictures-2R2RGTG.jpg",
+      "source_page": "https://fity.club/lists/suggestions/liberty-gas-logo/",
+      "alt_text": "Liberty Gas Logo",
+      "size_kb": 135
+    },
+    {
+      "filename": "gimg_liberty_748adfb7_25.jpg",
+      "source_url": "https://idealelectrics.com.au/wp-content/uploads/2024/01/feature-1.jpg",
+      "source_page": "https://idealelectrics.com.au/projects/liberty-fuel-station/",
+      "alt_text": "Liberty Fuel Station - Ideal Electrics",
+      "size_kb": 444
+    },
+    {
+      "filename": "gimg_liberty_ebc4b66d_26.png",
+      "source_url": "https://www.libertypetroleum.com/images/pic-home-sidebar.png",
+      "source_page": "https://www.libertypetroleum.com/",
+      "alt_text": "Private brand gas gasoline retail stations for independent distributors ...",
+      "size_kb": 118
+    },
+    {
+      "filename": "gimg_liberty_2aa03451_27.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00vApVdiwHQfcO/Outdoor-RF-Control-Digital-Fuel-Price-Signs-LED-7-Segment-Number-Digital-Displays-Signboard-for-Gas-Station.jpg",
+      "source_page": "https://glareled2008.en.made-in-china.com/product/OwoadPprrKWt/China-Outdoor-RF-Control-Digital-Fuel-Price-Signs-LED-7-Segment-Number-Digital-Displays-Signboard-for-Gas-Station.html",
+      "alt_text": "Outdoor RF Control Digital Fuel Price Signs LED 7 Segment Number ...",
+      "size_kb": 112
+    },
+    {
+      "filename": "gimg_liberty_b0da454f_28.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H4c0b421e6b79463d905a4b9eb6c823d0d/229953170/H4c0b421e6b79463d905a4b9eb6c823d0d.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Outdoor-pole-pylon-sign-totem-filling_1600824577109.html",
+      "alt_text": "LED Gas Price Signs - Digital Display Solutions for Outdoor",
+      "size_kb": 99
+    },
+    {
+      "filename": "gimg_liberty_f5aa3efd_29.png",
+      "source_url": "https://www.libertyconvenience.com.au/wp-content/uploads/2021/03/logo.png",
+      "source_page": "https://www.libertyconvenience.com.au/",
+      "alt_text": "Home - Liberty Oil Convenience",
+      "size_kb": 6
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://thumbs.dreamstime.com/z/liberty-gas-station-hyden-western-australia-near-wave-rock-66137824.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Sydney_led_signs_oil_show_sign_board_repair_fix_mantenance_2.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

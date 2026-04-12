@@ -1,0 +1,215 @@
+{
+  "agent": "scrape_bing_apco_20260410T202037",
+  "timestamp": "2026-04-10T20:21:11.716573+00:00",
+  "query": "Apco fuel station Australia price sign",
+  "brand_target": "apco",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T202037",
+  "results": {
+    "urls_found": 30,
+    "saved": 25,
+    "rejected": 5,
+    "yield_pct": 83.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_apco_8a4a27a9_00.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/ab8af867-5cf0-4a6f-b1e6-b3771cec572b.jpg/r0_0_5568_3712_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/8466888/border-and-north-east-welcomes-fuel-price-drop-ahead-of-christmas/",
+      "alt_text": "Border and North East welcomes fuel price drop ahead of Christmas | The ...",
+      "size_kb": 85
+    },
+    {
+      "filename": "gimg_apco_b7e49d43_01.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/9f8158a7384df40d3f866f6376d19bb9",
+      "source_page": "https://www.geelongadvertiser.com.au/news/geelong/geelong-petrol-price-plummets-to-849-cents-per-litre-at-apco-outlets/news-story/c33fcff8b76fd4c99d74af527ff4a907",
+      "alt_text": "Geelong\u2019s petrol price: 84.9 cents per litre for unleaded fuel at APCO ...",
+      "size_kb": 111
+    },
+    {
+      "filename": "gimg_apco_b7e8a1e0_02.jpg",
+      "source_url": "https://www.bendigoadvertiser.com.au/images/transform/v1/crop/frm/39DXPJ6bfYBT8JmDyHFbVdB/1cf722c4-fa9e-4b72-959a-344ff6644de4.JPG/r0_260_5184_2982_w1200_h630_fmax.jpg",
+      "source_page": "https://www.bendigoadvertiser.com.au/story/5053383/apco-scathing-of-players-behind-regional-fuel-market-prices/",
+      "alt_text": "APCO scathing of players behind regional Victorian fuel market and ...",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_apco_5a4047a4_03.jpg",
+      "source_url": "https://www.apco.com.au/uploads/Stores/Wangaratta/APCO-210330-Wangaratta-6990-HDR.jpg",
+      "source_page": "https://www.apco.com.au/why-apco/our-story",
+      "alt_text": "History - APCO",
+      "size_kb": 489
+    },
+    {
+      "filename": "gimg_apco_e5b02ffc_04.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/6b5d97a00d86728841dd9898a80d3457_-victoria-greater-geelong-city-east-geelong-apco-service-stations-east-geelonghtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/greater_geelong_city/east_geelong/apco_service_stations_east_geelong.html",
+      "alt_text": "APCO Service Stations East Geelong - 57 Ormond Rd, East Geelong VIC ...",
+      "size_kb": 201
+    },
+    {
+      "filename": "gimg_apco_b2f0d44f_05.jpg",
+      "source_url": "https://www.standard.net.au/images/transform/v1/crop/frm/160067095/b9d66f08-c102-4916-b664-4f056f48c63e.jpg/r0_192_4547_2759_w1200_h678_fmax.jpg",
+      "source_page": "https://www.standard.net.au/story/7912893/petrol-panic-buy-concern-as-excise-cut-ends/",
+      "alt_text": "Fuel excise cut end causes panic buy worry for Warrnambool service ...",
+      "size_kb": 83
+    },
+    {
+      "filename": "gimg_apco_a5aba413_06.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/37a7815d4e7160df9511d140ac461029",
+      "source_page": "https://www.geelongadvertiser.com.au/news/geelong/geelong-petrol-price-plummets-to-849-cents-per-litre-at-apco-outlets/news-story/c33fcff8b76fd4c99d74af527ff4a907",
+      "alt_text": "Geelong\u2019s petrol price: 84.9 cents per litre for unleaded fuel at APCO ...",
+      "size_kb": 100
+    },
+    {
+      "filename": "gimg_apco_2f9db252_07.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/XJLgPnEdnKaFugZzKyL6Sw/ab81538e-df17-4e7f-ae98-0a28ef27d01c.jpg/r0_0_5472_3648_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7777710/next-door-neighbour-rivalry-fuelling-low-petrol-prices/",
+      "alt_text": "Battle between APCO and OTR petrol stations in Wodonga results in big ...",
+      "size_kb": 106
+    },
+    {
+      "filename": "gimg_apco_4bfbe790_08.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/apco-favicon-350x318.png",
+      "source_page": "https://fuelprice.io/station/apco-bendigo-2/",
+      "alt_text": "Apco Bendigo | FuelPrice Australia",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_apco_6137748b_09.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/370a8f78-b203-49d2-b682-a2f2b4f71b47.jpg/r0_0_6643_4429_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7830187/fuel-price-rivalry-at-full-throttle-as-independents-go-head-to-head/",
+      "alt_text": "Wodonga's OTR, APCO and United service stations drop unleaded prices ...",
+      "size_kb": 129
+    },
+    {
+      "filename": "gimg_apco_354f5ff7_10.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/bea51f15-762c-4561-b0a2-fb51aa66def8.jpg/r0_0_6676_4451_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7830187/fuel-price-rivalry-at-full-throttle-as-independents-go-head-to-head/",
+      "alt_text": "Wodonga's OTR, APCO and United service stations drop unleaded prices ...",
+      "size_kb": 95
+    },
+    {
+      "filename": "gimg_apco_e3a67cc2_11.jpg",
+      "source_url": "https://www.cpmbuilders.com.au/getattachment/05827e4e-cf35-4456-b6d5-3e6d8915fa90/APCO-SERVICE-STATION-NEW-CONSTRUCTION.aspx",
+      "source_page": "https://www.cpmbuilders.com.au/PROJECTS/COMMERCIAL.aspx",
+      "alt_text": "CPM Builders - COMMERCIAL",
+      "size_kb": 27
+    },
+    {
+      "filename": "gimg_apco_9a484f59_12.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/storypad-hRgnU7CfAjJBjZ9k7qBUYH/f1208bc7-b3a1-4e61-a8c3-87bdeb562a49.jpg/r0_367_5184_3089_w1200_h630_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/2760159/fuel-prices-drop-as-apco-shakes-up-market/",
+      "alt_text": "Fuel prices drop as APCO shakes up market | The Border Mail | Wodonga, VIC",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_apco_ec4547ae_13.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2024/06/1D2A7260.jpg?w=1024",
+      "source_page": "https://www.c-store.com.au/exclusive-how-apco-is-integrating-technology-to-better-serve-its-customers/",
+      "alt_text": "How APCO is integrating technology to better serve its customers",
+      "size_kb": 121
+    },
+    {
+      "filename": "gimg_apco_30604c89_14.jpg",
+      "source_url": "https://www.structen.com.au/wp-content/uploads/Structen-Projects-APCO-IGA-Wagga-Wagga-11.jpg",
+      "source_page": "https://www.structen.com.au/projects/apco-service-station-and-iga/",
+      "alt_text": "APCO Service Station and IGA - Structen",
+      "size_kb": 93
+    },
+    {
+      "filename": "gimg_apco_e156976b_15.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/silverstone-feed-data/a6da3c8b-ccf4-49a8-b944-bbce19dc1ecb.jpg/r56_0_1123_600_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/2728500/new-outlet-keen-to-start-fuel-price-war/",
+      "alt_text": "Wodonga Apco petrol station keen to start fuel price war | The Border ...",
+      "size_kb": 88
+    },
+    {
+      "filename": "gimg_apco_5b06e436_16.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/xtb7LvhUpWdRyX3MGXCxS3/3da763eb-5a06-444a-922b-5107f0819ff1.jpg/r1740_299_3498_2710_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/4418513/service-station-spreads-its-wings/",
+      "alt_text": "Success of APCO service stations in Albury-Wodonga prompts plans to ...",
+      "size_kb": 49
+    },
+    {
+      "filename": "gimg_apco_9787dcae_17.jpg",
+      "source_url": "https://bigiron.blob.core.windows.net/thumbnail/items/5caff0b978114c27a5ded48fa3106c03/apco-antique-gas-sign_cc9c4af66a9d4dc39dba6a04b34a00cd.jpg",
+      "source_page": "https://www.bigiron.com/Lots?categories=Miscellaneous : Collectibles&filter=Open",
+      "alt_text": "Collectibles | Auctions | BigIron",
+      "size_kb": 12
+    },
+    {
+      "filename": "gimg_apco_46d60400_18.jpg",
+      "source_url": "http://convenienceworldmagazine.com.au/wp-content/uploads/2025/07/APCO-Grove-Rd-Dusk-Image-Lightened-Large-CB-v001.jpg",
+      "source_page": "http://convenienceworldmagazine.com.au/apco-named-australias-best-service-station-again/",
+      "alt_text": "APCO named Australia\u2019s best service station again | CW",
+      "size_kb": 123
+    },
+    {
+      "filename": "gimg_apco_1510b7b2_21.jpg",
+      "source_url": "https://c8.alamy.com/comp/D3CTGA/fuel-pricing-at-an-australian-petrol-station-D3CTGA.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-petrol-sign.html",
+      "alt_text": "Australian petrol sign hi-res stock photography and images - Alamy",
+      "size_kb": 175
+    },
+    {
+      "filename": "gimg_apco_e63a2eb7_22.jpg",
+      "source_url": "https://www.apco.com.au/uploads/History/_991x1288_crop_center-center_none/APCO-History-020-1.jpg",
+      "source_page": "https://www.apco.com.au/why-apco",
+      "alt_text": "ABOUT APCO - APCO",
+      "size_kb": 146
+    },
+    {
+      "filename": "gimg_apco_54f09047_23.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/a01431c8d31a9c312d4cdcf14766a425_-victoria-whittlesea-city-thomastown-apco-service-stations-thomastown-03-8379-0761html.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/whittlesea_city/thomastown/apco-service-stations-thomastown-03-8379-0761.html",
+      "alt_text": "APCO Service Stations Thomastown - 228-234 Settlement Rd, Thomastown ...",
+      "size_kb": 256
+    },
+    {
+      "filename": "gimg_apco_8ed4a905_24.jpg",
+      "source_url": "https://i.ebayimg.com/images/g/c14AAOSwkrVh9ueS/s-l400.jpg",
+      "source_page": "https://www.ebay.com/itm/265525813334",
+      "alt_text": "APCO PETROLEUM GAS SERVICE STATION VINTAGE OLD SIGN REMAKE BANNER SIZE ...",
+      "size_kb": 24
+    },
+    {
+      "filename": "gimg_apco_d40a6ccc_27.jpg",
+      "source_url": "https://apcooil.org/wp-content/uploads/2019/10/APCO-Regular-Pump-Sign.jpg",
+      "source_page": "https://apcooil.org/gute-portfolio/apco-regular-gasoline-pump-sign/",
+      "alt_text": "APCO Regular Gasoline Pump Sign \u00bb APCO Oil Corporation",
+      "size_kb": 150
+    },
+    {
+      "filename": "gimg_apco_ad53981f_29.jpg",
+      "source_url": "https://www.blackbearprojects.com.au/wp-content/uploads/2024/10/902dc153-6382-40ec-86ec-6f07d9d32c0a.jpg",
+      "source_page": "https://www.blackbearprojects.com.au/projects/apco-service-stations/",
+      "alt_text": "APCO Service Stations \u2013 Black Bear Projects",
+      "size_kb": 133
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://image.invaluable.com/housePhotos/RaberAuctioneer/85/656785/H12518-L191623992_original.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://auctions.morphyauctions.com/ItemImages/000514/21160622_1_med.jpeg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/apco-favicon-64x58.png",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

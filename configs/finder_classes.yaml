@@ -1,10 +1,16 @@
 # YOLO26n Finder detection classes.
-# Classes 2 and 3 have variable instance count per image (3-6 entries per sign).
+#
+# v7 (2026-04-12): Simplified to 1 class.
+# sign_board = the physical sign panel face (brand header + fuel rows).
+# fuel_price, fuel_label, brand_zone are retired from Finder training.
+# Row detection within the crop uses classical CV, not YOLO.
+#
+# Historical classes (kept in JSON sidecar for reference, NOT used in Finder):
+#   1: brand_zone    — retired, included in sign_board
+#   2: fuel_label    — retired, detected by classical CV on crop
+#   3: fuel_price    — retired, detected by classical CV on crop
 
 names:
-  0: sign_board     # Entire sign boundary
-  1: brand_zone     # Brand/logo area at top
-  2: fuel_label     # Fuel type text (multiple per sign)
-  3: fuel_price     # Price digits (multiple per sign)
+  0: sign_board     # Physical sign panel face (brand header + all fuel rows)
 
-nc: 4
+nc: 1

@@ -1,0 +1,215 @@
+{
+  "agent": "scrape_bing_costco_20260410T202421",
+  "timestamp": "2026-04-10T20:25:11.155922+00:00",
+  "query": "Costco fuel Australia petrol station price sign",
+  "brand_target": "costco",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T202421",
+  "results": {
+    "urls_found": 30,
+    "saved": 25,
+    "rejected": 5,
+    "yield_pct": 83.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_costco_44780942_00.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/d68be2a8-705f-41f5-8521-73abccdce269/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074481/costco-canberra-petrol-station-opens-igniting-price-war/",
+      "alt_text": "Costco Canberra petrol station opens, igniting price war | The Canberra ...",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_46fdb25e_03.jpg",
+      "source_url": "https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/1/ee/1ee8a95c-8743-11ef-b992-7ff7379dbcca/670833be4841f.image.jpg?resize=1763%2C1176",
+      "source_page": "https://napavalleyregister.com/news/local/napa-gas-station-costco-shop/article_7ab7189c-873c-11ef-bbd9-6f1bb2e93dbe.html",
+      "alt_text": "Costco gas station opens in Napa with competitive prices",
+      "size_kb": 287
+    },
+    {
+      "filename": "gimg_costco_be040878_04.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/441cea04-07e4-43b6-a02f-2c3bea444313/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6073344/costco-drops-petrol-below-1-a-litre-in-canberra/",
+      "alt_text": "Costco drops petrol below $1 a litre in Canberra | The Canberra Times ...",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_costco_f35cb256_05.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/ae7eb5daef9843f93bd736527d1197b8",
+      "source_page": "https://www.dailytelegraph.com.au/newslocal/rouse-hill-times/costco-to-sell-discounted-fuel-from-its-new-marsden-park-station/news-story/1bfd3b01360e5897d8d3bca24b287ff8",
+      "alt_text": "Costco\u2019s Marsden Park service station to sell discounted fuel | Daily ...",
+      "size_kb": 55
+    },
+    {
+      "filename": "gimg_costco_bfd89123_06.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/b3980c470feec2aa2392768b972a638c_-australian-capital-territory-costco-fuelhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/costco_fuel.html",
+      "alt_text": "Costco Fuel - Australian Capital Territory 2609, Australia",
+      "size_kb": 149
+    },
+    {
+      "filename": "gimg_costco_af9c13a7_07.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/06101fbc0ad43017984da39ffa3f9532",
+      "source_page": "https://www.news.com.au/finance/real-estate/costco-ready-to-unveil-latest-australian-location/news-story/cf0a05ba738fc1228a8bdb21527c18cb",
+      "alt_text": "First look inside Australia\u2019s newest Costco store | news.com.au ...",
+      "size_kb": 170
+    },
+    {
+      "filename": "gimg_costco_de30265f_08.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/3273ba2a1501c968587c4d8c6b99b6dd_-australian-capital-territory-costco-fuelhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/costco_fuel.html",
+      "alt_text": "Costco Fuel - Australian Capital Territory 2609, Australia",
+      "size_kb": 173
+    },
+    {
+      "filename": "gimg_costco_0c536b51_09.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/lhyN25ckbo9CS_JlEu9Zbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NDY-/https://s.yimg.com/os/creatr-uploaded-images/2022-07/321cc810-08a0-11ed-9e1f-730b363cc8dd",
+      "source_page": "https://au.news.yahoo.com/cheap-costco-petrol-price-stuns-drivers-061823776.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_costco_c179125b_10.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/ada17455-82a7-4c48-a1e2-be856a7d7603/r0_0_2000_1500_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074481/costco-canberra-petrol-station-opens-igniting-price-war/",
+      "alt_text": "Costco Canberra petrol station opens, igniting price war | The Canberra ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_costco_c2ff29b8_11.jpg",
+      "source_url": "https://c8.alamy.com/comp/P4EP37/costco-wholesale-fuel-pump-at-the-costco-filling-station-in-sheffield-P4EP37.jpg",
+      "source_page": "https://storage.googleapis.com/duiaztsapwoebe/how-much-is-costco-petrol.html",
+      "alt_text": "How Much Is Costco Petrol at Poppy Mcbrien blog",
+      "size_kb": 192
+    },
+    {
+      "filename": "gimg_costco_85162434_12.png",
+      "source_url": "https://images.7news.com.au/publication/C-8793269/da35631b87c6c866cc4161e5f36262917e0dd525-16x9-x0y81w1516h853.png?imwidth=650&impolicy=sevennews_v2",
+      "source_page": "https://7news.com.au/lifestyle/how-to-get-62c-a-litre-off-your-fuel-by-shopping-at-one-supermarket-c-8793269",
+      "alt_text": "Costco Australia supermarket low petrol prices: how to get as much as ...",
+      "size_kb": 355
+    },
+    {
+      "filename": "gimg_costco_85a6e50b_13.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/costco-fuel-prices-record-low-april-180454374.jpg",
+      "source_page": "https://www.dreamstime.com/costco-fuel-prices-record-low-april-image180454374",
+      "alt_text": "Costco Fuel Prices Record Low April 2020 Editorial Stock Image - Image ...",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_1a482859_15.jpg",
+      "source_url": "https://retailworldmagazine.com.au/wp-content/uploads/2025/03/Costco-Ardeer-fuel-station.jpg",
+      "source_page": "https://retailworldmagazine.com.au/costco-opens-its-largest-aussie-fuel-station/",
+      "alt_text": "Costco opens its largest Aussie fuel station | RW",
+      "size_kb": 220
+    },
+    {
+      "filename": "gimg_costco_57e4a1dd_16.jpg",
+      "source_url": "https://massmarketretailers.com/content/images/size/w1304/format/webp/2025/06/1000s-2-1-1.jpg",
+      "source_page": "https://massmarketretailers.com/costco-to-open-first-stand-alone-gas-station/",
+      "alt_text": "Costco to open first stand-alone gas station",
+      "size_kb": 103
+    },
+    {
+      "filename": "gimg_costco_52d3de42_17.jpg",
+      "source_url": "https://imgproxy.divecdn.com/kKHLF-sw-qXWHdprDuuoxrwqbn1jk-4d-A1-vBEN67o/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjEwODIwNTQ5XzEuanBn.webp",
+      "source_page": "https://www.cstoredive.com/news/costco-first-standalone-gas-station/750733/",
+      "alt_text": "Costco to open first standalone gas station | C-Store Dive",
+      "size_kb": 76
+    },
+    {
+      "filename": "gimg_costco_4bf5f7bd_18.png",
+      "source_url": "https://www.carexplore.com.au/content/images/2024/09/Costsco-Fuel-Adelaide-1.png",
+      "source_page": "https://www.carexplore.com.au/costco-fuel-prices-in-adelaide-september-15-2024-update/",
+      "alt_text": "Costco Fuel Prices in Adelaide: September 15 2024, Update",
+      "size_kb": 374
+    },
+    {
+      "filename": "gimg_costco_10450926_19.jpg",
+      "source_url": "https://i2-prod.birminghammail.co.uk/incoming/article13507137.ece/ALTERNATES/s810/DQP_BEM_210817COSTCO_27JPG.jpg",
+      "source_page": "https://www.birminghammail.co.uk/news/midlands-news/how-costco-petrol-prices-compare-24776427",
+      "alt_text": "How Costco petrol prices compare to other retailers - and why they're ...",
+      "size_kb": 74
+    },
+    {
+      "filename": "gimg_costco_2ebea23e_20.jpg",
+      "source_url": "https://retailwire.com/wp-content/uploads/Costcos-Gas-Stations-Are-Making-a-Huge-Change-\u2014-Heres-What-Customers-Need-to-Know.jpg",
+      "source_page": "https://retailwire.com/costco-gas-stations-change/",
+      "alt_text": "Costco's Gas Stations Are Making a Huge Change \u2014 Here's What Customers ...",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_costco_15997eef_22.jpg",
+      "source_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1GUZ2N.img?w=1200&h=675&m=4&q=100",
+      "source_page": "https://www.msn.com/en-us/money/companies/more-cheap-gas-costco-launches-first-ever-standalone-fuel-station/ar-AA1GV3nR",
+      "alt_text": "More cheap gas? Costco launches first-ever standalone fuel station",
+      "size_kb": 1024
+    },
+    {
+      "filename": "gimg_costco_90577b0c_23.png",
+      "source_url": "https://www.techrbun.com/wp-content/uploads/2023/12/costco-gas-stations-across-us-and-canada.png",
+      "source_page": "https://exyasrarg.blob.core.windows.net/costco-gas-station-prices-near-me.html",
+      "alt_text": "Costco Gas Station Prices Near Me at Jay Hill blog",
+      "size_kb": 167
+    },
+    {
+      "filename": "gimg_costco_90978292_25.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/caltex-petrol-station-image-shows-led-fuel-price-sign-display-board-front-petrol-station-penrith-australia-173309583.jpg",
+      "source_page": "https://www.dreamstime.com/caltex-petrol-station-image-shows-led-fuel-price-sign-display-board-front-petrol-station-penrith-australia-image173309583",
+      "alt_text": "Caltex Petrol Station, the Image Shows Led Fuel Price Sign Display ...",
+      "size_kb": 295
+    },
+    {
+      "filename": "gimg_costco_d84abf68_26.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/costco-gasoline-gas-station-costco-gasoline-gas-station-manassas-va-usa-262482719.jpg",
+      "source_page": "https://www.dreamstime.com/costco-gasoline-gas-station-costco-gasoline-gas-station-manassas-va-usa-image262482719",
+      "alt_text": "Costco Gasoline Gas Station Editorial Stock Image - Image of members ...",
+      "size_kb": 70
+    },
+    {
+      "filename": "gimg_costco_620181d3_27.png",
+      "source_url": "https://content-images.thekrazycouponlady.com/nie44ndm9bqr/1xs3xS96XaJjdh1ACSwtkp/ff9eb3da5bd62c08eed31ebac07878eb/Costco_Gas_Prices_Compared.png?auto=format&fit=max&w=3840&q=25",
+      "source_page": "https://thekrazycouponlady.com/tips/money/costco-gas-prices",
+      "alt_text": "Costco Gas Prices: How They Work & How Much You Save - The Krazy Coupon ...",
+      "size_kb": 188
+    },
+    {
+      "filename": "gimg_costco_fb677b7b_28.jpg",
+      "source_url": "https://i0.wp.com/clark.com/wp-content/uploads/2018/05/costcogasprices.jpg?resize=800%2C366&ssl=1",
+      "source_page": "https://clark.com/shopping-retail/costco-gas-price-hours-quality/",
+      "alt_text": "7 Things To Know Before You Buy Gas at Costco Wholesale",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_costco_07302bc3_29.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/08/costco-favicon.png",
+      "source_page": "https://fuelprice.io/station/costco-epping/",
+      "alt_text": "Costco Epping | FuelPrice Australia",
+      "size_kb": 71
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.costco.com.au/mediapermalink/herobanner-fuel_mobile",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.costco.com/wcsstore/CostcoUSBCCatalogAssetStore/feature-pages/17w0509-gasoline-fuel-promise.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.costco.co.uk/mediapermalink/fuel-page-environment-main",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.redding.com/gcdn/presto/2022/11/18/PRRS/77ea4ca1-4059-4386-a1a8-6c65185b8cfc-Costco_gas.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg__marking_background__sm_/v1/editorial/petrol-station-costco.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

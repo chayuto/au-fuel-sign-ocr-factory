@@ -1,0 +1,159 @@
+{
+  "agent": "scrape_bing_caltex_close_20260411T201006",
+  "timestamp": "2026-04-11T20:10:33.441587+00:00",
+  "query": "Caltex Woolworths fuel price sign close up LED Australia",
+  "brand_target": "caltex_close",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T201006",
+  "results": {
+    "urls_found": 20,
+    "saved": 20,
+    "rejected": 0,
+    "yield_pct": 100.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_caltex_close_113d9938_00.jpg",
+      "source_url": "https://c8.alamy.com/comp/J5R66N/a-caltex-woolworths-petrol-station-shellharbour-new-south-wales-nsw-J5R66N.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/woolworths-petrol-station.html",
+      "alt_text": "Woolworths petrol station hi-res stock photography and images - Alamy",
+      "size_kb": 281
+    },
+    {
+      "filename": "gimg_caltex_close_90978292_01.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/caltex-petrol-station-image-shows-led-fuel-price-sign-display-board-front-petrol-station-penrith-australia-173309583.jpg",
+      "source_page": "https://www.dreamstime.com/caltex-petrol-station-image-shows-led-fuel-price-sign-display-board-front-petrol-station-penrith-australia-image173309583",
+      "alt_text": "Caltex Petrol Station, the Image Shows Led Fuel Price Sign Display ...",
+      "size_kb": 295
+    },
+    {
+      "filename": "gimg_caltex_close_efb784fb_02.jpg",
+      "source_url": "https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/ECGN93/fuel-pricing-sign-at-a-caltex-woolworths-branded-service-station-ECGN93.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-fuel-pricing-sign-at-a-caltex-woolworths-branded-service-station-76585295.html",
+      "alt_text": "Fuel pricing sign at a Caltex / Woolworths branded service station ...",
+      "size_kb": 161
+    },
+    {
+      "filename": "gimg_caltex_close_77a0a602_03.jpg",
+      "source_url": "https://c8.alamy.com/comp/JCM8KN/caltex-filling-petrol-gas-service-station-with-a-woolworths-convenience-JCM8KN.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-prices.html",
+      "alt_text": "Australian prices hi-res stock photography and images - Alamy",
+      "size_kb": 172
+    },
+    {
+      "filename": "gimg_caltex_close_c7921b44_04.jpg",
+      "source_url": "https://cdn.newsapi.com.au/image/v1/de7d7e2e38642c48cbe138d65cae2966?width=1024",
+      "source_page": "https://www.couriermail.com.au/questnews/moreton/fuel-prices-rising-across-the-state-but-one-region-has-barely-budged/news-story/b2300a22d1ee862a9a30ee312c0ddc7c",
+      "alt_text": "Fuel prices rising across southeast Queensland but the Moreton Bay ...",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_caltex_close_463f62a2_05.jpg",
+      "source_url": "https://media.istockphoto.com/photos/caltex-petrol-station-woolies-convenience-store-picture-id1210032642?k=20&m=1210032642&s=612x612&w=0&h=Aw9jRjbV7pJZjh9-4ycRIkauuX4OQ7H1JLBt7kbv-AQ=",
+      "source_page": "https://www.istockphoto.com/photos/fuel-pump-australia",
+      "alt_text": "Fuel Pump Australia Stock Photos, Pictures & Royalty-Free Images - iStock",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_caltex_close_28d53a84_06.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/5fb1106bccece03da5f3d884c887d946_-new-south-wales-city-of-blacktown-plumpton-caltex-woolworths-02-9677-1217html.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/city_of_blacktown/plumpton/caltex-woolworths-02-9677-1217.html",
+      "alt_text": "Caltex Woolworths - Jersey Rd, Plumpton NSW 2761, Australia",
+      "size_kb": 316
+    },
+    {
+      "filename": "gimg_caltex_close_0ae4e17a_07.jpg",
+      "source_url": "https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/D3CTE6/caltex-woolworths-petrol-station-in-sydneyaustralia-D3CTE6.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-caltex-woolworths-petrol-station-in-sydneyaustralia-53757710.html",
+      "alt_text": "caltex woolworths petrol station in sydney,australia Stock Photo - Alamy",
+      "size_kb": 192
+    },
+    {
+      "filename": "gimg_caltex_close_78b03c1b_08.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/e4b8faa70ab3bbcd0ea837f70ef92bbe_-victoria-kingston-city-clarinda-caltex-woolworths-03-9558-2729html.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/clarinda/caltex-woolworths-03-9558-2729.html",
+      "alt_text": "Caltex Woolworths - 58-70 Viney St, Clarinda VIC 3169, Australia",
+      "size_kb": 269
+    },
+    {
+      "filename": "gimg_caltex_close_f2187f0f_09.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/544c40ce78d38e0953f11b7b53f619cb",
+      "source_page": "https://www.heraldsun.com.au/business/caltex-woolies-in-new-marriage-of-convenience/news-story/f60aaa0859979eecf424162147442870",
+      "alt_text": "Woolworths, Caltex sign new fuel, food supply deal | Herald Sun",
+      "size_kb": 65
+    },
+    {
+      "filename": "gimg_caltex_close_3b8e9f5d_10.jpg",
+      "source_url": "https://c8.alamy.com/comp/H61E05/caltex-woolworths-branded-petrol-fuel-gasoline-station-in-north-sydneyaustralia-H61E05.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-caltex-woolworths-branded-petrol-fuel-gasoline-station-in-north-sydneyaustralia-124193445.html",
+      "alt_text": "Caltex Woolworths branded petrol fuel gasoline station in North Sydney ...",
+      "size_kb": 191
+    },
+    {
+      "filename": "gimg_caltex_close_68b39f40_11.jpg",
+      "source_url": "https://media.gettyimages.com/id/828893412/photo/a-general-view-of-the-caltex-woolworths-petrol-station-in-geelong-on-august-10-2017-in.jpg?s=612x612&w=gi&k=20&c=usJNAPhYf702APNizX4tabMpQVuWDF3F_zPKoxu1Euc=",
+      "source_page": "https://www.gettyimages.com/photos/woolworths-petrol",
+      "alt_text": "Woolworths Petrol Photos and Premium High Res Pictures - Getty Images",
+      "size_kb": 32
+    },
+    {
+      "filename": "gimg_caltex_close_54a419f0_12.jpg",
+      "source_url": "https://media.gettyimages.com/id/1235993952/photo/melbourne-australia-caltex-petrol-station-in-australia-at-night-with-a-price-display-showing.jpg?s=612x612&w=gi&k=20&c=JQls_laTQqIYwL5dzsu8yGNqWuzquGbG2w9fobgpS0Y=",
+      "source_page": "https://www.gettyimages.ca/photos/caltex-australia",
+      "alt_text": "Caltex Australia Photos and Premium High Res Pictures - Getty Images",
+      "size_kb": 29
+    },
+    {
+      "filename": "gimg_caltex_close_a7751c94_13.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/d9521edd1c8129f6bb3ffb8b71c44987",
+      "source_page": "https://www.news.com.au/finance/business/retail/accc-deal-secures-deal-to-let-consumers-get-access-to-realtime-petrol-price-data/news-story/4833be83fc2a06aa6fec86660c1e22a0",
+      "alt_text": "ACCC petrol price data deal with BP, Woolworths, Caltex and 7-Eleven ...",
+      "size_kb": 39
+    },
+    {
+      "filename": "gimg_caltex_close_61df8272_14.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H21M6E/melbourne-australia-20th-oct-2021-caltex-petrol-station-in-australia-at-night-with-a-price-display-showing-record-high-fuel-prices-photo-by-alexander-bogatyrevsopa-imagessipa-usa-credit-sipa-usaalamy-live-news-2H21M6E.jpg",
+      "source_page": "https://www.alamy.com/melbourne-australia-20th-oct-2021-caltex-petrol-station-in-australia-at-night-with-a-price-display-showing-record-high-fuel-prices-photo-by-alexander-bogatyrevsopa-imagessipa-usa-credit-sipa-usaalamy-live-news-image448736694.html",
+      "alt_text": "Melbourne, Australia. 20th Oct, 2021. Caltex petrol station in ...",
+      "size_kb": 94
+    },
+    {
+      "filename": "gimg_caltex_close_418b0d9e_15.jpg",
+      "source_url": "https://media.gettyimages.com/id/828770100/photo/melbourne-australia-a-general-view-of-a-caltex-woolworths-petrol-station-in-geelong-on-august.jpg?s=612x612&w=gi&k=20&c=-4G4lUZan9P2_mY6mUWe_i00vJd65cbzhgDBtoMuX28=",
+      "source_page": "https://www.gettyimages.ie/photos/woolworths-petrol",
+      "alt_text": "Woolworths Petrol Photos and Premium High Res Pictures - Getty Images",
+      "size_kb": 26
+    },
+    {
+      "filename": "gimg_caltex_close_4accd64e_16.jpg",
+      "source_url": "https://c8.alamy.com/comp/C84HKX/forecourt-of-a-caltex-petrol-station-in-queenslandaustralia-C84HKX.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/caltex.html",
+      "alt_text": "Caltex hi-res stock photography and images - Alamy",
+      "size_kb": 161
+    },
+    {
+      "filename": "gimg_caltex_close_5350972d_17.jpg",
+      "source_url": "https://c8.alamy.com/comp/D3CTHJ/woolworthscaltex-petrol-station-in-north-sydney-D3CTHJ.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-woolworthscaltex-petrol-station-in-north-sydney-53757806.html",
+      "alt_text": "woolworths/caltex petrol station in north sydney Stock Photo - Alamy",
+      "size_kb": 170
+    },
+    {
+      "filename": "gimg_caltex_close_c632af57_18.jpg",
+      "source_url": "https://c8.alamy.com/comp/JCM8N1/caltex-filling-petrol-gas-service-station-with-a-woolworths-convenience-JCM8N1.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/woolworths-australia.html",
+      "alt_text": "Woolworths australia hi-res stock photography and images - Alamy",
+      "size_kb": 100
+    },
+    {
+      "filename": "gimg_caltex_close_10dd6b27_19.jpg",
+      "source_url": "https://c8.alamy.com/comp/H61E03/caltex-woolworths-branded-petrol-fuel-station-in-north-sydneyaustralia-H61E03.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-caltex-woolworths-branded-petrol-fuel-station-in-north-sydneyaustralia-124193443.html",
+      "alt_text": "Caltex woolworths branded petrol fuel station in North Sydney,Australia ...",
+      "size_kb": 88
+    }
+  ],
+  "rejected_images": []
+}

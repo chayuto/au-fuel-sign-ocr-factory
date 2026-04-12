@@ -110,6 +110,24 @@ brands:
       accent: "#000000"
     common_fuels: [U91, E10, P95, P98, DIESEL]
 
+  apco:
+    display_name: "APCO"
+    colors:
+      background: "#004B87"
+      text: "#FFFFFF"
+      price: "#FFD700"
+      accent: "#CC0000"
+    common_fuels: [U91, E10, DIESEL, LPG]
+
+  eg:
+    display_name: "EG"
+    colors:
+      background: "#002B5C"
+      text: "#FFFFFF"
+      price: "#FFFFFF"
+      accent: "#00A1DE"
+    common_fuels: [U91, E10, P95, P98, DIESEL]
+
   independent:
     display_name: "Independent"
     colors:

@@ -1,0 +1,212 @@
+{
+  "agent": "scrape_bing_puma_20260410T202111",
+  "timestamp": "2026-04-10T20:21:47.425823+00:00",
+  "query": "Puma Energy fuel station Australia price board pylon sign",
+  "brand_target": "puma",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T202111",
+  "results": {
+    "urls_found": 30,
+    "saved": 24,
+    "rejected": 6,
+    "yield_pct": 80.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_puma_6fa0716d_01.jpg",
+      "source_url": "https://www.shutterstock.com/shutterstock/photos/385507894/display_1500/stock-photo-melbourne-australia-february-puma-energy-is-a-singapore-based-petroleum-company-with-385507894.jpg",
+      "source_page": "https://www.shutterstock.com/search/puma-energy",
+      "alt_text": "275 Puma Energy Images, Stock Photos & Vectors | Shutterstock",
+      "size_kb": 518
+    },
+    {
+      "filename": "gimg_puma_fbe5af90_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/095f4fb9dddb3044129ff66a05d8f8c2",
+      "source_page": "https://www.couriermail.com.au/news/queensland/mackay/puma-energy-pounces-on-mackay-but-prices-are-on-par/news-story/0c81b675f60143255184ba7f0c4a6987",
+      "alt_text": "Puma Energy pounces on Mackay but prices are on par | The Courier Mail",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_puma_de798de2_03.jpg",
+      "source_url": "https://www.shutterstock.com/shutterstock/photos/385507930/display_1500/stock-photo-melbourne-australia-february-puma-energy-is-a-singapore-based-petroleum-company-with-385507930.jpg",
+      "source_page": "https://www.shutterstock.com/search/puma-energy",
+      "alt_text": "275 Puma Energy Images, Stock Photos & Vectors | Shutterstock",
+      "size_kb": 607
+    },
+    {
+      "filename": "gimg_puma_c143a2ec_05.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/1d52b6c2d0612776a7b54fdb3f4774a4",
+      "source_page": "https://www.theaustralian.com.au/business/dataroom/doubts-over-chevron-role-in-puma-as-carlyle-enters-the-fray/news-story/77f19c84ada8f30a1199bbdbe0c20854",
+      "alt_text": "Doubts over Chevron role in Puma | The Australian",
+      "size_kb": 125
+    },
+    {
+      "filename": "gimg_puma_955551a3_06.jpg",
+      "source_url": "https://editorial01.shutterstock.com/wm-preview-1500/8445401b/72027af6/Shutterstock_8445401b.jpg",
+      "source_page": "https://www.shutterstock.com/editorial/image-editorial/puma-energy-gas-station-sign-seen-on-8445401b",
+      "alt_text": "Puma Energy Gas Station Sign Seen Editorial Stock Photo - Stock Image ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_puma_611c4e95_08.jpg",
+      "source_url": "https://www.buildingsolutions.net.au/sites/buildingsolutionsnetau/assets/public/Image/projects/Puma_Byford/Puma-6.jpg",
+      "source_page": "https://www.buildingsolutions.net.au/productlisting/building-solutions/fuel-station-construction/puma-fuel-stations-retail-stores.aspx",
+      "alt_text": "Puma Fuel Stations & Retail Stores",
+      "size_kb": 227
+    },
+    {
+      "filename": "gimg_puma_93670c88_10.jpg",
+      "source_url": "https://i.ytimg.com/vi/Zsl70gn3Zdg/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=Zsl70gn3Zdg",
+      "alt_text": "Puma Energy Fuel/Petrol Station DesignTutorial - YouTube",
+      "size_kb": 196
+    },
+    {
+      "filename": "gimg_puma_25b0af5c_11.jpg",
+      "source_url": "https://veclpng.com/wp-content/uploads/2020/07/1-4.jpg?189db0&189db0",
+      "source_page": "https://veclpng.com/pf/rpyc-puma-energy-refueling-facilities/",
+      "alt_text": "RPYC Puma Energy Refueling Facilities \u2013 Vision Engineering and ...",
+      "size_kb": 136
+    },
+    {
+      "filename": "gimg_puma_94ee633a_12.png",
+      "source_url": "https://pumapakistan.com/Theme/PUMA/img/fuel-prices.png",
+      "source_page": "https://pediatrianorte.med.uchile.cl/?p=157981117",
+      "alt_text": "Puma petrol station new arrivals",
+      "size_kb": 393
+    },
+    {
+      "filename": "gimg_puma_a85c9997_14.jpg",
+      "source_url": "https://media.fuelcard.report/wp-content/uploads/2020/06/fuel-cards-for-puma-stations.jpg",
+      "source_page": "https://fuelcard.report/pumacard/",
+      "alt_text": "Pumacard - Fuel Cards Australia",
+      "size_kb": 66
+    },
+    {
+      "filename": "gimg_puma_e0205048_15.jpg",
+      "source_url": "https://editorial01.shutterstock.com/preview-440/8445401a/23424a9e/Shutterstock_8445401a.jpg",
+      "source_page": "https://www.shutterstock.com/editorial/image-editorial/puma-energy-gas-station-sign-seen-on-8445401a",
+      "alt_text": "Puma Energy Gas Station Sign Seen Editorial Stock Photo - Stock Image ...",
+      "size_kb": 49
+    },
+    {
+      "filename": "gimg_puma_c12b6927_16.jpg",
+      "source_url": "https://pumaenergy.com/wp-content/uploads/2023/04/Retail-hero.jpeg",
+      "source_page": "https://pumaenergy.com/our-business/",
+      "alt_text": "Global Energy Solutions for People & Communities | Puma Energy",
+      "size_kb": 333
+    },
+    {
+      "filename": "gimg_puma_7157cb3f_17.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00TUDYrnEJapkA/Pylon-Sign-for-Gas-Station-Signs-in-LED-Displays-Advertising-Pylon-Billboard-Steel-Tube-Pylons.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/TyDmKXSvSlcO/China-Pylon-Sign-for-Gas-Station-Signs-in-LED-Displays-Advertising-Pylon-Billboard-Steel-Tube-Pylons.html",
+      "alt_text": "Pylon Sign for Gas Station Signs in LED Displays Advertising Pylon ...",
+      "size_kb": 89
+    },
+    {
+      "filename": "gimg_puma_1cd24097_18.jpg",
+      "source_url": "https://skylite.b-cdn.net/file/2020/09/gasoline_station_pylon_sign_with_price_board_2-1-724x550.jpg",
+      "source_page": "https://www.skyliteadvertising.com/product/pylon-totem-signs/gasoline-station-pylon-sign-with-price-board/",
+      "alt_text": "Gasoline Station Pylon Sign with Price Board | Skylite Advertising ...",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_puma_56aa1235_19.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H2109926dd9ae4f7d84a3786cdff435c4y/234067538/H2109926dd9ae4f7d84a3786cdff435c4y.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/customize-pylon-sign-gas-fuel-petrol_1600262565917.html",
+      "alt_text": "Customized Pylon Sign for Gas Stations - Illuminated & Durable",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_puma_18cda797_20.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00NRnYUKOsZGot/Standing-Pylon-Advertising-LED-Price-Sign-Gas-Station-Screen-CNG-Home-Filling-Station.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/XCDEqmJxsikH/China-Standing-Pylon-Advertising-LED-Price-Sign-Gas-Station-Screen-CNG-Home-Filling-Station.html",
+      "alt_text": "Standing Pylon Advertising LED Price Sign Gas Station Screen CNG Home ...",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_puma_3feff391_21.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00DOilFvRKSsrS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_puma_4f905d5b_22.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H0d70bc9130784179839de4cb22e34fb8t/229953170/H0d70bc9130784179839de4cb22e34fb8t.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Outdoor-pole-pylon-sign-totem-filling_1600824577109.html",
+      "alt_text": "LED Gas Price Signs - Digital Display Solutions for Outdoor",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_puma_ab6ad2ae_24.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H89ddd964835641e28dec6cfb3bc87b14I.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/gas-station-road-sign",
+      "alt_text": "High-Visibility Gas Station Road Signs: Advanced Digital Displays for ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_puma_5652f61d_25.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00WFhlOrYykKpS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 18
+    },
+    {
+      "filename": "gimg_puma_c7818dc4_26.jpg",
+      "source_url": "https://pumaenergy.com/wp-content/uploads/2023/05/Fuel-Pump.jpg",
+      "source_page": "https://pumaenergy.com/country/belize/",
+      "alt_text": "Belize - Puma Energy",
+      "size_kb": 75
+    },
+    {
+      "filename": "gimg_puma_4e2c7851_27.jpg",
+      "source_url": "https://pumaenergy.com/wp-content/uploads/2023/09/RS44415_23-2.jpg",
+      "source_page": "https://pumaenergy.com/lpg/",
+      "alt_text": "LPG - Puma Energy",
+      "size_kb": 605
+    },
+    {
+      "filename": "gimg_puma_b7012297_28.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/07/CVMS_Perth_057-LR-1024x683.jpg",
+      "source_page": "https://cvmediasignage.com.au/led/led-pylon/",
+      "alt_text": "LED Pylon - CV Media & Signage",
+      "size_kb": 152
+    },
+    {
+      "filename": "gimg_puma_a6498c2c_29.jpg",
+      "source_url": "https://c8.alamy.com/comp/D85D40/a-shell-petrol-station-price-sign-board-showing-fuel-prices-2013-D85D40.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/gas-station-price-board.html",
+      "alt_text": "Gas Station Price Board High Resolution Stock Photography and Images ...",
+      "size_kb": 115
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/puma_modified_1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/murumba_downs_modified_3.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/20160122_094635.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/118766530IMG_5890.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://citinewsroom.com/wp-content/uploads/2021/05/Puma-Energy-New-Site-Opening--1140x815.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://shopcdnpro.grainajz.com/category/453418/3632/2e52fd8cb86561322a6b9e0673c85cbf/photobank - 2025-08-21T163641.564.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

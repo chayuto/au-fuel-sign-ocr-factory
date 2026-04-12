@@ -1,0 +1,157 @@
+{
+  "agent": "scrape_bing_shell_nsw_20260411T214835",
+  "timestamp": "2026-04-11T21:49:14.469919+00:00",
+  "query": "Shell fuel price sign pylon New South Wales suburban close",
+  "brand_target": "shell_nsw",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T214835",
+  "results": {
+    "urls_found": 20,
+    "saved": 19,
+    "rejected": 1,
+    "yield_pct": 95.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_shell_nsw_821eeb43_00.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/guide-sign-indicated-price-fuel-shell-gas-station-ryazan-russia-july-evening-prices-230516866.jpg",
+      "source_page": "https://www.dreamstime.com/guide-sign-indicated-price-fuel-shell-gas-station-ryazan-russia-july-evening-prices-image230516866",
+      "alt_text": "Guide Sign, Indicated the Price of the Fuel on the Shell Gas Station ...",
+      "size_kb": 206
+    },
+    {
+      "filename": "gimg_shell_nsw_dcb341c1_01.jpg",
+      "source_url": "https://viewnet.dk/wp-content/uploads/ViewNet-Shell-Reference01a.jpg",
+      "source_page": "https://viewnet.dk/en/shell-pyloner/",
+      "alt_text": "SHELL PYLONS | ViewNet",
+      "size_kb": 314
+    },
+    {
+      "filename": "gimg_shell_nsw_de51f704_02.png",
+      "source_url": "https://maliklighting.com/wp-content/uploads/2020/05/4-1.png",
+      "source_page": "https://ar.inspiredpencil.com/pictures-2023/shell-gas-station-sign",
+      "alt_text": "Shell Gas Station Sign",
+      "size_kb": 40
+    },
+    {
+      "filename": "gimg_shell_nsw_f27be28d_03.jpg",
+      "source_url": "https://c8.alamy.com/comp/C503B9/shell-gasoline-station-sign-with-pricegallon-of-389-and-910ths-us-C503B9.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/gas-price-sign.html",
+      "alt_text": "Gas Price Sign High Resolution Stock Photography and Images - Alamy",
+      "size_kb": 152
+    },
+    {
+      "filename": "gimg_shell_nsw_27e25632_04.jpg",
+      "source_url": "https://c8.alamy.com/comp/2BAP81K/florida-fl-south-miami-beach-sobe-41st-street-shell-gas-station-sign-logo-gasoline-petrol-prices-per-gallon-company-logo-tall-sightseei-2BAP81K.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-gas-station-sign.html",
+      "alt_text": "Shell Gas Station Sign High Resolution Stock Photography and Images - Alamy",
+      "size_kb": 89
+    },
+    {
+      "filename": "gimg_shell_nsw_1fc035b9_05.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/shell-gas-station-sign-fuel-prices-displayed-against-blue-sky-376365122.jpg",
+      "source_page": "https://www.dreamstime.com/shell-gas-station-sign-fuel-prices-displayed-against-blue-sky-image376365122",
+      "alt_text": "Shell Gas Station Sign with Fuel Prices Displayed Against Blue Sky ...",
+      "size_kb": 45
+    },
+    {
+      "filename": "gimg_shell_nsw_42a18fa7_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/RTC2DA/fuel-price-display-at-a-shell-petrol-station-in-england-during-2019-uk-RTC2DA.jpg",
+      "source_page": "https://storage.googleapis.com/dlxrdwfjijfpae/fuel-uk-company.html",
+      "alt_text": "Fuel Uk Company at Bernard Baril blog",
+      "size_kb": 194
+    },
+    {
+      "filename": "gimg_shell_nsw_8c6de154_07.jpg",
+      "source_url": "https://c8.alamy.com/comp/F982D4/shell-fuel-petrol-service-station-in-north-sydneynew-south-wales-australia-F982D4.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-petrol-and-australia.html",
+      "alt_text": "Shell petrol and australia hi-res stock photography and images - Alamy",
+      "size_kb": 210
+    },
+    {
+      "filename": "gimg_shell_nsw_3bb134d7_08.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/petrol-station-shell-fuel-neon-sign-illuminated-sign-price-list-liquid-fuels-well-known-brandname-shell-265409173.jpg",
+      "source_page": "https://www.dreamstime.com/petrol-station-shell-fuel-neon-sign-illuminated-sign-price-list-liquid-fuels-well-known-brandname-shell-image265409173",
+      "alt_text": "Petrol Station Shell Fuel Neon Sign Editorial Stock Photo - Image of ...",
+      "size_kb": 107
+    },
+    {
+      "filename": "gimg_shell_nsw_13bfcb89_09.jpg",
+      "source_url": "http://c8.alamy.com/comp/C24J9T/shell-gas-station-sign-showing-gasoline-prices-over-4-per-gallon-san-C24J9T.jpg",
+      "source_page": "https://fity.club/lists/suggestions/shell-gas-station-sign/",
+      "alt_text": "Shell Gas Station Sign",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_shell_nsw_35d59c73_10.jpg",
+      "source_url": "https://mancave.artfactory.com/wp-content/uploads/2022/07/New-Neon-Yellow-Vintage-Shell-Sign-5.jpg",
+      "source_page": "https://ar.inspiredpencil.com/pictures-2023/shell-gas-station-sign",
+      "alt_text": "Shell Gas Station Sign",
+      "size_kb": 876
+    },
+    {
+      "filename": "gimg_shell_nsw_d80eda20_11.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HGPJ96/new-orleans-la-usa-january-15-2022-shell-gas-station-sign-showing-rising-gas-prices-2HGPJ96.jpg",
+      "source_page": "https://fity.club/lists/suggestions/Gas-Signs/",
+      "alt_text": "Gas Signs Australia's Santos And TotalEnergies Sign LNG Deal | Reuters",
+      "size_kb": 83
+    },
+    {
+      "filename": "gimg_shell_nsw_ece9a681_12.jpg",
+      "source_url": "https://s1.geograph.org.uk/geophotos/06/43/56/6435649_2c219b54_1024x1024.jpg",
+      "source_page": "https://www.geograph.org.uk/photo/6435649",
+      "alt_text": "April 7th 2020 Shell fuel prices,... \u00a9 Jaggery :: Geograph Britain and ...",
+      "size_kb": 178
+    },
+    {
+      "filename": "gimg_shell_nsw_340462bb_13.jpg",
+      "source_url": "https://l450v.alamy.com/450v/2cw95aa/shell-garage-sign-shell-petrol-station-sign-with-fuel-prices-and-garage-facilities-shell-sign-2cw95aa.jpg",
+      "source_page": "https://www.alamy.com/shell-gas-station-with-fuel-price-signage-in-dacula-georgia-usa-image438957544.html",
+      "alt_text": "Shell gas station with fuel price signage in Dacula, Georgia. (USA ...",
+      "size_kb": 26
+    },
+    {
+      "filename": "gimg_shell_nsw_1c7ca560_14.jpg",
+      "source_url": "https://c8.alamy.com/comp/B0AR80/shell-gas-station-sign-showing-gasoline-prices-per-gallon-california-B0AR80.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-gas-station-sign.html",
+      "alt_text": "Shell gas station sign hi-res stock photography and images - Alamy",
+      "size_kb": 155
+    },
+    {
+      "filename": "gimg_shell_nsw_38c997c3_15.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JC22DJ/hornchurch-essex-uk-9th-june-2022-uk-fuel-prices-at-record-high-cost-of-filling-up-avarage-car-with-petrol-hits-100-credit-marcin-rogozinskialamy-live-news-2JC22DJ.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-fuel-prices-sign-petrol-station.html",
+      "alt_text": "Shell fuel prices sign petrol station hi-res stock photography and ...",
+      "size_kb": 107
+    },
+    {
+      "filename": "gimg_shell_nsw_031b9fbe_16.jpg",
+      "source_url": "https://c8.alamy.com/comp/CF8DMH/march-2012-shell-gas-station-prices-per-gallon-sign-in-california-CF8DMH.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/prices-shell-gas-station-in.html",
+      "alt_text": "Prices shell gas station in hi-res stock photography and images - Alamy",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_shell_nsw_03f21f04_17.jpg",
+      "source_url": "https://c8.alamy.com/comp/F0NJ96/coles-express-and-shell-petrol-fuel-station-in-avalon-beach-sydney-F0NJ96.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-petrol-australia.html",
+      "alt_text": "Shell petrol australia hi-res stock photography and images - Alamy",
+      "size_kb": 198
+    },
+    {
+      "filename": "gimg_shell_nsw_45ca0895_19.jpg",
+      "source_url": "https://c8.alamy.com/comp/2D1X2WH/london-uk-february-26-2012-shell-logo-advertising-sign-at-a-retail-business-service-station-garage-in-the-city-showing-its-petrol-pump-price-stoc-2D1X2WH.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-petrol-station-sign.html",
+      "alt_text": "Shell petrol station sign hi-res stock photography and images - Alamy",
+      "size_kb": 170
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://vds.group/wp-content/uploads/2021/02/1800h1200-day-1.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

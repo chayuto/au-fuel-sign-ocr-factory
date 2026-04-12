@@ -1,0 +1,221 @@
+{
+  "agent": "scrape_bing_eg_nsw_20260410T221628",
+  "timestamp": "2026-04-10T22:16:58.856230+00:00",
+  "query": "EG Australia fuel price sign New South Wales Sydney pylon",
+  "brand_target": "eg_nsw",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T221628",
+  "results": {
+    "urls_found": 30,
+    "saved": 27,
+    "rejected": 3,
+    "yield_pct": 90.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_eg_nsw_67587445_00.jpg",
+      "source_url": "https://c8.alamy.com/comp/EX1Y82/australian-petrol-station-with-fuel-gas-prices-new-south-walesaustralia-EX1Y82.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-australian-petrol-station-with-fuel-gas-prices-new-south-walesaustralia-84865874.html",
+      "alt_text": "australian petrol station with fuel gas prices, new south wales ...",
+      "size_kb": 155
+    },
+    {
+      "filename": "gimg_eg_nsw_1510b7b2_02.jpg",
+      "source_url": "https://c8.alamy.com/comp/D3CTGA/fuel-pricing-at-an-australian-petrol-station-D3CTGA.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-petrol-sign.html",
+      "alt_text": "Australian petrol sign hi-res stock photography and images - Alamy",
+      "size_kb": 175
+    },
+    {
+      "filename": "gimg_eg_nsw_e1f8d2d2_03.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/29f464ff0285e09d30115f1cb6996584",
+      "source_page": "https://www.theaustralian.com.au/breaking-news/aussies-spend-thousands-on-petrol-every-year/news-story/5f56779219ec43b76aea0a05d8acf061",
+      "alt_text": "Aussies spend on average $62 each week on petrol | The Australian",
+      "size_kb": 170
+    },
+    {
+      "filename": "gimg_eg_nsw_cad40312_04.jpg",
+      "source_url": "https://image-service-cdn.seek.com.au/de5defa078bfd281fe0a44f8a8da40490e9bbc1e",
+      "source_page": "https://www.seek.com.au/companies/eg-australia-161827272974326",
+      "alt_text": "Working at EG Australia company profile and information | SEEK",
+      "size_kb": 106
+    },
+    {
+      "filename": "gimg_eg_nsw_32090609_05.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2022/09/g-night-scaled.jpg",
+      "source_page": "https://eg-australia.com/",
+      "alt_text": "EG is your destination for premium food, coffee and fuel",
+      "size_kb": 527
+    },
+    {
+      "filename": "gimg_eg_nsw_2fa20f1f_07.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K71DX4/the-fuel-price-sign-at-a-shell-service-station-in-sydney-australia-2K71DX4.jpg",
+      "source_page": "https://www.alamy.com/the-fuel-price-sign-at-a-shell-service-station-in-sydney-australia-image486225772.html",
+      "alt_text": "The fuel price sign at a Shell service station in Sydney, Australia ...",
+      "size_kb": 128
+    },
+    {
+      "filename": "gimg_eg_nsw_6366b7e9_08.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K704XG/metro-fuel-petrol-gas-station-in-lucknow-village-orange-nsw-central-tablelands-region-fuel-and-diesel-prices-displayed-gas-bottle-serviceaustralia-2K704XG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-gas-station.html",
+      "alt_text": "Australian gas station hi-res stock photography and images - Alamy",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_eg_nsw_d7882041_10.jpg",
+      "source_url": "https://comcut.com.au/wp-content/uploads/2015/10/Cimitiere-House-5.jpg",
+      "source_page": "https://comcut.com.au/pylon-signs/",
+      "alt_text": "Pylon Signs Sydney | Custom Pylon Signage Sydney | Comcut",
+      "size_kb": 339
+    },
+    {
+      "filename": "gimg_eg_nsw_998e8def_11.jpg",
+      "source_url": "https://c8.alamy.com/comp/2J0MM21/brisbane-queensland-australia-mar-20-2022-fuel-prices-at-the-local-bp-petrol-station-2J0MM21.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-signage.html",
+      "alt_text": "Petrol station signage hi-res stock photography and images - Alamy",
+      "size_kb": 178
+    },
+    {
+      "filename": "gimg_eg_nsw_25636b4b_12.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JD43YG/june-2022-increasing-cost-of-fuel-and-higher-fuel-prices-across-australia-sydney-shell-petrol-station-displays-current-fuel-costs-2JD43YG.jpg",
+      "source_page": "https://www.alamy.com/june-2022-increasing-cost-of-fuel-and-higher-fuel-prices-across-australia-sydney-shell-petrol-station-displays-current-fuel-costs-image472761396.html",
+      "alt_text": "June 2022 increasing cost of fuel and higher fuel prices across ...",
+      "size_kb": 148
+    },
+    {
+      "filename": "gimg_eg_nsw_56aa1235_13.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H2109926dd9ae4f7d84a3786cdff435c4y/234067538/H2109926dd9ae4f7d84a3786cdff435c4y.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/customize-pylon-sign-gas-fuel-petrol_1600262565917.html",
+      "alt_text": "Customized Pylon Sign for Gas Stations - Illuminated & Durable",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_eg_nsw_a34b6b16_14.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2023/03/ID-2-2048x1363.jpg",
+      "source_page": "https://www.ozbargain.com.au/wiki/fuel_discounts",
+      "alt_text": "Fuel - Discounts & FAQs - OzBargain Wiki",
+      "size_kb": 232
+    },
+    {
+      "filename": "gimg_eg_nsw_1d8c8af6_15.jpg",
+      "source_url": "https://l450v.alamy.com/450v/2m5kan3/shell-fuel-petrol-station-in-sydney-australia-display-prices-per-litre-for-diesel-unleaded-and-ethanol-and-v-power-fuelsnswaustralia-2m5kan3.jpg",
+      "source_page": "https://www.alamy.com/shell-fuel-and-petrol-station-in-avalon-beach-sydney-with-coles-express-grocery-store-and-ford-ranger-wildtrack-driving-pastsydneyaustralia-image456765587.html",
+      "alt_text": "Shell fuel and petrol station in Avalon Beach Sydney with Coles express ...",
+      "size_kb": 28
+    },
+    {
+      "filename": "gimg_eg_nsw_053f8c93_16.jpg",
+      "source_url": "https://signandprint.com.ph/files/2024/06/pylon-sign-5-1024x749-1.jpg",
+      "source_page": "https://signandprint.com.ph/gas-station-pylon-sign-with-led-price-board-for-zhen-gas/",
+      "alt_text": "Gas Station Pylon Sign With LED Price Board For Zhen Gas | Sign And ...",
+      "size_kb": 132
+    },
+    {
+      "filename": "gimg_eg_nsw_eb769e0a_17.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00VkWfObFgkoqn/Wholesale-Factory-New-Customized-Prime-Pylon-Sign-Rustproof-Totem-Gas-Price-Signage.jpg",
+      "source_page": "https://grandview.en.made-in-china.com/product/CZymQUEcXthw/China-Wholesale-Factory-New-Customized-Prime-Pylon-Sign-Rustproof-Totem-Gas-Price-Signage.html",
+      "alt_text": "Wholesale Factory New Customized Prime Pylon Sign Rustproof Totem Gas ...",
+      "size_kb": 115
+    },
+    {
+      "filename": "gimg_eg_nsw_3feff391_18.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00DOilFvRKSsrS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_eg_nsw_fec3d652_19.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2022/09/EG-Fuel-Card-no-woolies-1.jpg",
+      "source_page": "https://eg-australia.com/who-we-are/",
+      "alt_text": "Who we are - EG Australia",
+      "size_kb": 129
+    },
+    {
+      "filename": "gimg_eg_nsw_c31b1bb1_20.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2023/03/Day-1-scaled.jpg",
+      "source_page": "https://fity.club/lists/suggestions/woolworths-petrol-logo/",
+      "alt_text": "Woolworths Petrol Logo Who We Are EG Australia",
+      "size_kb": 610
+    },
+    {
+      "filename": "gimg_eg_nsw_4399c3ed_21.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HC3DKR/shell-fuel-gas-station-in-sydney-showing-pump-prices-of-petrol-diesel-and-ethanol-fuelsydneynsw-australia-2HC3DKR.jpg",
+      "source_page": "https://www.alamy.com/shell-fuel-gas-station-in-sydney-showing-pump-prices-of-petrol-diesel-and-ethanol-fuelsydneynsw-australia-image454922043.html",
+      "alt_text": "Shell fuel gas station in Sydney showing pump prices of petrol, diesel ...",
+      "size_kb": 124
+    },
+    {
+      "filename": "gimg_eg_nsw_74431eb2_22.jpg",
+      "source_url": "https://antitrust-intelligence.com/wp-content/uploads/2026/01/pexels-enginakyurt-11116153.jpg",
+      "source_page": "https://antitrust-intelligence.com/ampols-fuel-acquisition-of-eg-australia-referred-to-accc-phase-2/",
+      "alt_text": "Ampol\u2019s Fuel Acquisition of EG Australia Referred to ACCC Phase 2 ...",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_eg_nsw_4d6aa731_23.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79WN/perth-australia-march-9-2022-record-high-fuel-prices-at-bp-gas-station-2JM79WN.jpg",
+      "source_page": "https://storage.googleapis.com/djnnzqxgavdade/australian-gas-price-cap.html",
+      "alt_text": "Australian Gas Price Cap at Andrea Delreal blog",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_eg_nsw_396becb7_24.jpg",
+      "source_url": "https://media.fuelcard.report/wp-content/uploads/2020/06/cropped-eg-fuel-card-opengraph.jpg",
+      "source_page": "https://fuelcard.report/eg-fuel-card/",
+      "alt_text": "EG Fuel Card - Fuel Cards Australia",
+      "size_kb": 66
+    },
+    {
+      "filename": "gimg_eg_nsw_f0b2d367_25.jpg",
+      "source_url": "https://element4graphics.com/wp-content/uploads/2023/11/Pylon-signs-1.jpg",
+      "source_page": "https://element4graphics.com/outdoor-signs/pylon-signs/",
+      "alt_text": "Pylon Signs - Element 4 Signs & Graphics of Charlotte",
+      "size_kb": 746
+    },
+    {
+      "filename": "gimg_eg_nsw_d337b78e_26.jpg",
+      "source_url": "https://images.buoyantsign.com/uploads/allimg/20250625/2-250625150TY96.jpg",
+      "source_page": "https://www.buoyantsignage.com/products/757.html",
+      "alt_text": "AS - Certified Pylon Signs for AU Gas Stations",
+      "size_kb": 530
+    },
+    {
+      "filename": "gimg_eg_nsw_5ae53172_27.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2022/09/fuel-partners-side-2-768x1154.jpg",
+      "source_page": "https://eg-australia.com/fuel-partners/",
+      "alt_text": "Fuel Types - EG Australia",
+      "size_kb": 144
+    },
+    {
+      "filename": "gimg_eg_nsw_e238cf8e_28.jpg",
+      "source_url": "https://shopcdnpro.grainajz.com/category/453418/3632/a44883e32a8632a467c558a82eae2e27/db1a1340-4b57-4d05-af81-ceb34062c0ab.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/pylon-signage",
+      "alt_text": "Professional Pylon Signage Solutions: High-Impact Business Visibility ...",
+      "size_kb": 126
+    },
+    {
+      "filename": "gimg_eg_nsw_6b45762f_29.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/b60b627ad7858b76d0a3d74530ffc9dd",
+      "source_page": "https://www.geelongadvertiser.com.au/lifestyle/eg-servo-worker-reveals-how-to-get-13-cents-off-per-litre-of-fuel/news-story/5c91ace2cd8b6970fc391a7ddc897492",
+      "alt_text": "EG app cheap fuel price hack revealed by service station worker ...",
+      "size_kb": 98
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Sydney_led_signs_oil_show_sign_board_repair_fix_mantenance_2.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://signmakerphilippines.com/gallery/images/gasoline_station_pylon_sign_with_price_board_1.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

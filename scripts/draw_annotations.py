@@ -129,7 +129,7 @@ def draw_one(stem, img_path, ann_path, preview_dir):
               f"sign_board ({sign['brand']})", h, w)
 
     # Draw brand_zone
-    if "brand_bbox" in sign:
+    if sign.get("brand_bbox") is not None:
         draw_bbox(img, sign["brand_bbox"], COLORS["brand_zone"], "brand_zone", h, w)
 
     # Draw entries

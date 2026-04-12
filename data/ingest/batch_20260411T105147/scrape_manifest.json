@@ -1,0 +1,119 @@
+{
+  "agent": "scrape_bing_costco_au2_20260411T105147",
+  "timestamp": "2026-04-11T10:52:21.107717+00:00",
+  "query": "Costco Australia fuel price board gasoline",
+  "brand_target": "costco_au2",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T105147",
+  "results": {
+    "urls_found": 15,
+    "saved": 13,
+    "rejected": 2,
+    "yield_pct": 86.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_costco_au2_8e731411_00.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/cqAuILS1mZAjlgXVIrh7DQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NDY-/https://media.zenfs.com/en/aol_uk_yahoo_news_au_741/45404d930108a686df5c2c7b28ddccba",
+      "source_page": "https://www.aol.co.uk/news/bloody-cheap-costco-petrol-price-061823596.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_costco_au2_44780942_01.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/d68be2a8-705f-41f5-8521-73abccdce269/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074481/costco-canberra-petrol-station-opens-igniting-price-war/",
+      "alt_text": "Costco Canberra petrol station opens, igniting price war | The Canberra ...",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_au2_55dfb1e7_03.png",
+      "source_url": "https://content-images.thekrazycouponlady.com/nie44ndm9bqr/1xs3xS96XaJjdh1ACSwtkp/ff9eb3da5bd62c08eed31ebac07878eb/Costco_Gas_Prices_Compared.png?w=1024&fit=max&auto=format&q=90",
+      "source_page": "https://thekrazycouponlady.com/tips/money/costco-gas-prices",
+      "alt_text": "Costco Gas Prices: How They Work & How Much You Save - The Krazy Coupon ...",
+      "size_kb": 135
+    },
+    {
+      "filename": "gimg_costco_au2_23089334_04.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/costco-fuel-prices-record-low-april-180454374.jpg",
+      "source_page": "https://storage.googleapis.com/dbfioiaoppenwe/best-time-to-buy-costco-gas.html",
+      "alt_text": "Best Time To Buy Costco Gas at Matthew Blackburn blog",
+      "size_kb": 163
+    },
+    {
+      "filename": "gimg_costco_au2_082a01af_06.jpg",
+      "source_url": "https://koala.sh/api/image/v2-5on4j-39i0j.jpg?width=1216&height=832&dream",
+      "source_page": "https://costcogaspricetracker.com/costco-gas-compared-to-chevron/",
+      "alt_text": "Costco Gas Compared to Chevron: Analyzing Quality and Value Differences ...",
+      "size_kb": 135
+    },
+    {
+      "filename": "gimg_costco_au2_de30265f_07.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/3273ba2a1501c968587c4d8c6b99b6dd_-australian-capital-territory-costco-fuelhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/costco_fuel.html",
+      "alt_text": "Costco Fuel - Australian Capital Territory 2609, Australia",
+      "size_kb": 173
+    },
+    {
+      "filename": "gimg_costco_au2_8c6d937d_08.jpg",
+      "source_url": "https://4.bp.blogspot.com/-3BB6KlNcnqQ/WWOPLkmgZJI/AAAAAAAAMVY/cY_CKGg8Ip4MJ1hIWRFVD1Hw2eerNc5zQCLcBGAs/s1600/costco-gas-price-redwood-city-ca-20170709-jul09.jpg",
+      "source_page": "https://storage.googleapis.com/dccypcjcyssvoe/types-of-costco-gas.html",
+      "alt_text": "Types Of Costco Gas at Bruce Moreno blog",
+      "size_kb": 528
+    },
+    {
+      "filename": "gimg_costco_au2_01b8e365_09.jpg",
+      "source_url": "https://www.mashed.com/img/gallery/costco-shoppers-are-relating-to-this-gas-station-rant/l-intro-1635448728.jpg",
+      "source_page": "https://storage.googleapis.com/djiqxgywqsjnqe/can-anyone-go-to-costco-gas-station.html",
+      "alt_text": "Can Anyone Go To Costco Gas Station at Benjamin Macbain blog",
+      "size_kb": 310
+    },
+    {
+      "filename": "gimg_costco_au2_6a47f2ba_10.jpg",
+      "source_url": "https://2.bp.blogspot.com/-kgLf8d-VxCE/Vwh6WXNeT2I/AAAAAAAAHqQ/GRXnxWgjHzwtAWyb-61mjtLJbaXPwttEQ/s1600/costco-gas-price-south-san-francisco-airport-ca-20160408-apr08.jpg",
+      "source_page": "https://storage.googleapis.com/dbqzqgeqsmewwe/how-is-costco-gas.html",
+      "alt_text": "How Is Costco Gas at Janis Clayson blog",
+      "size_kb": 384
+    },
+    {
+      "filename": "gimg_costco_au2_0b26b7f2_11.jpg",
+      "source_url": "https://3.bp.blogspot.com/-s1Qcapy9FEg/WOsp57koyJI/AAAAAAAALpw/PQg08P0U8Qoz_dSXsIS4ydAJDFKrJVELACLcB/s1600/costco-gas-price-redwood-city-ca-20170409-apr09.jpg",
+      "source_page": "https://storage.googleapis.com/dynbplwmkbjhze/what-kind-of-gas-is-sold-at-costco.html",
+      "alt_text": "What Kind Of Gas Is Sold At Costco at Dennis Penn blog",
+      "size_kb": 436
+    },
+    {
+      "filename": "gimg_costco_au2_a22c7b7d_12.jpg",
+      "source_url": "https://c8.alamy.com/comp/2WXPM8D/maui-hawaii-islands-usa-costco-wholesale-sells-cheaper-gasoline-to-members-price-is-259cent-and-hundrads-are-in-quecue-for-costco-lower-price-gas-12-january-2015-hoto-by-francis-joseph-deandeanpictures-2WXPM8D.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/costco-gasoline.html",
+      "alt_text": "Costco gasoline hi-res stock photography and images - Alamy",
+      "size_kb": 106
+    },
+    {
+      "filename": "gimg_costco_au2_2d452e2d_13.jpg",
+      "source_url": "https://prod-cdn-thekrazycouponlady.imgix.net/wp-content/uploads/2022/08/costco-gas-station-kirkland-signature-gasoline-members-only-sign-prices-dreamstime-april-2020-1661359018-1661359019-scaled-e1661359047875.jpg?auto=format&fit=fill",
+      "source_page": "https://thekrazycouponlady.com/tips/money/costco-gas-prices",
+      "alt_text": "What Time Does Costco Gas Close? Costco Gas Price Info & More - The ...",
+      "size_kb": 136
+    },
+    {
+      "filename": "gimg_costco_au2_31576711_14.jpg",
+      "source_url": "https://i.ytimg.com/vi/NNGLP1N6vfM/maxresdefault.jpg",
+      "source_page": "https://storage.googleapis.com/dccypcjcyssvoe/types-of-costco-gas.html",
+      "alt_text": "Types Of Costco Gas at Bruce Moreno blog",
+      "size_kb": 183
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.costco.com/wcsstore/CostcoUSBCCatalogAssetStore/feature-pages/17w0509-gasoline-fuel-promise.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.costco.com.au/mediapermalink/herobanner-fuel_mobile",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

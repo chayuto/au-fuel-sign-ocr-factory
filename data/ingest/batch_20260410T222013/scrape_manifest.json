@@ -1,0 +1,224 @@
+{
+  "agent": "scrape_bing_7eleven_vic_20260410T222013",
+  "timestamp": "2026-04-10T22:20:37.781109+00:00",
+  "query": "7-Eleven fuel price sign Australia Melbourne pylon LED servo",
+  "brand_target": "7eleven_vic",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T222013",
+  "results": {
+    "urls_found": 30,
+    "saved": 28,
+    "rejected": 2,
+    "yield_pct": 93.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_7eleven_vic_e0bd7fd7_00.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/melbourne-vic-australia-oct-st-sign-eleven-convenience-store-mobil-petrol-station-prices-unleaded-diesel-fuel-198567394.jpg",
+      "source_page": "https://cartoondealer.com/image/194856365/7-eleven-petrol-station-signage-mobil-logo-current-fuel-prices.html",
+      "alt_text": "7 Eleven Petrol Station And Signage With Mobil Logo And Current Fuel ...",
+      "size_kb": 142
+    },
+    {
+      "filename": "gimg_7eleven_vic_80c0244d_01.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/sydney-australia-entrance-to-eleven-petrol-service-station-fuel-prices-215832338.jpg",
+      "source_page": "https://www.dreamstime.com/sydney-australia-entrance-to-eleven-petrol-service-station-fuel-prices-image215832338",
+      "alt_text": "Entrance To 7 Eleven Petrol Service Station and Fuel Prices Editorial ...",
+      "size_kb": 103
+    },
+    {
+      "filename": "gimg_7eleven_vic_c81b6431_02.jpg",
+      "source_url": "https://c8.alamy.com/comp/2E36E8J/the-7-eleven-petrol-or-gas-station-in-granville-in-western-sydney-new-south-wales-australia-2E36E8J.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-prices-gas-station-australia.html",
+      "alt_text": "Petrol prices gas station australia hi-res stock photography and images ...",
+      "size_kb": 148
+    },
+    {
+      "filename": "gimg_7eleven_vic_aba657d2_03.png",
+      "source_url": "https://www.rpmhire.com.au/wp-content/uploads/2025/01/7-Eleven-Image.png",
+      "source_page": "https://www.rpmhire.com.au/products/advertising-signs/",
+      "alt_text": "Advertising Signs in Melbourne, Sydney & Brisbane | RPM Hire",
+      "size_kb": 963
+    },
+    {
+      "filename": "gimg_7eleven_vic_3f65bbcd_04.jpg",
+      "source_url": "https://metrosigns.com.au/wp-content/uploads/2024/05/7-Eleven-min-1536x2048.jpg",
+      "source_page": "https://metrosigns.com.au/pylons/",
+      "alt_text": "Pylons - Metro Signs",
+      "size_kb": 442
+    },
+    {
+      "filename": "gimg_7eleven_vic_16a6dfb0_05.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/sydney-australia-20191009-7-eleven-260nw-1805426725.jpg",
+      "source_page": "https://www.shutterstock.com/search/7-eleven-australia",
+      "alt_text": "132 7 Eleven Australia Images, Stock Photos, 3D objects, & Vectors ...",
+      "size_kb": 43
+    },
+    {
+      "filename": "gimg_7eleven_vic_8f613994_06.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/sydney-australia-eleven-petrol-station-signage-mobil-logo-current-fuel-prices-sydney-australia-eleven-petrol-station-187330669.jpg",
+      "source_page": "https://www.dreamstime.com/sydney-australia-eleven-petrol-station-signage-mobil-logo-current-fuel-prices-sydney-australia-eleven-petrol-station-image187330669",
+      "alt_text": "7Eleven Petrol Station Signage with Mobil Logo and Current Fuel Prices ...",
+      "size_kb": 221
+    },
+    {
+      "filename": "gimg_7eleven_vic_48fed7e5_07.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/sign-showing-partnership-mobil-seven-eleven-sign-showing-partnership-mobil-seven-eleven-261089199.jpg",
+      "source_page": "https://www.dreamstime.com/sydney-australia-eleven-petrol-service-station-mobile-app-advertising-lock-our-best-local-fuel-price-image215832250",
+      "alt_text": "7 Eleven Petrol Service Station and Mobile App Advertising. Lock Our ...",
+      "size_kb": 73
+    },
+    {
+      "filename": "gimg_7eleven_vic_873b97fb_08.jpg",
+      "source_url": "https://c8.alamy.com/comp/MJTX8W/melbourne-australia-april-09-2018-a-7-eleven-convenience-store-with-a-mobil-petrol-station-7-eleven-is-a-franchisor-of-convenience-stores-MJTX8W.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/exxon-gas-station-petrol.html",
+      "alt_text": "Exxon gas station petrol hi-res stock photography and images - Alamy",
+      "size_kb": 197
+    },
+    {
+      "filename": "gimg_7eleven_vic_350dca2b_09.jpg",
+      "source_url": "https://metrosigns.com.au/wp-content/uploads/2024/02/CS-MAIN-7-Eleven-1920w.webp",
+      "source_page": "https://metrosigns.com.au/case-studies/",
+      "alt_text": "Case Studies - Metro Signs",
+      "size_kb": 11
+    },
+    {
+      "filename": "gimg_7eleven_vic_1ed7abae_10.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2022/02/Wodonga.jpg",
+      "source_page": "https://www.c-store.com.au/7-eleven-continues-investment-in-victoria/",
+      "alt_text": "7-Eleven continues investment throughout Victoria - Convenience ...",
+      "size_kb": 360
+    },
+    {
+      "filename": "gimg_7eleven_vic_3f4c66a8_11.jpg",
+      "source_url": "https://www.techguide.com.au/wp-content/uploads/2016/03/7ElevenFuel4.jpg",
+      "source_page": "https://www.techguide.com.au/news/how-the-7-eleven-fuel-app-lets-you-lock-in-the-cheapest-fuel-in-your-area/",
+      "alt_text": "How the 7-Eleven Fuel app lets you lock in the cheapest fuel in your ...",
+      "size_kb": 28
+    },
+    {
+      "filename": "gimg_7eleven_vic_4f5a4de4_14.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/sydney-australia-eleven-petrol-service-station-mobile-app-advertising-lock-our-best-local-fuel-price-215832250.jpg",
+      "source_page": "https://www.dreamstime.com/sydney-australia-eleven-petrol-service-station-mobile-app-advertising-lock-our-best-local-fuel-price-image215832250",
+      "alt_text": "7 Eleven Petrol Service Station and Mobile App Advertising. Lock Our ...",
+      "size_kb": 170
+    },
+    {
+      "filename": "gimg_7eleven_vic_4f905d5b_15.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H0d70bc9130784179839de4cb22e34fb8t/229953170/H0d70bc9130784179839de4cb22e34fb8t.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Outdoor-pole-pylon-sign-totem-filling_1600824577109.html",
+      "alt_text": "LED Gas Price Signs - Digital Display Solutions for Outdoor",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_7eleven_vic_85b0cd42_16.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00WOVlyQYhAjzS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 26
+    },
+    {
+      "filename": "gimg_7eleven_vic_3feff391_17.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00DOilFvRKSsrS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_7eleven_vic_4374aa93_18.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00poiVgNamYPRH/Gas-Station-Equipment-Standing-LED-Price-Sign-Petrol-Screen-Advertising-Dispenser-Pricing-Pylon.webp",
+      "source_page": "https://grandview.en.made-in-china.com/product/ZFAfYphHHUTC/China-Gas-Station-Equipment-Standing-LED-Price-Sign-Petrol-Screen-Advertising-Dispenser-Pricing-Pylon.html",
+      "alt_text": "Gas Station Equipment Standing LED Price Sign Petrol Screen Advertising ...",
+      "size_kb": 642
+    },
+    {
+      "filename": "gimg_7eleven_vic_2e7dc43f_19.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00cIqovlDzfNkb/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 44
+    },
+    {
+      "filename": "gimg_7eleven_vic_3fa2437a_20.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00vYNUVzhnEpbJ/Gas-Station-Canopy-Design-Illuminated-Pylon-Signs-LED-Price-Sign-Petrol-Gas-Station-Screen.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/hjcEnUBlgHkg/China-Gas-Station-Canopy-Design-Illuminated-Pylon-Signs-LED-Price-Sign-Petrol-Gas-Station-Screen.html",
+      "alt_text": "Gas Station Canopy Design Illuminated Pylon Signs LED Price Sign Petrol ...",
+      "size_kb": 15
+    },
+    {
+      "filename": "gimg_7eleven_vic_021405d9_21.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00OfFUjSuslRbK/LED-Price-Sign-Petrol-Gas-Station-Screen-Stainless-Steel-Pylon-Sign-Steel-Structure.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/OsgQXBFCPlWc/China-LED-Price-Sign-Petrol-Gas-Station-Screen-Stainless-Steel-Pylon-Sign-Steel-Structure.html",
+      "alt_text": "LED Price Sign Petrol Gas Station Screen Stainless Steel Pylon Sign ...",
+      "size_kb": 52
+    },
+    {
+      "filename": "gimg_7eleven_vic_5652f61d_22.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00WFhlOrYykKpS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 18
+    },
+    {
+      "filename": "gimg_7eleven_vic_7157cb3f_23.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00TUDYrnEJapkA/Pylon-Sign-for-Gas-Station-Signs-in-LED-Displays-Advertising-Pylon-Billboard-Steel-Tube-Pylons.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/TyDmKXSvSlcO/China-Pylon-Sign-for-Gas-Station-Signs-in-LED-Displays-Advertising-Pylon-Billboard-Steel-Tube-Pylons.html",
+      "alt_text": "Pylon Sign for Gas Station Signs in LED Displays Advertising Pylon ...",
+      "size_kb": 89
+    },
+    {
+      "filename": "gimg_7eleven_vic_7798e861_24.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00kPocveDdQnbq/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 25
+    },
+    {
+      "filename": "gimg_7eleven_vic_7f4773a7_25.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00MfIUYalRRGoF/Petrol-Station-Price-Board-Pylon-Sign-Design-LED-Pylon-Sign.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/BszniIaYYDVl/China-Petrol-Station-Price-Board-Pylon-Sign-Design-LED-Pylon-Sign.html",
+      "alt_text": "Petrol Station Price Board Pylon Sign Design LED Pylon Sign - Pylon and ...",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_7eleven_vic_7c8c7c1d_26.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00MLbqvhDUfOok/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_7eleven_vic_f1284b2e_27.jpg",
+      "source_url": "https://www.vms-leddisplay.com/photo/pt185153599-6_72_panel_size_fuel_station_pylon_sign_led_7_segment_led_board_gas_light_display.jpg",
+      "source_page": "https://www.vms-leddisplay.com/sale-48150279-6-72-panel-size-fuel-station-pylon-sign-led-7-segment-led-board-gas-light-display.html",
+      "alt_text": "6''-72'' Panel Size Fuel Station Pylon Sign LED 7 Segment LED Board Gas ...",
+      "size_kb": 17
+    },
+    {
+      "filename": "gimg_7eleven_vic_2bbf7a8c_28.jpg",
+      "source_url": "https://www.vms-leddisplay.com/photo/pl185153558-fuel_station_pylon_sign_led_7_segment_led_board_with_tcp_ip_communication_display.jpg",
+      "source_page": "https://www.vms-leddisplay.com/sale-48150270-fuel-station-pylon-sign-led-7-segment-led-board-with-tcp-ip-communication-display.html",
+      "alt_text": "Fuel Station Pylon Sign LED 7 Segment LED Board with TCP/IP ...",
+      "size_kb": 59
+    },
+    {
+      "filename": "gimg_7eleven_vic_b7012297_29.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/07/CVMS_Perth_057-LR-1024x683.jpg",
+      "source_page": "https://cvmediasignage.com.au/led/led-pylon/",
+      "alt_text": "LED Pylon - CV Media & Signage",
+      "size_kb": 152
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447.png",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

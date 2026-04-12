@@ -1,0 +1,224 @@
+{
+  "agent": "scrape_bing_eg_20260411T100301",
+  "timestamp": "2026-04-11T10:03:22.788025+00:00",
+  "query": "EG Ampol fuel price sign pylon Victoria New South Wales Australia",
+  "brand_target": "eg",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T100301",
+  "results": {
+    "urls_found": 30,
+    "saved": 28,
+    "rejected": 2,
+    "yield_pct": 93.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_eg_a8534975_00.png",
+      "source_url": "https://fluidsandlubricants.com/wp-content/uploads/2025/08/image-76.png",
+      "source_page": "https://fluidsandlubricants.com/2025/08/18/ampol-va-acquerir-eg-australia/",
+      "alt_text": "Ampol va acqu\u00e9rir EG Australia. \u2013 Fluides et Lubrifiants",
+      "size_kb": 735
+    },
+    {
+      "filename": "gimg_eg_771fe203_01.jpg",
+      "source_url": "https://assets.yourlifechoices.com.au/2025/08/15122318/AD_4nXcHm1v-sVauxYjdXjUwVpo-36NILHGnx0g00-tuyTD2L7cSoLbTX1iT8pe1v1_PE7xXt78k9lLG3UOcoUvkkAoVekVevLusaZfWdK5-5OeYJ5cldoiYknvFCynYrCU1_AxckDepVA-696x463.jpg",
+      "source_page": "https://www.yourlifechoices.com.au/finance/ampols-1-1b-takeover-heres-how-your-next-fuel-stop-could-change/",
+      "alt_text": "Ampol\u2019s $1.1B takeover: Here\u2019s how your next fuel stop could change ...",
+      "size_kb": 48
+    },
+    {
+      "filename": "gimg_eg_dd544753_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/caf6c1a5389fdf392240adfa20eb088f",
+      "source_page": "https://www.theaustralian.com.au/business/dataroom/ampol-buys-eg-groups-australian-assets-for-close-to-1bn/news-story/dfe940d321620d92b5d222d77347ec78",
+      "alt_text": "Ampol buys EG Group's Australian fuel sites in $1.1bn deal | The Australian",
+      "size_kb": 162
+    },
+    {
+      "filename": "gimg_eg_888d4a13_03.jpg",
+      "source_url": "https://insidefmcg.com.au/wp-content/uploads/2025/07/eg-ampol-station.jpg",
+      "source_page": "https://insidefmcg.com.au/2025/07/07/ampol-tipped-to-buy-out-service-station-network-bearing-its-name/",
+      "alt_text": "Ampol tipped to buy out service station network bearing its name ...",
+      "size_kb": 118
+    },
+    {
+      "filename": "gimg_eg_3d35c928_04.jpg",
+      "source_url": "https://bellarinevillage.com.au/wp-content/uploads/2024/07/ampol.jpg",
+      "source_page": "https://bellarinevillage.com.au/stores/eg-ampol/",
+      "alt_text": "EG Ampol \u2013 Bellarine Village",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_eg_92305e23_05.jpg",
+      "source_url": "https://coatesgroup.com/img/containers/images/img_8477-edit.jpg/eeed995c79081850549acbf3f72bdb36.jpg",
+      "source_page": "https://coatesgroup.com/case-studies/ampol-petrol-station-signage-products-and-rebanding",
+      "alt_text": "Delivering +59K Signage Products to Ampol, On Time and Within Budget ...",
+      "size_kb": 216
+    },
+    {
+      "filename": "gimg_eg_47c64918_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K592TB/an-ampol-service-station-in-wallacia-new-south-wales-2K592TB.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-australia-ampol.html",
+      "alt_text": "Petrol station australia ampol hi-res stock photography and images - Alamy",
+      "size_kb": 249
+    },
+    {
+      "filename": "gimg_eg_f02168d8_07.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2022/11/EG-Ampol-ID-sign-768x432.jpg",
+      "source_page": "https://eg-australia.com/who-we-are/",
+      "alt_text": "Who we are - EG Australia",
+      "size_kb": 40
+    },
+    {
+      "filename": "gimg_eg_c1fc8e18_08.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/grafton-australia-ampol-petrol-service-station-display-fuel-prices-264129863.jpg",
+      "source_page": "https://www.dreamstime.com/grafton-australia-ampol-petrol-service-station-display-fuel-prices-image264129863",
+      "alt_text": "Ampol Petrol Service Station Display with Fuel Prices Editorial Stock ...",
+      "size_kb": 152
+    },
+    {
+      "filename": "gimg_eg_fd0dea17_09.jpg",
+      "source_url": "https://c8.alamy.com/comp/2XEPM38/ampol-fuel-petrol-service-station-in-peats-ridge-village-regional-new-south-wales-australia-2XEPM38.jpg",
+      "source_page": "https://www.alamy.com/ampol-fuel-petrol-service-station-in-peats-ridge-village-regional-new-south-wales-australia-image611466780.html",
+      "alt_text": "AMPOL fuel petrol service station in Peats Ridge village, regional New ...",
+      "size_kb": 167
+    },
+    {
+      "filename": "gimg_eg_b941603a_10.jpg",
+      "source_url": "https://c8.alamy.com/comp/2YEJ61H/a-modern-ampol-petrol-station-with-multiple-fuel-pumps-and-a-digital-fuel-price-display-2YEJ61H.jpg",
+      "source_page": "https://www.alamy.com/a-modern-ampol-petrol-station-with-multiple-fuel-pumps-and-a-digital-fuel-price-display-image628578317.html",
+      "alt_text": "A modern Ampol petrol station with multiple fuel pumps and a digital ...",
+      "size_kb": 172
+    },
+    {
+      "filename": "gimg_eg_a34b6b16_11.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2023/03/ID-2-2048x1363.jpg",
+      "source_page": "https://www.ozbargain.com.au/wiki/fuel_discounts",
+      "alt_text": "Fuel - Discounts & FAQs - OzBargain Wiki",
+      "size_kb": 232
+    },
+    {
+      "filename": "gimg_eg_0bb46bc2_12.jpg",
+      "source_url": "https://media.istockphoto.com/id/1449525909/photo/ampol-petrol-service-station-display-with-fuel-prices.jpg?s=1024x1024&w=is&k=20&c=itIi0CaSPNMN4nzglMSQ4ty3r0pMrMfOkcwudrNBRZw=",
+      "source_page": "https://www.istockphoto.com/photo/ampol-petrol-service-station-display-with-fuel-prices-gm1449525909-486708232",
+      "alt_text": "Ampol Petrol Service Station Display With Fuel Prices Stock Photo ...",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_eg_56833aeb_13.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2023/08/External-Gregory-Hills.jpg?w=1024",
+      "source_page": "https://www.c-store.com.au/behind-the-eg-group-rebrand/",
+      "alt_text": "Behind the EG Group rebrand - Convenience & Impulse Retailing",
+      "size_kb": 119
+    },
+    {
+      "filename": "gimg_eg_aa364b49_14.jpg",
+      "source_url": "https://media.istockphoto.com/id/1449525915/photo/ampol-petrol-service-station-display-with-fuel-prices.jpg?s=1024x1024&w=is&k=20&c=RFu1aZtjYSdeVw7tKBeNBxQ64yKAQboEeqe_gx1k3S4=",
+      "source_page": "https://www.istockphoto.com/photo/ampol-petrol-service-station-display-with-fuel-prices-gm1449525915-486708228",
+      "alt_text": "Ampol Petrol Service Station Display With Fuel Prices Stock Photo ...",
+      "size_kb": 114
+    },
+    {
+      "filename": "gimg_eg_228c3da1_15.jpg",
+      "source_url": "https://coatesgroup.com/img/containers/images/img_8454-edit.jpg/1c4d810a9d1b1215dbede2cbc1055246.jpg",
+      "source_page": "https://coatesgroup.com/case-studies/ampol-petrol-station-signage-products-and-rebanding",
+      "alt_text": "Delivering +59K Signage Products to Ampol, On Time and Within Budget ...",
+      "size_kb": 120
+    },
+    {
+      "filename": "gimg_eg_4b93abf4_16.jpg",
+      "source_url": "https://c8.alamy.com/comp/2XEPM2Y/ampol-fuel-petrol-station-in-peats-ridge-village-regional-new-south-wales-australia-2XEPM2Y.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-australia-ampol.html",
+      "alt_text": "Petrol station australia ampol hi-res stock photography and images - Alamy",
+      "size_kb": 182
+    },
+    {
+      "filename": "gimg_eg_d70430ce_17.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/grafton-australia-ampol-petrol-service-station-display-fuel-prices-264129879.jpg?w=992",
+      "source_page": "https://www.dreamstime.com/grafton-australia-ampol-petrol-service-station-display-fuel-prices-image264129879",
+      "alt_text": "Ampol Petrol Service Station Display with Fuel Prices Editorial Stock ...",
+      "size_kb": 94
+    },
+    {
+      "filename": "gimg_eg_b15a1998_18.jpg",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/EG_Ampol_Sunshine_October_2022.jpg/250px-EG_Ampol_Sunshine_October_2022.jpg",
+      "source_page": "https://en.wikipedia.org/wiki/Ampol",
+      "alt_text": "Ampol - Wikipedia",
+      "size_kb": 17
+    },
+    {
+      "filename": "gimg_eg_342b5ee9_20.jpg",
+      "source_url": "https://media.fuelcard.report/wp-content/uploads/2020/06/cropped-fuel-cards-for-ampol-stations.jpg",
+      "source_page": "https://fuelcard.report/ampols-1-1b-eg-australia-takeover-set-to-reshape-fuel-card-access/",
+      "alt_text": "Ampol\u2019s $1.1B EG Australia Takeover Set to Reshape Fuel Card Access ...",
+      "size_kb": 84
+    },
+    {
+      "filename": "gimg_eg_6a98c314_21.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79FG/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79FG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australia-gas-sign.html",
+      "alt_text": "Australia gas sign hi-res stock photography and images - Alamy",
+      "size_kb": 139
+    },
+    {
+      "filename": "gimg_eg_ed5bd3a4_22.jpg",
+      "source_url": "https://c8.alamy.com/comp/2E36E8T/the-ampol-formerly-caltex-petrol-or-gas-station-in-granville-in-western-sydney-new-south-wales-australia-2E36E8T.jpg",
+      "source_page": "https://www.alamy.com/the-ampol-formerly-caltex-petrol-or-gas-station-in-granville-in-western-sydney-new-south-wales-australia-image397825368.html",
+      "alt_text": "The Ampol (formerly Caltex) petrol or gas station in Granville in ...",
+      "size_kb": 134
+    },
+    {
+      "filename": "gimg_eg_a5afc6ab_23.jpg",
+      "source_url": "https://coatesgroup.com/img/containers/images/img_8467.jpg/030356d856248e489d0e3dce231c6337.jpg",
+      "source_page": "https://coatesgroup.com/case-studies/ampol-petrol-station-signage-products-and-rebanding",
+      "alt_text": "Delivering +59K Signage Products to Ampol, On Time and Within Budget ...",
+      "size_kb": 261
+    },
+    {
+      "filename": "gimg_eg_05215779_24.jpg",
+      "source_url": "https://cdn-raa.dataweavers.io/-/media/Project/RAA/Web/Images/Promotional/Motor/Safetyandadvice/eg-ampol-promo-image-desktop.jpg?h=311&iar=0&w=687&rev=47c7193ad79346c394fa42c48e6bd13b",
+      "source_page": "https://www.raa.com.au/motor/safety-and-advice/fuel",
+      "alt_text": "Fuel prices map \u2013 Find cheap petrol in Adelaide | RAA",
+      "size_kb": 96
+    },
+    {
+      "filename": "gimg_eg_f485bbb4_25.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K592T4/an-ampol-service-station-in-luddenham-new-south-wales-2K592T4.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-australia-ampol.html",
+      "alt_text": "Petrol station australia ampol hi-res stock photography and images - Alamy",
+      "size_kb": 148
+    },
+    {
+      "filename": "gimg_eg_9fabc914_26.jpg",
+      "source_url": "https://insidefmcg.com.au/wp-content/uploads/2026/01/eg-ampol-stire.jpg",
+      "source_page": "https://insidefmcg.com.au/2026/01/21/ampol-eg-australia-merger-faces-accc-roadblock/",
+      "alt_text": "Ampol, EG Australia merger faces ACCC roadblock - Inside FMCG",
+      "size_kb": 98
+    },
+    {
+      "filename": "gimg_eg_6305cf38_27.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/woolworths-caltex-300x300.png",
+      "source_page": "https://fuelprice.io/station/eg-ampol-kingaroy/",
+      "alt_text": "EG Ampol Kingaroy | FuelPrice Australia",
+      "size_kb": 79
+    },
+    {
+      "filename": "gimg_eg_c4464f67_28.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/Ampol.webp",
+      "source_page": "https://fuelradar.com.au/locations/",
+      "alt_text": "Fuel Prices by Location - Compare Prices Across Australia | FuelRadar ...",
+      "size_kb": 7
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "http://stonebridge.com.au/wp-content/uploads/2024/07/7-web-or-mls-eg-fuel-roxburgh-park.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://cdn0.woolworths.media/content/content/ampol-banner-1536-m.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

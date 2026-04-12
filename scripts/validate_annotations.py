@@ -26,12 +26,13 @@ ANNOTATIONS_DIR = Path("data/tmp/annotations")
 
 VALID_BRANDS = {
     "shell", "bp", "ampol", "caltex", "seven_eleven", "united",
-    "costco", "liberty", "puma", "metro", "mobil", "otr", "independent",
+    "costco", "liberty", "puma", "metro", "mobil", "otr",
+    "apco", "eg", "independent",
 }
 
 VALID_FUEL_TYPES = {"U91", "E10", "P95", "P98", "Diesel", "LPG", "AdBlue", "E85"}
 
-VALID_SIGN_TYPES = {"led", "mechanical", "backlit", "digital", "led_pylon"}
+VALID_SIGN_TYPES = {"led", "mechanical", "backlit", "digital", "led_pylon", "flipboard"}
 
 VALID_TIME_OF_DAY = {"day", "night", "dusk"}
 

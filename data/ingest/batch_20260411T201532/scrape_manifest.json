@@ -1,0 +1,145 @@
+{
+  "agent": "scrape_bing_puma_nqld_20260411T201532",
+  "timestamp": "2026-04-11T20:15:56.843760+00:00",
+  "query": "Puma Energy fuel price sign pylon Rockhampton Mackay Townsville",
+  "brand_target": "puma_nqld",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T201532",
+  "results": {
+    "urls_found": 20,
+    "saved": 15,
+    "rejected": 5,
+    "yield_pct": 75.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_puma_nqld_fbe5af90_01.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/095f4fb9dddb3044129ff66a05d8f8c2",
+      "source_page": "https://www.couriermail.com.au/news/queensland/mackay/puma-energy-pounces-on-mackay-but-prices-are-on-par/news-story/0c81b675f60143255184ba7f0c4a6987",
+      "alt_text": "Puma Energy pounces on Mackay but prices are on par | The Courier Mail",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_puma_nqld_5f75f3f8_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/667f8ba64c87028623679f14dfa99e1d",
+      "source_page": "https://www.townsvillebulletin.com.au/news/fuel-prices-in-townsville-are/news-story/2e38e7dc0f0dbdbcd79a0898205f35b6",
+      "alt_text": "Fuel prices on the rise in Townsville | Townsville Bulletin",
+      "size_kb": 188
+    },
+    {
+      "filename": "gimg_puma_nqld_0950efbb_03.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H827H4/bruce-highway-townsville-to-mackay-queensland-australia-november-2021-fuel-prices-on-sign-at-service-station-2H827H4.jpg",
+      "source_page": "https://www.alamy.com/bruce-highway-townsville-to-mackay-queensland-australia-november-2021-fuel-prices-on-sign-at-service-station-image452436688.html",
+      "alt_text": "Bruce Highway Townsville to Mackay, Queensland, Australia - November ...",
+      "size_kb": 139
+    },
+    {
+      "filename": "gimg_puma_nqld_78f6c9b7_04.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/5c912ba516d3fbbe7998f6ddf3f24d90",
+      "source_page": "https://www.townsvillebulletin.com.au/news/townsville-experiencing-petrol-price-spike/news-story/c2779af0703437054a1ee01d7af37855",
+      "alt_text": "Petrol price hike leaves motorists aghast | Townsville Bulletin",
+      "size_kb": 52
+    },
+    {
+      "filename": "gimg_puma_nqld_5a383e5b_06.jpg",
+      "source_url": "https://media.gettyimages.com/id/901164506/photo/general-economy-in-zimbabwe-as-president-mnangagwa-vows-to-woo-investors.jpg?s=594x594&w=gi&k=20&c=egNAsCgr2aj7vWpjSw7odPz75PURL-wHFZLeMwL05L4=",
+      "source_page": "https://www.gettyimages.co.uk/detail/news-photo/fuel-prices-are-displayed-outside-a-puma-energy-holdings-news-photo/901164506",
+      "alt_text": "Fuel prices are displayed outside a Puma Energy Holdings Pte. Ltd ...",
+      "size_kb": 73
+    },
+    {
+      "filename": "gimg_puma_nqld_82ca744a_07.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/bruce-highway-townsville-to-mackay-queensland-australia-november-fuel-prices-sign-service-station-service-station-fuel-235590521.jpg",
+      "source_page": "https://www.dreamstime.com/bruce-highway-townsville-to-mackay-queensland-australia-november-fuel-prices-sign-service-station-service-station-fuel-image235590521",
+      "alt_text": "Service Station Fuel Prices Signage Editorial Photo - Image of ...",
+      "size_kb": 174
+    },
+    {
+      "filename": "gimg_puma_nqld_955551a3_08.jpg",
+      "source_url": "https://editorial01.shutterstock.com/wm-preview-1500/8445401b/72027af6/Shutterstock_8445401b.jpg",
+      "source_page": "https://www.shutterstock.com/editorial/image-editorial/puma-energy-gas-station-sign-seen-on-8445401b",
+      "alt_text": "Puma Energy Gas Station Sign Seen Editorial Stock Photo - Stock Image ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_puma_nqld_1d294899_11.jpg",
+      "source_url": "https://pumaenergy.com/wp-content/uploads/2023/09/puma-energy.jpeg",
+      "source_page": "https://pumaenergy.com/resources/",
+      "alt_text": "Resources - Puma Energy",
+      "size_kb": 116
+    },
+    {
+      "filename": "gimg_puma_nqld_b250d294_12.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/3f5a0b2305b5c8909f0dfac5e07297fb",
+      "source_page": "https://www.townsvillebulletin.com.au/news/puma-terminal-to-boost-fuel-imports----puma-terminal-to-boost-fuel-imports/news-story/4daeebfb22961f4cb946a777ef245897",
+      "alt_text": "Puma terminal to boost fuel imports Puma terminal to boost fuel imports ...",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_puma_nqld_b57be452_14.jpg",
+      "source_url": "https://www.postcourier.com.pg/wp-content/uploads/2024/01/Puma_Energy.jpg",
+      "source_page": "https://www.postcourier.com.pg/puma-maintains-fuel-supply/",
+      "alt_text": "Puma maintains fuel supply - Post Courier",
+      "size_kb": 73
+    },
+    {
+      "filename": "gimg_puma_nqld_611c4e95_15.jpg",
+      "source_url": "https://www.buildingsolutions.net.au/sites/buildingsolutionsnetau/assets/public/Image/projects/Puma_Byford/Puma-6.jpg",
+      "source_page": "https://www.buildingsolutions.net.au/productlisting/projects/puma-fuel-stations-retail-stores.aspx",
+      "alt_text": "Puma Fuel Stations & Retail Stores",
+      "size_kb": 227
+    },
+    {
+      "filename": "gimg_puma_nqld_93670c88_16.jpg",
+      "source_url": "https://i.ytimg.com/vi/Zsl70gn3Zdg/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=Zsl70gn3Zdg",
+      "alt_text": "Puma Energy Fuel/Petrol Station DesignTutorial - YouTube",
+      "size_kb": 196
+    },
+    {
+      "filename": "gimg_puma_nqld_6313da5c_17.jpg",
+      "source_url": "https://pembrokeshire-herald.com/wp-content/uploads/2022/03/Puma-Energy-1.jpg",
+      "source_page": "https://fity.club/lists/suggestions/puma-gasolinera-logo/",
+      "alt_text": "Puma Gasolinera Logo Puma Energy Puma Energy Added A New Photo.",
+      "size_kb": 398
+    },
+    {
+      "filename": "gimg_puma_nqld_e0205048_18.jpg",
+      "source_url": "https://editorial01.shutterstock.com/preview-440/8445401a/23424a9e/Shutterstock_8445401a.jpg",
+      "source_page": "https://www.shutterstock.com/editorial/image-editorial/puma-energy-gas-station-sign-seen-on-8445401a",
+      "alt_text": "Puma Energy Gas Station Sign Seen Editorial Stock Photo - Stock Image ...",
+      "size_kb": 49
+    },
+    {
+      "filename": "gimg_puma_nqld_34552698_19.jpg",
+      "source_url": "https://www.postcourier.com.pg/wp-content/uploads/2021/10/Business_09_The-new-look-Puma-Service-station-at-Rainbow-in-Gerehu-Suburb-Port-Moresby.jpg?w=1200",
+      "source_page": "https://www.postcourier.com.pg/k5-2m-puma-facelift/",
+      "alt_text": "K5.2m Puma facelift - Post Courier",
+      "size_kb": 80
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/puma_modified_1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/murumba_downs_modified_3.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2440611686192277",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2000405223596026",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://citinewsroom.com/wp-content/uploads/2021/06/P.jpeg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

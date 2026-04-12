@@ -1,0 +1,224 @@
+{
+  "agent": "scrape_bing_liberty_vic_20260410T221805",
+  "timestamp": "2026-04-10T22:18:34.586567+00:00",
+  "query": "Liberty fuel price sign Melbourne Victoria Australia petrol pylon",
+  "brand_target": "liberty_vic",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T221805",
+  "results": {
+    "urls_found": 30,
+    "saved": 28,
+    "rejected": 2,
+    "yield_pct": 93.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_liberty_vic_ae137597_00.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HG3X77/roadside-advertising-outside-liberty-petrol-station-gas-station-listing-prices-of-under-1-au-dollar-a-litre-in-2020-sunny-australian-summers-day-2HG3X77.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/liberty-gas-station.html",
+      "alt_text": "Liberty gas station hi-res stock photography and images - Alamy",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_liberty_vic_99e7ee0a_01.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/308137a66c9430ea620da0d91380a20d",
+      "source_page": "https://www.heraldsun.com.au/news/victoria/victoria-is-the-only-state-not-offering-live-fuel-pricing-data/news-story/343b5687736af0eb9667605ba44a92fb",
+      "alt_text": "Average cost of unleaded petrol in Victoria revealed | Herald Sun",
+      "size_kb": 142
+    },
+    {
+      "filename": "gimg_liberty_vic_cfe6b1a9_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/9cc32391eec0c00406a1322b160a1a78",
+      "source_page": "https://www.thechronicle.com.au/news/victoria/motorists-urged-to-get-savvy-amid-petrol-price-chaos/news-story/a4262063102909ed423908a1bd1fd2cc",
+      "alt_text": "Melbourne fuel prices: Shocking gap between servos revealed | The Chronicle",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_liberty_vic_0e9d05f2_03.jpg",
+      "source_url": "https://media.gettyimages.com/id/81639557/photo/a-display-shows-petrol-prices-at-a-petrol-station-on-june-20-2008-in-melbourne-australia-petrol.jpg?s=612x612&w=gi&k=20&c=LRYXo0nzSSE3XfIrFd7KxBJK6rq6uYTG3wqR72yF4Bo=",
+      "source_page": "https://www.gettyimages.com/photos/victoria-price",
+      "alt_text": "Victoria Price Photos and Premium High Res Pictures - Getty Images",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_liberty_vic_3872307f_04.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/06/HMSTCO-OTR_140622-11-1536x1025.jpg",
+      "source_page": "https://cvmediasignage.com.au/petrol-station-pylons-the-past-present-and-future/",
+      "alt_text": "Petrol station pylons \u2013 the past, present and future - CV Media & Signage",
+      "size_kb": 312
+    },
+    {
+      "filename": "gimg_liberty_vic_b78d6cb2_05.jpg",
+      "source_url": "https://bestinau.com.au/wp-content/uploads/2019/06/Liberty-Station.jpg",
+      "source_page": "https://bestinau.com.au/petrol-stations-melbourne/",
+      "alt_text": "5 Best Petrol Stations in Melbourne - Top Rated Petrol Stations",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_liberty_vic_6c03ccda_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H21MA2/melbourne-australia-20th-oct-2021-bp-petrol-station-in-australia-at-night-with-a-price-display-showing-record-high-fuel-prices-photo-by-alexander-bogatyrevsopa-imagessipa-usa-credit-sipa-usaalamy-live-news-2H21MA2.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/high-petrol-price-australia.html",
+      "alt_text": "High petrol price australia hi-res stock photography and images - Alamy",
+      "size_kb": 103
+    },
+    {
+      "filename": "gimg_liberty_vic_c3a44cff_07.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H21PTB/melbourne-australia-20th-oct-2021-bp-petrol-station-in-australia-at-night-with-a-price-display-showing-record-high-fuel-prices-credit-sopa-images-limitedalamy-live-news-2H21PTB.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-petrol-station-sign-showing.html",
+      "alt_text": "Bp petrol station sign showing hi-res stock photography and images - Alamy",
+      "size_kb": 92
+    },
+    {
+      "filename": "gimg_liberty_vic_25b72703_08.jpg",
+      "source_url": "https://i.dailymail.co.uk/i/newpix/2018/05/13/11/4C2959C800000578-5722671-In_Adelaide_Liberty_s_average_price_was_2_9_cents_per_litre_belo-a-5_1526206070195.jpg",
+      "source_page": "https://www.dailymail.co.uk/news/article-5722671/Save-300-year-fuel-new-report-reveals-Australias-cheapest-places-petrol.html",
+      "alt_text": "Save $300 a year on fuel: Australia\u2019s cheapest petrol places revealed ...",
+      "size_kb": 14
+    },
+    {
+      "filename": "gimg_liberty_vic_6a98c314_09.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79FG/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79FG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-pump-display-australia.html",
+      "alt_text": "Petrol pump display australia hi-res stock photography and images - Alamy",
+      "size_kb": 139
+    },
+    {
+      "filename": "gimg_liberty_vic_e1f8d2d2_10.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/29f464ff0285e09d30115f1cb6996584",
+      "source_page": "https://www.theaustralian.com.au/breaking-news/aussies-spend-thousands-on-petrol-every-year/news-story/5f56779219ec43b76aea0a05d8acf061",
+      "alt_text": "Aussies spend on average $62 each week on petrol | The Australian",
+      "size_kb": 170
+    },
+    {
+      "filename": "gimg_liberty_vic_a118fa6c_11.jpg",
+      "source_url": "https://i.ytimg.com/vi/twb6XLLm7-g/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=twb6XLLm7-g",
+      "alt_text": "New fuel price reporting system goes live in Victoria | 7NEWS - YouTube",
+      "size_kb": 160
+    },
+    {
+      "filename": "gimg_liberty_vic_02ad1d05_12.jpg",
+      "source_url": "https://media.gettyimages.com/id/1238891834/photo/a-sign-outside-a-petrol-station-shows-the-price-of-petrol-nearing-two-australian-dollars-a.jpg?s=612x612&w=gi&k=20&c=cOvjXqoem97xyuIITHiy2CDb_a-_9EOBNtD6YOxztrY=",
+      "source_page": "https://www.gettyimages.com/photos/petrol-price-australia",
+      "alt_text": "292 Petrol Price Australia Stock Photos, High-Res Pictures, and Images ...",
+      "size_kb": 54
+    },
+    {
+      "filename": "gimg_liberty_vic_fa317946_13.jpg",
+      "source_url": "https://media.fuelcard.report/wp-content/uploads/2020/06/cropped-fuel-cards-for-liberty-stations.jpg",
+      "source_page": "https://fuelcard.report/accepted-at-liberty/",
+      "alt_text": "Fuel cards for Liberty stations - Fuel Cards Australia",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_liberty_vic_df947b5d_14.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/liberty-gas-station-hyden-western-australia-near-wave-rock-66137824.jpg",
+      "source_page": "https://www.dreamstime.com/editorial-stock-image-liberty-gas-station-hyden-western-australia-near-wave-rock-image66137824",
+      "alt_text": "Liberty Gas Station in Western Australia Editorial Stock Image - Image ...",
+      "size_kb": 241
+    },
+    {
+      "filename": "gimg_liberty_vic_8179f790_15.jpg",
+      "source_url": "https://c8.alamy.com/comp/2GMD2RD/miles-queensland-australia-liberty-petrol-station-2GMD2RD.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-prices-australia.html",
+      "alt_text": "Petrol prices australia hi-res stock photography and images - Alamy",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_liberty_vic_97cc04d8_16.jpg",
+      "source_url": "https://static.ffx.io/images/$zoom_0.265%2C$multiply_3%2C$ratio_1.776846%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/c_scale%2Cw_620%2Cq_88%2Cf_auto/1c71963f6e977423c49a3bcea79319c730977d09",
+      "source_page": "https://www.afr.com/policy/economy/fuel-price-jump-hits-households-and-inflation-outlook-20230913-p5e4aj",
+      "alt_text": "Fuel price jump hits households and inflation outlook",
+      "size_kb": 84
+    },
+    {
+      "filename": "gimg_liberty_vic_a708458e_17.jpg",
+      "source_url": "https://www.signheresigns.com.au/wp-content/uploads/2021/08/caltex-servo.jpg",
+      "source_page": "https://www.signheresigns.com.au/2021/06/why-we-love-pylon-signs/",
+      "alt_text": "Why we love pylon signs | Custom business signs, Perth WA",
+      "size_kb": 120
+    },
+    {
+      "filename": "gimg_liberty_vic_ff0252eb_18.jpg",
+      "source_url": "https://as2.ftcdn.net/v2/jpg/03/89/91/99/1000_F_389919971_1DDlf3mIZMxL1lYfG4xgLoWfZdeu2I9u.jpg",
+      "source_page": "https://stock.adobe.com/images/melbourne-australia-march-03-2020-caltex-information-sign-at-the-entrance-to-a-petrol-station-with-prices-of-fuel-on-display-also-incorporating-a-small-woolies-convenience-store/389919971",
+      "alt_text": "Melbourne, Australia: March 03, 2020: Caltex information sign at the ...",
+      "size_kb": 420
+    },
+    {
+      "filename": "gimg_liberty_vic_fe68ec44_19.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/ac516e675453ca1144463bcef6a807fc",
+      "source_page": "https://www.ntnews.com.au/news/victoria/petrol-prices-tipped-to-hit-3-per-litre/news-story/77302cbb1121194c07ccf48707fe4359",
+      "alt_text": "Petrol prices Melbourne: Fuel costs could soar to $3 per litre in ...",
+      "size_kb": 91
+    },
+    {
+      "filename": "gimg_liberty_vic_ab6ad2ae_20.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H89ddd964835641e28dec6cfb3bc87b14I.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/pylon-advertising",
+      "alt_text": "High-Impact Pylon Advertising Solutions | Advanced Digital Display ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_liberty_vic_3634b21e_21.jpg",
+      "source_url": "https://imageresizer.static9.net.au/W55AnHHnRsnzrdLDfnY19s9lxqE=/333x147:1270x673/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F2518c4da-55aa-4d9a-b586-26a04cfd67bf",
+      "source_page": "https://www.9news.com.au/finance/aussies-paying-more-than-ever-for-petrol-nrma-data/a46ca1fc-a51b-4ac8-892a-f306205c3dde",
+      "alt_text": "Petrol prices Australia: Aussies paying more than ever for petrol, data ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_liberty_vic_08175363_22.jpg",
+      "source_url": "https://live-production.wcms.abc-cdn.net.au/75b12e80e6d5e892c0f6c23cb5978421?impolicy=wcms_crop_resize&cropH=540&cropW=720&xPos=120&yPos=0&width=862&height=647",
+      "source_page": "https://www.abc.net.au/news/vic",
+      "alt_text": "Victoria - ABC News",
+      "size_kb": 119
+    },
+    {
+      "filename": "gimg_liberty_vic_8463c332_23.jpg",
+      "source_url": "https://media.gettyimages.com/id/1238891718/photo/a-sign-outside-a-petrol-station-shows-the-price-of-petrol-breaking-through-the-two-australian.jpg?s=612x612&w=gi&k=20&c=LgttT0Ro2vld0_g6bSVraBw0rZXBEA3HBks9j8_nIDA=",
+      "source_page": "https://www.gettyimages.ie/photos/australian-petrol-station",
+      "alt_text": "Australian Petrol Station Photos and Premium High Res Pictures - Getty ...",
+      "size_kb": 41
+    },
+    {
+      "filename": "gimg_liberty_vic_dc103722_24.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H21M93/melbourne-australia-20th-oct-2021-bp-petrol-station-in-australia-at-night-with-a-price-display-showing-record-high-fuel-prices-photo-by-alexander-bogatyrevsopa-imagessipa-usa-credit-sipa-usaalamy-live-news-2H21M93.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-petrol-station-sign-showing.html",
+      "alt_text": "Bp petrol station sign showing hi-res stock photography and images - Alamy",
+      "size_kb": 95
+    },
+    {
+      "filename": "gimg_liberty_vic_6c0aff3e_26.jpg",
+      "source_url": "https://sc01.alicdn.com/kf/HTB1aSBrLXXXXXbxXVXXq6xXFXXXR/220712868/HTB1aSBrLXXXXXbxXVXXq6xXFXXXR.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/petrol-pylon-sign-with-led-gas_60479603504.html",
+      "alt_text": "Petrol Pylon Sign with LED Gas Station Price Signboard Caltex Customized",
+      "size_kb": 73
+    },
+    {
+      "filename": "gimg_liberty_vic_336fcf58_27.jpg",
+      "source_url": "https://signandprint.b-cdn.net/files/2023/12/gasoline_station_pylon_sign_with_price_board_2-1-768x584.jpg",
+      "source_page": "https://signandprint.com.ph/product/pylon-totem-signs/gasoline-station-pylon-sign-with-price-board-and-ad-panel/",
+      "alt_text": "Gasoline Station Pylon Sign With Price Board And Ad Panel | Sign And ...",
+      "size_kb": 70
+    },
+    {
+      "filename": "gimg_liberty_vic_59ccc27c_28.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00zGSfIpugINbT/Petrol-Station-Pylon-Illuminate-Sign-for-Gas-Price-Display.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/hNkQZKbuwWVy/China-Petrol-Station-Pylon-Illuminate-Sign-for-Gas-Price-Display.html",
+      "alt_text": "Petrol Station Pylon Illuminate Sign for Gas Price Display - Gas ...",
+      "size_kb": 27
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/BP-Kinsgton-2-large-edited.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

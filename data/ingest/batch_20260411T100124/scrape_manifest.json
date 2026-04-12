@@ -1,0 +1,221 @@
+{
+  "agent": "scrape_bing_otr_20260411T100124",
+  "timestamp": "2026-04-11T10:01:50.966648+00:00",
+  "query": "OTR On The Run fuel price sign pylon LED Adelaide South Australia suburban",
+  "brand_target": "otr",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T100124",
+  "results": {
+    "urls_found": 30,
+    "saved": 27,
+    "rejected": 3,
+    "yield_pct": 90.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_otr_68e4b93b_00.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/06/HMSTCO-OTR_140622-11-1024x684.jpg",
+      "source_page": "https://cvmediasignage.com.au/petrol-station-pylons-the-past-present-and-future/",
+      "alt_text": "Petrol station pylons \u2013 the past, present and future - CV Media & Signage",
+      "size_kb": 165
+    },
+    {
+      "filename": "gimg_otr_188e0429_01.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JXKT6E/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-2JXKT6E.jpg",
+      "source_page": "https://www.alamy.com/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-image481097078.html",
+      "alt_text": "An electronic sign displays petrol prices at a service station in ...",
+      "size_kb": 147
+    },
+    {
+      "filename": "gimg_otr_998ad8b5_02.jpg",
+      "source_url": "https://i.ytimg.com/vi/mquAeTdNq_w/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=mquAeTdNq_w",
+      "alt_text": "Fuel Station Price LED Screen Totem Pylon - YouTube",
+      "size_kb": 51
+    },
+    {
+      "filename": "gimg_otr_1d17dda8_03.jpg",
+      "source_url": "https://s.alicdn.com/@sc04/kf/H1e9ad30b718e4ec2959606b8949d5c3cB.jpg_720x720q50.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Fuel-Station-Pylon-Sign-Gas-Station_1601592149088.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs Led 7 Segment Led Board Gas ...",
+      "size_kb": 45
+    },
+    {
+      "filename": "gimg_otr_6102db6d_04.jpg",
+      "source_url": "https://signtronics.com.au/wp-content/uploads/2025/07/DSCF7311cropped-1334x1536.jpg",
+      "source_page": "https://signtronics.com.au/",
+      "alt_text": "Home - Signtronics Australia - LED Signs Gold Coast, Brisbane and ...",
+      "size_kb": 1609
+    },
+    {
+      "filename": "gimg_otr_8fba2b6d_05.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H397c1ab7f49241ba89543c8d46d31995e/244374861/H397c1ab7f49241ba89543c8d46d31995e.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Gas-Station-Advertising-Totem-Pylon-Sign_1601023522429.html",
+      "alt_text": "Gas Station Advertising Totem Pylon Sign Diesel Fuel Oil Gas Petrol Led ...",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_otr_b87be135_06.jpg",
+      "source_url": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:eco,w_1200/v1/cms/uploads/drntjaswbds73kjwaxbr",
+      "source_page": "https://www.drive.com.au/news/south-australia-otr-sold-in-1-15-billion-deal/",
+      "alt_text": "South Australia's OTR fuel station chain sold in $1.15 billion deal - Drive",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_otr_7c8c7c1d_07.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00MLbqvhDUfOok/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_otr_5954fd3b_08.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00NBYiQDUbJtqM/LED-Outdoor-Pylon-Sign-Gas-Station-LED-Petrol-Price-Sign-Display-LED-Price-Board.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/HygnBWwYnIVL/China-LED-Outdoor-Pylon-Sign-Gas-Station-LED-Petrol-Price-Sign-Display-LED-Price-Board.html",
+      "alt_text": "LED Outdoor Pylon Sign Gas Station LED Petrol Price Sign Display LED ...",
+      "size_kb": 8
+    },
+    {
+      "filename": "gimg_otr_4f905d5b_09.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H0d70bc9130784179839de4cb22e34fb8t/229953170/H0d70bc9130784179839de4cb22e34fb8t.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Outdoor-pole-pylon-sign-totem-filling_1600824577109.html",
+      "alt_text": "LED Gas Price Signs - Digital Display Solutions for Outdoor",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_otr_2e7dc43f_10.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00cIqovlDzfNkb/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 44
+    },
+    {
+      "filename": "gimg_otr_3e034570_11.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00NUDGrqZnElbe/Gas-Price-Sign-LED-Outdoor-Pylon-Sign-Steel-Board-Standing-Advertising-Steel-Structure-for-Petrol-Station-Canopies.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/ICsmVRLylDhw/China-Gas-Price-Sign-LED-Outdoor-Pylon-Sign-Steel-Board-Standing-Advertising-Steel-Structure-for-Petrol-Station-Canopies.html",
+      "alt_text": "Gas Price Sign LED Outdoor Pylon Sign Steel Board Standing Advertising ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_otr_225fb839_12.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00dYkUubwnlDoe/Gas-Station-Digital-Signage-for-Gas-Station-Pylon-Cost-of-Gas-Station-Canopy-Gas-LED-Petrol-Price-Sign-Display.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/hCXnGYQuvDWU/China-Gas-Station-Digital-Signage-for-Gas-Station-Pylon-Cost-of-Gas-Station-Canopy-Gas-LED-Petrol-Price-Sign-Display.html",
+      "alt_text": "Gas Station Digital Signage for Gas Station Pylon Cost of Gas Station ...",
+      "size_kb": 89
+    },
+    {
+      "filename": "gimg_otr_3feff391_13.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00DOilFvRKSsrS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_otr_a708458e_14.jpg",
+      "source_url": "https://www.signheresigns.com.au/wp-content/uploads/2021/08/caltex-servo.jpg",
+      "source_page": "https://www.signheresigns.com.au/2021/06/why-we-love-pylon-signs/",
+      "alt_text": "Why we love pylon signs | Custom business signs, Perth WA",
+      "size_kb": 120
+    },
+    {
+      "filename": "gimg_otr_2d83a9a0_15.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00BWUgSftyHncY/Outdoor-Advertising-Caltex-Petrol-Pylon-Signs-with-LED-Gas-Station-Price-Signage-Boards.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/vwVTeSUPnnkc/China-Outdoor-Advertising-Caltex-Petrol-Pylon-Signs-with-LED-Gas-Station-Price-Signage-Boards.html",
+      "alt_text": "Outdoor Advertising Caltex Petrol Pylon Signs with LED Gas Station ...",
+      "size_kb": 114
+    },
+    {
+      "filename": "gimg_otr_18cda797_16.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00NRnYUKOsZGot/Standing-Pylon-Advertising-LED-Price-Sign-Gas-Station-Screen-CNG-Home-Filling-Station.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/XCDEqmJxsikH/China-Standing-Pylon-Advertising-LED-Price-Sign-Gas-Station-Screen-CNG-Home-Filling-Station.html",
+      "alt_text": "Standing Pylon Advertising LED Price Sign Gas Station Screen CNG Home ...",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_otr_1cd24097_17.jpg",
+      "source_url": "https://skylite.b-cdn.net/file/2020/09/gasoline_station_pylon_sign_with_price_board_2-1-724x550.jpg",
+      "source_page": "https://www.skyliteadvertising.com/product/pylon-totem-signs/gasoline-station-pylon-sign-with-price-board/",
+      "alt_text": "Gasoline Station Pylon Sign with Price Board | Skylite Advertising ...",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_otr_d7882041_18.jpg",
+      "source_url": "https://comcut.com.au/wp-content/uploads/2015/10/Cimitiere-House-5.jpg",
+      "source_page": "https://utpaqp.edu.pe/explore/outdoor-pylon-sign",
+      "alt_text": "Outdoor Pylon Sign",
+      "size_kb": 339
+    },
+    {
+      "filename": "gimg_otr_4374aa93_19.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00poiVgNamYPRH/Gas-Station-Equipment-Standing-LED-Price-Sign-Petrol-Screen-Advertising-Dispenser-Pricing-Pylon.webp",
+      "source_page": "https://grandview.en.made-in-china.com/product/ZFAfYphHHUTC/China-Gas-Station-Equipment-Standing-LED-Price-Sign-Petrol-Screen-Advertising-Dispenser-Pricing-Pylon.html",
+      "alt_text": "Gas Station Equipment Standing LED Price Sign Petrol Screen Advertising ...",
+      "size_kb": 642
+    },
+    {
+      "filename": "gimg_otr_e0c60728_20.jpg",
+      "source_url": "https://signandprint.b-cdn.net/files/2024/06/gasoline_station_pylon_sign_with_price_board_1-1000x760-1-e1718777589543-540x300.jpg",
+      "source_page": "https://signandprint.com.ph/gas-station-pylon-sign-with-led-price-board/",
+      "alt_text": "Gas Station Pylon Sign With LED Price Board | Sign And Print Solutions",
+      "size_kb": 20
+    },
+    {
+      "filename": "gimg_otr_8c48a8cb_21.jpg",
+      "source_url": "https://i.pinimg.com/736x/fe/d1/f0/fed1f0d91074f0454f99752ff3dcb485.jpg",
+      "source_page": "https://za.pinterest.com/pin/led-gas-station-petrol-pylon-signs--835277062155411911/",
+      "alt_text": "LED gas station / Petrol pylon signs | Gas station prices, Pylon ...",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_otr_9577cf62_22.jpg",
+      "source_url": "https://simplysigns.com.au/wp-content/uploads/slider14/655Toohey.jpeg",
+      "source_page": "https://simplysigns.com.au/products/pylon-signs/",
+      "alt_text": "Pylon Signs in Brisbane | Simply Signs Australia",
+      "size_kb": 417
+    },
+    {
+      "filename": "gimg_otr_3fa2437a_23.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00vYNUVzhnEpbJ/Gas-Station-Canopy-Design-Illuminated-Pylon-Signs-LED-Price-Sign-Petrol-Gas-Station-Screen.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/hjcEnUBlgHkg/China-Gas-Station-Canopy-Design-Illuminated-Pylon-Signs-LED-Price-Sign-Petrol-Gas-Station-Screen.html",
+      "alt_text": "Gas Station Canopy Design Illuminated Pylon Signs LED Price Sign Petrol ...",
+      "size_kb": 15
+    },
+    {
+      "filename": "gimg_otr_60f8eb4d_24.png",
+      "source_url": "https://scanlite.co.uk/wp-content/uploads/2023/02/Blank-1100-x-813.png",
+      "source_page": "https://scanlite.co.uk/our-products/petrol-pricing-display/",
+      "alt_text": "LED Fuel Price Signs | Petrol Price Displays | Scanlite",
+      "size_kb": 1316
+    },
+    {
+      "filename": "gimg_otr_ab6ad2ae_25.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H89ddd964835641e28dec6cfb3bc87b14I.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/pylon-advertising",
+      "alt_text": "High-Impact Pylon Advertising Solutions | Advanced Digital Display ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_otr_26b5d343_26.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00niozEDAILJgN/Solar-Road-Pylon-Sign-for-Service-Station-in-LED-Displays.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/NdCtUbocXJrE/China-Solar-Road-Pylon-Sign-for-Service-Station-in-LED-Displays.html",
+      "alt_text": "Solar Road Pylon Sign for Service Station in LED Displays - Solar Road ...",
+      "size_kb": 116
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/puma_modified_1.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

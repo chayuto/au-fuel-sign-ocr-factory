@@ -1,0 +1,221 @@
+{
+  "agent": "scrape_bing_metro_20260410T202213",
+  "timestamp": "2026-04-10T20:22:55.379549+00:00",
+  "query": "Metro Petroleum Australia price sign board",
+  "brand_target": "metro",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T202213",
+  "results": {
+    "urls_found": 30,
+    "saved": 27,
+    "rejected": 3,
+    "yield_pct": 90.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_metro_e9da96b0_00.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/d0500cb9a2d69a39679d39dea21c1af4",
+      "source_page": "https://www.couriermail.com.au/news/queensland/ipswich/business/seeing-red-over-fuel-price-apps/news-story/cd1d86a6a6c485431b2026b5d831f211",
+      "alt_text": "Seeing red over fuel price apps | The Courier Mail",
+      "size_kb": 48
+    },
+    {
+      "filename": "gimg_metro_1f44989a_01.jpg",
+      "source_url": "https://images.7news.com.au/publication/C-14900962/f75082072790262c6e7ffa65e70e9004111d46c0-16x9-x88y285w1103h620.jpg?imwidth=1200",
+      "source_page": "https://7news.com.au/news/motorists-expected-to-queue-for-99c-per-litre-fuel-at-next-metro-petroleum-sale-in-thomastown-melbourne-c-14900962",
+      "alt_text": "Motorists expected to queue for 99c per litre fuel at next Metro ...",
+      "size_kb": 111
+    },
+    {
+      "filename": "gimg_metro_dd243d98_02.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/9bc89e098897f234d45292de8b74ec63_-new-south-wales-blue-mountains-city-council-faulconbridge-metro-petroleumhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/blue_mountains_city_council/faulconbridge/metro_petroleum.html",
+      "alt_text": "Metro Petroleum - 690A Great Western Hwy, Faulconbridge NSW 2776, Australia",
+      "size_kb": 151
+    },
+    {
+      "filename": "gimg_metro_9419ccad_03.jpg",
+      "source_url": "http://www.metropetroleum.com.au/wp-content/uploads/2018/08/metro-petroleum-slider2_1903.jpg",
+      "source_page": "http://www.metropetroleum.com.au/",
+      "alt_text": "Home - Metro Petroleum",
+      "size_kb": 868
+    },
+    {
+      "filename": "gimg_metro_f1febee6_04.jpg",
+      "source_url": "https://i.dailymail.co.uk/1s/2020/03/30/03/26567602-8166009-image-m-40_1585536365753.jpg",
+      "source_page": "https://www.dailymail.co.uk/news/article-8166009/Petrol-prices-drop-90-cents-litre-time-decade-coronavirus.html",
+      "alt_text": "Petrol prices drop below 90 cents a litre for first time in almost a ...",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_metro_c26b6d62_05.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/bc6da8407cba2dd67d10151405dca2c1_-new-south-wales-bankstown-city-council-padstow-metro-petroleumhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/bankstown_city_council/padstow/metro_petroleum.html",
+      "alt_text": "Metro Petroleum - 69 Davies Rd, Padstow NSW 2211, Australia",
+      "size_kb": 134
+    },
+    {
+      "filename": "gimg_metro_80871375_06.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/37d3b7638aa1fac4b145a38264476b39_-new-south-wales-city-of-parramatta-council-epping-metro-petroleum-02-9869-4120html.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/city_of_parramatta_council/epping/metro-petroleum-02-9869-4120.html",
+      "alt_text": "Metro Petroleum - 30 Bridge St, Epping NSW 2121, Australia",
+      "size_kb": 245
+    },
+    {
+      "filename": "gimg_metro_b0c6b3bc_07.png",
+      "source_url": "https://fairfieldlocalnews.com.au/wp-content/uploads/2023/02/Metro-petrol-station.png",
+      "source_page": "https://fairfieldlocalnews.com.au/metro-petroleum-supports-knl-and-local-communities/",
+      "alt_text": "Metro Petroleum supports KNL and local communities - fairfieldlocalnews",
+      "size_kb": 878
+    },
+    {
+      "filename": "gimg_metro_9588ef67_08.jpg",
+      "source_url": "https://imageresizer.static9.net.au/-h4UrNyeI9kIAPrzBT7v6Kmap0E=/0x0:1024x576/1200x628/smart/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F27a934cd-4125-4d06-8f53-b9d88d676fa7",
+      "source_page": "https://www.9news.com.au/national/petrol-for-99c-per-litre-at-western-sydney-metro-petroleum/ed282329-5c77-4c0a-9ee8-6067658cef34",
+      "alt_text": "Metro \ufeffPetroleum Punchbowl: Sydney petrol station offering petrol at ...",
+      "size_kb": 766
+    },
+    {
+      "filename": "gimg_metro_0351ebbf_09.jpg",
+      "source_url": "https://www.metropetroleum.com.au/wp-content/gf-uploads/2018/08/metro514.jpg",
+      "source_page": "https://metropetroleum.com.au/gallery/",
+      "alt_text": "Gallery - Metro Petroleum",
+      "size_kb": 407
+    },
+    {
+      "filename": "gimg_metro_a5d703ab_11.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2022/08/metro-facebook-feed-7c-offer-aug-22.jpg",
+      "source_page": "https://metropetroleum.com.au/metro-fuel-card/",
+      "alt_text": "Metro Fuel Card - METRO PETROLEUM",
+      "size_kb": 325
+    },
+    {
+      "filename": "gimg_metro_e61af8d2_12.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2023/03/Facebook-feed-7c-12months-offer.jpg",
+      "source_page": "https://metropetroleum.com.au/",
+      "alt_text": "Home - METRO PETROLEUM - Fuel Card - Save 7 cents per litre",
+      "size_kb": 283
+    },
+    {
+      "filename": "gimg_metro_7bb880c5_13.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2017/06/metro-petroleum.jpg",
+      "source_page": "https://www.c-store.com.au/metro-partners-stockbox-new-product-trials/",
+      "alt_text": "Metro partners with Stockbox for new product trials - Convenience ...",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_metro_40899f11_14.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/7e36055fe274a8c085643090e90406fc_-new-south-wales-bankstown-city-council-padstow-metro-petroleumhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/bankstown_city_council/padstow/metro_petroleum.html",
+      "alt_text": "Metro Petroleum - 69 Davies Rd, Padstow NSW 2211, Australia",
+      "size_kb": 174
+    },
+    {
+      "filename": "gimg_metro_279d92dd_15.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/7a31896a3ac4c27bdc7ba049ed6b14dc_-new-south-wales-city-of-liverpool-lurnea-metro-petroleum-02-9602-2500html.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/city_of_liverpool/lurnea/metro-petroleum-02-9602-2500.html",
+      "alt_text": "Metro Petroleum - 64 Orange Grove Rd, Liverpool NSW 2170, Australia",
+      "size_kb": 87
+    },
+    {
+      "filename": "gimg_metro_4f905d5b_16.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H0d70bc9130784179839de4cb22e34fb8t/229953170/H0d70bc9130784179839de4cb22e34fb8t.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Outdoor-pole-pylon-sign-totem-filling_1600824577109.html",
+      "alt_text": "LED Gas Price Signs - Digital Display Solutions for Outdoor",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_metro_8933357f_17.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/petrol-price-sign-service-station-260nw-1715326426.jpg",
+      "source_page": "https://www.shutterstock.com/search/petrol-price-sign",
+      "alt_text": "28+ Thousand Petrol Price Sign Royalty-Free Images, Stock Photos ...",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_metro_076b3b1e_18.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/2b3fb27bb1ed3c6f1a8d8dbbfb559173_-new-south-wales-bankstown-city-council-padstow-metro-petroleumhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/bankstown_city_council/padstow/metro_petroleum.html",
+      "alt_text": "Metro Petroleum - 69 Davies Rd, Padstow NSW 2211, Australia",
+      "size_kb": 149
+    },
+    {
+      "filename": "gimg_metro_b624209f_19.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/ed08b45fb026fb0df984f3421630cd28_-new-south-wales-city-of-parramatta-council-epping-metro-petroleum-02-9869-4120html.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/city_of_parramatta_council/epping/metro-petroleum-02-9869-4120.html",
+      "alt_text": "Metro Petroleum - 30 Bridge St, Epping NSW 2121, Australia",
+      "size_kb": 203
+    },
+    {
+      "filename": "gimg_metro_b68f86ce_21.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/Metro-Fuel.webp",
+      "source_page": "https://fuelradar.com.au/map/station/e477d4d441aee3528c2e7840",
+      "alt_text": "Metro Petroleum Singleton Fuel Prices | NSW - FuelRadar",
+      "size_kb": 5
+    },
+    {
+      "filename": "gimg_metro_b7cd65a9_22.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2020/07/Metro-Petroluem-Petrol-Station-1-600x449.jpg",
+      "source_page": "https://metropetroleum.com.au/about-metro-petroleum/",
+      "alt_text": "About Metro | Metro Petroleum | Petrol Station and convenience store",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_metro_14d1ced1_23.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2022/11/homepage-metro-station2.jpg",
+      "source_page": "https://metropetroleum.com.au/",
+      "alt_text": "Home - METRO PETROLEUM - Fuel Card - Save 7 cents per litre",
+      "size_kb": 371
+    },
+    {
+      "filename": "gimg_metro_cc4fcb38_24.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2020/05/metro-petroleum.jpg",
+      "source_page": "https://storage.googleapis.com/doieazybljiiye/fuel-points-metro-market.html",
+      "alt_text": "Fuel Points Metro Market at Erin Patteson blog",
+      "size_kb": 166
+    },
+    {
+      "filename": "gimg_metro_4c63729d_26.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/9ef2eee9762da74dcefdc57bc3071d04_-new-south-wales-city-of-liverpool-lurnea-metro-petroleum-02-9602-2500html.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/city_of_liverpool/lurnea/metro-petroleum-02-9602-2500.html",
+      "alt_text": "Metro Petroleum - 64 Orange Grove Rd, Liverpool NSW 2170, Australia",
+      "size_kb": 173
+    },
+    {
+      "filename": "gimg_metro_8ce4ab02_27.png",
+      "source_url": "https://www.fuelcardcomparison.com.au/wp-content/uploads/2021/07/logo-metro-petroleum.png",
+      "source_page": "https://www.fuelcardcomparison.com.au/fuelcard/metro-petroleum/",
+      "alt_text": "Metro Petroleum Card - Fuel Card Comparison",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_metro_3c00cbff_28.jpg",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2020/06/9.jpg",
+      "source_page": "https://metropetroleum.com.au/franchise-opportunities/",
+      "alt_text": "Franchise Opportunities | METRO PETROLEUM | Petrol Station",
+      "size_kb": 369
+    },
+    {
+      "filename": "gimg_metro_1850fb6c_29.png",
+      "source_url": "https://metropetroleum.com.au/wp-content/uploads/2020/07/Metro-Logo-Blue.png",
+      "source_page": "https://metropetroleum.com.au/metro-fuel-card/",
+      "alt_text": "Metro Fuel Card - METRO PETROLEUM",
+      "size_kb": 14
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122113737956826338",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Sydney_led_signs_oil_show_sign_board_repair_fix_mantenance_2.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "agent": "scrape_bing_costco_act2_20260411T022111",
+  "timestamp": "2026-04-11T02:21:58.051546+00:00",
+  "query": "Costco petrol fuel price board queue sign Majura Park Canberra Australia",
+  "brand_target": "costco_act2",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T022111",
+  "results": {
+    "urls_found": 30,
+    "saved": 26,
+    "rejected": 4,
+    "yield_pct": 86.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_costco_act2_44780942_00.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/d68be2a8-705f-41f5-8521-73abccdce269/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074481/costco-canberra-petrol-station-opens-igniting-price-war/",
+      "alt_text": "Costco Canberra petrol station opens, igniting price war | The Canberra ...",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_act2_34ccc1fb_01.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/4506e54a-bb1b-49c8-b2d1-9a114e4e72c2/r0_0_2000_1333_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074408/woolworths-raises-petrol-prices-when-costco-turns-pumps-off-price-war-on/",
+      "alt_text": "Woolworths raises petrol prices when Costco turns pumps off - price war ...",
+      "size_kb": 91
+    },
+    {
+      "filename": "gimg_costco_act2_ec306b69_02.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/72c86c5f-fcdd-41c3-b917-fbbcb70aa0a0/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6073201/traffic-crowds-majura-park-as-petrol-war-with-costco-continues/",
+      "alt_text": "Traffic crowds Majura Park as petrol war with Costco continues | The ...",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_costco_act2_f446a999_03.jpg",
+      "source_url": "https://c8.alamy.com/comp/2RNAG27/australien-benzinpreis-auf-talfahrt-160124-canberra-jan-24-2016-cars-queue-up-to-refuel-at-a-costco-petrol-station-in-canberra-australia-jan-24-2016-the-retail-price-for-the-unleaded-91-petrol-has-dropped-below-one-australian-dollar-about-07-us-dollar-per-liter-this-week-australia-canberra-petrol-price-drop-justinxqian-publicationxnotxinxchn-australia-petrol-price-on-descent-160124-canberra-jan-24-2016-cars-queue-up-to-refuel-at-a-costco-petrol-station-in-canberra-australia-jan-24-2016-the-retail-price-for-the-unleaded-91-petrol-has-dropped-below-one-australian-dollars-2RNAG27.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/24-liter.html",
+      "alt_text": "24 liter hi-res stock photography and images - Alamy",
+      "size_kb": 145
+    },
+    {
+      "filename": "gimg_costco_act2_3db5fa51_04.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/f0185e45-d515-4b77-a7d0-feff5fc82f56/r0_0_1330_2000_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6073344/costco-drops-petrol-below-1-a-litre-in-canberra/",
+      "alt_text": "Costco drops petrol below $1 a litre in Canberra | The Canberra Times ...",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_costco_act2_a7fa9248_05.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/ZBtA3uhzm786CWHKXPpjK4/bb411863-5ecf-4af8-abe2-94eaf7f9b338.jpg/r0_0_3024_4032_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/7479369/canberrans-cop-record-petrol-prices-as-lockdown-ends/",
+      "alt_text": "Prepare for a big hit at the bowser as Canberra households emerge from ...",
+      "size_kb": 61
+    },
+    {
+      "filename": "gimg_costco_act2_be040878_06.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/441cea04-07e4-43b6-a02f-2c3bea444313/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6073344/costco-drops-petrol-below-1-a-litre-in-canberra/",
+      "alt_text": "Costco drops petrol below $1 a litre in Canberra | The Canberra Times ...",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_costco_act2_484015ce_07.jpg",
+      "source_url": "https://canberradaily.com.au/wp-content/uploads/2020/05/Costco-petrol-update-4303.jpg",
+      "source_page": "https://canberradaily.com.au/costco-majura-fuel-station-to-temporarily-close/",
+      "alt_text": "Costco Majura fuel station to close temporarily | Canberra Daily",
+      "size_kb": 63
+    },
+    {
+      "filename": "gimg_costco_act2_85a6e50b_08.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/costco-fuel-prices-record-low-april-180454374.jpg",
+      "source_page": "https://www.dreamstime.com/royalty-free-stock-image-costco-gas-pump-display-honolulu-hi-august-use-featuring-ethanol-credit-card-reader-august-honolulu-hawaii-image31333726",
+      "alt_text": "Costco Gas Pump Display editorial photo. Image of sign - 31333726",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_act2_b2e991e8_09.jpg",
+      "source_url": "https://img.cdndtl.co.uk/x1xkqhj4w3lh/5Fdd7uISoxw0XPIgUcxu74/e42fb4c3c0789ec6892a442440766d79/costco-petrol.jpeg?auto=format&s=dd84e1ab3855e01cc1294476ab8443a6",
+      "source_page": "https://www.moneysavingexpert.com/shopping/costco/",
+      "alt_text": "18 Costco tips \u2013 is it worth it?",
+      "size_kb": 143
+    },
+    {
+      "filename": "gimg_costco_act2_0c536b51_10.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/lhyN25ckbo9CS_JlEu9Zbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NDY-/https://s.yimg.com/os/creatr-uploaded-images/2022-07/321cc810-08a0-11ed-9e1f-730b363cc8dd",
+      "source_page": "https://au.news.yahoo.com/cheap-costco-petrol-price-stuns-drivers-061823776.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_costco_act2_c179125b_11.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/ada17455-82a7-4c48-a1e2-be856a7d7603/r0_0_2000_1500_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074481/costco-canberra-petrol-station-opens-igniting-price-war/",
+      "alt_text": "Costco Canberra petrol station opens, igniting price war | The Canberra ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_costco_act2_afc4930e_12.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/0c4fa730-12e0-4f1d-8a91-c10c5f388ab6/r0_0_2000_1333_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6073201/traffic-crowds-majura-park-as-petrol-war-with-costco-continues/",
+      "alt_text": "Traffic crowds Majura Park as petrol war with Costco continues | The ...",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_costco_act2_8aeedb57_13.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/f244ddd2-2222-4f6e-ac9c-275aed91879e/r0_0_2000_1333_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6073201/traffic-crowds-majura-park-as-petrol-war-with-costco-continues/",
+      "alt_text": "Traffic crowds Majura Park as petrol war with Costco continues | The ...",
+      "size_kb": 79
+    },
+    {
+      "filename": "gimg_costco_act2_f35cb256_14.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/ae7eb5daef9843f93bd736527d1197b8",
+      "source_page": "https://www.dailytelegraph.com.au/newslocal/rouse-hill-times/costco-to-sell-discounted-fuel-from-its-new-marsden-park-station/news-story/1bfd3b01360e5897d8d3bca24b287ff8",
+      "alt_text": "Costco\u2019s Marsden Park service station to sell discounted fuel | Daily ...",
+      "size_kb": 55
+    },
+    {
+      "filename": "gimg_costco_act2_de30265f_15.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/3273ba2a1501c968587c4d8c6b99b6dd_-australian-capital-territory-costco-fuelhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/costco_fuel.html",
+      "alt_text": "Costco Fuel - Australian Capital Territory 2609, Australia",
+      "size_kb": 173
+    },
+    {
+      "filename": "gimg_costco_act2_941ee8d9_16.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/E5ebXFmEkPpHMqbz.deKlw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-07/b28dc090-089f-11ed-af96-78aac9d48e67",
+      "source_page": "https://au.news.yahoo.com/cheap-costco-petrol-price-stuns-drivers-061823776.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_costco_act2_6bce2c01_17.jpg",
+      "source_url": "https://www.realcommercial.com.au/news/wp-content/uploads/2025/04/capi_cf0a05ba738fc1228a8bdb21527c18cb_06101fbc0ad43017984da39ffa3f9532.jpeg",
+      "source_page": "https://www.realcommercial.com.au/news/costco-ready-to-unveil-latest-australian-location",
+      "alt_text": "First look inside Australia\u2019s newest Costco store",
+      "size_kb": 114
+    },
+    {
+      "filename": "gimg_costco_act2_db1f8281_18.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2015/10/Costco-price-promo-21.jpg",
+      "source_page": "https://www.c-store.com.au/costcos-fuel-expansion-to-help-drive-grocery-market-share/",
+      "alt_text": "Costco\u2019s fuel expansion to help drive grocery market share ...",
+      "size_kb": 775
+    },
+    {
+      "filename": "gimg_costco_act2_ab0bf3bd_19.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/pMXRnDj3SUU44AkPpn97sC/602863c4-f813-4cc6-b00d-73f52312aba9.jpg/r0_435_4256_2828_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/8856495/why-canberras-petrol-prices-are-the-highest-in-australia/",
+      "alt_text": "Why Canberra's petrol prices are the highest in Australia | The ...",
+      "size_kb": 105
+    },
+    {
+      "filename": "gimg_costco_act2_b44f1228_21.jpg",
+      "source_url": "https://www.newstalkzb.co.nz/media/rh3k3kb1/costco-fuel-service-centre-at-westgate-is-busy-ahead-of-the-removal-of-the-fuel-tax-subsidy-due-to-expire-at-the-beginning-of-july.jpg?rmode=crop&rnd=133325236803870000&height=395&width=635&quality=95&scale=both",
+      "source_page": "https://www.newstalkzb.co.nz/news/national/data-shows-cheapest-most-expensive-gas-stations-ahead-of-fuel-tax-return/",
+      "alt_text": "Queues at Costco: Data shows cheapest, most expensive gas stations",
+      "size_kb": 85
+    },
+    {
+      "filename": "gimg_costco_act2_bfd89123_22.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/b3980c470feec2aa2392768b972a638c_-australian-capital-territory-costco-fuelhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/costco_fuel.html",
+      "alt_text": "Costco Fuel - Australian Capital Territory 2609, Australia",
+      "size_kb": 149
+    },
+    {
+      "filename": "gimg_costco_act2_46fdb25e_23.jpg",
+      "source_url": "https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/1/ee/1ee8a95c-8743-11ef-b992-7ff7379dbcca/670833be4841f.image.jpg?resize=1763%2C1176",
+      "source_page": "https://napavalleyregister.com/news/local/napa-gas-station-costco-shop/article_7ab7189c-873c-11ef-bbd9-6f1bb2e93dbe.html",
+      "alt_text": "Costco gas station opens in Napa with competitive prices",
+      "size_kb": 287
+    },
+    {
+      "filename": "gimg_costco_act2_10450926_25.jpg",
+      "source_url": "https://i2-prod.birminghammail.co.uk/incoming/article13507137.ece/ALTERNATES/s810/DQP_BEM_210817COSTCO_27JPG.jpg",
+      "source_page": "https://www.birminghammail.co.uk/news/midlands-news/how-costco-petrol-prices-compare-24776427",
+      "alt_text": "How Costco petrol prices compare to other retailers - and why they're ...",
+      "size_kb": 74
+    },
+    {
+      "filename": "gimg_costco_act2_55dfb1e7_28.png",
+      "source_url": "https://content-images.thekrazycouponlady.com/nie44ndm9bqr/1xs3xS96XaJjdh1ACSwtkp/ff9eb3da5bd62c08eed31ebac07878eb/Costco_Gas_Prices_Compared.png?w=1024&fit=max&auto=format&q=90",
+      "source_page": "https://thekrazycouponlady.com/tips/money/costco-gas-prices",
+      "alt_text": "Costco Gas Prices: How They Work & How Much You Save - The Krazy Coupon ...",
+      "size_kb": 135
+    },
+    {
+      "filename": "gimg_costco_act2_3d16318f_29.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/89f96b021f4a83a779f218bb4e69157c_-australian-capital-territory-majura-park-costco-canberrahtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/majura_park/costco_canberra.html",
+      "alt_text": "Costco Canberra - Canberra Airport, 39-41 Mustang Ave, Majura Park ACT ...",
+      "size_kb": 242
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.costco.com.au/mediapermalink/herobanner-fuel_mobile",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.costco.co.uk/mediapermalink/fuel-page-environment-main",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.costco.com/wcsstore/CostcoUSBCCatalogAssetStore/feature-pages/17w0509-gasoline-fuel-promise.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Costco_at_Majura_Park_in_Canberra.jpg/800px-Costco_at_Majura_Park_in_Canberra.jpg?20130320232822",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "agent": "scrape_bing_eg_vic_20260410T221604",
+  "timestamp": "2026-04-10T22:16:28.305307+00:00",
+  "query": "EG Ampol fuel price sign Victoria Australia pylon LED",
+  "brand_target": "eg_vic",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T221604",
+  "results": {
+    "urls_found": 30,
+    "saved": 28,
+    "rejected": 2,
+    "yield_pct": 93.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_eg_vic_dd544753_00.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/caf6c1a5389fdf392240adfa20eb088f",
+      "source_page": "https://www.theaustralian.com.au/business/dataroom/ampol-buys-eg-groups-australian-assets-for-close-to-1bn/news-story/dfe940d321620d92b5d222d77347ec78",
+      "alt_text": "Ampol buys EG Group's Australian fuel sites in $1.1bn deal | The Australian",
+      "size_kb": 162
+    },
+    {
+      "filename": "gimg_eg_vic_da08f9a6_01.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2023/08/External-Gregory-Hills.jpg",
+      "source_page": "https://www.ozbargain.com.au/node/834900",
+      "alt_text": "Free 3 Month MyNRMA Membership Trial - Bonus *Single Fill* 20cpl Ampol ...",
+      "size_kb": 230
+    },
+    {
+      "filename": "gimg_eg_vic_a34b6b16_02.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2023/03/ID-2-2048x1363.jpg",
+      "source_page": "https://www.ozbargain.com.au/wiki/fuel_discounts",
+      "alt_text": "Fuel - Discounts & FAQs - OzBargain Wiki",
+      "size_kb": 232
+    },
+    {
+      "filename": "gimg_eg_vic_f02168d8_03.jpg",
+      "source_url": "https://eg-australia.com/wp-content/uploads/2022/11/EG-Ampol-ID-sign-768x432.jpg",
+      "source_page": "https://eg-australia.com/who-we-are/",
+      "alt_text": "Who we are - EG Australia",
+      "size_kb": 40
+    },
+    {
+      "filename": "gimg_eg_vic_b941603a_04.jpg",
+      "source_url": "https://c8.alamy.com/comp/2YEJ61H/a-modern-ampol-petrol-station-with-multiple-fuel-pumps-and-a-digital-fuel-price-display-2YEJ61H.jpg",
+      "source_page": "https://www.alamy.com/a-modern-ampol-petrol-station-with-multiple-fuel-pumps-and-a-digital-fuel-price-display-image628578317.html",
+      "alt_text": "A modern Ampol petrol station with multiple fuel pumps and a digital ...",
+      "size_kb": 172
+    },
+    {
+      "filename": "gimg_eg_vic_0bb46bc2_05.jpg",
+      "source_url": "https://media.istockphoto.com/id/1449525909/photo/ampol-petrol-service-station-display-with-fuel-prices.jpg?s=1024x1024&w=is&k=20&c=itIi0CaSPNMN4nzglMSQ4ty3r0pMrMfOkcwudrNBRZw=",
+      "source_page": "https://www.istockphoto.com/photo/ampol-petrol-service-station-display-with-fuel-prices-gm1449525909-486708232",
+      "alt_text": "Ampol Petrol Service Station Display With Fuel Prices Stock Photo ...",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_eg_vic_7dbff39c_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79PC/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79PC.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/high-petrol-price-australia.html",
+      "alt_text": "High petrol price australia hi-res stock photography and images - Alamy",
+      "size_kb": 118
+    },
+    {
+      "filename": "gimg_eg_vic_aa364b49_07.jpg",
+      "source_url": "https://media.istockphoto.com/id/1449525915/photo/ampol-petrol-service-station-display-with-fuel-prices.jpg?s=1024x1024&w=is&k=20&c=RFu1aZtjYSdeVw7tKBeNBxQ64yKAQboEeqe_gx1k3S4=",
+      "source_page": "https://www.istockphoto.com/photo/ampol-petrol-service-station-display-with-fuel-prices-gm1449525915-486708228",
+      "alt_text": "Ampol Petrol Service Station Display With Fuel Prices Stock Photo ...",
+      "size_kb": 114
+    },
+    {
+      "filename": "gimg_eg_vic_3d35c928_08.jpg",
+      "source_url": "https://bellarinevillage.com.au/wp-content/uploads/2024/07/ampol.jpg",
+      "source_page": "https://bellarinevillage.com.au/stores/eg-ampol/",
+      "alt_text": "EG Ampol \u2013 Bellarine Village",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_eg_vic_92305e23_09.jpg",
+      "source_url": "https://coatesgroup.com/img/containers/images/img_8477-edit.jpg/eeed995c79081850549acbf3f72bdb36.jpg",
+      "source_page": "https://coatesgroup.com/case-studies/ampol-petrol-station-signage-products-and-rebanding",
+      "alt_text": "Delivering +59K Signage Products to Ampol, On Time and Within Budget ...",
+      "size_kb": 216
+    },
+    {
+      "filename": "gimg_eg_vic_72ba72c4_10.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/d940bf723b6f570fad6c369466a11fd6",
+      "source_page": "https://www.theaustralian.com.au/topics/ampol",
+      "alt_text": "Ampol | The Australian",
+      "size_kb": 169
+    },
+    {
+      "filename": "gimg_eg_vic_f577ae6b_11.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/perth-australia-march-9-2022-600nw-2138578347.jpg",
+      "source_page": "https://www.shutterstock.com/search/ampol-service-station-australia",
+      "alt_text": "32 Ampol Service Station Australia Images, Stock Photos, 3D objects ...",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_eg_vic_c1fc8e18_12.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/grafton-australia-ampol-petrol-service-station-display-fuel-prices-264129863.jpg",
+      "source_page": "https://www.dreamstime.com/grafton-australia-ampol-petrol-service-station-display-fuel-prices-image264129863",
+      "alt_text": "Ampol Petrol Service Station Display with Fuel Prices Editorial Stock ...",
+      "size_kb": 152
+    },
+    {
+      "filename": "gimg_eg_vic_a401830c_13.jpg",
+      "source_url": "https://thinkbigprinting.com.au/source-assets/images/_1900xAUTO_crop_center-center_50_none/5873_Ampol_fuel-pump-Edit.jpg",
+      "source_page": "https://thinkbigprinting.com.au/portfolio/case-studies/ampol",
+      "alt_text": "Ampol - Think Big Printing",
+      "size_kb": 321
+    },
+    {
+      "filename": "gimg_eg_vic_b19ac791_14.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/ararat-vic-australia-june-16-600nw-2319173803.jpg",
+      "source_page": "https://www.shutterstock.com/search/ampol-fuel",
+      "alt_text": "41 Ampol Fuel Images, Stock Photos, 3D objects, & Vectors | Shutterstock",
+      "size_kb": 47
+    },
+    {
+      "filename": "gimg_eg_vic_6a98c314_15.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79FG/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79FG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australia-gas-sign.html",
+      "alt_text": "Australia gas sign hi-res stock photography and images - Alamy",
+      "size_kb": 139
+    },
+    {
+      "filename": "gimg_eg_vic_8a22fb28_16.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/Qnn_kKdkYZO_6LPfnDVjFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUxNw--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/dc63b7c0-f712-11f0-9f7f-2fb3f5f86dc7",
+      "source_page": "https://au.finance.yahoo.com/news/fuel-giant-ampols-11-billion-takeover-of-500-eg-australia-service-stations-hits-snag-220334661.html",
+      "alt_text": "Fuel giant Ampol's $1.1 billion takeover of 500 EG Australia service ...",
+      "size_kb": 721
+    },
+    {
+      "filename": "gimg_eg_vic_9fabc914_17.jpg",
+      "source_url": "https://insidefmcg.com.au/wp-content/uploads/2026/01/eg-ampol-stire.jpg",
+      "source_page": "https://insidefmcg.com.au/2026/01/21/ampol-eg-australia-merger-faces-accc-roadblock/",
+      "alt_text": "Ampol, EG Australia merger faces ACCC roadblock - Inside FMCG",
+      "size_kb": 98
+    },
+    {
+      "filename": "gimg_eg_vic_d70430ce_19.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/grafton-australia-ampol-petrol-service-station-display-fuel-prices-264129879.jpg?w=992",
+      "source_page": "https://www.dreamstime.com/grafton-australia-ampol-petrol-service-station-display-fuel-prices-image264129879",
+      "alt_text": "Ampol Petrol Service Station Display with Fuel Prices Editorial Stock ...",
+      "size_kb": 94
+    },
+    {
+      "filename": "gimg_eg_vic_51f67abc_20.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00EbDierSlaLUc/OEM-Design-LED-Aluminum-Display-Price-Signage-Pylon-Dealership-Pylon-Sign.jpg",
+      "source_page": "https://grandview.en.made-in-china.com/product/GOrTpSFEaYtX/China-OEM-Design-LED-Aluminum-Display-Price-Signage-Pylon-Dealership-Pylon-Sign.html",
+      "alt_text": "OEM Design LED Aluminum Display Price Signage Pylon Dealership Pylon ...",
+      "size_kb": 174
+    },
+    {
+      "filename": "gimg_eg_vic_228c3da1_21.jpg",
+      "source_url": "https://coatesgroup.com/img/containers/images/img_8454-edit.jpg/1c4d810a9d1b1215dbede2cbc1055246.jpg",
+      "source_page": "https://coatesgroup.com/case-studies/ampol-petrol-station-signage-products-and-rebanding",
+      "alt_text": "Delivering +59K Signage Products to Ampol, On Time and Within Budget ...",
+      "size_kb": 120
+    },
+    {
+      "filename": "gimg_eg_vic_47c64918_22.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K592TB/an-ampol-service-station-in-wallacia-new-south-wales-2K592TB.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-australia-ampol.html",
+      "alt_text": "Petrol station australia ampol hi-res stock photography and images - Alamy",
+      "size_kb": 249
+    },
+    {
+      "filename": "gimg_eg_vic_05215779_23.jpg",
+      "source_url": "https://cdn-raa.dataweavers.io/-/media/Project/RAA/Web/Images/Promotional/Motor/Safetyandadvice/eg-ampol-promo-image-desktop.jpg?h=311&iar=0&w=687&rev=47c7193ad79346c394fa42c48e6bd13b",
+      "source_page": "https://www.raa.com.au/motor/safety-and-advice/fuel",
+      "alt_text": "Fuel prices map \u2013 Find cheap petrol in Adelaide | RAA",
+      "size_kb": 96
+    },
+    {
+      "filename": "gimg_eg_vic_c907523c_24.jpg",
+      "source_url": "https://enviroled.com.au/storage/app/webp/1c3/76f/330/img_f8311f62211a88bfe771ffc1a449ef67_944_0_0_0_auto_webp_1c376f33044168919712c6106495978d3b3d4e3c.webp",
+      "source_page": "https://enviroled.com.au/",
+      "alt_text": "EnviroLED - PWM LED Price Signs",
+      "size_kb": 37
+    },
+    {
+      "filename": "gimg_eg_vic_342b5ee9_25.jpg",
+      "source_url": "https://media.fuelcard.report/wp-content/uploads/2020/06/cropped-fuel-cards-for-ampol-stations.jpg",
+      "source_page": "https://fuelcard.report/ampols-1-1b-eg-australia-takeover-set-to-reshape-fuel-card-access/",
+      "alt_text": "Ampol\u2019s $1.1B EG Australia Takeover Set to Reshape Fuel Card Access ...",
+      "size_kb": 84
+    },
+    {
+      "filename": "gimg_eg_vic_3b1a3cc4_26.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/a7913834aa45ba1c3dc590f0fc58051a",
+      "source_page": "https://www.theaustralian.com.au/business/dataroom/ampol-weighs-eg-service-station-buy-to-fuel-growth/news-story/ca361b98304cbe43a03ff82ec18e5fdd",
+      "alt_text": "Ampol weighs EG service station buy to fuel growth | The Australian",
+      "size_kb": 104
+    },
+    {
+      "filename": "gimg_eg_vic_b7012297_27.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/07/CVMS_Perth_057-LR-1024x683.jpg",
+      "source_page": "https://cvmediasignage.com.au/led/led-pylon/",
+      "alt_text": "LED Pylon - CV Media & Signage",
+      "size_kb": 152
+    },
+    {
+      "filename": "gimg_eg_vic_6305cf38_29.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/woolworths-caltex-300x300.png",
+      "source_page": "https://fuelprice.io/station/eg-ampol-range/",
+      "alt_text": "EG Ampol Range | FuelPrice Australia",
+      "size_kb": 79
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "http://stonebridge.com.au/wp-content/uploads/2024/07/7-web-or-mls-eg-fuel-roxburgh-park.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/fuelprice-logo-100x100.png",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

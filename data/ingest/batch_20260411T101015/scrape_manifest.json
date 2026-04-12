@@ -1,0 +1,221 @@
+{
+  "agent": "scrape_bing_wa_gen_20260411T101015",
+  "timestamp": "2026-04-11T10:10:37.854060+00:00",
+  "query": "petrol price sign Western Australia Perth suburban station",
+  "brand_target": "wa_gen",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T101015",
+  "results": {
+    "urls_found": 30,
+    "saved": 27,
+    "rejected": 3,
+    "yield_pct": 90.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_wa_gen_1ccc65ed_00.jpg",
+      "source_url": "https://signtronics.au/wp-content/uploads/2025/07/DSCF7311cropped-889x1024.webp",
+      "source_page": "https://signtronics.com.au/petrol-price-displays/",
+      "alt_text": "Petrol Price Displays - Signtronics Australia",
+      "size_kb": 868
+    },
+    {
+      "filename": "gimg_wa_gen_88f42cbc_01.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM7A0J/perth-australia-march-9-2022-record-high-fuel-prices-at-bp-gas-station-2JM7A0J.jpg",
+      "source_page": "https://storage.googleapis.com/dckepvagjhasfe/perth-road-gas-station.html",
+      "alt_text": "Perth Road Gas Station at Richard Peay blog",
+      "size_kb": 147
+    },
+    {
+      "filename": "gimg_wa_gen_fcae90ed_02.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/perth-australia-20240318-bp-gas-600nw-2532203687.jpg",
+      "source_page": "https://www.shutterstock.com/search/bp-fuel-australia",
+      "alt_text": "1+ Hundred Bp Fuel Australia Royalty-Free Images, Stock Photos ...",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_wa_gen_b37ee009_03.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/modern-gasoline-station-perth-western-australia-155019188.jpg",
+      "source_page": "https://www.dreamstime.com/modern-gasoline-station-perth-western-australia-image155019188",
+      "alt_text": "Modern Gasoline Station in Perth Western Australia Stock Photo - Image ...",
+      "size_kb": 131
+    },
+    {
+      "filename": "gimg_wa_gen_6a98c314_04.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79FG/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79FG.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australia-gas-sign.html",
+      "alt_text": "Australia gas sign hi-res stock photography and images - Alamy",
+      "size_kb": 139
+    },
+    {
+      "filename": "gimg_wa_gen_4d6aa731_05.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79WN/perth-australia-march-9-2022-record-high-fuel-prices-at-bp-gas-station-2JM79WN.jpg",
+      "source_page": "https://www.alamy.com/perth-australia-march-9-2022-record-high-fuel-prices-at-bp-gas-station-image477134497.html",
+      "alt_text": "Perth, Australia - March 9, 2022: Record high fuel prices at BP gas ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_wa_gen_549abb61_06.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/fe7ef900d55ca735c36988e43e75c11c",
+      "source_page": "https://www.adelaidenow.com.au/business/more-turbulence-ahead-for-petrol-prices-as-global-oil-volatility-continues/news-story/ae25d257a83ecacdceaa26186bc1d9ff",
+      "alt_text": "Oil prices and Red Sea uncertainty key drivers of petrol prices in 2024 ...",
+      "size_kb": 136
+    },
+    {
+      "filename": "gimg_wa_gen_8a222b41_07.jpg",
+      "source_url": "https://c8.alamy.com/comp/2WWG83F/bp-service-station-with-petrol-pumps-and-the-sign-displaying-petrol-prices-cowaramup-western-australia-2WWG83F.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-australia.html",
+      "alt_text": "Petrol station australia hi-res stock photography and images - Alamy",
+      "size_kb": 111
+    },
+    {
+      "filename": "gimg_wa_gen_a28b750f_08.jpg",
+      "source_url": "https://media.istockphoto.com/photos/price-of-fuel-in-australia-2022-picture-id1394717522?k=20&m=1394717522&s=612x612&w=0&h=gRsq2gBsDn6dvGPXRQ7E3OlurmG891_4m2BA-Qavo4o=",
+      "source_page": "https://www.istockphoto.com/photos/petrol-stations-australia",
+      "alt_text": "Petrol Stations Australia Stock Photos, Pictures & Royalty-Free Images ...",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_wa_gen_c998e7ec_09.jpg",
+      "source_url": "http://perth.freeservers.com/images/perth/mobil.jpg",
+      "source_page": "http://perth.freeservers.com/",
+      "alt_text": "Perth Western Australia",
+      "size_kb": 38
+    },
+    {
+      "filename": "gimg_wa_gen_73193724_10.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-217864703.jpg",
+      "source_page": "https://www.dreamstime.com/photos-images/petrol-stations-australia.html",
+      "alt_text": "Petrol Stations Australia Stock Photos - Free & Royalty-Free Stock ...",
+      "size_kb": 191
+    },
+    {
+      "filename": "gimg_wa_gen_2c5f2e73_12.jpg",
+      "source_url": "https://images.thewest.com.au/publication/C-7174072/d2073ba6c702e5b8dc42b650335ab987ed9c8f5d-16x9-x0y284w4751h2672.jpg?imwidth=810&impolicy=wan_v3",
+      "source_page": "https://thewest.com.au/news/wa/perth-petrol-prices-fuel-to-soar-to-second-record-high-this-week-at-average-of-215-cpl-on-thursday-c-7174072",
+      "alt_text": "Perth petrol prices: Fuel to soar to second record high this week at ...",
+      "size_kb": 88
+    },
+    {
+      "filename": "gimg_wa_gen_c33b2781_13.jpg",
+      "source_url": "https://c8.alamy.com/comp/PG4W7B/bp-fuel-station-sign-and-price-board-PG4W7B.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-price.html",
+      "alt_text": "Bp price hi-res stock photography and images - Alamy",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_wa_gen_1510b7b2_14.jpg",
+      "source_url": "https://c8.alamy.com/comp/D3CTGA/fuel-pricing-at-an-australian-petrol-station-D3CTGA.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/australian-petrol-sign.html",
+      "alt_text": "Australian petrol sign hi-res stock photography and images - Alamy",
+      "size_kb": 175
+    },
+    {
+      "filename": "gimg_wa_gen_8933357f_16.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/petrol-price-sign-service-station-260nw-1715326426.jpg",
+      "source_page": "https://www.shutterstock.com/search/petrol-price-sign",
+      "alt_text": "28+ Thousand Petrol Price Sign Royalty-Free Images, Stock Photos ...",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_wa_gen_03e155b6_17.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H21MCN/bp-petrol-station-in-australia-at-night-with-a-price-display-showing-record-high-fuel-prices-photo-by-alexander-bogatyrev-sopa-imagessipa-usa-2H21MCN.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-petrol-station-sign-showing.html",
+      "alt_text": "Bp petrol station sign showing hi-res stock photography and images - Alamy",
+      "size_kb": 103
+    },
+    {
+      "filename": "gimg_wa_gen_a88229de_18.jpg",
+      "source_url": "https://l450v.alamy.com/450v/2j0mm21/brisbane-queensland-australia-mar-20-2022-fuel-prices-at-the-local-bp-petrol-station-2j0mm21.jpg",
+      "source_page": "https://www.alamy.com/bp-fuel-station-sign-and-price-board-image216466527.html",
+      "alt_text": "BP Fuel Station Sign and Price board Stock Photo - Alamy",
+      "size_kb": 34
+    },
+    {
+      "filename": "gimg_wa_gen_6f81da82_19.jpg",
+      "source_url": "https://media.gettyimages.com/id/81639557/fr/photo/a-display-shows-petrol-prices-at-a-petrol-station-on-june-20-2008-in-melbourne-australia-petrol.jpg?s=612x612&w=gi&k=20&c=N27Jxv2lZY4NzegO6_KFMV_B1U_Jk5g_8PGA405EmLc=",
+      "source_page": "https://www.gettyimages.fr/photos/petrol-stations-australia",
+      "alt_text": "Petrol Stations Australia Photos et images de collection - Getty Images",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_wa_gen_a6959954_20.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JXKT6X/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-2JXKT6X.jpg",
+      "source_page": "https://www.alamy.com/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-image481097090.html",
+      "alt_text": "An electronic sign displays petrol prices at a service station in ...",
+      "size_kb": 123
+    },
+    {
+      "filename": "gimg_wa_gen_7dbff39c_21.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JM79PC/perth-australia-march-9-2022-record-high-fuel-prices-at-ampol-gas-station-2JM79PC.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/crude-oil-price-australia.html",
+      "alt_text": "Crude oil price australia hi-res stock photography and images - Alamy",
+      "size_kb": 118
+    },
+    {
+      "filename": "gimg_wa_gen_df590682_22.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-217864702.jpg",
+      "source_page": "https://www.dreamstime.com/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-image217864702",
+      "alt_text": "Perth, Australia - May 5, 2021: BP Petrol Stations in Western Australia ...",
+      "size_kb": 236
+    },
+    {
+      "filename": "gimg_wa_gen_5433a3dc_23.jpg",
+      "source_url": "https://media.istockphoto.com/id/960259396/photo/car-tower-sign.jpg?s=612x612&w=0&k=20&c=ThdT5pYzIhz7C3UbU9P3X_n1dVdGSreSOsTcb3YSmlg=",
+      "source_page": "https://www.istockphoto.com/photos/petrol-price-australia",
+      "alt_text": "120+ Petrol Price Australia Stock Photos, Pictures & Royalty-Free ...",
+      "size_kb": 35
+    },
+    {
+      "filename": "gimg_wa_gen_bc5fb4c5_25.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-217864696.jpg",
+      "source_page": "https://www.dreamstime.com/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-image217864696",
+      "alt_text": "Perth, Australia - May 5, 2021: BP Petrol Stations in Western Australia ...",
+      "size_kb": 186
+    },
+    {
+      "filename": "gimg_wa_gen_4ce963be_26.jpg",
+      "source_url": "https://images.perthnow.com.au/publication/C-11177645/1ac0444895c363bd19f88f0c9c907a7071ffaba8-16x9-x0y209w4000h2250.jpg?imwidth=1200",
+      "source_page": "https://www.perthnow.com.au/news/business/energy/perth-petrol-prices-cheapest-fuel-revealed-before-prices-spike-on-wednesday--c-11177645",
+      "alt_text": "Perth petrol prices: Cheapest fuel revealed before prices spike on ...",
+      "size_kb": 132
+    },
+    {
+      "filename": "gimg_wa_gen_61438933_27.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-217864695.jpg",
+      "source_page": "https://www.dreamstime.com/perth-australia-may-bp-petrol-stations-western-have-weekly-price-cycle-prices-surging-to-their-highest-level-image217864695",
+      "alt_text": "Perth, Australia - May 5, 2021: BP Petrol Stations in Western Australia ...",
+      "size_kb": 59
+    },
+    {
+      "filename": "gimg_wa_gen_cffdf5e3_28.jpg",
+      "source_url": "https://media.drive.com.au/obj/tx_q:50,rs:auto:1920:1080:1/driveau/upload/cms/uploads/4e397677-96f4-545e-8a62-c2c643450000",
+      "source_page": "https://www.drive.com.au/caradvice/the-australian-state-that-pays-the-lowest-petrol-prices/",
+      "alt_text": "The reason why Perth's petrol prices are the lowest in the country",
+      "size_kb": 52
+    },
+    {
+      "filename": "gimg_wa_gen_942b0693_29.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/allansford-australia-november-25-2015-600nw-348976385.jpg",
+      "source_page": "https://www.shutterstock.com/search/bp-fuel-australia",
+      "alt_text": "1+ Hundred Bp Fuel Australia Royalty-Free Images, Stock Photos ...",
+      "size_kb": 65
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447-300x225.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.accc.gov.au/sites/www.accc.gov.au/files/Petrol snapsot 2020-21 infographic.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

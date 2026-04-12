@@ -1,0 +1,224 @@
+{
+  "agent": "scrape_bing_costco_vic_20260410T222037",
+  "timestamp": "2026-04-10T22:21:11.726821+00:00",
+  "query": "Costco fuel price sign Melbourne Victoria Epping Docklands Australia",
+  "brand_target": "costco_vic",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v5",
+  "batch_dir": "data/ingest/batch_20260410T222037",
+  "results": {
+    "urls_found": 30,
+    "saved": 28,
+    "rejected": 2,
+    "yield_pct": 93.3
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_costco_vic_6bce2c01_02.jpg",
+      "source_url": "https://www.realcommercial.com.au/news/wp-content/uploads/2025/04/capi_cf0a05ba738fc1228a8bdb21527c18cb_06101fbc0ad43017984da39ffa3f9532.jpeg",
+      "source_page": "https://www.realcommercial.com.au/news/costco-ready-to-unveil-latest-australian-location",
+      "alt_text": "First look inside Australia\u2019s newest Costco store",
+      "size_kb": 114
+    },
+    {
+      "filename": "gimg_costco_vic_03f41ca9_03.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5d7f6088b90c376559313537/1572308710319-FKY4NVZ28SRPQNL7T1FE/Costco+2.png",
+      "source_page": "https://sceaustralia.com/costco-docklands",
+      "alt_text": "Costco Docklands \u2014 SCE Australia",
+      "size_kb": 405
+    },
+    {
+      "filename": "gimg_costco_vic_5ea4b0f8_04.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/a3d5cee2b0ed1f937caec976779d5e15",
+      "source_page": "https://www.heraldsun.com.au/leader/north-west/costcos-epping-melbourne-outlet-opens-august-29-and-you-wont-believe-what-youll-find-there/news-story/1767f67502ed71335ee391e74cad5ed8",
+      "alt_text": "Costco Epping opens: What you can get at Melbourne\u2019s newest store ...",
+      "size_kb": 28
+    },
+    {
+      "filename": "gimg_costco_vic_b9c7a735_05.jpg",
+      "source_url": "https://static.ffx.io/images/$width_620%2C$height_349/t_crop_fill%2Cq_88%2Cf_auto/ed36e2bac9a80d2ed1e6a8ada6fac116dd90ad84",
+      "source_page": "https://www.afr.com/companies/retail/costco-plans-more-petrol-stations-20150113-12mskn",
+      "alt_text": "Costco plans more petrol stations",
+      "size_kb": 54
+    },
+    {
+      "filename": "gimg_costco_vic_46fdb25e_06.jpg",
+      "source_url": "https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/1/ee/1ee8a95c-8743-11ef-b992-7ff7379dbcca/670833be4841f.image.jpg?resize=1763%2C1176",
+      "source_page": "https://napavalleyregister.com/news/local/napa-gas-station-costco-shop/article_7ab7189c-873c-11ef-bbd9-6f1bb2e93dbe.html",
+      "alt_text": "Costco gas station opens in Napa with competitive prices",
+      "size_kb": 287
+    },
+    {
+      "filename": "gimg_costco_vic_941ee8d9_07.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/E5ebXFmEkPpHMqbz.deKlw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-07/b28dc090-089f-11ed-af96-78aac9d48e67",
+      "source_page": "https://au.news.yahoo.com/cheap-costco-petrol-price-stuns-drivers-061823776.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_costco_vic_49be725f_08.jpg",
+      "source_url": "https://i.ytimg.com/vi/lnH7IyiTgu8/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=lnH7IyiTgu8",
+      "alt_text": "From fuel to fromage, a sneak peek inside Melbourne\u2019s new Costco ...",
+      "size_kb": 174
+    },
+    {
+      "filename": "gimg_costco_vic_0370d932_09.jpg",
+      "source_url": "https://media.gettyimages.com/id/543536186/photo/australia-victoria-melbourne-docklands-harbor-town-costco-wholesale-shopping-bus.jpg?s=1024x1024&w=gi&k=20&c=xT-Dk3ZsXEhy4NP1bAkM7ByAtHlGsq3ZoKbEW1YP16k=",
+      "source_page": "https://www.gettyimages.com.au/detail/news-photo/australia-victoria-melbourne-docklands-harbor-town-costco-news-photo/543536186",
+      "alt_text": "Australia, Victoria Melbourne Docklands Harbor Town Costco Wholesale ...",
+      "size_kb": 151
+    },
+    {
+      "filename": "gimg_costco_vic_0c536b51_10.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/lhyN25ckbo9CS_JlEu9Zbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NDY-/https://s.yimg.com/os/creatr-uploaded-images/2022-07/321cc810-08a0-11ed-9e1f-730b363cc8dd",
+      "source_page": "https://au.news.yahoo.com/cheap-costco-petrol-price-stuns-drivers-061823776.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_costco_vic_23089334_11.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/costco-fuel-prices-record-low-april-180454374.jpg",
+      "source_page": "https://www.dreamstime.com/costco-fuel-prices-record-low-april-image180454374",
+      "alt_text": "Costco Fuel Prices Record Low April 2020 Editorial Stock Image - Image ...",
+      "size_kb": 163
+    },
+    {
+      "filename": "gimg_costco_vic_6bf6ab3d_12.jpg",
+      "source_url": "https://retailworldmagazine.com.au/wp-content/uploads/2023/05/CostcoMediaday-Auckland-15-scaled-1.jpg",
+      "source_page": "https://retailworldmagazine.com.au/costco-wholesale-unveils-coomera-fuel-station/",
+      "alt_text": "Costco Wholesale unveils new Coomera Fuel Station | RW",
+      "size_kb": 477
+    },
+    {
+      "filename": "gimg_costco_vic_5fb5c74a_13.jpg",
+      "source_url": "https://c8.alamy.com/comp/MJTX8G/melbourne-australia-april-07-2018-costco-wholesale-store-in-the-docklands-district-shopping-mall-in-melbourne-costco-is-known-for-economy-MJTX8G.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/costco-logo.html",
+      "alt_text": "Costco Logo Stock Photos & Costco Logo Stock Images - Alamy",
+      "size_kb": 177
+    },
+    {
+      "filename": "gimg_costco_vic_1a482859_14.jpg",
+      "source_url": "https://retailworldmagazine.com.au/wp-content/uploads/2025/03/Costco-Ardeer-fuel-station.jpg",
+      "source_page": "https://retailworldmagazine.com.au/costco-opens-its-largest-aussie-fuel-station/",
+      "alt_text": "Costco opens its largest Aussie fuel station | RW",
+      "size_kb": 220
+    },
+    {
+      "filename": "gimg_costco_vic_97fc39a6_15.jpg",
+      "source_url": "https://www.realcommercial.com.au/news/wp-content/uploads/2023/04/GettyImages-1263779283-1024x650.jpg",
+      "source_page": "https://www.realcommercial.com.au/news/costco-reveals-when-docklands-warehouse-will-close-amid-move-west",
+      "alt_text": "Costco reveals when Docklands warehouse will close amid move west",
+      "size_kb": 119
+    },
+    {
+      "filename": "gimg_costco_vic_de30265f_16.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/3273ba2a1501c968587c4d8c6b99b6dd_-australian-capital-territory-costco-fuelhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/australian_capital_territory/costco_fuel.html",
+      "alt_text": "Costco Fuel - Australian Capital Territory 2609, Australia",
+      "size_kb": 173
+    },
+    {
+      "filename": "gimg_costco_vic_beefbfbb_17.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/564541514d40b3070af93babc0552837",
+      "source_page": "https://www.heraldsun.com.au/leader/north/building-work-starts-on-epping-costco-set-to-open-in-early-2018/news-story/23edf3df48d8d9a3c911c2cbbf6dbbd1",
+      "alt_text": "Building work starts on Costco | Herald Sun",
+      "size_kb": 21
+    },
+    {
+      "filename": "gimg_costco_vic_aa866611_18.jpg",
+      "source_url": "https://i.dailymail.co.uk/1s/2022/03/14/10/55329251-10610041-image-a-15_1647252034320.jpg",
+      "source_page": "https://www.dailymail.co.uk/news/article-10610041/Where-CHEAPEST-petrol-Australia-PetrolSpy-app.html",
+      "alt_text": "Where to find the CHEAPEST petrol in Australia? PetrolSpy app | Daily ...",
+      "size_kb": 34
+    },
+    {
+      "filename": "gimg_costco_vic_e3494081_19.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/c59570b45c35d5c4d1dd371a16cecdfc",
+      "source_page": "https://www.goldcoastbulletin.com.au/news/victoria/costco-store-in-docklands-set-to-close-due-to-high-costs/news-story/0c19b9b28570057e101b70d3671daf21",
+      "alt_text": "Costco store to close in Melbourne\u2019s already struggling Docklands ...",
+      "size_kb": 124
+    },
+    {
+      "filename": "gimg_costco_vic_84c329ab_20.jpg",
+      "source_url": "https://media.gettyimages.com/id/1263779274/photo/a-general-view-of-costco-signage-in-docklands-on-august-04-2020-in-melbourne-australia-retail.jpg?s=612x612&w=gi&k=20&c=rF8sabOhQNi6lVNS8SpZwyvMpahm22IwiYdfLcVNxAo=",
+      "source_page": "https://www.gettyimages.com/photos/costco-sign",
+      "alt_text": "Costco Sign Photos and Premium High Res Pictures - Getty Images",
+      "size_kb": 52
+    },
+    {
+      "filename": "gimg_costco_vic_fb677b7b_21.jpg",
+      "source_url": "https://i0.wp.com/clark.com/wp-content/uploads/2018/05/costcogasprices.jpg?resize=800%2C366&ssl=1",
+      "source_page": "https://clark.com/shopping-retail/costco-gas-price-hours-quality/",
+      "alt_text": "7 Things To Know Before You Buy Gas at Costco Wholesale",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_costco_vic_6d6e3a44_22.jpg",
+      "source_url": "https://i.ytimg.com/vi/nmHYyw2OYW8/hqdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=nmHYyw2OYW8",
+      "alt_text": "COSTCO Epping Melbourne - A look inside Melbourne's newest store - YouTube",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_costco_vic_692e4bb3_23.jpg",
+      "source_url": "https://i.ytimg.com/vi/beelKu7alNY/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=beelKu7alNY",
+      "alt_text": "Walkthrough COSTCO in Melbourne City Australia 4K Video | COSTCO ...",
+      "size_kb": 239
+    },
+    {
+      "filename": "gimg_costco_vic_07302bc3_24.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/08/costco-favicon.png",
+      "source_page": "https://fuelprice.io/station/costco-epping/",
+      "alt_text": "Costco Epping | FuelPrice Australia",
+      "size_kb": 63
+    },
+    {
+      "filename": "gimg_costco_vic_fd76d1d3_25.jpg",
+      "source_url": "https://www.onlymelbourne.com.au/image/ico-costco.jpg",
+      "source_page": "https://www.onlymelbourne.com.au/costco",
+      "alt_text": "Costco Melbourne | Only Melbourne",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_costco_vic_9a30587c_26.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/Costco.webp",
+      "source_page": "https://fuelradar.com.au/brand/costco",
+      "alt_text": "Costco Fuel Prices & Locations | FuelRadar Australia",
+      "size_kb": 15
+    },
+    {
+      "filename": "gimg_costco_vic_5a2957d6_27.jpg",
+      "source_url": "https://c8.alamy.com/comp/MT11WF/costco-petrol-station-building-site-epping-victoria-australia-MT11WF.jpg",
+      "source_page": "https://www.alamy.com/costco-petrol-station-building-site-epping-victoria-australia-image186878875.html",
+      "alt_text": "Costco petrol station building site: Epping, Victoria Australia Stock ...",
+      "size_kb": 262
+    },
+    {
+      "filename": "gimg_costco_vic_8fa63508_28.jpg",
+      "source_url": "https://images.7news.com.au/publication/C-13361310/1b3c67100a821c545f57f5a379ab830f9366b417-16x9-x0y127w4212h2369.jpg?imwidth=1200",
+      "source_page": "https://7news.com.au/news/costco-docklands-in-melbourne-confirms-it-will-close-at-end-of-2024-and-ardeer-store-will-open-c-13361310",
+      "alt_text": "Costco Docklands in Melbourne confirms it will close at end of 2024 and ...",
+      "size_kb": 85
+    },
+    {
+      "filename": "gimg_costco_vic_85162434_29.png",
+      "source_url": "https://images.7news.com.au/publication/C-8793269/da35631b87c6c866cc4161e5f36262917e0dd525-16x9-x0y81w1516h853.png?imwidth=650&impolicy=sevennews_v2",
+      "source_page": "https://7news.com.au/lifestyle/how-to-get-62c-a-litre-off-your-fuel-by-shopping-at-one-supermarket-c-8793269",
+      "alt_text": "Costco Australia supermarket low petrol prices: how to get as much as ...",
+      "size_kb": 355
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.costco.com.au/mediapermalink/herobanner-fuel_mobile",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=480837092395407",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

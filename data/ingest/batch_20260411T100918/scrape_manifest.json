@@ -1,0 +1,218 @@
+{
+  "agent": "scrape_bing_costco_mel_20260411T100918",
+  "timestamp": "2026-04-11T10:10:08.180284+00:00",
+  "query": "Costco petrol gasoline price sign board Epping Docklands Moorabbin Australia",
+  "brand_target": "costco_mel",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T100918",
+  "results": {
+    "urls_found": 30,
+    "saved": 26,
+    "rejected": 4,
+    "yield_pct": 86.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_costco_mel_b2e991e8_00.jpg",
+      "source_url": "https://img.cdndtl.co.uk/x1xkqhj4w3lh/5Fdd7uISoxw0XPIgUcxu74/e42fb4c3c0789ec6892a442440766d79/costco-petrol.jpeg?auto=format&s=dd84e1ab3855e01cc1294476ab8443a6",
+      "source_page": "https://www.moneysavingexpert.com/shopping/costco/",
+      "alt_text": "18 Costco tips \u2013 is it worth it?",
+      "size_kb": 143
+    },
+    {
+      "filename": "gimg_costco_mel_85a6e50b_02.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/costco-fuel-prices-record-low-april-180454374.jpg",
+      "source_page": "https://www.dreamstime.com/royalty-free-stock-image-costco-gas-pump-display-honolulu-hi-august-use-featuring-ethanol-credit-card-reader-august-honolulu-hawaii-image31333726",
+      "alt_text": "Costco Gas Pump Display editorial photo. Image of sign - 31333726",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_mel_0c536b51_04.jpg",
+      "source_url": "https://s.yimg.com/ny/api/res/1.2/lhyN25ckbo9CS_JlEu9Zbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NDY-/https://s.yimg.com/os/creatr-uploaded-images/2022-07/321cc810-08a0-11ed-9e1f-730b363cc8dd",
+      "source_page": "https://au.news.yahoo.com/cheap-costco-petrol-price-stuns-drivers-061823776.html",
+      "alt_text": "'Bloody cheap': Costco petrol price stuns drivers",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_costco_mel_4a02b29d_05.jpg",
+      "source_url": "https://cdn.australia247.info/assets/tumbnails/cb5ff9d36e6243030c977189806f5d09_-victoria-kingston-city-moorabbin-airport-costco-fuel-moorabbinhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/moorabbin_airport/costco_fuel_moorabbin.html",
+      "alt_text": "Costco Fuel Moorabbin - 8 Chifley Dr, Moorabbin Airport VIC 3194, Australia",
+      "size_kb": 7
+    },
+    {
+      "filename": "gimg_costco_mel_b6d88a99_07.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/a089d92b9a5e8c1a5ec78750565d7362_-victoria-kingston-city-moorabbin-airport-costco-fuel-moorabbinhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/moorabbin_airport/costco_fuel_moorabbin.html",
+      "alt_text": "Costco Fuel Moorabbin - 8 Chifley Dr, Moorabbin Airport VIC 3194, Australia",
+      "size_kb": 107
+    },
+    {
+      "filename": "gimg_costco_mel_4dcc3d0f_08.jpg",
+      "source_url": "https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/1/ee/1ee8a95c-8743-11ef-b992-7ff7379dbcca/670833be4841f.image.jpg?resize=1333%2C889",
+      "source_page": "https://napavalleyregister.com/news/local/napa-gas-station-costco-shop/article_7ab7189c-873c-11ef-bbd9-6f1bb2e93dbe.html",
+      "alt_text": "Costco gas station opens in Napa with competitive prices | News ...",
+      "size_kb": 163
+    },
+    {
+      "filename": "gimg_costco_mel_3ee35555_09.jpg",
+      "source_url": "https://autocareaids.com/wp-content/uploads/2023/02/How-Much-Is-The-Cost-Of-Gas-At-Costco.jpeg",
+      "source_page": "https://storage.googleapis.com/dtlbuywwxwlqce/how-much-is-fuel-at-costco-epping.html",
+      "alt_text": "How Much Is Fuel At Costco Epping at Christy Carter blog",
+      "size_kb": 159
+    },
+    {
+      "filename": "gimg_costco_mel_75b86ffe_10.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/87eda9a0a877c14b124991a565be2af4_-victoria-kingston-city-moorabbin-airport-costco-fuel-moorabbinhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/moorabbin_airport/costco_fuel_moorabbin.html",
+      "alt_text": "Costco Fuel Moorabbin - 8 Chifley Dr, Moorabbin Airport VIC 3194, Australia",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_costco_mel_b9c7a735_11.jpg",
+      "source_url": "https://static.ffx.io/images/$width_620%2C$height_349/t_crop_fill%2Cq_88%2Cf_auto/ed36e2bac9a80d2ed1e6a8ada6fac116dd90ad84",
+      "source_page": "https://www.afr.com/companies/retail/costco-plans-more-petrol-stations-20150113-12mskn",
+      "alt_text": "Costco plans more petrol stations",
+      "size_kb": 54
+    },
+    {
+      "filename": "gimg_costco_mel_2d452e2d_12.jpg",
+      "source_url": "https://prod-cdn-thekrazycouponlady.imgix.net/wp-content/uploads/2022/08/costco-gas-station-kirkland-signature-gasoline-members-only-sign-prices-dreamstime-april-2020-1661359018-1661359019-scaled-e1661359047875.jpg?auto=format&fit=fill",
+      "source_page": "https://thekrazycouponlady.com/tips/money/costco-gas-prices",
+      "alt_text": "What Time Does Costco Gas Close? Costco Gas Price Info & More - The ...",
+      "size_kb": 136
+    },
+    {
+      "filename": "gimg_costco_mel_44780942_13.jpg",
+      "source_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-ct-migration/d68be2a8-705f-41f5-8521-73abccdce269/r0_0_2000_1330_w1200_h678_fmax.jpg",
+      "source_page": "https://www.canberratimes.com.au/story/6074481/costco-canberra-petrol-station-opens-igniting-price-war/",
+      "alt_text": "Costco Canberra petrol station opens, igniting price war | The Canberra ...",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_costco_mel_b4e9a675_14.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/2cded30b420aea642117f0276ed77a07_-victoria-kingston-city-moorabbin-airport-costco-fuel-moorabbinhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/moorabbin_airport/costco_fuel_moorabbin.html",
+      "alt_text": "Costco Fuel Moorabbin - 8 Chifley Dr, Moorabbin Airport VIC 3194, Australia",
+      "size_kb": 115
+    },
+    {
+      "filename": "gimg_costco_mel_182fe961_15.jpg",
+      "source_url": "http://northlakesqld.com.au/wp-content/uploads/2014/05/costco-gasoline.jpg",
+      "source_page": "https://northlakesqld.com.au/costco-membership/",
+      "alt_text": "Costco membership - Have you got one? Article | Best Of Local North Lakes",
+      "size_kb": 81
+    },
+    {
+      "filename": "gimg_costco_mel_0c48d9ab_16.jpg",
+      "source_url": "https://mainbrace.com.au/wp-content/uploads/2018/12/KBC5762-1330x830.jpg",
+      "source_page": "https://mainbrace.com.au/projects/costco-moorabbin/",
+      "alt_text": "Costco Moorabbin | Mainbrace Constructions",
+      "size_kb": 127
+    },
+    {
+      "filename": "gimg_costco_mel_0b630f18_17.jpg",
+      "source_url": "https://www.nzherald.co.nz/resizer/f1rUiYo2BLCLc7PBRr2Mj684vnI=/1440x960/smart/filters:quality(70)/cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/4NAVF3RCUU6RGHEHNG3KYIO2OA.jpg",
+      "source_page": "https://www.newstalkzb.co.nz/news/business/costco-reveals-petrol-pricing-as-service-station-opens-in-west-auckland/",
+      "alt_text": "Costco reveals petrol pricing, service station opens",
+      "size_kb": 143
+    },
+    {
+      "filename": "gimg_costco_mel_c3d4bd54_19.png",
+      "source_url": "https://costcogaspricetracker.com/wp-content/uploads/Costco-Gas-Prices-Today-24.png",
+      "source_page": "https://costcogaspricetracker.com/what-brand-of-gasoline-does-costco-use/",
+      "alt_text": "What Brand of Gasoline Does Costco Use? Unveiling the Supplier Details ...",
+      "size_kb": 1387
+    },
+    {
+      "filename": "gimg_costco_mel_4f44f460_20.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/b56a9b2c97d7314ac3b70ccff1801ffe_-victoria-kingston-city-moorabbin-airport-costco-fuel-moorabbinhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/moorabbin_airport/costco_fuel_moorabbin.html",
+      "alt_text": "Costco Fuel Moorabbin - 8 Chifley Dr, Moorabbin Airport VIC 3194, Australia",
+      "size_kb": 115
+    },
+    {
+      "filename": "gimg_costco_mel_639a1f42_21.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/21e4055997271f9a46cf373b5ba6bd3a_-victoria-kingston-city-moorabbin-airport-costco-fuel-moorabbinhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/victoria/kingston_city/moorabbin_airport/costco_fuel_moorabbin.html",
+      "alt_text": "Costco Fuel Moorabbin - 8 Chifley Dr, Moorabbin Airport VIC 3194, Australia",
+      "size_kb": 86
+    },
+    {
+      "filename": "gimg_costco_mel_85162434_22.png",
+      "source_url": "https://images.7news.com.au/publication/C-8793269/da35631b87c6c866cc4161e5f36262917e0dd525-16x9-x0y81w1516h853.png?imwidth=650&impolicy=sevennews_v2",
+      "source_page": "https://7news.com.au/lifestyle/how-to-get-62c-a-litre-off-your-fuel-by-shopping-at-one-supermarket-c-8793269",
+      "alt_text": "Costco Australia supermarket low petrol prices: how to get as much as ...",
+      "size_kb": 355
+    },
+    {
+      "filename": "gimg_costco_mel_52d3de42_23.jpg",
+      "source_url": "https://imgproxy.divecdn.com/kKHLF-sw-qXWHdprDuuoxrwqbn1jk-4d-A1-vBEN67o/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjEwODIwNTQ5XzEuanBn.webp",
+      "source_page": "https://www.cstoredive.com/news/costco-first-standalone-gas-station/750733/",
+      "alt_text": "Costco to open first standalone gas station | C-Store Dive",
+      "size_kb": 76
+    },
+    {
+      "filename": "gimg_costco_mel_0b26b7f2_24.jpg",
+      "source_url": "https://3.bp.blogspot.com/-s1Qcapy9FEg/WOsp57koyJI/AAAAAAAALpw/PQg08P0U8Qoz_dSXsIS4ydAJDFKrJVELACLcB/s1600/costco-gas-price-redwood-city-ca-20170409-apr09.jpg",
+      "source_page": "https://storage.googleapis.com/dynbplwmkbjhze/what-kind-of-gas-is-sold-at-costco.html",
+      "alt_text": "What Kind Of Gas Is Sold At Costco at Dennis Penn blog",
+      "size_kb": 436
+    },
+    {
+      "filename": "gimg_costco_mel_e40482d9_25.jpg",
+      "source_url": "https://www.foodandwine.com/thmb/J9SM1ob9zsjucsZuq4MA70qfI2Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Costco-to-open-its-first-stand-alone-gas-station-FT-BLOG0625-55024282651e436a9a94ad6cdbff7564.jpg",
+      "source_page": "https://www.foodandwine.com/costco-opening-its-first-standalone-gas-station-11756922",
+      "alt_text": "Costco's First Standalone Gas Station Is Opening in 2026",
+      "size_kb": 160
+    },
+    {
+      "filename": "gimg_costco_mel_1a482859_26.jpg",
+      "source_url": "https://retailworldmagazine.com.au/wp-content/uploads/2025/03/Costco-Ardeer-fuel-station.jpg",
+      "source_page": "https://retailworldmagazine.com.au/costco-opens-its-largest-aussie-fuel-station/",
+      "alt_text": "Costco opens its largest Aussie fuel station | RW",
+      "size_kb": 220
+    },
+    {
+      "filename": "gimg_costco_mel_fb677b7b_27.jpg",
+      "source_url": "https://i0.wp.com/clark.com/wp-content/uploads/2018/05/costcogasprices.jpg?resize=800%2C366&ssl=1",
+      "source_page": "https://clark.com/shopping-retail/costco-gas-price-hours-quality/",
+      "alt_text": "7 Things To Know Before You Buy Gas at Costco Wholesale",
+      "size_kb": 82
+    },
+    {
+      "filename": "gimg_costco_mel_fd76d1d3_28.jpg",
+      "source_url": "https://www.onlymelbourne.com.au/image/ico-costco.jpg",
+      "source_page": "https://www.onlymelbourne.com.au/costco",
+      "alt_text": "Costco Melbourne | Only Melbourne",
+      "size_kb": 42
+    },
+    {
+      "filename": "gimg_costco_mel_07302bc3_29.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/08/costco-favicon.png",
+      "source_page": "https://fuelprice.io/station/costco-epping/",
+      "alt_text": "Costco Epping | FuelPrice Australia",
+      "size_kb": 63
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.costco.com.au/mediapermalink/herobanner-fuel_mobile",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=480837092395407",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.costco.com/wcsstore/CostcoUSBCCatalogAssetStore/feature-pages/17w0509-gasoline-fuel-promise.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://localprices.net/petrol-brands/costco-bristol.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

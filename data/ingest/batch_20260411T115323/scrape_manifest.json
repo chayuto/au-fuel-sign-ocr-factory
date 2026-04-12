@@ -1,0 +1,157 @@
+{
+  "agent": "scrape_bing_shell_vic_20260411T115323",
+  "timestamp": "2026-04-11T11:53:51.905425+00:00",
+  "query": "Shell Coles Express fuel price sign pylon Victoria suburban",
+  "brand_target": "shell_vic",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260411T115323",
+  "results": {
+    "urls_found": 20,
+    "saved": 19,
+    "rejected": 1,
+    "yield_pct": 95.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_shell_vic_eca3edee_00.jpg",
+      "source_url": "https://www.ownerdriver.com.au/wp-content/uploads/2023/11/reddy-express-image-1-03083828-1024x768.jpg",
+      "source_page": "https://www.ownerdriver.com.au/save-more-on-fuel-with-shell-coles-express-promotion/",
+      "alt_text": "Save more on fuel with Shell Coles Express promotion | NEWS",
+      "size_kb": 262
+    },
+    {
+      "filename": "gimg_shell_vic_e12f38bb_01.jpg",
+      "source_url": "https://c8.alamy.com/comp/2WANYJM/large-sign-outside-a-shell-coles-express-petrol-station-and-convenience-store-featuring-the-companies-logos-and-current-fuel-prices-in-cents-2WANYJM.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-logos.html",
+      "alt_text": "Petrol station logos hi-res stock photography and images - Alamy",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_shell_vic_2fa20f1f_02.jpg",
+      "source_url": "https://c8.alamy.com/comp/2K71DX4/the-fuel-price-sign-at-a-shell-service-station-in-sydney-australia-2K71DX4.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/coles-petrol-station.html",
+      "alt_text": "Coles petrol station hi-res stock photography and images - Alamy",
+      "size_kb": 128
+    },
+    {
+      "filename": "gimg_shell_vic_8458f789_03.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/brisbane-queensland-australia-mar-fuel-prices-local-shell-coles-express-petrol-station-243271920.jpg?w=992",
+      "source_page": "https://www.dreamstime.com/brisbane-queensland-australia-mar-fuel-prices-local-shell-coles-express-petrol-station-image243271920",
+      "alt_text": "Brisbane, Queensland, Australia - Mar 14, 2022: Fuel Prices at the ...",
+      "size_kb": 111
+    },
+    {
+      "filename": "gimg_shell_vic_e31f2348_04.jpg",
+      "source_url": "https://img.mappaus.com/yer/coles-express-78458.jpg",
+      "source_page": "https://mappaus.com/coles-express-i78458.html",
+      "alt_text": "Coles Express",
+      "size_kb": 49
+    },
+    {
+      "filename": "gimg_shell_vic_4935646e_05.jpg",
+      "source_url": "https://media.istockphoto.com/id/1415919719/photo/shell-petrol-station.jpg?s=1024x1024&w=is&k=20&c=87hzl5OeRP3ocsELEw-SS3G_t_vGlY0t4qWK0rJ3D0Q=",
+      "source_page": "https://www.istockphoto.com/photo/shell-petrol-station-gm1415919719-464098047",
+      "alt_text": "Shell Petrol Station Stock Photo - Download Image Now - Shell - Brand ...",
+      "size_kb": 146
+    },
+    {
+      "filename": "gimg_shell_vic_30568c5b_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/R0DGX9/shell-and-coles-express-operated-fuel-petrol-station-in-sydneyaustralia-displaying-fuel-prices-in-november-2018-R0DGX9.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-prices-wales.html",
+      "alt_text": "Petrol prices wales hi-res stock photography and images - Alamy",
+      "size_kb": 157
+    },
+    {
+      "filename": "gimg_shell_vic_43c54825_07.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JDAX96/sydney-fuel-pump-prices-at-a-shell-and-coles-express-gasoline-station-in-sydney-in-june-2022nswaustralia-2JDAX96.jpg",
+      "source_page": "https://www.alamy.com/sydney-fuel-pump-prices-at-a-shell-and-coles-express-gasoline-station-in-sydney-in-june-2022nswaustralia-image472910626.html",
+      "alt_text": "Sydney fuel pump prices at a Shell and Coles express gasoline station ...",
+      "size_kb": 134
+    },
+    {
+      "filename": "gimg_shell_vic_451ee1cb_08.jpg",
+      "source_url": "https://c8.alamy.com/comp/D497AH/coles-branded-shell-petrol-station-at-sunbury-victoria-australia-D497AH.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-petrolium.html",
+      "alt_text": "Shell petrolium hi-res stock photography and images - Alamy",
+      "size_kb": 192
+    },
+    {
+      "filename": "gimg_shell_vic_73791057_09.jpg",
+      "source_url": "https://l450v.alamy.com/450v/hydtwc/kippa-ring-australia-coles-express-shell-petrol-station-and-convenience-hydtwc.jpg",
+      "source_page": "https://www.alamy.com/a-shell-australia-fuel-station-with-a-coles-express-convenience-store-sydney-australia-image600592509.html",
+      "alt_text": "A Shell Australia fuel station with a Coles Express convenience store ...",
+      "size_kb": 28
+    },
+    {
+      "filename": "gimg_shell_vic_ae1eebad_10.jpg",
+      "source_url": "https://c8.alamy.com/comp/2H9347T/shell-and-coles-express-fuel-petrol-gasoline-service-station-in-sydney-australia-with-car-filling-up-with-fuel-2H9347T.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-australia.html",
+      "alt_text": "Petrol australia hi-res stock photography and images - Alamy",
+      "size_kb": 176
+    },
+    {
+      "filename": "gimg_shell_vic_b13674eb_11.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/tweed-new-south-wales-australia-260nw-1622700742.jpg",
+      "source_page": "https://www.shutterstock.com/search/shell-coles-express-petrol-station",
+      "alt_text": "108+ Thousand Shell Coles Express Petrol Station Royalty-Free Images ...",
+      "size_kb": 36
+    },
+    {
+      "filename": "gimg_shell_vic_4aed3a71_12.jpg",
+      "source_url": "https://c8.alamy.com/comp/HYDTWW/kippa-ring-australia-coles-express-shell-petrol-station-and-convenience-HYDTWW.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-kippa-ring-australia-coles-express-shell-petrol-station-and-convenience-137373205.html",
+      "alt_text": "Kippa-Ring, Australia: Coles Express Shell petrol station and ...",
+      "size_kb": 177
+    },
+    {
+      "filename": "gimg_shell_vic_ca7585f7_14.jpg",
+      "source_url": "https://c8.alamy.com/comp/B6PAK9/shell-coles-express-petrol-station-road-sign-B6PAK9.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-shell-coles-express-petrol-station-road-sign-21389629.html",
+      "alt_text": "Shell Coles express petrol station road sign Stock Photo - Alamy",
+      "size_kb": 121
+    },
+    {
+      "filename": "gimg_shell_vic_70527c85_15.jpg",
+      "source_url": "https://www.retailbiz.com.au/wp-content/uploads/2023/05/WEB-ONLY-Shell-Coles-Express-partners-with-intelligent-audio-startup-Qsic-iStock-1417105890.jpg",
+      "source_page": "https://storage.googleapis.com/dgtrhpznjqncme/sea-shells-express.html",
+      "alt_text": "Sea Shells Express at Leah Crisp blog",
+      "size_kb": 575
+    },
+    {
+      "filename": "gimg_shell_vic_8c47ae50_16.jpg",
+      "source_url": "https://c8.alamy.com/comp/2CMBTJ9/shell-coles-express-petrol-station-and-convenience-store-2CMBTJ9.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-petrol-and-australia.html",
+      "alt_text": "Shell petrol and australia hi-res stock photography and images - Alamy",
+      "size_kb": 128
+    },
+    {
+      "filename": "gimg_shell_vic_8b6ee362_17.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/kincumber-new-south-wales-australia-260nw-2367238725.jpg",
+      "source_page": "https://www.shutterstock.com/search/shell-coles-express",
+      "alt_text": "Shell Coles Express Royalty-Free Images, Stock Photos & Pictures ...",
+      "size_kb": 43
+    },
+    {
+      "filename": "gimg_shell_vic_751b9785_18.jpg",
+      "source_url": "https://media.istockphoto.com/id/904041344/photo/kippa-ring-queensland-australia-coles-express-shell-tower-sign.jpg?s=1024x1024&w=is&k=20&c=NuUEHXV7uIoP0GkWlShwm8OTGCVbo-icfAXk6juAIcQ=",
+      "source_page": "https://www.istockphoto.com/photo/kippa-ring-queensland-australia-coles-express-shell-tower-sign-gm904041344-249323346",
+      "alt_text": "Kipparing Queensland Australia Coles Express Shell Tower Sign Stock ...",
+      "size_kb": 102
+    },
+    {
+      "filename": "gimg_shell_vic_32d8565b_19.jpg",
+      "source_url": "https://c8.alamy.com/comp/F0BR7J/shell-and-coles-supermarket-express-branded-fuel-gas-station-in-avalonsydneynew-south-walesaustralia-F0BR7J.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/shell-fuel-australia.html",
+      "alt_text": "Shell fuel australia High Resolution Stock Photography and Images - Alamy",
+      "size_kb": 180
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://thumbs.dreamstime.com/z/brisbane-queensland-australia-mar-fuel-prices-local-shell-coles-express-petrol-station-243271928.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}
