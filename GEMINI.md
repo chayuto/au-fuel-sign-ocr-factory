@@ -1,75 +1,64 @@
-# Gemini CLI: AU Fuel Sign OCR Factory
+# Gemini CLI: AU Fuel Sign OCR Factory (The Gemini Way)
 
-This project is a high-precision ML training pipeline for Australian fuel station price sign OCR, optimized for real-time mobile edge deployment (<15 MB total model budget).
+This document defines the foundational mandates and expert workflows for the AU Fuel Sign OCR Factory project.
 
-## Project Overview
+## Project Identity & Constraints
 
-- **Goal:** Real-time detection and extraction of fuel prices from Australian petrol stations via mobile/dashcam.
-- **Architecture:** A "Detect → Track → Crop → Read" pipeline:
-    - **Finder (YOLO26n):** Detects the physical `sign_board` (pylon panel) at 640x640.
-    - **Tracker (ByteTrack):** Follows the sign across frames.
-    - **Row Detector (Classical CV):** Finds fuel rows on high-resolution crops from the original frame.
-    - **Experts (CNN/CRNN):** Classifies brands and fuel types, and reads numeric prices (CTC).
-- **Target Specs:** <15MB total size, <200ms full pipeline latency.
-- **Tech Stack:** Python 3.11+, YOLO26 (Ultralytics), OpenCV, Albumentations, Pytest.
+- **Goal:** Real-time Australian fuel station price OCR for mobile edge deployment.
+- **Budget:** <15 MB total for all models combined.
+- **Latency:** <50ms detection, <200ms full read pipeline.
+- **Architecture:** "Detect → Track → Crop → Read" (YOLO26n Finder → Classical CV Row Detection → Expert Readers).
 
-## Core Mandates & Conventions
+## Core Mandates (The "Claude Way")
 
-- **Accuracy over Metrics:** Prioritize hand-verified, honest labels. Test set labels are sacred.
-- **Validation First:** Every stage (Scrape → Label → Build → Train → Eval) must be verified before proceeding.
-- **Experiment Logging:** Every training run MUST be documented in `docs/experiments/EXP-NNN_<name>.md`.
-- **YOLO26 Only:** Do not use older YOLO versions. Always use `end2end=False` for validation and export.
-- **Sign Board Definition (v7):** `sign_board` includes the full physical panel (brand + prices), excluding the pole and background.
-- **No PII Concerns:** Fuel signs are public data.
+1.  **Data Integrity First:** Accurate labels are the foundation. Test set labels are sacred and hand-verified. Accept real metrics—never game evaluation.
+2.  **3-Level Ingest Dedup:** Every new image must pass `process_ingest.py` (Filename, SHA-256, pHash) before entering `data/tmp/`.
+3.  **v7 sign_board Definition:** In Stage 1 (Finder), `sign_board` = **Full Physical Sign Panel** (brand header through last fuel row). Exclude the pylon pole and background.
+4.  **Vision Token Economics:** Use Sonnet for all visual QA and labeling. Image encoding cost dominates; model reasoning is secondary. Accuracy is the only optimization.
+5.  **Mandatory Reconciliation:** Always run `reconcile_manifest.py` after labeling to fix manifest write-clobber and ensure disk truth (annotations) matches the CSV.
+6.  **Experiment Logging:** Every training run MUST be documented in `docs/experiments/EXP-NNN_*.md` following the scientific method.
+7.  **No Training Permitted:** The agent is strictly prohibited from executing any training commands (e.g., `yolo detect train`). All work must focus on data engineering, analysis, and classical CV refinement.
+8.  **Visual Verification Mandate (2026-04-12 Failure):** NEVER guess or 'mentally simulate' labeling. Every image MUST be visually inspected by a vision-capable subagent (e.g., `generalist`) before annotation. A 0% yield is better than a 1% error rate. Aggressively skip non-AU, manufacturer, or non-fuel images.
 
-## Development Workflows
+## Lessons Learned: The 2026-04-12 Incident
+- **Event:** Gemini agent labeled 12/12 garbage images (US gas stations, hospital signs, AC ads) as AU fuel signs.
+- **Root Cause:** Failure to use vision tools; reliance on filename heuristics and 'guessing'.
+- **Remediation:** Purged 100% of the batch. Established the 'Visual Verification Mandate'.
 
-### Environment Setup
+## Expert Workflows
+
+### 1. Data Collection (Scrape Dispatch)
+- **Proven Winners:** Use "Brand + Regional City" (e.g., "APCO Bendigo Victoria").
+- **State+Brand:** Always include state + brand + "fuel price sign" to minimize international noise.
+- **Filter:** Add `-manufacturer -alibaba -stock` to queries.
+
+### 2. Ingest Pipeline
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -e ".[dev,annotate]"
+# Process and dedup images from data/ingest/ to data/tmp/
+.venv/bin/python .claude/skills/data-pipeline/scripts/process_ingest.py --phash-threshold 10
 ```
 
-### Data Pipeline
-- **Build Finder Dataset:**
-  ```bash
-  .venv/bin/python scripts/build_finder_dataset.py --classes 0 --seed 42 --freeze-split <prior_manifest.json>
-  ```
-- **Validation/QA:** Use `scripts/draw_annotations.py` to verify label quality before training.
+### 3. Stage 1 Labeling (Finder)
+- **Goal:** 1 bbox (`sign_board`) per image.
+- **Agent:** Sonnet (Combined screen + label in one pass).
+- **Yield:** Expected 40-100% for state+brand queries.
+- **Validation:** READ the preview image (`scripts/draw_annotations.py`) before marking done.
 
-### Training & Evaluation
-- **Train Finder:**
-  ```bash
-  PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/yolo detect train \
-      data=data/finder/dataset.yaml model=yolo26n.pt \
-      epochs=50 imgsz=640 batch=4 device=mps amp=False \
-      freeze=10 mosaic=0.5 seed=42 \
-      2>&1 | tee runs/finder/<exp_name>_train.log
-  ```
-- **Evaluate (Canonical Test v2):**
-  ```bash
-  PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/yolo detect val \
-      data=data/finder_canonical_test_v2/dataset.yaml \
-      model=<path>/weights/best.pt device=mps amp=False end2end=False
-  ```
-
-### Testing & Linting
-- **Run Tests:** `pytest`
-- **Linting:** `ruff check .`
+### 4. Training (YOLO26n)
+- **Model:** `yolo26n.pt` only.
+- **Recipe:** `freeze=10, mosaic=0.5, epochs=50, imgsz=640, batch=4`.
+- **Observability:** Always pipe to `tee` and verify the first epoch within 60s.
+- **Evaluation:** ALWAYS use `end2end=False` and `canonical_test_v2`.
 
 ## Key Directories
+- `data/ingest/`: Ephemeral scrape drop-off (Git-tracked).
+- `data/tmp/`: Gold labeling dataset (Gitignored).
+- `docs/experiments/`: The sequential memory of the project (EXP-NNN).
+- `scripts/`: CLI entry points for the entire pipeline.
 
-- `src/au_fuel_sign_ocr_factory/`: Core logic (synth, annotate, reader, utils).
-- `scripts/`: CLI entry points for the data pipeline and training.
-- `configs/`: Domain-specific enums (brands, fuel types, sign templates).
-- `docs/experiments/`: Historical record of all ML experiments (EXP-NNN).
-- `data/`: Local data storage (ingest, raw, finder, reader_experts).
-
-## Agent Working Style
-
-When working in this repo, adopt the **ML/AI Researcher** persona:
-1. **Hypothesize:** State expectations before actions.
-2. **Experiment:** Run minimal tests to validate hypotheses.
-3. **Log:** Document everything in `docs/experiments/`.
-4. **Analyze:** Compare results against hypotheses.
-5. **Iterate:** Pivot based on findings.
+## Agent Working Style: ML Researcher
+- **Hypothesize:** State numeric expectations before actions.
+- **Experiment:** Run minimal tests first.
+- **Log:** Document everything (including failures).
+- **Analyze:** Compare against scaling trends (e.g., +0.002 mAP/image).
+- **Iterate:** Pivot based on findings.

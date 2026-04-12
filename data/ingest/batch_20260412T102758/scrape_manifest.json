@@ -1,0 +1,151 @@
+{
+  "agent": "scrape_bing_liberty_geel_20260412T102758",
+  "timestamp": "2026-04-12T10:28:35.941124+00:00",
+  "query": "Liberty petrol fuel price sign board Geelong Werribee VIC",
+  "brand_target": "liberty_geel",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260412T102758",
+  "results": {
+    "urls_found": 20,
+    "saved": 17,
+    "rejected": 3,
+    "yield_pct": 85.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_liberty_geel_eaf57c95_00.jpg",
+      "source_url": "https://www.fuelsandlubes.com/wp-content/uploads/2019/12/Liberty-Oil-Acquired-by-Viva-Energy.jpg",
+      "source_page": "https://www.fuelsandlubes.com/viva-energy-australia-completes-acquisition-liberty-oils-wholesale-business/",
+      "alt_text": "Viva Energy Australia completes acquisition of Liberty Oil\u2019s wholesale ...",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_liberty_geel_ae137597_01.jpg",
+      "source_url": "https://c8.alamy.com/comp/2HG3X77/roadside-advertising-outside-liberty-petrol-station-gas-station-listing-prices-of-under-1-au-dollar-a-litre-in-2020-sunny-australian-summers-day-2HG3X77.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/liberty-gas-station.html",
+      "alt_text": "Liberty gas station hi-res stock photography and images - Alamy",
+      "size_kb": 251
+    },
+    {
+      "filename": "gimg_liberty_geel_1d16a434_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/4e753639baa2e91b42ad32a581cbf5c0",
+      "source_page": "https://www.adelaidenow.com.au/news/south-australia/liberty-petrol-stations-found-to-be-the-cheapest-in-australian-competition-and-consumer-commission-report/news-story/9b796fc891765fb444c6dbf536d08bd5",
+      "alt_text": "Cheapest fuel in Adelaide: ACCC reveals service station with lowest ...",
+      "size_kb": 20
+    },
+    {
+      "filename": "gimg_liberty_geel_363ec2eb_03.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/3eea364ecb9d56a1c5594cc844728c28",
+      "source_page": "https://www.geelongadvertiser.com.au/news/victoria/everything-you-need-to-know-about-victorias-fair-fuel-plan-if-it-will-really-save-you-money/news-story/dc8721d06fbe4d0a60eb4e3f50eb30f4",
+      "alt_text": "Everything you need to know about Victoria\u2019s Fair Fuel Plan for cheap ...",
+      "size_kb": 134
+    },
+    {
+      "filename": "gimg_liberty_geel_b7b1f464_04.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/a772a867e74ea42e4f21a405302c176e",
+      "source_page": "https://www.geelongadvertiser.com.au/news/geelong/geelong-in-midst-of-erratic-fuel-prices-as-experts-warn-more-hikes-on-top-of-outrageous-prices-tuesday/news-story/d77ed32d90a4c00c9b372196332729ad",
+      "alt_text": "Geelong fuel prices: Easter petrol hikes strike city | Geelong Advertiser",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_liberty_geel_6ee355e3_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JF9703/1-july-2022-unlisted-petrol-prices-at-liberty-service-station-in-adelaide-australia-2JF9703.jpg",
+      "source_page": "https://www.alamy.com/1-july-2022-unlisted-petrol-prices-at-liberty-service-station-in-adelaide-australia-image474102835.html",
+      "alt_text": "1 July 2022: Unlisted petrol prices at Liberty service station in ...",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_liberty_geel_1d72d885_07.jpg",
+      "source_url": "https://scanlite.co.uk/wp-content/uploads/2025/02/petrol_pricing_display_hero_mob.jpg",
+      "source_page": "https://scanlite.co.uk/our-products/petrol-pricing-display/",
+      "alt_text": "LED Fuel Price Signs | Petrol Price Displays | Scanlite",
+      "size_kb": 270
+    },
+    {
+      "filename": "gimg_liberty_geel_a118fa6c_08.jpg",
+      "source_url": "https://i.ytimg.com/vi/twb6XLLm7-g/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=twb6XLLm7-g",
+      "alt_text": "New fuel price reporting system goes live in Victoria | 7NEWS - YouTube",
+      "size_kb": 160
+    },
+    {
+      "filename": "gimg_liberty_geel_12bb0792_10.png",
+      "source_url": "https://scanlite.co.uk/wp-content/uploads/2023/06/petrol-pricing-display-img2.png",
+      "source_page": "https://scanlite.co.uk/our-products/petrol-pricing-display/",
+      "alt_text": "LED Fuel Price Signs | Petrol Price Displays | Scanlite",
+      "size_kb": 214
+    },
+    {
+      "filename": "gimg_liberty_geel_df947b5d_11.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/liberty-gas-station-hyden-western-australia-near-wave-rock-66137824.jpg",
+      "source_page": "https://storage.googleapis.com/ddgepjwlecipwe/who-owns-liberty-gas-stations.html",
+      "alt_text": "Who Owns Liberty Gas Stations at Tristan Enderby blog",
+      "size_kb": 241
+    },
+    {
+      "filename": "gimg_liberty_geel_7439c3de_12.jpg",
+      "source_url": "https://c8.alamy.com/comp/B8E214/sydney-petrol-price-board-richmond-nsw-australia-B8E214.jpg",
+      "source_page": "https://storage.googleapis.com/dyclgysjdbfxde/petrol-station-near-airport-sydney.html",
+      "alt_text": "Petrol Station Near Airport Sydney at James Farris blog",
+      "size_kb": 229
+    },
+    {
+      "filename": "gimg_liberty_geel_152b4f21_13.jpg",
+      "source_url": "https://c8.alamy.com/comp/2R2RGWA/united-states-idoha-statelewiston-gas-prices-at-liberty-gas-station-marach-10-2010-photo-by-francis-joseph-dean-dean-pictures-2R2RGWA.jpg",
+      "source_page": "https://www.alamy.com/united-states-idoha-statelewiston-gas-prices-at-liberty-gas-station-marach-10-2010-photo-by-francis-joseph-dean-dean-pictures-image552479238.html",
+      "alt_text": "UNITED STATES / IDOHA STATE/LEWISTON . Gas prices at Liberty gas ...",
+      "size_kb": 98
+    },
+    {
+      "filename": "gimg_liberty_geel_d77e26f1_15.jpg",
+      "source_url": "https://scanlite.co.uk/wp-content/uploads/2023/02/Blank-1560-x-1170-copy.jpg",
+      "source_page": "https://scanlite.co.uk/our-products/petrol-pricing-display/",
+      "alt_text": "LED Fuel Price Signs | Petrol Price Displays | Scanlite",
+      "size_kb": 579
+    },
+    {
+      "filename": "gimg_liberty_geel_f0fb713f_16.jpg",
+      "source_url": "https://c8.alamy.com/comp/2J43BCJ/prague-czech-republic-czechia-april-7-2022-gas-and-petrol-station-prices-on-electronic-display-board-pylon-expensive-fuel-2J43BCJ.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/gas-station-price-board.html",
+      "alt_text": "Gas station price board hi-res stock photography and images - Alamy",
+      "size_kb": 112
+    },
+    {
+      "filename": "gimg_liberty_geel_dc8ae1c2_17.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/4c9188923532739fcea07f2579723faf",
+      "source_page": "https://www.geelongadvertiser.com.au/news/geelong/geelong-petrol-prices-motorists-feel-the-pinch-on-long-weekend/news-story/6e654f103834270b7c7dd3bfde6aaa29",
+      "alt_text": "Geelong petrol prices: motorists feel the pinch on long weekend ...",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_liberty_geel_f56118f0_18.jpg",
+      "source_url": "https://c8.alamy.com/comp/2R2RGTG/united-states-idoha-statelewiston-gas-prices-at-liberty-gas-station-marach-10-2010-photo-by-francis-joseph-dean-dean-pictures-2R2RGTG.jpg",
+      "source_page": "https://fity.club/lists/suggestions/liberty-gas-logo/",
+      "alt_text": "Liberty Gas Logo",
+      "size_kb": 135
+    },
+    {
+      "filename": "gimg_liberty_geel_e371449f_19.jpg",
+      "source_url": "https://linsn-led.com/wp-content/uploads/2024/12/Street-Sign-Gas-Price-Signs.jpg",
+      "source_page": "https://linsn-led.com/led-gas-stations-price-signs/",
+      "alt_text": "LED Gas Price Signs & Displays | The Ultimate Guide for Gas Stations ...",
+      "size_kb": 67
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100066931720286",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-e1700638409447.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.sydneyledsigns.com.au/wp-content/uploads/2023/11/Petrol-station-price-led-sign-2-1.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

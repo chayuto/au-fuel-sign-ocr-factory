@@ -1,0 +1,17 @@
+{
+  "prompt_version": "v7",
+  "image": {
+    "file": "gimg_apco_4bfbe790_09.png",
+    "source": "web",
+    "conditions": {
+      "time_of_day": "day",
+      "weather": "clear"
+    }
+  },
+  "sign": {
+    "bbox": [0.32, 0.15, 0.68, 0.85],
+    "brand": "apco",
+    "sign_type": "led"
+  },
+  "entries": []
+}

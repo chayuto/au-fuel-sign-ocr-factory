@@ -1,0 +1,154 @@
+{
+  "agent": "scrape_bing_streetview_20260412T121116",
+  "timestamp": "2026-04-12T12:11:39.990286+00:00",
+  "query": "petrol station pylon sign LED Australia street view Google Maps",
+  "brand_target": "streetview",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260412T121116",
+  "results": {
+    "urls_found": 20,
+    "saved": 18,
+    "rejected": 2,
+    "yield_pct": 90.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_streetview_a708458e_00.jpg",
+      "source_url": "https://www.signheresigns.com.au/wp-content/uploads/2021/08/caltex-servo.jpg",
+      "source_page": "https://www.signheresigns.com.au/2021/06/why-we-love-pylon-signs/",
+      "alt_text": "Why we love pylon signs | Custom business signs, Perth WA",
+      "size_kb": 120
+    },
+    {
+      "filename": "gimg_streetview_3872307f_03.jpg",
+      "source_url": "https://cvmediasignage.com.au/wp-content/uploads/2024/06/HMSTCO-OTR_140622-11-1536x1025.jpg",
+      "source_page": "https://cvmediasignage.com.au/petrol-station-pylons-the-past-present-and-future/",
+      "alt_text": "Petrol station pylons \u2013 the past, present and future - CV Media & Signage",
+      "size_kb": 312
+    },
+    {
+      "filename": "gimg_streetview_b1f4f563_04.jpg",
+      "source_url": "https://linksigns.com.au/wp-content/uploads/2023/10/IMG_2309-1536x2048.jpg",
+      "source_page": "https://linksigns.com.au/pylon-signage/",
+      "alt_text": "Pylon Signage | Petrol Station Signs | Link Signs",
+      "size_kb": 379
+    },
+    {
+      "filename": "gimg_streetview_5c0335f4_05.jpg",
+      "source_url": "https://i.ytimg.com/vi/CKBEMvBsg58/maxresdefault.jpg",
+      "source_page": "https://www.youtube.com/watch?v=CKBEMvBsg58",
+      "alt_text": "GAS STATION LED PYLON - YouTube",
+      "size_kb": 61
+    },
+    {
+      "filename": "gimg_streetview_56aa1235_06.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H2109926dd9ae4f7d84a3786cdff435c4y/234067538/H2109926dd9ae4f7d84a3786cdff435c4y.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/customize-pylon-sign-gas-fuel-petrol_1600262565917.html",
+      "alt_text": "Customized Pylon Sign for Gas Stations - Illuminated & Durable",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_streetview_90615575_07.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00akqGdibPAHcm/Gas-Station-Signage-Directional-Signs-Pylon-Gas-Station-Price-Signs.jpg",
+      "source_page": "https://grandview.en.made-in-china.com/product/SOlQxWvTathU/China-Gas-Station-Signage-Directional-Signs-Pylon-Gas-Station-Price-Signs.html",
+      "alt_text": "Gas Station Signage Directional Signs Pylon Gas Station Price Signs ...",
+      "size_kb": 163
+    },
+    {
+      "filename": "gimg_streetview_5dafff89_08.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00KAuVWHwdPbkB/Petrol-Advertising-Display-Column-LED-Price-Gas-Station-Pylon-Sign.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/CyInHNEOklhX/China-Petrol-Advertising-Display-Column-LED-Price-Gas-Station-Pylon-Sign.html",
+      "alt_text": "Petrol Advertising Display Column LED Price Gas Station Pylon Sign ...",
+      "size_kb": 267
+    },
+    {
+      "filename": "gimg_streetview_6c0aff3e_09.jpg",
+      "source_url": "https://sc01.alicdn.com/kf/HTB1aSBrLXXXXXbxXVXXq6xXFXXXR/220712868/HTB1aSBrLXXXXXbxXVXXq6xXFXXXR.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/petrol-pylon-sign-with-led-gas_60479603504.html",
+      "alt_text": "Petrol Pylon Sign with LED Gas Station Price Signboard Caltex Customized",
+      "size_kb": 73
+    },
+    {
+      "filename": "gimg_streetview_9b9148a7_10.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00yclieHwzGZqn/Guose-Outdoor-LED-Display-Steel-Pylon-Sign-for-Petrol-Station.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/iZwaONhFlQUn/China-Guose-Outdoor-LED-Display-Steel-Pylon-Sign-for-Petrol-Station.html",
+      "alt_text": "Guose Outdoor LED Display Steel Pylon Sign for Petrol Station - LED ...",
+      "size_kb": 35
+    },
+    {
+      "filename": "gimg_streetview_c6a03c2b_11.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H589423fe006641e59450abc1b9c185414/275712792/H589423fe006641e59450abc1b9c185414.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Gas-Station-Advertising-Totem-Pylon-Sign_1601060294337.html",
+      "alt_text": "Gas Station Advertising Totem Pylon Sign Diesel Fuel Oil Gas Petrol Led ...",
+      "size_kb": 160
+    },
+    {
+      "filename": "gimg_streetview_c0e53960_12.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00znOlfRGKYQUF/Outdoor-Freestanding-LED-Digital-Lighted-Wayfinding-Guide-Pylon-Sign-for-Gas-Station.jpg",
+      "source_page": "https://ezdsign.en.made-in-china.com/product/nFZaqUEOhbGY/China-Outdoor-Freestanding-LED-Digital-Lighted-Wayfinding-Guide-Pylon-Sign-for-Gas-Station.html",
+      "alt_text": "Outdoor Freestanding LED Digital Lighted Wayfinding Guide Pylon Sign ...",
+      "size_kb": 234
+    },
+    {
+      "filename": "gimg_streetview_2ff7d6b8_13.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00zofhcmUdCaYJ/Illuminated-LED-Pylon-Sign-Petrol-Filling-Station-Pole-Signs-Pylon-Signs.jpg",
+      "source_page": "https://grandview.en.made-in-china.com/product/gdhAOlREVtam/China-Illuminated-LED-Pylon-Sign-Petrol-Filling-Station-Pole-Signs-Pylon-Signs.html",
+      "alt_text": "Illuminated LED Pylon Sign Petrol Filling Station Pole Signs & Pylon ...",
+      "size_kb": 140
+    },
+    {
+      "filename": "gimg_streetview_9ce4f885_14.jpg",
+      "source_url": "https://complexworks.com.au/wp-content/uploads/2025/11/petrol-station-pylon-signage-install-NSW-02.jpg",
+      "source_page": "https://complexworks.com.au/petrol-station-signage/",
+      "alt_text": "Petrol Station Signage NSW Wide | Petroleum Sign Specialists",
+      "size_kb": 130
+    },
+    {
+      "filename": "gimg_streetview_d337b78e_15.jpg",
+      "source_url": "https://images.buoyantsign.com/uploads/allimg/20250625/2-250625150TY96.jpg",
+      "source_page": "https://www.buoyantsignage.com/products/757.html",
+      "alt_text": "AS - Certified Pylon Signs for AU Gas Stations",
+      "size_kb": 530
+    },
+    {
+      "filename": "gimg_streetview_053f8c93_16.jpg",
+      "source_url": "https://signandprint.com.ph/files/2024/06/pylon-sign-5-1024x749-1.jpg",
+      "source_page": "https://signandprint.com.ph/gas-station-pylon-sign-with-led-price-board-for-zhen-gas/",
+      "alt_text": "Gas Station Pylon Sign With LED Price Board For Zhen Gas | Sign And ...",
+      "size_kb": 132
+    },
+    {
+      "filename": "gimg_streetview_b9359eca_17.png",
+      "source_url": "https://i.pinimg.com/originals/9e/73/2f/9e732fd9c702efb40f5595d52334dc77.png",
+      "source_page": "https://www.pinterest.com/pin/highquality-outdoor-led-gas-station-pylon-sign--182606959883285308/",
+      "alt_text": "High-Quality Outdoor LED Gas Station Pylon Sign",
+      "size_kb": 374
+    },
+    {
+      "filename": "gimg_streetview_f7415847_18.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00uZGfIezaIYqc/Professional-Gas-Station-Pylon-Custom-ACP-Sign-Board-LED-Signage.jpg",
+      "source_page": "https://grandview.en.made-in-china.com/product/SZIJYcrOCikf/China-Professional-Gas-Station-Pylon-Custom-ACP-Sign-Board-LED-Signage.html",
+      "alt_text": "Professional Gas Station Pylon Custom ACP Sign Board LED Signage - LED ...",
+      "size_kb": 154
+    },
+    {
+      "filename": "gimg_streetview_ef974992_19.jpg",
+      "source_url": "https://comcut.com.au/wp-content/uploads/2015/10/RTM-3.jpg",
+      "source_page": "https://comcut.com.au/pylon-signs/",
+      "alt_text": "Pylon Signs Sydney | Custom Pylon Signage Sydney | Comcut",
+      "size_kb": 457
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/puma_modified_1.jpg",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/BP-Kinsgton-2-large-edited.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

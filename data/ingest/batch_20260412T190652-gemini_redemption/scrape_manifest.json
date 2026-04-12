@@ -1,0 +1,61 @@
+{
+  "agent": "scrape_bing_metro_sw_20260412T083427",
+  "timestamp": "2026-04-12T08:34:46.781533+00:00",
+  "query": "Metro Petroleum price board Bankstown Fairfield NSW",
+  "brand_target": "metro_sw",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260412T083427",
+  "results": {
+    "urls_found": 8,
+    "saved": 3,
+    "rejected": 5,
+    "yield_pct": 37.5
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_metro_sw_b0c6b3bc_00.png",
+      "source_url": "https://fairfieldlocalnews.com.au/wp-content/uploads/2023/02/Metro-petrol-station.png",
+      "source_page": "https://fairfieldlocalnews.com.au/metro-petroleum-supports-knl-and-local-communities/",
+      "alt_text": "Metro Petroleum supports KNL and local communities - fairfieldlocalnews",
+      "size_kb": 878
+    },
+    {
+      "filename": "gimg_metro_sw_9419ccad_01.jpg",
+      "source_url": "http://www.metropetroleum.com.au/wp-content/uploads/2018/08/metro-petroleum-slider2_1903.jpg",
+      "source_page": "http://www.metropetroleum.com.au/",
+      "alt_text": "Home - Metro Petroleum",
+      "size_kb": 868
+    },
+    {
+      "filename": "gimg_metro_sw_c26b6d62_04.jpg",
+      "source_url": "https://cdn.australia247.info/assets/uploads/bc6da8407cba2dd67d10151405dca2c1_-new-south-wales-bankstown-city-council-padstow-metro-petroleumhtml.jpg",
+      "source_page": "https://www.australia247.info/explore/new_south_wales/bankstown_city_council/padstow/metro_petroleum.html",
+      "alt_text": "Metro Petroleum - 69 Davies Rd, Padstow NSW 2211, Australia",
+      "size_kb": 134
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=732475650224251",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122113404116826338",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100057423580274",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=250425562956400",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122113737956826338",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

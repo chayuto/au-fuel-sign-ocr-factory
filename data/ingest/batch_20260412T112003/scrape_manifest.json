@@ -1,0 +1,154 @@
+{
+  "agent": "scrape_bing_nt_gen2_20260412T112003",
+  "timestamp": "2026-04-12T11:20:30.631474+00:00",
+  "query": "fuel price pylon sign Darwin Katherine Alice Springs Northern Territory",
+  "brand_target": "nt_gen2",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260412T112003",
+  "results": {
+    "urls_found": 20,
+    "saved": 18,
+    "rejected": 2,
+    "yield_pct": 90.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_nt_gen2_fa1891c1_00.jpg",
+      "source_url": "https://backpackertravel.org/wp-content/uploads/2011/09/Lets-hope-we-have-enough-fuel.jpg",
+      "source_page": "https://backpackertravel.org/destinations/adventure-tours-part-2-alice-springs-to-darwin/",
+      "alt_text": "Alice Springs to Darwin with Adventure Tours | Backpacker Travel",
+      "size_kb": 94
+    },
+    {
+      "filename": "gimg_nt_gen2_a35f6a97_01.jpg",
+      "source_url": "https://live-production.wcms.abc-cdn.net.au/0f1bcbc53cfb7eb3a6fb788fdd1d88c9?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=27&width=862&height=485",
+      "source_page": "https://www.abc.net.au/news/2022-03-17/fuel-prices-driving-up-nt-costs-of-living-tourism-uncertainty/100903350",
+      "alt_text": "NT industries, consumers bracing for price hikes as the cost of petrol ...",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_nt_gen2_e18daf5b_02.jpg",
+      "source_url": "https://media.routard.com/image/14/3/pt21354.1233143.jpg",
+      "source_page": "https://www.routard.com/photos/australie/21355-gas_station.htm",
+      "alt_text": "Gas station : Alice Springs : Northern Territory (Territoire du Nord ...",
+      "size_kb": 40
+    },
+    {
+      "filename": "gimg_nt_gen2_d0495e7f_03.jpg",
+      "source_url": "https://live-production.wcms.abc-cdn.net.au/d1a7885f7c9da33249dd501887dd250a?impolicy=wcms_crop_resize&cropH=1259&cropW=1894&xPos=0&yPos=0&width=862&height=575",
+      "source_page": "https://www.abc.net.au/news/2020-05-06/nt-fuel-prices-accc-chief-minister-threatens-fuel-giants/12216204",
+      "alt_text": "NT Chief Minister threatens 'extreme measures' against fuel companies ...",
+      "size_kb": 122
+    },
+    {
+      "filename": "gimg_nt_gen2_1d17dda8_04.jpg",
+      "source_url": "https://s.alicdn.com/@sc04/kf/H1e9ad30b718e4ec2959606b8949d5c3cB.jpg_720x720q50.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Fuel-Station-Pylon-Sign-Gas-Station_1601592149088.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs Led 7 Segment Led Board Gas ...",
+      "size_kb": 45
+    },
+    {
+      "filename": "gimg_nt_gen2_c14b3011_05.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/daly-waters-northern-territory-australia-260nw-2026953338.jpg",
+      "source_page": "https://www.shutterstock.com/search/daly-northern-territory",
+      "alt_text": "Daly Northern Territory Royalty-Free Images, Stock Photos & Pictures ...",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_nt_gen2_9fefde0c_06.jpg",
+      "source_url": "https://www.theintrepidguide.com/wp-content/uploads/2018/05/Darwin-to-Alice-Springs-road-trip-Katherine-sign.jpg.webp",
+      "source_page": "https://www.theintrepidguide.com/darwin-to-alice-springs-things-to-do-in-outback-australia/",
+      "alt_text": "Darwin to Alice Springs Road Trip: 12 Epic Things to Do in the Northern ...",
+      "size_kb": 336
+    },
+    {
+      "filename": "gimg_nt_gen2_2e3c0a18_07.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/sign-post-to-alice-springs-darwin-stuart-highway-australia-near-stuarts-well-roadhouse-northern-territory-red-cenytre-64436634.jpg?w=768",
+      "source_page": "https://www.dreamstime.com/photos-images/darwin-road-sign-on-highway-close.html",
+      "alt_text": "Darwin Road Sign On Highway Close Stock Photos - Free & Royalty-Free ...",
+      "size_kb": 69
+    },
+    {
+      "filename": "gimg_nt_gen2_1e455984_08.jpg",
+      "source_url": "https://c8.alamy.com/comp/2J40E0E/daly-waters-service-station-stuart-highway-northern-territory-australia-2J40E0E.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/petrol-station-northern-territory-australia.html",
+      "alt_text": "Petrol station northern territory australia hi-res stock photography ...",
+      "size_kb": 185
+    },
+    {
+      "filename": "gimg_nt_gen2_d5cbaf6d_09.jpg",
+      "source_url": "https://ntindependent.com.au/wp-content/uploads/2024/07/Alice-Springs-July01-2024.jpg",
+      "source_page": "https://ntindependent.com.au/nt-independent-cheapest-fuel-prices-july-01/",
+      "alt_text": "NT Independent Cheapest Fuel Prices - July 01",
+      "size_kb": 368
+    },
+    {
+      "filename": "gimg_nt_gen2_ab6ad2ae_10.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H89ddd964835641e28dec6cfb3bc87b14I.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/petrol-forecourt-signage",
+      "alt_text": "Advanced Petrol Forecourt Signage Solutions: Digital Price Displays for ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_nt_gen2_56aa1235_13.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H2109926dd9ae4f7d84a3786cdff435c4y/234067538/H2109926dd9ae4f7d84a3786cdff435c4y.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/customize-pylon-sign-gas-fuel-petrol_1600262565917.html",
+      "alt_text": "Customized Pylon Sign for Gas Stations - Illuminated & Durable",
+      "size_kb": 109
+    },
+    {
+      "filename": "gimg_nt_gen2_d0c5fa49_14.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/d22bd809e536b42f623945de57fd4aca",
+      "source_page": "https://www.ntnews.com.au/news/northern-territory/darwin-petrol-prices-jump-by-up-to-10-cents-per-litre-in-three-days/news-story/291b611a6c2d8df9d477a8b63834901c",
+      "alt_text": "Petrol prices NT: Darwin fuel prices jump by up to 10 cents per litre ...",
+      "size_kb": 72
+    },
+    {
+      "filename": "gimg_nt_gen2_4e64556f_15.jpg",
+      "source_url": "http://www.darwintoalicesprings.com/Assets/Alice-Springs-to-Darwin/NT-753-Daly-Waters-Pub-fuel.gif",
+      "source_page": "http://darwintoalicesprings.com/Stuart-highway-fuel.htm",
+      "alt_text": "Daly Waters Pub outback servo",
+      "size_kb": 259
+    },
+    {
+      "filename": "gimg_nt_gen2_2e7dc43f_16.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00cIqovlDzfNkb/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://zhview.en.made-in-china.com/product/ynFUZkMKMiVz/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 44
+    },
+    {
+      "filename": "gimg_nt_gen2_336fcf58_17.jpg",
+      "source_url": "https://signandprint.b-cdn.net/files/2023/12/gasoline_station_pylon_sign_with_price_board_2-1-768x584.jpg",
+      "source_page": "https://signandprint.com.ph/product/pylon-totem-signs/gasoline-station-pylon-sign-with-price-board-and-ad-panel/",
+      "alt_text": "Gasoline Station Pylon Sign With Price Board And Ad Panel | Sign And ...",
+      "size_kb": 70
+    },
+    {
+      "filename": "gimg_nt_gen2_3feff391_18.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00DOilFvRKSsrS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_nt_gen2_5652f61d_19.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00WFhlOrYykKpS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 18
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.researchgate.net/publication/353447814/figure/fig1/AS:1049582901399552@1627251472920/Map-of-study-areas-Darwin-and-Alice-Springs-in-the-Northern-Territory-NT-of-Australia.png",
+      "reason": "download failed or too small or not image"
+    },
+    {
+      "source_url": "https://images.locationscout.net/2023/06/welcome-to-alice-springs-northern-territory-australia-ufzq.jpg?h=1100&q=83",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}

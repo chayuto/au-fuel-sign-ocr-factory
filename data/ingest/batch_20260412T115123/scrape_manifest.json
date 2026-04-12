@@ -1,0 +1,157 @@
+{
+  "agent": "scrape_bing_bp_nqld_20260412T115123",
+  "timestamp": "2026-04-12T11:51:46.297330+00:00",
+  "query": "BP fuel price sign pylon Cairns Mackay Rockhampton QLD",
+  "brand_target": "bp_nqld",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260412T115123",
+  "results": {
+    "urls_found": 20,
+    "saved": 19,
+    "rejected": 1,
+    "yield_pct": 95.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_bp_nqld_c33b2781_00.jpg",
+      "source_url": "https://c8.alamy.com/comp/PG4W7B/bp-fuel-station-sign-and-price-board-PG4W7B.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-price.html",
+      "alt_text": "Bp price hi-res stock photography and images - Alamy",
+      "size_kb": 137
+    },
+    {
+      "filename": "gimg_bp_nqld_fe4a2bcf_01.jpg",
+      "source_url": "https://c8.alamy.com/comp/GNBDF7/guide-sign-indicated-the-price-of-the-fuel-on-the-bp-gas-station-british-GNBDF7.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-gas-station.html",
+      "alt_text": "Bp Gas Station High Resolution Stock Photography and Images - Alamy",
+      "size_kb": 208
+    },
+    {
+      "filename": "gimg_bp_nqld_2c8178b2_02.jpg",
+      "source_url": "https://kingstonbuilding.com.au/wp-content/uploads/2021/06/DSC_0432-scaled.jpg",
+      "source_page": "https://kingstonbuilding.com.au/projects/mackay-bp-service-station/",
+      "alt_text": "Mackay BP Service Station | Kingston Building",
+      "size_kb": 665
+    },
+    {
+      "filename": "gimg_bp_nqld_033ab144_03.jpg",
+      "source_url": "https://media.istockphoto.com/photos/morayfield-queensland-australia-tower-sign-for-bp-petrol-station-picture-id880816256?k=20&m=880816256&s=612x612&w=0&h=QO7bbks_5OKo6Jmh2apW4tFeVOEk8Pr_zcRs_kX-KNg=",
+      "source_page": "https://www.istockphoto.com/photos/australian-corner-shop",
+      "alt_text": "Australian Corner Shop Stock Photos, Pictures & Royalty-Free Images ...",
+      "size_kb": 44
+    },
+    {
+      "filename": "gimg_bp_nqld_400e3253_04.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JF41H3/a-bp-petrol-station-sign-showing-the-high-fuel-prices-in-the-uk-2JF41H3.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/bp-petrol-station-sign-showing.html",
+      "alt_text": "Bp petrol station sign showing hi-res stock photography and images - Alamy",
+      "size_kb": 283
+    },
+    {
+      "filename": "gimg_bp_nqld_0b4a2ff4_05.jpg",
+      "source_url": "https://kingstonbuilding.com.au/wp-content/uploads/2021/06/DSC_0412-1024x683.jpg",
+      "source_page": "https://kingstonbuilding.com.au/projects/mackay-bp-service-station/",
+      "alt_text": "Mackay BP Service Station | Kingston Building",
+      "size_kb": 117
+    },
+    {
+      "filename": "gimg_bp_nqld_c457eeb2_06.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JNAB8B/bp-petrol-station-and-wild-bean-cafe-british-petroleum-oil-company-gas-station-forecourt-pylon-with-logo-and-prices-displayed-2JNAB8B.jpg",
+      "source_page": "https://www.alamy.com/bp-petrol-station-and-wild-bean-cafe-british-petroleum-oil-company-gas-station-forecourt-pylon-with-logo-and-prices-displayed-image477816091.html",
+      "alt_text": "BP petrol station and Wild Bean Cafe. British Petroleum oil company gas ...",
+      "size_kb": 40
+    },
+    {
+      "filename": "gimg_bp_nqld_9d519fba_07.jpg",
+      "source_url": "https://c8.alamy.com/comp/CCAGY0/bp-petrol-station-sign-with-unleaded-petrol-and-diesel-fuel-prices-CCAGY0.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-bp-petrol-station-sign-with-unleaded-petrol-and-diesel-fuel-prices-42029428.html",
+      "alt_text": "BP Petrol Station Sign With Unleaded Petrol and Diesel Fuel Prices ...",
+      "size_kb": 121
+    },
+    {
+      "filename": "gimg_bp_nqld_d12fe869_09.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/skawina-poland-march-bp-wild-bean-cafe-sign-outside-petrol-station-british-petroleum-logo-filling-gas-forecourt-253432930.jpg?w=576",
+      "source_page": "https://www.dreamstime.com/skawina-poland-march-bp-wild-bean-cafe-sign-outside-petrol-station-british-petroleum-logo-filling-gas-forecourt-image253432930",
+      "alt_text": "BP Gas or Petrol Station in Poland. Pylon with Logo and Fuel Prices ...",
+      "size_kb": 13
+    },
+    {
+      "filename": "gimg_bp_nqld_f64186af_10.jpg",
+      "source_url": "https://l450v.alamy.com/450v/m9nkb1/bp-fuel-station-for-buying-petrol-and-diesel-with-shops-on-site-in-the-uk-bp-service-station-m9nkb1.jpg",
+      "source_page": "https://www.alamy.com/bp-fuel-station-sign-and-price-board-image216466527.html",
+      "alt_text": "BP Fuel Station Sign and Price board Stock Photo - Alamy",
+      "size_kb": 50
+    },
+    {
+      "filename": "gimg_bp_nqld_202c8715_11.jpg",
+      "source_url": "https://c8.alamy.com/comp/2GGM0K3/bp-fuel-station-price-board-showing-live-leaded-and-unleaded-fuel-prices-2GGM0K3.jpg",
+      "source_page": "https://www.alamy.com/stock-photo/regular-unleaded.html",
+      "alt_text": "Regular unleaded hi-res stock photography and images - Alamy",
+      "size_kb": 143
+    },
+    {
+      "filename": "gimg_bp_nqld_5d4978a2_12.jpg",
+      "source_url": "https://l450v.alamy.com/450v/2btkj70/bp-petrol-station-board-showing-cheaper-petrol-prices-when-oil-prices-bottomed-out-during-april-and-may-2020-2btkj70.jpg",
+      "source_page": "https://www.alamy.com/stock-photo-british-petroleum-bp-petrol-station-signs-with-prices-for-fuel-48764501.html",
+      "alt_text": "British Petroleum BP Petrol Station Signs with prices for fuel Stock ...",
+      "size_kb": 29
+    },
+    {
+      "filename": "gimg_bp_nqld_a85c266f_13.jpg",
+      "source_url": "https://thumbs.dreamstime.com/z/brisbane-queensland-australia-mar-fuel-prices-local-bp-petrol-station-243688470.jpg",
+      "source_page": "https://www.dreamstime.com/brisbane-queensland-australia-mar-fuel-prices-local-bp-petrol-station-image243688470",
+      "alt_text": "Brisbane, Queensland, Australia - Mar 20, 2022: Fuel Prices at the ...",
+      "size_kb": 311
+    },
+    {
+      "filename": "gimg_bp_nqld_aea7d1af_14.jpg",
+      "source_url": "https://www.shutterstock.com/shutterstock/photos/420917326/display_1500/stock-photo-poland-sep-bp-british-petroleum-petrol-station-logo-on-sep-in-poland-british-420917326.jpg",
+      "source_page": "https://ar.inspiredpencil.com/pictures-2023/bp-gas-station-logo",
+      "alt_text": "Bp Gas Station Logo",
+      "size_kb": 362
+    },
+    {
+      "filename": "gimg_bp_nqld_1f7d21c8_15.jpg",
+      "source_url": "https://www.shutterstock.com/image-photo/krakow-poland-september-17-2023-600nw-2365405845.jpg",
+      "source_page": "https://www.shutterstock.com/search/bp-petrol-station",
+      "alt_text": "1,418 Bp Petrol Station Royalty-Free Images, Stock Photos & Pictures ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_bp_nqld_6ec1d61a_16.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/BP.webp",
+      "source_page": "https://fuelradar.com.au/map/location/au/qld/4870/cairns",
+      "alt_text": "Fuel Prices Cairns QLD - From 157.5c - FuelRadar",
+      "size_kb": 48
+    },
+    {
+      "filename": "gimg_bp_nqld_dde1a7af_17.jpg",
+      "source_url": "https://www.nqpetro.com.au/wp-content/uploads/bp-pob-1-of-1.jpg",
+      "source_page": "https://www.nqpetro.com.au/portfolio/bp-port-of-brisbane/",
+      "alt_text": "Port of Brisbane Queensland Ultimate Diesel Program",
+      "size_kb": 153
+    },
+    {
+      "filename": "gimg_bp_nqld_f8e55a7c_18.jpg",
+      "source_url": "https://thumbs.dreamstime.com/b/bruce-highway-townsville-to-mackay-queensland-australia-november-fuel-prices-sign-service-station-service-station-fuel-235590521.jpg",
+      "source_page": "https://www.dreamstime.com/bruce-highway-townsville-to-mackay-queensland-australia-november-fuel-prices-sign-service-station-service-station-fuel-image235590521",
+      "alt_text": "Service Station Fuel Prices Signage Editorial Photo - Image of ...",
+      "size_kb": 70
+    },
+    {
+      "filename": "gimg_bp_nqld_8fba2b6d_19.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H397c1ab7f49241ba89543c8d46d31995e/244374861/H397c1ab7f49241ba89543c8d46d31995e.jpg",
+      "source_page": "https://www.alibaba.com/product-detail/Standing-Petrol-Station-Pillar-Signboard-Led_1601055921029.html",
+      "alt_text": "LED Gas Station Price Signs - Bright, Customizable, and Durable",
+      "size_kb": 37
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://www.albertsmithsigns.com.au/wp-content/uploads/2020/06/Hutchinson-Exterior-Morning13.jpg",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}
