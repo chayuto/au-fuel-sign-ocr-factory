@@ -117,4 +117,4 @@ PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/yolo detect train \
     project=runs/finder name=v7_1class_509 seed=42
 ```
 
-Model weights: `/Users/chayut/repos/thai-id-nano-ocr-factory/runs/detect/runs/finder/v7_1class_509/weights/best.pt`
+Model weights: `runs/finder/v7_1class_509/weights/best.pt` (Ultralytics `runs_dir` setting pointed to an external directory at the time — see EXP-005 / EXP-009 notes).

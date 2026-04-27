@@ -265,7 +265,7 @@ data/finder_v1/
 
 ### `dataset.yaml`
 ```yaml
-path: /Users/chayut/repos/au-fuel-sign-ocr-factory/data/finder_v1
+path: data/finder_v1  # relative to repo root
 train: train/images
 val: val/images
 

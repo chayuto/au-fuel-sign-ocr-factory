@@ -133,4 +133,4 @@ PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/yolo detect train \
     project=runs/finder name=v5_1class_303 seed=42
 ```
 
-Note: YOLO writes to `thai-id-nano-ocr-factory/runs/detect/` due to Ultralytics settings. Copy results back manually.
+Note: YOLO may write to an external `runs_dir` if a stale path is set in the Ultralytics global settings file. Run `yolo settings runs_dir=runs` to reset, or copy results back manually.

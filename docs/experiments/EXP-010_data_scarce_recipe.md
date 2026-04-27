@@ -77,7 +77,7 @@ To isolate the impact of backbone freezing from the lr/augmentation changes:
 | optimizer | auto → **AdamW(lr=0.002)** |
 | epochs | 100 |
 | imgsz=640, batch=4, device=mps, amp=False, seed=42 | |
-| Run | `thai-id-nano-ocr-factory/runs/detect/runs/finder/v9a_1class_509_freeze` |
+| Run | `runs/finder/v9a_1class_509_freeze` |
 
 ### Run 10-B: Full Data-Scarce Recipe
 
@@ -92,7 +92,7 @@ To isolate the impact of backbone freezing from the lr/augmentation changes:
 | optimizer | auto → **AdamW(lr=0.002)** |
 | **epochs** | **50** |
 | imgsz=640, batch=4, device=mps, amp=False, seed=42 | |
-| Run | `thai-id-nano-ocr-factory/runs/detect/runs/finder/v9b_1class_509_recipe` |
+| Run | `runs/finder/v9b_1class_509_recipe` |
 
 ### Critical Observation: `optimizer=auto` Overrides lr0/lrf
 

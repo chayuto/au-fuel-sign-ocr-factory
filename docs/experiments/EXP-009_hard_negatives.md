@@ -210,7 +210,7 @@ The positive data scaling trend is still productive at +0.001 mAP/image. Adding 
 
 ### 1. Ultralytics `save_dir` Mismatch
 
-YOLO26 wrote training output to `thai-id-nano-ocr-factory/runs/detect/runs/finder/v8_1class_509_neg44` instead of the expected `au-fuel-sign-ocr-factory/runs/finder/v8_1class_509_neg44`. This is caused by the Ultralytics global settings file pointing `runs_dir` to a different project. The training was initially believed to be "stuck" (45 min CPU time, zero visible output) because we checked the wrong directory.
+YOLO26 wrote training output to an external `runs_dir` (set in the Ultralytics global settings file) instead of the expected `runs/finder/v8_1class_509_neg44` inside this repo. The training was initially believed to be "stuck" (45 min CPU time, zero visible output) because we checked the wrong directory.
 
 **Fix:** Always check the `save_dir` printed in the first few lines of YOLO training output. Or set `settings_dir` explicitly.
 
@@ -284,7 +284,7 @@ PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/yolo detect val \
 
 | Artifact | Location |
 |----------|----------|
-| Training run | `thai-id-nano-ocr-factory/runs/detect/runs/finder/v8_1class_509_neg44/` |
+| Training run | `runs/finder/v8_1class_509_neg44/` (written under the externally-set Ultralytics `runs_dir` — see Operational Lessons §1) |
 | Best weights | `v8_1class_509_neg44/weights/best.pt` (epoch 53) |
 | Training log | `runs/finder/v8_1class_509_neg44_train.log` (partial — first 60 lines) |
 | Negative images | `data/negatives/batch_{servo,roadsign,led,noau,street}/` |
