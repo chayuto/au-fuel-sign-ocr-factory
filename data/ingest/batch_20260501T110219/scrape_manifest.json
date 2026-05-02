@@ -1,0 +1,194 @@
+{
+  "agent": "scrape_bing_apco_reg_20260501T110219",
+  "timestamp": "2026-05-01T11:02:47.221761+00:00",
+  "query": "APCO fuel price sign Wodonga Bendigo Ballarat Victoria",
+  "brand_target": "apco_reg",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260501T110219",
+  "results": {
+    "urls_found": 25,
+    "saved": 25,
+    "rejected": 0,
+    "yield_pct": 100.0
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_apco_reg_6137748b_00.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/370a8f78-b203-49d2-b682-a2f2b4f71b47.jpg/r0_0_6643_4429_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7830187/fuel-price-rivalry-at-full-throttle-as-independents-go-head-to-head/",
+      "alt_text": "Wodonga's OTR, APCO and United service stations drop unleaded prices ...",
+      "size_kb": 129
+    },
+    {
+      "filename": "gimg_apco_reg_421ec2e5_01.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/dc549c4d-109e-4535-ab91-e0baf1d005d8.jpg/r0_0_6709_4473_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/8038860/border-petrol-prices-remain-below-state-averages-into-the-new-year/",
+      "alt_text": "Border motorists paying well below NSW and Victorian averages for fuel ...",
+      "size_kb": 146
+    },
+    {
+      "filename": "gimg_apco_reg_b7e8a1e0_02.jpg",
+      "source_url": "https://www.bendigoadvertiser.com.au/images/transform/v1/crop/frm/39DXPJ6bfYBT8JmDyHFbVdB/1cf722c4-fa9e-4b72-959a-344ff6644de4.JPG/r0_260_5184_2982_w1200_h630_fmax.jpg",
+      "source_page": "https://www.bendigoadvertiser.com.au/story/5053383/apco-scathing-of-players-behind-regional-fuel-market-prices/",
+      "alt_text": "APCO scathing of players behind regional Victorian fuel market and ...",
+      "size_kb": 110
+    },
+    {
+      "filename": "gimg_apco_reg_25c1a1cf_03.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/f740ae0112e69b86dc08c7dfdf059865",
+      "source_page": "https://www.dailytelegraph.com.au/newslocal/albury-wodonga/albury-wodonga-cheapest-petrol-prices-are-revealed-in-time-for-the-weekend/news-story/7d207904d07f28e453e60f7f2411b3e9",
+      "alt_text": "Albury Wodonga cheapest petrol prices revealed | Daily Telegraph",
+      "size_kb": 111
+    },
+    {
+      "filename": "gimg_apco_reg_485234b4_04.jpg",
+      "source_url": "https://www.bendigoadvertiser.com.au/images/transform/v1/crop/frm/148786038/20dc5594-6cf0-4a21-a75c-621383b3f35f.jpg/r0_403_4979_2822_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bendigoadvertiser.com.au/story/7832901/relief-for-bendigo-motorists-as-unleaded-petrol-price-plummets/",
+      "alt_text": "Bendigo drivers find relief as petrol dips below $2 a litre | Bendigo ...",
+      "size_kb": 74
+    },
+    {
+      "filename": "gimg_apco_reg_5a4047a4_05.jpg",
+      "source_url": "https://www.apco.com.au/uploads/Stores/Wangaratta/APCO-210330-Wangaratta-6990-HDR.jpg",
+      "source_page": "https://www.apco.com.au/why-apco/our-story",
+      "alt_text": "History - APCO",
+      "size_kb": 489
+    },
+    {
+      "filename": "gimg_apco_reg_c8323f75_06.jpg",
+      "source_url": "https://www.bendigoadvertiser.com.au/images/transform/v1/crop/frm/148786038/b4f5bd9d-4b26-48cf-a110-6ee36b3a260d.jpg/r0_515_4928_3286_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bendigoadvertiser.com.au/story/7889919/more-hip-pocket-pain-as-government-commits-to-re-instating-full-fuel-excise/",
+      "alt_text": "Higher petrol prices to return with government to re-introduce fuel ...",
+      "size_kb": 113
+    },
+    {
+      "filename": "gimg_apco_reg_9d5ff837_07.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/silverstone-feed-data/a6da3c8b-ccf4-49a8-b944-bbce19dc1ecb.jpg/r57_0_1123_600_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/2728500/new-outlet-keen-to-start-fuel-price-war/",
+      "alt_text": "Wodonga Apco petrol station keen to start fuel price war | The Border ...",
+      "size_kb": 86
+    },
+    {
+      "filename": "gimg_apco_reg_09b7cd13_08.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/XJLgPnEdnKaFugZzKyL6Sw/ab81538e-df17-4e7f-ae98-0a28ef27d01c.jpg/r0_357_5472_3230_w1200_h630_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7777710/next-door-neighbour-rivalry-fuelling-low-petrol-prices/",
+      "alt_text": "Battle between APCO and OTR petrol stations in Wodonga results in big ...",
+      "size_kb": 125
+    },
+    {
+      "filename": "gimg_apco_reg_02219e18_09.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/qr544hYuCqYV9UFz5jEtcz/39354c61-4fc7-4491-8314-e7c91f93c279.JPG/r593_1280_1667_2689_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/3611567/border-pays-less-at-the-fuel-bowser/",
+      "alt_text": "Annual flip in Border petrol prices | The Border Mail | Wodonga, VIC",
+      "size_kb": 46
+    },
+    {
+      "filename": "gimg_apco_reg_783bab8e_10.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/161545203/f8f3abc8-73af-4d18-af13-2e1d470ae1a7.JPG/r0_470_4032_2587_w1200_h630_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7904302/price-contest-on-fuel-a-win-for-motorists-servos-sharper-on-competition/",
+      "alt_text": "Price war in Wodonga for fuel continues as APCO and OTR are neck and ...",
+      "size_kb": 77
+    },
+    {
+      "filename": "gimg_apco_reg_4bfbe790_11.png",
+      "source_url": "https://fuelprice.io/wp-content/uploads/2018/10/apco-favicon-350x318.png",
+      "source_page": "https://fuelprice.io/station/apco-bendigo-2/",
+      "alt_text": "Apco Bendigo | FuelPrice Australia",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_apco_reg_8a4a27a9_12.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/ab8af867-5cf0-4a6f-b1e6-b3771cec572b.jpg/r0_0_5568_3712_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/8466888/border-and-north-east-welcomes-fuel-price-drop-ahead-of-christmas/",
+      "alt_text": "Border and North East welcomes fuel price drop ahead of Christmas | The ...",
+      "size_kb": 85
+    },
+    {
+      "filename": "gimg_apco_reg_4ef909bd_13.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/CXnecSe9En4WWrpX4sC8Fx/36414aec-9703-4f94-9699-e3801a99ffe5.JPG/r0_0_4396_2546_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/5002583/regional-fuel-wars-cheap-petrol-sites-cannot-beat-giants/",
+      "alt_text": "Regional fuel wars: Cheap petrol sites cannot beat giants | The Border ...",
+      "size_kb": 63
+    },
+    {
+      "filename": "gimg_apco_reg_9a484f59_14.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/storypad-hRgnU7CfAjJBjZ9k7qBUYH/f1208bc7-b3a1-4e61-a8c3-87bdeb562a49.jpg/r0_367_5184_3089_w1200_h630_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/2760159/fuel-prices-drop-as-apco-shakes-up-market/",
+      "alt_text": "Fuel prices drop as APCO shakes up market | The Border Mail | Wodonga, VIC",
+      "size_kb": 80
+    },
+    {
+      "filename": "gimg_apco_reg_784d30fb_15.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/e834cba4-3f1d-4785-b2f2-eac4200696d6.jpg/r0_0_6622_4415_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/8038860/border-petrol-prices-remain-below-state-averages-into-the-new-year/",
+      "alt_text": "Border motorists paying well below NSW and Victorian averages for fuel ...",
+      "size_kb": 97
+    },
+    {
+      "filename": "gimg_apco_reg_354f5ff7_16.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/beau.greenway/bea51f15-762c-4561-b0a2-fb51aa66def8.jpg/r0_0_6676_4451_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7830187/fuel-price-rivalry-at-full-throttle-as-independents-go-head-to-head/",
+      "alt_text": "Wodonga's OTR, APCO and United service stations drop unleaded prices ...",
+      "size_kb": 95
+    },
+    {
+      "filename": "gimg_apco_reg_a5aba413_17.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/37a7815d4e7160df9511d140ac461029",
+      "source_page": "https://www.geelongadvertiser.com.au/news/geelong/geelong-petrol-price-plummets-to-849-cents-per-litre-at-apco-outlets/news-story/c33fcff8b76fd4c99d74af527ff4a907",
+      "alt_text": "Geelong\u2019s petrol price: 84.9 cents per litre for unleaded fuel at APCO ...",
+      "size_kb": 100
+    },
+    {
+      "filename": "gimg_apco_reg_16dffa23_18.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/CXnecSe9En4WWrpX4sC8Fx/e869504c-a584-42e3-9a15-adef1c1c1a5b.jpg/r0_163_4078_2719_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/4731878/greedy-thefts-of-fuel-cash/",
+      "alt_text": "\u2018Greedy\u2019 thefts of fuel cash at Wodonga West APCO | The Border Mail ...",
+      "size_kb": 95
+    },
+    {
+      "filename": "gimg_apco_reg_b3a2d9a8_19.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/161545203/5c7764e0-1394-4482-8986-ed5d17d66d99.JPG/r0_9_4032_3029_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7904302/price-contest-on-fuel-a-win-for-motorists-servos-sharper-on-competition/",
+      "alt_text": "Price war in Wodonga for fuel continues as APCO and OTR are neck and ...",
+      "size_kb": 65
+    },
+    {
+      "filename": "gimg_apco_reg_5b06e436_20.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/xtb7LvhUpWdRyX3MGXCxS3/3da763eb-5a06-444a-922b-5107f0819ff1.jpg/r1740_299_3498_2710_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/4418513/service-station-spreads-its-wings/",
+      "alt_text": "Success of APCO service stations in Albury-Wodonga prompts plans to ...",
+      "size_kb": 49
+    },
+    {
+      "filename": "gimg_apco_reg_b7e49d43_21.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/9f8158a7384df40d3f866f6376d19bb9",
+      "source_page": "https://www.geelongadvertiser.com.au/news/geelong/geelong-petrol-price-plummets-to-849-cents-per-litre-at-apco-outlets/news-story/c33fcff8b76fd4c99d74af527ff4a907",
+      "alt_text": "Geelong\u2019s petrol price: 84.9 cents per litre for unleaded fuel at APCO ...",
+      "size_kb": 111
+    },
+    {
+      "filename": "gimg_apco_reg_01049341_22.jpg",
+      "source_url": "https://www.thecourier.com.au/images/transform/v1/crop/frm/XBHRDThPr8rZ8LC4FzPP7b/cbf0ef3e-22c7-4051-a566-276d368955e4.jpg/r143_354_4612_2700_w1200_h630_fmax.jpg",
+      "source_page": "https://www.thecourier.com.au/story/8117186/express-shake-up-for-citys-service-station-model/",
+      "alt_text": "APCO teams with IGA for mini-supermarket, cafe in new Alfredton petrol ...",
+      "size_kb": 114
+    },
+    {
+      "filename": "gimg_apco_reg_97f2737a_23.jpg",
+      "source_url": "https://www.standard.net.au/images/transform/v1/crop/frm/379mw9XPZ7UFRqmwjWhGKkr/34b442c1-8d18-46d9-973b-a840cde33741.jpg/r0_406_4379_2705_w1200_h630_fmax.jpg",
+      "source_page": "https://www.standard.net.au/story/8872743/warrnambool-apco-owner-criticises-government-fuel-price-plan/",
+      "alt_text": "Warrnambool APCO owner criticises government fuel price plan | The ...",
+      "size_kb": 85
+    },
+    {
+      "filename": "gimg_apco_reg_d92ef7be_24.jpg",
+      "source_url": "https://www.bordermail.com.au/images/transform/v1/crop/frm/XJLgPnEdnKaFugZzKyL6Sw/089108d6-08a7-4f7b-990b-4943688e8ff6.jpg/r0_134_4032_3028_w1200_h678_fmax.jpg",
+      "source_page": "https://www.bordermail.com.au/story/7777710/next-door-neighbour-rivalry-fuelling-low-petrol-prices/",
+      "alt_text": "Battle between APCO and OTR petrol stations in Wodonga results in big ...",
+      "size_kb": 101
+    }
+  ],
+  "rejected_images": []
+}

@@ -1,0 +1,227 @@
+{
+  "agent": "scrape_bing_otr_20260501T110216",
+  "timestamp": "2026-05-01T11:02:48.789651+00:00",
+  "query": "OTR On The Run fuel price sign Adelaide South Australia pylon",
+  "brand_target": "otr",
+  "search_engine": "bing",
+  "method": "playwright_headless",
+  "prompt_version": "v6",
+  "batch_dir": "data/ingest/batch_20260501T110216",
+  "results": {
+    "urls_found": 30,
+    "saved": 29,
+    "rejected": 1,
+    "yield_pct": 96.7
+  },
+  "saved_images": [
+    {
+      "filename": "gimg_otr_ff3b84e1_01.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/725760f5682d9bd556ca480d4b185d66",
+      "source_page": "https://www.adelaidenow.com.au/business/sa-business/where-otr-headquarters-will-be-located-as-viva-energy-merges-under-115bn-sale/news-story/9416cbfd9ee357d506fbe50e65f60579",
+      "alt_text": "OTR headquarters to stay in Adelaide, Viva Energy to move to SA after ...",
+      "size_kb": 113
+    },
+    {
+      "filename": "gimg_otr_52c1fbfe_02.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/c602c4db77adcb32ea5e81d881bf6394",
+      "source_page": "https://www.adelaidenow.com.au/news/south-australia/sa-petrol-prices-skyrocket-by-more-than-40-cents-per-litre/news-story/150547d5f02cd75ffcbf5644924078b7",
+      "alt_text": "Fuel Prices spike up across South Australia | The Advertiser",
+      "size_kb": 91
+    },
+    {
+      "filename": "gimg_otr_524a4851_03.jpg",
+      "source_url": "https://media.drive.com.au/obj/tx_q:70,rs:auto:1920:1080:1/driveau/upload/cms/uploads/drntjaswbds73kjwaxbr",
+      "source_page": "https://www.drive.com.au/news/south-australia-otr-sold-in-1-15-billion-deal/",
+      "alt_text": "South Australia's OTR fuel station chain sold in $1.15 billion deal",
+      "size_kb": 101
+    },
+    {
+      "filename": "gimg_otr_a0b51dff_04.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/8625fdbab9316b5c9c77003618d4e84d",
+      "source_page": "https://www.adelaidenow.com.au/news/south-australia/fuel-prices-spike-to-129cl-a-day-after-falling-to-63cl/news-story/2b78cf87fdd76e99cb98e08cd3ab0a71",
+      "alt_text": "Petrol prices spike to $1.30c/L in parts of Adelaide | The Advertiser",
+      "size_kb": 81
+    },
+    {
+      "filename": "gimg_otr_70593501_05.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/b164d4318bf0983b5af462d667ee44de",
+      "source_page": "https://www.adelaidenow.com.au/lifestyle/raa-urging-motorist-to-fill-up-fuel-tanks-as-petrol-prices-continue-to-hike/news-story/28e666eabc0403efff81b6989527e52f",
+      "alt_text": "Fuel, petrol prices are on the rise in South Australia | The Advertiser",
+      "size_kb": 135
+    },
+    {
+      "filename": "gimg_otr_89d411b4_06.jpg",
+      "source_url": "https://static.ffx.io/images/$zoom_0.188%2C$multiply_0.7725%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_31/t_crop_custom/q_86%2Cf_auto/ab764925e6ab6ae1ee206c09c46bfa55b5d05067",
+      "source_page": "https://www.smh.com.au/business/companies/petrol-station-shakeup-goodbye-coles-express-hello-otr-20230822-p5dyjj.html",
+      "alt_text": "Coles Express to make way for OTR in petrol station shakeup",
+      "size_kb": 60
+    },
+    {
+      "filename": "gimg_otr_75eb5d30_07.jpg",
+      "source_url": "https://www.c-store.com.au/wp-content/uploads/2022/03/OTR-Alphington.jpg?w=1024",
+      "source_page": "https://www.c-store.com.au/accc-clears-viva-energys-acquisition-of-otr/",
+      "alt_text": "ACCC clears Viva Energy\u2019s acquisition of OTR - Convenience & Impulse ...",
+      "size_kb": 125
+    },
+    {
+      "filename": "gimg_otr_f1349853_08.jpg",
+      "source_url": "https://live-production.wcms.abc-cdn.net.au/30b06e9669523ec02c00259f063ff580?impolicy=wcms_crop_resize&cropH=1069&cropW=1607&xPos=153&yPos=0&width=862&height=575",
+      "source_page": "https://www.abc.net.au/news/2021-05-11/sa-government-proposes-referendum-to-deregulate-shopping-hours/100130028",
+      "alt_text": "South Australian government proposes referendum to deregulate shopping ...",
+      "size_kb": 71
+    },
+    {
+      "filename": "gimg_otr_295643fd_09.jpg",
+      "source_url": "https://images.theconversation.com/files/462160/original/file-20220510-17-8unyk5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip",
+      "source_page": "https://theconversation.com/australia-could-rapidly-shift-to-clean-transport-if-we-had-a-strategy-so-we-put-this-plan-together-182598",
+      "alt_text": "Australia could rapidly shift to clean transport \u2013 if we had a strategy ...",
+      "size_kb": 118
+    },
+    {
+      "filename": "gimg_otr_b62c1ca5_10.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/96e567f15c6936e13644700668f1c047",
+      "source_page": "https://www.goldcoastbulletin.com.au/news/south-australia/otr-christies-beach-investigation-after-complaints-about-water-in-petrol/news-story/eb09391b88300c4331420c070386e058",
+      "alt_text": "OTR investigating complaint about water in petrol at Adelaide servo ...",
+      "size_kb": 69
+    },
+    {
+      "filename": "gimg_otr_a6959954_11.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JXKT6X/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-2JXKT6X.jpg",
+      "source_page": "https://www.alamy.com/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-image481097090.html",
+      "alt_text": "An electronic sign displays petrol prices at a service station in ...",
+      "size_kb": 123
+    },
+    {
+      "filename": "gimg_otr_2cb733a3_12.jpg",
+      "source_url": "https://media.whichcar.com.au/uploads/2022/04/4661cbd4-otr-bp-adelaide.jpg",
+      "source_page": "https://www.whichcar.com.au/news/south-australian-fuel-stations-to-begin-accepting-bitcoin",
+      "alt_text": "South Australia's OTR service stations to begin accepting Bitcoin and ...",
+      "size_kb": 519
+    },
+    {
+      "filename": "gimg_otr_81774a23_13.jpg",
+      "source_url": "https://www.otr.com.au/wp-content/uploads/2023/12/Refuel-and-refresh-at-OTR-Clovelly-Park-open-24-hours-a-day.jpg",
+      "source_page": "https://www.otr.com.au/locations/",
+      "alt_text": "OTR Locations - Petrol Stations, Convenience Stores, Food and Drink",
+      "size_kb": 324
+    },
+    {
+      "filename": "gimg_otr_8d0027c1_14.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JXKT72/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-2JXKT72.jpg",
+      "source_page": "https://www.alamy.com/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-image481097094.html",
+      "alt_text": "An electronic sign displays petrol prices at a service station in ...",
+      "size_kb": 164
+    },
+    {
+      "filename": "gimg_otr_e1f8d2d2_15.jpg",
+      "source_url": "https://content.api.news/v3/images/bin/29f464ff0285e09d30115f1cb6996584",
+      "source_page": "https://www.skynews.com.au/breaking-news/aussies-spend-thousands-on-petrol-every-year/news-story/5f56779219ec43b76aea0a05d8acf061",
+      "alt_text": "Aussies spend on average $62 each week on petrol | Sky News Australia",
+      "size_kb": 170
+    },
+    {
+      "filename": "gimg_otr_d337b78e_16.jpg",
+      "source_url": "https://images.buoyantsign.com/uploads/allimg/20250625/2-250625150TY96.jpg",
+      "source_page": "https://www.buoyantsignage.com/products/757.html",
+      "alt_text": "AS - Certified Pylon Signs for AU Gas Stations",
+      "size_kb": 530
+    },
+    {
+      "filename": "gimg_otr_41cf694b_17.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JXKT6R/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-2JXKT6R.jpg",
+      "source_page": "https://www.alamy.com/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-image481097087.html",
+      "alt_text": "An electronic sign displays petrol prices at a service station in ...",
+      "size_kb": 129
+    },
+    {
+      "filename": "gimg_otr_225fb839_18.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00dYkUubwnlDoe/Gas-Station-Digital-Signage-for-Gas-Station-Pylon-Cost-of-Gas-Station-Canopy-Gas-LED-Petrol-Price-Sign-Display.jpg",
+      "source_page": "https://fsguose.en.made-in-china.com/product/hCXnGYQuvDWU/China-Gas-Station-Digital-Signage-for-Gas-Station-Pylon-Cost-of-Gas-Station-Canopy-Gas-LED-Petrol-Price-Sign-Display.html",
+      "alt_text": "Gas Station Digital Signage for Gas Station Pylon Cost of Gas Station ...",
+      "size_kb": 89
+    },
+    {
+      "filename": "gimg_otr_2ff7d6b8_19.jpg",
+      "source_url": "https://image.made-in-china.com/2f0j00zofhcmUdCaYJ/Illuminated-LED-Pylon-Sign-Petrol-Filling-Station-Pole-Signs-Pylon-Signs.jpg",
+      "source_page": "https://grandview.en.made-in-china.com/product/gdhAOlREVtam/China-Illuminated-LED-Pylon-Sign-Petrol-Filling-Station-Pole-Signs-Pylon-Signs.html",
+      "alt_text": "Illuminated LED Pylon Sign Petrol Filling Station Pole Signs & Pylon ...",
+      "size_kb": 140
+    },
+    {
+      "filename": "gimg_otr_1cd24097_20.jpg",
+      "source_url": "https://skylite.b-cdn.net/file/2020/09/gasoline_station_pylon_sign_with_price_board_2-1-724x550.jpg",
+      "source_page": "https://www.skyliteadvertising.com/product/pylon-totem-signs/gasoline-station-pylon-sign-with-price-board/",
+      "alt_text": "Gasoline Station Pylon Sign with Price Board | Skylite Advertising ...",
+      "size_kb": 67
+    },
+    {
+      "filename": "gimg_otr_c5564fc7_21.jpg",
+      "source_url": "https://c8.alamy.com/comp/2JXKT6N/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-2JXKT6N.jpg",
+      "source_page": "https://www.alamy.com/an-electronic-sign-displays-petrol-prices-at-a-service-station-in-adelaide-tuesday-august-21-2018-unleaded-petrol-has-reached-its-highest-price-in-almost-four-years-across-australias-capital-cities-according-to-the-australian-competition-and-consumer-commission-aap-imagekelly-barnes-image481097085.html",
+      "alt_text": "An electronic sign displays petrol prices at a service station in ...",
+      "size_kb": 126
+    },
+    {
+      "filename": "gimg_otr_3feff391_22.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00DOilFvRKSsrS/Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.webp",
+      "source_page": "https://gzusign.en.made-in-china.com/product/xOdTcrXVnbUl/China-Fuel-Station-Pylon-Sign-Gas-Station-Signs-LED-7-Segment-LED-Board-Gas-Price-Display.html",
+      "alt_text": "Fuel Station Pylon Sign Gas Station Signs LED 7 Segment LED Board Gas ...",
+      "size_kb": 33
+    },
+    {
+      "filename": "gimg_otr_dcc4645b_23.jpg",
+      "source_url": "https://image.made-in-china.com/202f0j00NRnYUKOsZGot/Standing-Pylon-Advertising-LED-Price-Sign-Gas-Station-Screen-CNG-Home-Filling-Station.webp",
+      "source_page": "https://fsguose.en.made-in-china.com/product/XCDEqmJxsikH/China-Standing-Pylon-Advertising-LED-Price-Sign-Gas-Station-Screen-CNG-Home-Filling-Station.html",
+      "alt_text": "Standing Pylon Advertising LED Price Sign Gas Station Screen CNG Home ...",
+      "size_kb": 10
+    },
+    {
+      "filename": "gimg_otr_60f8eb4d_24.png",
+      "source_url": "https://scanlite.co.uk/wp-content/uploads/2023/02/Blank-1100-x-813.png",
+      "source_page": "https://scanlite.co.uk/our-products/petrol-pricing-display/",
+      "alt_text": "LED Fuel Price Signs | Petrol Price Displays | Scanlite",
+      "size_kb": 1316
+    },
+    {
+      "filename": "gimg_otr_552ae356_25.jpg",
+      "source_url": "https://cdn.fuelradar.com.au/storage/resources/logo/OTRLogo.webp",
+      "source_page": "https://fuelradar.com.au/fuel-prices-sa",
+      "alt_text": "Live South Australia Petrol Prices & Servo Map | FuelRadar Australia",
+      "size_kb": 5
+    },
+    {
+      "filename": "gimg_otr_cdb0fbb4_26.jpg",
+      "source_url": "https://live-production.wcms.abc-cdn.net.au/10b688f76022cf67e3724d75404fa352?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575",
+      "source_page": "https://www.abc.net.au/news/2023-09-20/petrol-price-spike-in-adelaide-after-months-among-nations-lowest/102878526",
+      "alt_text": "Petrol prices spike across Adelaide \u2014 but it's been one of the least ...",
+      "size_kb": 143
+    },
+    {
+      "filename": "gimg_otr_ab6ad2ae_27.jpg",
+      "source_url": "https://sc04.alicdn.com/kf/H89ddd964835641e28dec6cfb3bc87b14I.jpg",
+      "source_page": "https://www.gvsignfactory.com/application/pylon-advertising",
+      "alt_text": "High-Impact Pylon Advertising Solutions | Advanced Digital Display ...",
+      "size_kb": 58
+    },
+    {
+      "filename": "gimg_otr_f0b2d367_28.jpg",
+      "source_url": "https://element4graphics.com/wp-content/uploads/2023/11/Pylon-signs-1.jpg",
+      "source_page": "https://element4graphics.com/outdoor-signs/pylon-signs/",
+      "alt_text": "Pylon Signs - Element 4 Signs & Graphics of Charlotte",
+      "size_kb": 746
+    },
+    {
+      "filename": "gimg_otr_94147fc7_29.jpg",
+      "source_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OXF8-PpbXXo7UGJPHjqmaA/o.jpg",
+      "source_page": "https://www.yelp.com/biz/otr-hilton-adelaide-2",
+      "alt_text": "OTR Hilton - Gas Stations - 79-81 Sir Donald Bradman Dr, Adelaide South ...",
+      "size_kb": 94
+    }
+  ],
+  "rejected_images": [
+    {
+      "source_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1266498678842450",
+      "reason": "download failed or too small or not image"
+    }
+  ]
+}
